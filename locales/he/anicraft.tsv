@@ -124,7 +124,7 @@
 	Don't ask again this session	לא לשאול שוב בהפעלה הזו
 	Dot spacing	מרווח נקודות
 	Drag	גרירה
-	Drag a key up or down to change it, or a handle to shape the ease. Double-click to add a key.	גררו מפתח למעלה או למטה כדי לשנות אותו, או ידית כדי לעצב את הריכוך. לחיצה כפולה מוסיפה מפתח.
+	Drag a key up or down to change it, or a handle to shape the ease. Double-click to add a key.	גררו מפתח למעלה או למטה כדי לשנות אותו, או ידית כדי לעצב את עקומת האצה והאטה. לחיצה כפולה מוסיפה מפתח.
 	Drag to choose how many frames onion skin shows before and after the playhead	גררו כדי לבחור כמה פריימים קליפת הבצל מציגה לפני ראש ההפעלה ואחריו
 	Drag to choose the frames onion skin shows (anchored: they stay when the playhead moves)	גררו כדי לבחור את הפריימים שקליפת הבצל מציגה (מעוגנים: הם נשארים כשראש ההפעלה זז)
 	Draw onion frames as outlines only	ציור פריימי קליפת הבצל כקווי מתאר בלבד
@@ -132,7 +132,8 @@
 	Drawing on {adapter}, then copied to the window (slower: the window's graphics device can't be shared).	מצייר באמצעות {adapter} ומעתיק לחלון (איטי יותר: לא ניתן לשתף את התקן הגרפיקה של החלון).
 	Draws the stage on the graphics card, and on the CPU when there is no card that can. The picture is the same either way.	מצייר את הבמה בכרטיס המסך, ובמעבד כשאין כרטיס מתאים. התמונה זהה בשני המקרים.
 	Duplicate Symbol	שכפול סמל
-	Ease	ריכוך
+	Ease	האצה והאטה
+	Edit Multiple Frames	עריכת פריימים מרובים
 	Edit Multiple Frames moves, transforms, aligns, deletes, copies and pastes artwork on several keyframes; for this, turn it off and work frame by frame.	עריכת פריימים מרובים מזיזה, משנה, מיישרת, מוחקת, מעתיקה ומדביקה איור בכמה פריימי מפתח; לפעולה זו, כבו אותה ועבדו פריים אחר פריים.
 	Edit Multiple Frames: the keyframes between the onion markers show at full strength. Select and drag artwork to move it on all of them; drag the markers on the frame ruler to choose the frames.	עריכת פריימים מרובים: פריימי המפתח שבין סמני קליפת הבצל מוצגים בעוצמה מלאה. בחרו וגררו איור כדי להזיז אותו בכולם; גררו את הסמנים בסרגל הפריימים כדי לבחור את הפריימים.
 	Edit Multiple Frames: {first}–{last}	עריכת פריימים מרובים: {first}–{last}
@@ -191,11 +192,11 @@
 	Frames here don't run (graphic and button timelines, guide layers); the script is kept with the document.	פריימים כאן לא מופעלים (צירי זמן של גרפיקה ושל כפתור, שכבות מנחה); הסקריפט נשמר עם המסמך.
 	Frames of {name}	הפריימים של {name}
 	Gap length	אורך רווח
-	Give every property's segment at this frame this ease	החלת הריכוך הזה על המקטע של כל מאפיין בפריים הזה
+	Give every property's segment at this frame this ease	החלת ההאצה וההאטה הזו על המקטע של כל מאפיין בפריים הזה
 	Glow options	אפשרויות זוהר
 	Graphics card (GPU)	כרטיס מסך (GPU)
-	Guide	מנחה
-	Guided	מונחית
+	Guide	שכבת מנחה
+	Guided	שכבה מונחית
 	Hide object	הסתרת אובייקט
 	Icons: Lucide (ISC)	סמלים: Lucide (ISC)
 	If AniCraft closes unexpectedly, the next start offers to restore it. Copies stay in the settings folder, never over your files, and go away when you save.	אם AniCraft נסגר באופן לא צפוי, בהפעלה הבאה תוצע אפשרות לשחזר את העבודה. העותקים נשמרים בתיקיית ההגדרות, לעולם לא מעל הקבצים שלך, ונמחקים כשמבצעים שמירה.
@@ -243,7 +244,7 @@
 	Make Corner	המרה לנקודת פינה
 	Make Smooth	המרה לנקודה חלקה
 	Markers	סמנים
-	Masked	ממוסכת
+	Masked	שכבה ממוסכת
 	Menus, panels and dialogs. Your documents, layer names and the command line stay as they are.	תפריטים, חלוניות ותיבות דו־שיח. המסמכים, שמות השכבות ושורת הפקודה נשארים כפי שהם.
 	Message	הודעה
 	Middle-drag	גרירה בלחצן האמצעי
@@ -269,7 +270,7 @@
 	New folder above the active layer (move layers in under it with Up and Down)	תיקייה חדשה מעל השכבה הפעילה (העבירו שכבות לתוכה עם 'למעלה' ו'למטה')
 	New layer	שכבה חדשה
 	Next Panel	החלונית הבאה
-	Next frame	הפריים הבא
+	Next frame	פריים הבא
 	No actions yet. Add one: Stop on a frame holds the movie there; a button's Click can then go on.	אין עדיין פעולות. הוסיפו אחת: Stop בפריים עוצר שם את הסרט; לחיצה על כפתור יכולה להמשיך אותו.
 	No frame labels yet: name a keyframe in Properties › Label	אין עדיין תוויות פריים: תנו שם לפריים מפתח במאפיינים ‹ תווית
 	No frame-script plug-ins are installed (Commands › Install Plug-in…)	לא מותקנים תוספי סקריפט פריים (פקודות ‹ התקנת תוסף…)
@@ -321,11 +322,11 @@
 	Press the new keys for {action}. Esc cancels.	הקישו את המקשים החדשים עבור {action}. Esc לביטול.
 	Preview Through Camera	תצוגה מקדימה דרך המצלמה
 	Previous Panel	החלונית הקודמת
-	Previous frame	הפריים הקודם
+	Previous frame	פריים קודם
 	Project Files & Docs	קבצי הפרויקט ותיעוד
 	Property	מאפיין
 	Property curves of the motion tween at the playhead (double-click a motion span)	עקומות המאפיינים של מעבר הביניים של תנועה בראש ההפעלה (לחיצה כפולה על מקטע תנועה)
-	Property ease	ריכוך מאפיין
+	Property ease	האצה והאטה של מאפיין
 	Property keyframe	פריים מפתח של מאפיין
 	Put every shortcut back to the defaults	החזרת כל קיצורי המקשים לברירת המחדל
 	Puts it on the active layer's keyframe at the playhead (or double-click its icon)	מציב אותו בפריים המפתח של השכבה הפעילה בראש ההפעלה (או לחיצה כפולה על הסמל שלו)
@@ -396,7 +397,7 @@
 	Sound effect	אפקט צליל
 	Sound repeat	חזרות צליל
 	Sound sync	סנכרון צליל
-	Sound · {seconds} s	צליל · {seconds} ש׳
+	Sound · {seconds} s	צליל · {seconds} שנ׳
 	Stage	במה
 	Stage colour	צבע הבמה
 	Stage height	גובה הבמה
@@ -469,7 +470,7 @@
 	changes	שינויים
 	fixed	קבוע
 	instance name	שם המופע
-	keyed	עם מפתחות
+	keyed	עם פריימי מפתח
 	moving between fields	מעבר בין שדות
 	none	ללא
 	not used	לא בשימוש
@@ -508,10 +509,10 @@
 	{path} · button	{path} · כפתור
 	{path} · movie clip	{path} · קליפ סרט
 	{property} curve	העקומה של {property}
-	{property} ease	הריכוך של {property}
+	{property} ease	האצה והאטה של {property}
 	{property} has no keyframes: it stays {value}. Click ◇ or drag its value to key it here.	ל-{property} אין פריימי מפתח: הערך נשאר {value}. לחצו על ◇ או גררו את הערך כדי ליצור כאן מפתח.
 	{property} keyframe at frame {frame}	פריים מפתח של {property} בפריים {frame}
-	{property} · keyed	{property} · עם מפתחות
+	{property} · keyed	{property} · עם פריימי מפתח
 	{row} · has selected artwork	{row} · יש בה איור נבחר
 	{shown} of {total}	{shown} מתוך {total}
 	{tool} tool	הכלי {tool}
@@ -549,7 +550,7 @@
 @plural	Selected {n} element on the frames between the markers|Selected {n} elements on the frames between the markers	נבחר {n} אלמנט בפריימים שבין הסמנים|נבחרו {n} אלמנטים בפריימים שבין הסמנים|נבחרו {n} אלמנטים בפריימים שבין הסמנים
 @plural	on {n} layer|on {n} layers	ב-{n} שכבה|ב-{n} שכבות|ב-{n} שכבות
 @plural	played {n} time|played {n} times	מתנגן {n} פעם|מתנגן {n} פעמים|מתנגן {n} פעמים
-@plural	used {n} time|used {n} times	בשימוש פעם {n}|בשימוש {n} פעמים|בשימוש {n} פעמים
+@plural	used {n} time|used {n} times	נעשה שימוש {n} פעם|נעשה שימוש {n} פעמים|נעשה שימוש {n} פעמים
 @plural	{first}–{last} of {n} layer|{first}–{last} of {n} layers	{first}–{last} מתוך {n} שכבה|{first}–{last} מתוך {n} שכבות|{first}–{last} מתוך {n} שכבות
 @plural	{n} command is scriptable with anicraft-cli|{n} commands are scriptable with anicraft-cli	{n} פקודה ניתנת להרצה בסקריפט עם anicraft-cli|{n} פקודות ניתנות להרצה בסקריפט עם anicraft-cli|{n} פקודות ניתנות להרצה בסקריפט עם anicraft-cli
 @plural	{n} day ago|{n} days ago	לפני {n} יום|לפני {n} ימים|לפני {n} ימים
