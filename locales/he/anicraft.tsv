@@ -11,11 +11,13 @@
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
 
+	// Type or paste a frame script	// הקלידו או הדביקו סקריפט פריים
 	1 minute	דקה אחת
 	10 minutes	10 דקות
 	2 minutes	2 דקות
 	30 seconds	30 שניות
 	5 minutes	5 דקות
+	A list of actions, in order	רשימת פעולות לפי הסדר
 	ANICRAFT_STAGE_RENDERER is set, and it takes precedence over this choice.	משתנה הסביבה ANICRAFT_STAGE_RENDERER מוגדר, והוא גובר על בחירה זו.
 	Actions Panel	חלונית הפעולות
 	Actual size (100%)	גודל אמיתי (100%)
@@ -31,6 +33,7 @@
 	Align centre	יישור למרכז
 	Align to Stage On / Off	יישור לבמה: הפעלה / כיבוי
 	Always render off the UI thread. The window never waits; the picture can trail by a frame.	תמיד לרנדר מחוץ לתהליכון הממשק. החלון אף פעם לא ממתין; התמונה עלולה לפגר בפריים אחד.
+	An entry point of a frame-script plug-in (WebAssembly)	נקודת כניסה של תוסף סקריפט פריים (WebAssembly)
 	AniCraft is free software: MIT OR Apache-2.0, at your option.	AniCraft היא תוכנה חופשית: MIT OR Apache-2.0, לבחירתך.
 	AniCraft: Apache License 2.0	AniCraft: רישיון Apache 2.0
 	AniCraft: MIT License	AniCraft: רישיון MIT
@@ -53,6 +56,8 @@
 	Brush angle	זווית מברשת
 	Brush size	גודל מברשת
 	Button	כפתור
+	Button (unnamed)	כפתור (ללא שם)
+	Button “{name}”	כפתור "{name}"
 	CPU (reference)	מעבד (ייחוס)
 	Camera	מצלמה
 	Camera Tint	גוון מצלמה
@@ -66,6 +71,7 @@
 	Click a key to change it or + to add one; right-click a key to remove it. Changes save as you go.	לחצו על מקש כדי לשנות אותו או על + כדי להוסיף; לחיצה ימנית על מקש מסירה אותו. השינויים נשמרים תוך כדי.
 	Click to change · right-click to remove	לחיצה לשינוי · לחיצה ימנית להסרה
 	Close folder	סגירת תיקייה
+	Code in a scripting language (such as an Animate document's ActionScript), kept with the document. ActionScript 3.0 runs when it uses only timeline control, mouse listeners, trace and instance properties	קוד בשפת סקריפט (כמו ActionScript של מסמך Animate), נשמר עם המסמך. ActionScript 3.0 מופעל כשהוא משתמש רק בבקרת ציר הזמן, מאזיני עכבר, trace ומאפייני מופעים
 	Command palette	לוח פקודות
 	Commands	פקודות
 	Confirmations	אישורים
@@ -81,6 +87,7 @@
 	Delete Sound	מחיקת צליל
 	Delete layer	מחיקת שכבה
 	Delete this autosaved copy	מחיקת העותק שנשמר אוטומטית
+	Delete this keyframe's script	מחיקת הסקריפט של פריים המפתח הזה
 	Discard {name}…	השלכת {name}…
 	Discarding deletes this work for good. This cannot be undone.	השלכה מוחקת את העבודה הזו לצמיתות. לא ניתן לבטל פעולה זו.
 	Discard…	השלכה…
@@ -97,6 +104,8 @@
 	Edits show immediately; heavy scenes render in the background with an outline preview.	העריכות מוצגות מיד; סצנות כבדות מרונדרות ברקע עם תצוגה מקדימה של קווי מתאר.
 	Enter confirms · Esc cancels	Enter לאישור · Esc לביטול
 	Enter saves · Esc cancels	Enter לשמירה · Esc לביטול
+	Entry	כניסה
+	Entry point	נקודת כניסה
 	Erase mode	מצב מחיקה
 	Eraser size	גודל מחק
 	Esc cancels · click the red button to proceed	Esc לביטול · לחצו על הכפתור האדום כדי להמשיך
@@ -117,16 +126,22 @@
 	First frame	הפריים הראשון
 	Fit Stage in Window	התאמת הבמה לחלון
 	Fit stage in window	התאמת הבמה לחלון
+	Folders and guide layers don't run actions. Pick another layer in the timeline.	תיקיות ושכבות מנחה לא מפעילות פעולות. בחרו שכבה אחרת בציר הזמן.
 	Font: Hack (MIT, Bitstream Vera)	גופן: Hack (MIT, Bitstream Vera)
 	Font: Noto Emoji (SIL OFL 1.1)	גופן: Noto Emoji (SIL OFL 1.1)
 	Font: Ubuntu Light (Ubuntu Font Licence 1.0)	גופן: Ubuntu Light (Ubuntu Font Licence 1.0)
 	Font: emoji-icon-font (MIT)	גופן: emoji-icon-font (MIT)
 	Frame label	תווית פריים
+	Frame labels survive frames being added or moved	תוויות פריים נשמרות גם כשמוסיפים או מזיזים פריימים
 	Frame number	מספר פריים
 	Frame rate	קצב פריימים
+	Frame rate, and the time the last picture took to draw	קצב פריימים, והזמן שלקח לצייר את התמונה האחרונה
 	Frame script	סקריפט פריים
+	Frame script set — {undo} to undo	סקריפט הפריים הוגדר — {undo} לביטול
+	Frame {frame} is empty on this layer. Add a blank keyframe ({key}) to give it actions.	פריים {frame} ריק בשכבה הזו. הוסיפו פריים מפתח ריק ({key}) כדי לתת לו פעולות.
 	Frame {frame} · {seconds} s · X {x} Y {y} · {keys}	פריים {frame} · {seconds} ש׳ · X {x} Y {y} · {keys}
 	Frames	פריימים
+	Frames here don't run (graphic and button timelines, guide layers); the script is kept with the document.	פריימים כאן לא מופעלים (צירי זמן של גרפיקה ושל כפתור, שכבות מנחה); הסקריפט נשמר עם המסמך.
 	Gap length	אורך רווח
 	Glow options	אפשרויות זוהר
 	Graphics card (GPU)	כרטיס מסך (GPU)
@@ -140,9 +155,12 @@
 	Instance name	שם מופע
 	Interface scale	קנה מידה של הממשק
 	It is an independent project, not affiliated with or endorsed by Adobe. Bundled fonts and Rust crates keep their own permissive licences, listed below.	זהו פרויקט עצמאי, שאינו קשור ל-Adobe ואינו נתמך על ידה. הגופנים וחבילות ה-Rust המצורפים כפופים לרישיונות המתירניים שלהם, המפורטים להלן.
+	Its actions run on the timeline it is on: “this” is the main timeline.	הפעולות שלו מופעלות בציר הזמן שבו הוא נמצא: "this" הוא ציר הזמן הראשי.
 	Joint Limits	מגבלות מפרק
 	Keep a recovery copy of unsaved work	שמירת עותק שחזור של עבודה שלא נשמרה
 	Kept the autosaved work. File › Recover Autosaved Documents… brings it back.	העבודה שנשמרה אוטומטית נשמרה. קובץ ‹ שחזור מסמכים שנשמרו אוטומטית… מחזיר אותה.
+	Kept with the document as written. ActionScript 3.0 that controls the timeline runs in Test Movie and the HTML canvas export.	נשמר עם המסמך כפי שנכתב. ActionScript 3.0 ששולט בציר הזמן מופעל בבדיקת הסרט ובייצוא HTML canvas.
+	Kept with the document, but outside the ActionScript 3.0 subset AniCraft runs (or on a timeline that doesn't run scripts). The first Output lines say why; the Actions panel shows each problem in place.	נשמר עם המסמך, אבל מחוץ לתת־הקבוצה של ActionScript 3.0 ש-AniCraft מריץ (או בציר זמן שלא מריץ סקריפטים). השורות הראשונות בפלט מסבירות למה; חלונית הפעולות מציגה כל בעיה במקומה.
 	Keyboard shortcuts (this editor)	קיצורי מקשים (עורך זה)
 	Keyframe	פריים מפתח
 	Knockout	ניקוב (Knockout)
@@ -155,7 +173,10 @@
 	Layer volume	עוצמת השמע של השכבה
 	Left channel	ערוץ שמאלי
 	Licenses & Notices	רישיונות והודעות
+	Line {line}, column {column}: {message}	שורה {line}, עמודה {column}: {message}
+	Lines written	שורות שנכתבו
 	Lock {name}	נעילת {name}
+	Main timeline frame	פריים בציר הזמן הראשי
 	Make Corner	המרה לנקודת פינה
 	Make Smooth	המרה לנקודה חלקה
 	Markers	סמנים
@@ -168,13 +189,24 @@
 	Move Points	הזזת נקודות
 	Move down	הזזה למטה
 	Move up	הזזה למעלה
+	Movie clip (unnamed)	קליפ סרט (ללא שם)
+	Movie clip “{name}”	קליפ סרט "{name}"
 	Mute layer	השתקת שכבה
 	Mute {name}	השתקת {name}
+	Name it to address it from actions (letters, digits and _). Its events work without a name.	תנו לו שם כדי לפנות אליו מפעולות (אותיות לטיניות, ספרות ו-_). האירועים שלו פועלים גם בלי שם.
 	Never saved	מעולם לא נשמר
 	New layer	שכבה חדשה
 	Next Panel	החלונית הבאה
+	No actions yet. Add one: Stop on a frame holds the movie there; a button's Click can then go on.	אין עדיין פעולות. הוסיפו אחת: Stop בפריים עוצר שם את הסרט; לחיצה על כפתור יכולה להמשיך אותו.
+	No frame labels yet: name a keyframe in Properties › Label	אין עדיין תוויות פריים: תנו שם לפריים מפתח במאפיינים ‹ תווית
+	No frame-script plug-ins are installed (Commands › Install Plug-in…)	לא מותקנים תוספי סקריפט פריים (פקודות ‹ התקנת תוסף…)
 	Nudge selection 1 px	הזזת הבחירה ב-1 פיקסל
 	Nudge selection 10 px	הזזת הבחירה ב-10 פיקסלים
+	On click	בלחיצה
+	On pointer out	ביציאת הסמן
+	On pointer over	בריחוף הסמן
+	On press	בלחיצה למטה
+	On release	בשחרור
 	Onion Skin	קליפת בצל (Onion Skin)
 	Onion Skin On / Off	קליפת בצל: הפעלה / כיבוי
 	Onion skin	קליפת בצל
@@ -192,6 +224,7 @@
 	Pin Here	הצמדה כאן
 	Pinned	מוצמד
 	Play / Stop	הפעלה / עצירה
+	Plug-in	תוסף
 	PolyStar	מצולע/כוכב
 	Position X	מיקום X
 	Position Y	מיקום Y
@@ -207,7 +240,16 @@
 	Remove bone	הסרת עצם
 	Remove event	הסרת אירוע
 	Remove script	הסרת סקריפט
+	Remove this action	הסרת הפעולה הזו
 	Remove tween	הסרת מעבר ביניים
+	Removed the actions — {undo} to undo	הפעולות הוסרו — {undo} לביטול
+	Removed the click event — {undo} to undo	אירוע הלחיצה הוסר — {undo} לביטול
+	Removed the plug-in frame script — {undo} to undo	סקריפט הפריים של התוסף הוסר — {undo} לביטול
+	Removed the pointer out event — {undo} to undo	אירוע יציאת הסמן הוסר — {undo} לביטול
+	Removed the pointer over event — {undo} to undo	אירוע ריחוף הסמן הוסר — {undo} לביטול
+	Removed the press event — {undo} to undo	אירוע הלחיצה למטה הוסר — {undo} לביטול
+	Removed the release event — {undo} to undo	אירוע השחרור הוסר — {undo} לביטול
+	Removed the script — {undo} to undo	הסקריפט הוסר — {undo} לביטול
 	Rename layer	שינוי שם שכבה
 	Rename scene	שינוי שם סצנה
 	Renderer	מנוע רינדור
@@ -216,9 +258,11 @@
 	Reset all…	איפוס הכול…
 	Reset camera	איפוס מצלמה
 	Reset {action}	איפוס {action}
+	Restart from frame 1 with the document as it is now ({key})	הפעלה מחדש מפריים 1 עם המסמך במצבו הנוכחי ({key})
 	Restore {name}	שחזור {name}
 	Right-click	לחיצה ימנית
 	Roadmap	מפת דרכים
+	Runs in Test Movie and the HTML canvas export	מופעל בבדיקת הסרט ובייצוא HTML canvas
 	Rust crates: licence inventory	חבילות Rust: מלאי רישיונות
 	SVG image	תמונת SVG
 	Safety	בטיחות
@@ -228,12 +272,17 @@
 	Scene	סצנה
 	Screenshots	צילומי מסך
 	Script	סקריפט
+	Script language	שפת הסקריפט
 	Seconds	שניות
 	Select All Frames	בחירת כל הפריימים
+	Select one button or movie clip instance on the stage	בחרו מופע אחד של כפתור או קליפ סרט על הבמה
+	Select one button or movie clip instance on the stage to give it events (a graphic can't have them: set its symbol's Type in Properties).	בחרו מופע אחד של כפתור או קליפ סרט על הבמה כדי להוסיף לו אירועים (לגרפיקה אי אפשר: שנו את סוג הסמל שלה במאפיינים).
 	Shape tween	מעבר ביניים של צורה
 	Show Folder	הצגת התיקייה
 	Show all again	הצגת כולם שוב
+	Show this line in the script	הצגת השורה הזו בסקריפט
 	Show {name}	הצגת {name}
+	Shown	מוצג
 	Snapping	הצמדה אוטומטית
 	Sound	צליל
 	Sound effect	אפקט צליל
@@ -246,6 +295,7 @@
 	Stage width	רוחב הבמה
 	Star points	קודקודי כוכב
 	Starting the graphics card…	מפעיל את כרטיס המסך…
+	Step one frame	קידום פריים אחד
 	Straighten	יישור
 	Stroke cap	קצה קו מתאר
 	Stroke join	חיבור קו מתאר
@@ -254,6 +304,7 @@
 	Subselection	בחירת משנה
 	Symbol type	סוג סמל
 	System language ({name})	שפת המערכת ({name})
+	Test Movie — {name}	בדיקת הסרט — {name}
 	Text colour	צבע טקסט
 	Text width	רוחב טקסט
 	Text: {text}	טקסט: {text}
@@ -261,10 +312,16 @@
 	The data font shows numbers, timecode, rulers and shortcuts; only monospaced families are listed so digits stay aligned.	גופן הנתונים מציג מספרים, קוד זמן, סרגלים וקיצורי מקשים; מוצגות רק משפחות ברוחב קבוע כדי שהספרות יישארו מיושרות.
 	The file was saved after this copy, so it opens as a new document and Save asks for a name.	הקובץ נשמר אחרי העותק הזה, ולכן הוא ייפתח כמסמך חדש ופעולת השמירה תבקש שם.
 	The graphics card can't draw the stage, so the CPU does: {why}	כרטיס המסך לא יכול לצייר את הבמה, ולכן המעבד עושה זאת: {why}
+	The movie: point and click its buttons	הסרט: הצביעו ולחצו על הכפתורים שלו
+	The plug-in runs each time the playhead enters this keyframe, reads where the movie is, and sends actions back. It can't change the document.	התוסף מופעל בכל פעם שראש ההפעלה נכנס לפריים המפתח הזה, קורא את מצב הסרט ושולח פעולות בחזרה. הוא לא יכול לשנות את המסמך.
 	The reference renderer: slower on large stages. Exports always use it.	מנוע הרינדור לייחוס: איטי יותר בבמות גדולות. ייצוא תמיד משתמש בו.
 	The timeline always leaves room before frame 1 for the playhead; this adds more. It stays the same at every zoom.	ציר הזמן תמיד משאיר מקום לפני פריים 1 עבור ראש ההפעלה; הגדרה זו מוסיפה עוד. הרווח נשאר זהה בכל רמת זום.
+	These run when the playhead enters frame {keyframe} (the keyframe). For frame {frame}, add a keyframe there ({key}).	אלה מופעלים כשראש ההפעלה נכנס לפריים {keyframe} (פריים המפתח). עבור פריים {frame}, הוסיפו שם פריים מפתח ({key}).
 	This build has the interface in English only. Builds with translations list their languages here.	גרסה זו כוללת ממשק באנגלית בלבד. גרסאות עם תרגומים מציגות כאן את השפות שלהן.
 	This cannot be undone.	לא ניתן לבטל פעולה זו.
+	This scene	הסצנה הנוכחית
+	Trace actions, frame-script logs and anything that couldn't run appear here.	פעולות trace, יומני סקריפט פריים וכל מה שלא הצליח לרוץ מופיעים כאן.
+	Trace message	הודעת trace
 	Turn off on Linux desktops without an XDG desktop portal; AniCraft then asks for a path instead.	כבו את האפשרות בשולחנות עבודה של Linux ללא XDG desktop portal; AniCraft יבקש אז נתיב במקום זאת.
 	Tween	מעבר ביניים
 	Tween kind	סוג מעבר ביניים
@@ -276,6 +333,8 @@
 	View action	פעולת תצוגה
 	WAV sound	קובץ שמע WAV
 	Web page	דף אינטרנט
+	What runs when the playhead enters a keyframe	מה מופעל כשראש ההפעלה נכנס לפריים מפתח
+	What the selected button or movie clip does on clicks and the pointer	מה הכפתור או קליפ הסרט שנבחרו עושים בלחיצות ובתנועת הסמן
 	Wheel	גלגלת
 	Whichever comes first. 0 changes: by time only. Copies are written in the background, so drawing never waits.	המוקדם מביניהם. 0 שינויים: לפי זמן בלבד. העותקים נכתבים ברקע, כך שהציור אף פעם לא ממתין.
 	Zoom Camera	זום מצלמה
@@ -286,14 +345,20 @@
 	cancelling	ביטול
 	changes	שינויים
 	fixed	קבוע
+	instance name	שם המופע
 	moving between fields	מעבר בין שדות
+	none	ללא
 	nothing (not a key)	כלום (לא מקש)
 	panning with any tool	הזזת התצוגה עם כל כלי
+	paused	מושהה
 	play / stop	הפעלה / עצירה
+	playing	מתנגן
 	quitting	יציאה מהתוכנה
+	stopped	עצור
 	the command palette	לוח הפקודות
 	the shortcut editor	עורך קיצורי המקשים
 	this action	פעולה זו
+	written to Output	נכתב לחלונית הפלט
 	{action} shortcut {key}	{action}, קיצור {key}
 	{action}: back to the default	{action}: חזר לברירת המחדל
 	{action}: key removed	{action}: המקש הוסר
@@ -302,5 +367,59 @@
 	{key} could not be moved.	לא ניתן היה להעביר את {key}.
 	{key} is already used by {action}.	{key} כבר משמש עבור {action}.
 	{key} is kept for {purpose}; choose another key.	{key} שמור עבור {purpose}; בחרו מקש אחר.
+	{name} (button)	{name} (כפתור)
+	{name} (graphic)	{name} (גרפיקה)
+	{name} (main timeline)	{name} (ציר הזמן הראשי)
+	{name} (movie clip)	{name} (קליפ סרט)
 	{os} · settings stored in {place}	{os} · ההגדרות נשמרות ב{place}
+	{path} · button	{path} · כפתור
+	{path} · movie clip	{path} · קליפ סרט
 	{tool} tool	הכלי {tool}
+	“{id}” isn't installed here: Test Movie says so and plays on.	"{id}" לא מותקן כאן: בדיקת הסרט תודיע על כך ותמשיך לנגן.
+@plural	+{n} more|+{n} more	+{n} נוסף|+{n} נוספים|+{n} נוספים
+@plural	An action can have up to {n} key.|An action can have up to {n} keys.	לפעולה יכול להיות עד {n} מקש.|לפעולה יכולים להיות עד {n} מקשים.|לפעולה יכולים להיות עד {n} מקשים.
+@plural	AniCraft didn't close properly last time. This document had changes that weren't saved:|AniCraft didn't close properly last time. These documents had changes that weren't saved:	AniCraft לא נסגר כראוי בפעם הקודמת. במסמך הזה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:
+@plural	Applied the picked bitmap fill to {n} shape. {undo} to undo.|Applied the picked bitmap fill to {n} shapes. {undo} to undo.	מילוי מפת הסיביות שנבחר הוחל על {n} צורה. {undo} לביטול.|מילוי מפת הסיביות שנבחר הוחל על {n} צורות. {undo} לביטול.|מילוי מפת הסיביות שנבחר הוחל על {n} צורות. {undo} לביטול.
+@plural	Applied the picked fill {color} to {n} shape. {undo} to undo.|Applied the picked fill {color} to {n} shapes. {undo} to undo.	המילוי שנבחר {color} הוחל על {n} צורה. {undo} לביטול.|המילוי שנבחר {color} הוחל על {n} צורות. {undo} לביטול.|המילוי שנבחר {color} הוחל על {n} צורות. {undo} לביטול.
+@plural	Applied the picked linear gradient to {n} shape. {undo} to undo.|Applied the picked linear gradient to {n} shapes. {undo} to undo.	המעבר הליניארי שנבחר הוחל על {n} צורה. {undo} לביטול.|המעבר הליניארי שנבחר הוחל על {n} צורות. {undo} לביטול.|המעבר הליניארי שנבחר הוחל על {n} צורות. {undo} לביטול.
+@plural	Applied the picked radial gradient to {n} shape. {undo} to undo.|Applied the picked radial gradient to {n} shapes. {undo} to undo.	המעבר הרדיאלי שנבחר הוחל על {n} צורה. {undo} לביטול.|המעבר הרדיאלי שנבחר הוחל על {n} צורות. {undo} לביטול.|המעבר הרדיאלי שנבחר הוחל על {n} צורות. {undo} לביטול.
+@plural	Autosaved {when} · {n} frame · {scenes} scenes|Autosaved {when} · {n} frames · {scenes} scenes	נשמר אוטומטית {when} · {n} פריים · {scenes} סצנות|נשמר אוטומטית {when} · {n} פריימים · {scenes} סצנות|נשמר אוטומטית {when} · {n} פריימים · {scenes} סצנות
+@plural	Autosaved {when} · {n} frame|Autosaved {when} · {n} frames	נשמר אוטומטית {when} · {n} פריים|נשמר אוטומטית {when} · {n} פריימים|נשמר אוטומטית {when} · {n} פריימים
+@plural	Cleared {n} keyframe — {undo} to undo|Cleared {n} keyframes — {undo} to undo	נוקה {n} פריים מפתח — {undo} לביטול|נוקו {n} פריימי מפתח — {undo} לביטול|נוקו {n} פריימי מפתח — {undo} לביטול
+@plural	Copied {n} frame|Copied {n} frames	הועתק {n} פריים|הועתקו {n} פריימים|הועתקו {n} פריימים
+@plural	Curved · {n} segment|Curved · {n} segments	מעוקל · {n} מקטע|מעוקל · {n} מקטעים|מעוקל · {n} מקטעים
+@plural	Custom ({n} point)|Custom ({n} points)	מותאם אישית ({n} נקודה)|מותאם אישית ({n} נקודות)|מותאם אישית ({n} נקודות)
+@plural	Cut {n} frame — {undo} to undo|Cut {n} frames — {undo} to undo	נגזר {n} פריים — {undo} לביטול|נגזרו {n} פריימים — {undo} לביטול|נגזרו {n} פריימים — {undo} לביטול
+@plural	Delete Point|Delete Points	מחיקת נקודה|מחיקת נקודות|מחיקת נקודות
+@plural	Deleted {n} element — {undo} to undo|Deleted {n} elements — {undo} to undo	נמחק {n} אלמנט — {undo} לביטול|נמחקו {n} אלמנטים — {undo} לביטול|נמחקו {n} אלמנטים — {undo} לביטול
+@plural	Deleted {n} point from the motion path. {undo} to undo.|Deleted {n} points from the motion path. {undo} to undo.	נמחקה {n} נקודה מנתיב התנועה. {undo} לביטול.|נמחקו {n} נקודות מנתיב התנועה. {undo} לביטול.|נמחקו {n} נקודות מנתיב התנועה. {undo} לביטול.
+@plural	Deleted {n} point. {undo} to undo.|Deleted {n} points. {undo} to undo.	נמחקה {n} נקודה. {undo} לביטול.|נמחקו {n} נקודות. {undo} לביטול.|נמחקו {n} נקודות. {undo} לביטול.
+@plural	Doesn't run: {n} problem|Doesn't run: {n} problems	לא פועל: {n} בעיה|לא פועל: {n} בעיות|לא פועל: {n} בעיות
+@plural	Exported {path} ({n} frame, {layers} layers).|Exported {path} ({n} frames, {layers} layers).	יוצא {path} ({n} פריים, {layers} שכבות).|יוצא {path} ({n} פריימים, {layers} שכבות).|יוצא {path} ({n} פריימים, {layers} שכבות).
+@plural	Folder · {n} layer|Folder · {n} layers	תיקייה · {n} שכבה|תיקייה · {n} שכבות|תיקייה · {n} שכבות
+@plural	Moved {n} frame by {by} — {undo} to undo|Moved {n} frames by {by} — {undo} to undo	הוזז {n} פריים ב-{by} — {undo} לביטול|הוזזו {n} פריימים ב-{by} — {undo} לביטול|הוזזו {n} פריימים ב-{by} — {undo} לביטול
+@plural	Pasted {n} frame — {undo} to undo|Pasted {n} frames — {undo} to undo	הודבק {n} פריים — {undo} לביטול|הודבקו {n} פריימים — {undo} לביטול|הודבקו {n} פריימים — {undo} לביטול
+@plural	Removed {n} frame — {undo} to undo|Removed {n} frames — {undo} to undo	הוסר {n} פריים — {undo} לביטול|הוסרו {n} פריימים — {undo} לביטול|הוסרו {n} פריימים — {undo} לביטול
+@plural	Reset {n} changed shortcut to the defaults?|Reset {n} changed shortcuts to the defaults?	לאפס {n} קיצור מקשים ששונה לברירת המחדל?|לאפס {n} קיצורי מקשים ששונו לברירת המחדל?|לאפס {n} קיצורי מקשים ששונו לברירת המחדל?
+@plural	Selected {n} element on the frames between the markers|Selected {n} elements on the frames between the markers	נבחר {n} אלמנט בפריימים שבין הסמנים|נבחרו {n} אלמנטים בפריימים שבין הסמנים|נבחרו {n} אלמנטים בפריימים שבין הסמנים
+@plural	on {n} layer|on {n} layers	ב-{n} שכבה|ב-{n} שכבות|ב-{n} שכבות
+@plural	played {n} time|played {n} times	מתנגן {n} פעם|מתנגן {n} פעמים|מתנגן {n} פעמים
+@plural	{first}–{last} of {n} layer|{first}–{last} of {n} layers	{first}–{last} מתוך {n} שכבה|{first}–{last} מתוך {n} שכבות|{first}–{last} מתוך {n} שכבות
+@plural	{n} command is scriptable with anicraft-cli|{n} commands are scriptable with anicraft-cli	{n} פקודה ניתנת להרצה בסקריפט עם anicraft-cli|{n} פקודות ניתנות להרצה בסקריפט עם anicraft-cli|{n} פקודות ניתנות להרצה בסקריפט עם anicraft-cli
+@plural	{n} day ago|{n} days ago	לפני {n} יום|לפני {n} ימים|לפני {n} ימים
+@plural	{n} element on a new layer.|{n} elements on a new layer.	{n} אלמנט בשכבה חדשה.|{n} אלמנטים בשכבה חדשה.|{n} אלמנטים בשכבה חדשה.
+@plural	{n} element|{n} elements	{n} אלמנט|{n} אלמנטים|{n} אלמנטים
+@plural	{n} engine command — all available headless via anicraft-cli.|{n} engine commands — all available headless via anicraft-cli.	{n} פקודת מנוע — כולן זמינות ללא ממשק דרך anicraft-cli.|{n} פקודות מנוע — כולן זמינות ללא ממשק דרך anicraft-cli.|{n} פקודות מנוע — כולן זמינות ללא ממשק דרך anicraft-cli.
+@plural	{n} frame before and after the playhead|{n} frames before and after the playhead	{n} פריים לפני ראש ההפעלה ואחריו|{n} פריימים לפני ראש ההפעלה ואחריו|{n} פריימים לפני ראש ההפעלה ואחריו
+@plural	{n} frame script doesn't run|{n} frame scripts don't run	{n} סקריפט פריים לא פועל|{n} סקריפטי פריים לא פועלים|{n} סקריפטי פריים לא פועלים
+@plural	{n} frame · {secs} s|{n} frames · {secs} s	{n} פריים · {secs} ש׳|{n} פריימים · {secs} ש׳|{n} פריימים · {secs} ש׳
+@plural	{n} frame|{n} frames	{n} פריים|{n} פריימים|{n} פריימים
+@plural	{n} h ago|{n} h ago	לפני {n} שע׳|לפני {n} שע׳|לפני {n} שע׳
+@plural	{n} line|{n} lines	{n} שורה|{n} שורות|{n} שורות
+@plural	{n} min ago|{n} min ago	לפני {n} דק׳|לפני {n} דק׳|לפני {n} דק׳
+@plural	{n} plug-in installed; {failed} could not be loaded|{n} plug-ins installed; {failed} could not be loaded	{n} תוסף מותקן; לא ניתן היה לטעון {failed}|{n} תוספים מותקנים; לא ניתן היה לטעון {failed}|{n} תוספים מותקנים; לא ניתן היה לטעון {failed}
+@plural	{n} plug-in installed|{n} plug-ins installed	{n} תוסף מותקן|{n} תוספים מותקנים|{n} תוספים מותקנים
+@plural	{n} point|{n} points	{n} נקודה|{n} נקודות|{n} נקודות
+@plural	{n} second|{n} seconds	{n} שנייה|{n} שניות|{n} שניות
+@plural	{n} silenced this session|{n} silenced this session	{n} הושתק בהפעלה זו|{n} הושתקו בהפעלה זו|{n} הושתקו בהפעלה זו
+@plural	{properties} · {n} key frame|{properties} · {n} key frames	{properties} · {n} פריים מפתח|{properties} · {n} פריימי מפתח|{properties} · {n} פריימי מפתח
