@@ -309,7 +309,7 @@ Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 
 ## AniCraft: Hebrew catalog (artcraft-he batches 005–008)
 
-@nocturney added `locales/he/anicraft.tsv`: 564 rows (150 in batch 005, 143 in batch 006, 119 in batch 007, 147 in batch 008, plus five reviewed compound plural rows) for AniCraft interface strings
+@nocturney added `locales/he/anicraft.tsv`: 565 rows (559 across batches 005–008, one reviewed Edit Multiple Frames command label, plus five reviewed compound plural rows) for AniCraft interface strings
 (`anicraft@fc79334` for batch 005, `anicraft@93cd5b0` for batches 006–007, `anicraft@4699c78` for batch 008; its `tr!`/`trc!`/`trn!`/`tr_noop!`
 calls) that no Hebrew catalog had, chosen from strings that are not shared rows in any locale's
 `common.tsv` (batch 005: bones and rigging, stage and camera, frames and keyframes, tweens, symbols and instances, stroke and fill properties, layers and sound, actions and events, filters, file types, autosave intervals; batch 006: dialogs and preferences: autosave and recovery, save-changes and confirmation dialogs, command palette, fonts and language, renderer and graphics card, shortcut editor and keymap phrases, licences; batch 007: actions panel, status messages and plural rows with Hebrew's three forms (one|two|other); batch 008: timeline, Library, onion skin, edit-multiple-frames and motion editing).
