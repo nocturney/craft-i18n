@@ -11,6 +11,7 @@
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
 
+	+ Layer	+ שכבה
 	// Type or paste a frame script	// הקלידו או הדביקו סקריפט פריים
 	1 minute	דקה אחת
 	10 minutes	10 דקות
@@ -23,6 +24,7 @@
 	Actual size (100%)	גודל אמיתי (100%)
 	Add a shortcut	הוספת קיצור מקשים
 	Add a shortcut for {action}	הוספת קיצור מקשים עבור {action}
+	Add a {property} keyframe at frame {frame}	הוספת פריים מפתח של {property} בפריים {frame}
 	Add action	הוספת פעולה
 	Add another shortcut	הוספת קיצור מקשים נוסף
 	Add another shortcut for {action}	הוספת קיצור מקשים נוסף עבור {action}
@@ -30,23 +32,38 @@
 	Add event	הוספת אירוע
 	Add filter	הוספת מסנן
 	Add to / remove from selection	הוספה לבחירה / הסרה ממנה
+	Adds it at the stage centre	מוסיף אותו במרכז הבמה
+	After colour	צבע 'אחרי'
 	Align centre	יישור למרכז
 	Align to Stage On / Off	יישור לבמה: הפעלה / כיבוי
+	Allow smoothing	אפשור החלקה
+	Also morphs one shape into another	גם הופך צורה אחת לאחרת
+	Always Show Markers	הצגת סמנים תמיד
 	Always render off the UI thread. The window never waits; the picture can trail by a frame.	תמיד לרנדר מחוץ לתהליכון הממשק. החלון אף פעם לא ממתין; התמונה עלולה לפגר בפריים אחד.
 	An entry point of a frame-script plug-in (WebAssembly)	נקודת כניסה של תוסף סקריפט פריים (WebAssembly)
+	Anchor Markers	עיגון סמנים
 	AniCraft is free software: MIT OR Apache-2.0, at your option.	AniCraft היא תוכנה חופשית: MIT OR Apache-2.0, לבחירתך.
 	AniCraft: Apache License 2.0	AniCraft: רישיון Apache 2.0
 	AniCraft: MIT License	AniCraft: רישיון MIT
+	Animate each property on its own curve	הנפשת כל מאפיין בעקומה משלו
+	Animate this span's object property by property (edit the curves in the Motion Editor)	הנפשת האובייקט של המקטע הזה מאפיין אחר מאפיין (עריכת העקומות בעורך התנועה)
 	Animated GIF	קובץ GIF מונפש
 	Arrow keys	מקשי החצים
+	Ascending: click for descending	בסדר עולה: לחצו לסדר יורד
 	Autosave after this many changes	שמירה אוטומטית אחרי מספר שינויים זה
 	Autosave every	שמירה אוטומטית כל
 	Autosave failed: {error}. Save your work to be safe; AniCraft will keep trying.	השמירה האוטומטית נכשלה: {error}. ליתר ביטחון שמרו את העבודה; AniCraft ימשיך לנסות.
 	Autosave is off: this system has no settings folder	השמירה האוטומטית כבויה: אין במערכת זו תיקיית הגדרות
 	Autosave is off: {error}	השמירה האוטומטית כבויה: {error}
 	Back to the default ({keys})	חזרה לברירת המחדל ({keys})
+	Back to the theme's colours	חזרה לצבעי ערכת הנושא
+	Before	לפני
+	Before colour	צבע 'לפני'
 	Bevel offset	היסט שיפוע
 	Bitmap fill	מילוי במפת סיביות
+	Bitmap · {width}×{height}	מפת סיביות · {width}×{height}
+	Blank	ריק
+	Blue keys are pinned motion path points: drag one to move its point	מפתחות כחולים הם נקודות מוצמדות של נתיב התנועה: גררו אחד מהם כדי להזיז את הנקודה שלו
 	Bone	עצם
 	Bone angle	זווית עצם
 	Bone: {name}	עצם: {name}
@@ -67,11 +84,17 @@
 	Camera zoom	זום מצלמה
 	Cancelled	בוטל
 	Change…	שינוי…
+	Class	מחלקה
+	Classic tween	מעבר ביניים קלאסי
+	Classic {strength}	קלאסי {strength}
 	Click	לחיצה
 	Click a key to change it or + to add one; right-click a key to remove it. Changes save as you go.	לחצו על מקש כדי לשנות אותו או על + כדי להוסיף; לחיצה ימנית על מקש מסירה אותו. השינויים נשמרים תוך כדי.
 	Click to change · right-click to remove	לחיצה לשינוי · לחיצה ימנית להסרה
 	Close folder	סגירת תיקייה
 	Code in a scripting language (such as an Animate document's ActionScript), kept with the document. ActionScript 3.0 runs when it uses only timeline control, mouse listeners, trace and instance properties	קוד בשפת סקריפט (כמו ActionScript של מסמך Animate), נשמר עם המסמך. ActionScript 3.0 מופעל כשהוא משתמש רק בבקרת ציר הזמן, מאזיני עכבר, trace ומאפייני מופעים
+	Collapse All Folders	צמצום כל התיקיות
+	Colour of the frames after the playhead	צבע הפריימים שאחרי ראש ההפעלה
+	Colour of the frames before the playhead	צבע הפריימים שלפני ראש ההפעלה
 	Command palette	לוח פקודות
 	Commands	פקודות
 	Confirmations	אישורים
@@ -79,28 +102,45 @@
 	Context actions	פעולות הקשר
 	Control	בקרה
 	Could not restore {name}: {error}	לא ניתן לשחזר את {name}: {error}
+	Create Motion Tween	יצירת מעבר ביניים של תנועה
 	Create tween	יצירת מעבר ביניים
+	Current frame	הפריים הנוכחי
 	Dash length	אורך מקף
 	Data font	גופן נתונים
+	Date added	תאריך הוספה
 	Default (bundled: {font})	ברירת מחדל (מצורף: {font})
 	Default ({font})	ברירת מחדל ({font})
 	Delete Sound	מחיקת צליל
+	Delete Unused Items…	מחיקת פריטים שאינם בשימוש…
 	Delete layer	מחיקת שכבה
+	Delete the active layer	מחיקת השכבה הפעילה
 	Delete this autosaved copy	מחיקת העותק שנשמר אוטומטית
 	Delete this keyframe's script	מחיקת הסקריפט של פריים המפתח הזה
+	Deletes the selected items and folders (Delete)	מוחק את הפריטים והתיקיות שנבחרו (Delete)
+	Descending: click for ascending	בסדר יורד: לחצו לסדר עולה
 	Discard {name}…	השלכת {name}…
 	Discarding deletes this work for good. This cannot be undone.	השלכה מוחקת את העבודה הזו לצמיתות. לא ניתן לבטל פעולה זו.
 	Discard…	השלכה…
 	Don't ask again this session	לא לשאול שוב בהפעלה הזו
 	Dot spacing	מרווח נקודות
 	Drag	גרירה
+	Drag a key up or down to change it, or a handle to shape the ease. Double-click to add a key.	גררו מפתח למעלה או למטה כדי לשנות אותו, או ידית כדי לעצב את הריכוך. לחיצה כפולה מוסיפה מפתח.
+	Drag to choose how many frames onion skin shows before and after the playhead	גררו כדי לבחור כמה פריימים קליפת הבצל מציגה לפני ראש ההפעלה ואחריו
+	Drag to choose the frames onion skin shows (anchored: they stay when the playhead moves)	גררו כדי לבחור את הפריימים שקליפת הבצל מציגה (מעוגנים: הם נשארים כשראש ההפעלה זז)
+	Draw onion frames as outlines only	ציור פריימי קליפת הבצל כקווי מתאר בלבד
 	Drawing on {adapter}, straight into the window.	מצייר באמצעות {adapter}, ישירות לחלון.
 	Drawing on {adapter}, then copied to the window (slower: the window's graphics device can't be shared).	מצייר באמצעות {adapter} ומעתיק לחלון (איטי יותר: לא ניתן לשתף את התקן הגרפיקה של החלון).
 	Draws the stage on the graphics card, and on the CPU when there is no card that can. The picture is the same either way.	מצייר את הבמה בכרטיס המסך, ובמעבד כשאין כרטיס מתאים. התמונה זהה בשני המקרים.
+	Duplicate Symbol	שכפול סמל
+	Ease	ריכוך
+	Edit Multiple Frames moves, transforms, aligns, deletes, copies and pastes artwork on several keyframes; for this, turn it off and work frame by frame.	עריכת פריימים מרובים מזיזה, משנה, מיישרת, מוחקת, מעתיקה ומדביקה איור בכמה פריימי מפתח; לפעולה זו, כבו אותה ועבדו פריים אחר פריים.
+	Edit Multiple Frames: the keyframes between the onion markers show at full strength. Select and drag artwork to move it on all of them; drag the markers on the frame ruler to choose the frames.	עריכת פריימים מרובים: פריימי המפתח שבין סמני קליפת הבצל מוצגים בעוצמה מלאה. בחרו וגררו איור כדי להזיז אותו בכולם; גררו את הסמנים בסרגל הפריימים כדי לבחור את הפריימים.
+	Edit Multiple Frames: {first}–{last}	עריכת פריימים מרובים: {first}–{last}
 	Edit Symbol	עריכת סמל
 	Edit actions	עריכת פעולות
 	Edit event	עריכת אירוע
 	Edit script	עריכת סקריפט
+	Edit the property curves	עריכת עקומות המאפיינים
 	Edits show immediately; heavy scenes render in the background with an outline preview.	העריכות מוצגות מיד; סצנות כבדות מרונדרות ברקע עם תצוגה מקדימה של קווי מתאר.
 	Enter confirms · Esc cancels	Enter לאישור · Esc לביטול
 	Enter saves · Esc cancels	Enter לשמירה · Esc לביטול
@@ -112,8 +152,11 @@
 	Essentials	עיקרי הדברים
 	Every	כל
 	Every edit renders before the next frame. Lowest latency; can stutter on very heavy scenes.	כל עריכה מרונדרת לפני הפריים הבא. ההשהיה הנמוכה ביותר; עלול לגמגם בסצנות כבדות מאוד.
+	Every frame of the timeline	כל הפריימים בציר הזמן
 	Every shortcut is back to the defaults.	כל קיצורי המקשים חזרו לברירת המחדל.
+	Expand All Folders	הרחבת כל התיקיות
 	Extra start gap	רווח נוסף בהתחלה
+	Fade by Distance	דהייה לפי מרחק
 	File dialogs	חלונות קבצים
 	Fill colour	צבע מילוי
 	Fill on/off	הפעלה/כיבוי מילוי
@@ -138,19 +181,30 @@
 	Frame rate, and the time the last picture took to draw	קצב פריימים, והזמן שלקח לצייר את התמונה האחרונה
 	Frame script	סקריפט פריים
 	Frame script set — {undo} to undo	סקריפט הפריים הוגדר — {undo} לביטול
+	Frame zoom: frame width (Ctrl+wheel over the frames)	זום פריימים: רוחב פריים (Ctrl+גלגלת מעל הפריימים)
+	Frame {frame}	פריים {frame}
 	Frame {frame} is empty on this layer. Add a blank keyframe ({key}) to give it actions.	פריים {frame} ריק בשכבה הזו. הוסיפו פריים מפתח ריק ({key}) כדי לתת לו פעולות.
+	Frame {frame} · point {anchor} of the motion path: drag to move the point	פריים {frame} · נקודה {anchor} של נתיב התנועה: גררו כדי להזיז את הנקודה
 	Frame {frame} · {seconds} s · X {x} Y {y} · {keys}	פריים {frame} · {seconds} ש׳ · X {x} Y {y} · {keys}
 	Frames	פריימים
+	Frames farther from the playhead are fainter	פריימים רחוקים יותר מראש ההפעלה חיוורים יותר
 	Frames here don't run (graphic and button timelines, guide layers); the script is kept with the document.	פריימים כאן לא מופעלים (צירי זמן של גרפיקה ושל כפתור, שכבות מנחה); הסקריפט נשמר עם המסמך.
+	Frames of {name}	הפריימים של {name}
 	Gap length	אורך רווח
+	Give every property's segment at this frame this ease	החלת הריכוך הזה על המקטע של כל מאפיין בפריים הזה
 	Glow options	אפשרויות זוהר
 	Graphics card (GPU)	כרטיס מסך (GPU)
+	Guide	מנחה
+	Guided	מונחית
 	Hide object	הסתרת אובייקט
 	Icons: Lucide (ISC)	סמלים: Lucide (ISC)
 	If AniCraft closes unexpectedly, the next start offers to restore it. Copies stay in the settings folder, never over your files, and go away when you save.	אם AniCraft נסגר באופן לא צפוי, בהפעלה הבאה תוצע אפשרות לשחזר את העבודה. העותקים נשמרים בתיקיית ההגדרות, לעולם לא מעל הקבצים שלך, ונמחקים כשמבצעים שמירה.
 	If you don't save, your changes since the last save will be lost.	אם לא תשמרו, השינויים מאז השמירה האחרונה יאבדו.
 	Immediate	מיידי
 	Ink Bottle	בקבוק דיו
+	Insert blank keyframe (F7)	הוספת פריים מפתח ריק (F7)
+	Insert frame (F5)	הוספת פריים (F5)
+	Insert keyframe (F6)	הוספת פריים מפתח (F6)
 	Instance	מופע
 	Instance name	שם מופע
 	Interface scale	קנה מידה של הממשק
@@ -158,11 +212,13 @@
 	Its actions run on the timeline it is on: “this” is the main timeline.	הפעולות שלו מופעלות בציר הזמן שבו הוא נמצא: "this" הוא ציר הזמן הראשי.
 	Joint Limits	מגבלות מפרק
 	Keep a recovery copy of unsaved work	שמירת עותק שחזור של עבודה שלא נשמרה
+	Keep the markers on their frames instead of moving them with the playhead	השארת הסמנים בפריימים שלהם במקום להזיז אותם עם ראש ההפעלה
 	Kept the autosaved work. File › Recover Autosaved Documents… brings it back.	העבודה שנשמרה אוטומטית נשמרה. קובץ ‹ שחזור מסמכים שנשמרו אוטומטית… מחזיר אותה.
 	Kept with the document as written. ActionScript 3.0 that controls the timeline runs in Test Movie and the HTML canvas export.	נשמר עם המסמך כפי שנכתב. ActionScript 3.0 ששולט בציר הזמן מופעל בבדיקת הסרט ובייצוא HTML canvas.
 	Kept with the document, but outside the ActionScript 3.0 subset AniCraft runs (or on a timeline that doesn't run scripts). The first Output lines say why; the Actions panel shows each problem in place.	נשמר עם המסמך, אבל מחוץ לתת־הקבוצה של ActionScript 3.0 ש-AniCraft מריץ (או בציר זמן שלא מריץ סקריפטים). השורות הראשונות בפלט מסבירות למה; חלונית הפעולות מציגה כל בעיה במקומה.
 	Keyboard shortcuts (this editor)	קיצורי מקשים (עורך זה)
 	Keyframe	פריים מפתח
+	Keyframes Only	פריימי מפתח בלבד
 	Knockout	ניקוב (Knockout)
 	Last frame	הפריים האחרון
 	Later keeps them: File › Recover Autosaved Documents… brings this back.	'אחר כך' שומר אותם: קובץ ‹ שחזור מסמכים שנשמרו אוטומטית… מחזיר את החלון הזה.
@@ -171,15 +227,23 @@
 	Layer depth	עומק שכבה
 	Layer names, menus and dialog text read like this.	כך נראים שמות שכבות, תפריטים וטקסט בתיבות דו־שיח.
 	Layer volume	עוצמת השמע של השכבה
+	Layers and frames	שכבות ופריימים
 	Left channel	ערוץ שמאלי
+	Library (top level)	ספרייה (רמה עליונה)
+	Library name	שם בספרייה
+	Library options	אפשרויות הספרייה
+	Library: drop here for the top level	ספרייה: שחררו כאן לרמה העליונה
 	Licenses & Notices	רישיונות והודעות
 	Line {line}, column {column}: {message}	שורה {line}, עמודה {column}: {message}
 	Lines written	שורות שנכתבו
+	Linkage class	מחלקת קישור
 	Lock {name}	נעילת {name}
+	Loop playback	הפעלה בלולאה
 	Main timeline frame	פריים בציר הזמן הראשי
 	Make Corner	המרה לנקודת פינה
 	Make Smooth	המרה לנקודה חלקה
 	Markers	סמנים
+	Masked	ממוסכת
 	Menus, panels and dialogs. Your documents, layer names and the command line stay as they are.	תפריטים, חלוניות ותיבות דו־שיח. המסמכים, שמות השכבות ושורת הפקודה נשארים כפי שהם.
 	Message	הודעה
 	Middle-drag	גרירה בלחצן האמצעי
@@ -188,18 +252,28 @@
 	Move Camera	הזזת מצלמה
 	Move Points	הזזת נקודות
 	Move down	הזזה למטה
+	Move layer down	הזזת השכבה למטה
+	Move layer up	הזזת השכבה למעלה
+	Move to	העברה אל
 	Move up	הזזה למעלה
+	Moves, scales, rotates and recolours	מזיז, משנה גודל, מסובב וצובע מחדש
 	Movie clip (unnamed)	קליפ סרט (ללא שם)
 	Movie clip “{name}”	קליפ סרט "{name}"
+	Moving the object on the stage inside the span adds keys here	הזזת האובייקט על הבמה בתוך המקטע מוסיפה כאן מפתחות
 	Mute layer	השתקת שכבה
+	Mute this layer's sounds (in playback and every export)	השתקת הצלילים של השכבה הזו (בהפעלה ובכל ייצוא)
 	Mute {name}	השתקת {name}
 	Name it to address it from actions (letters, digits and _). Its events work without a name.	תנו לו שם כדי לפנות אליו מפעולות (אותיות לטיניות, ספרות ו-_). האירועים שלו פועלים גם בלי שם.
 	Never saved	מעולם לא נשמר
+	New Folder	תיקייה חדשה
+	New folder above the active layer (move layers in under it with Up and Down)	תיקייה חדשה מעל השכבה הפעילה (העבירו שכבות לתוכה עם 'למעלה' ו'למטה')
 	New layer	שכבה חדשה
 	Next Panel	החלונית הבאה
+	Next frame	הפריים הבא
 	No actions yet. Add one: Stop on a frame holds the movie there; a button's Click can then go on.	אין עדיין פעולות. הוסיפו אחת: Stop בפריים עוצר שם את הסרט; לחיצה על כפתור יכולה להמשיך אותו.
 	No frame labels yet: name a keyframe in Properties › Label	אין עדיין תוויות פריים: תנו שם לפריים מפתח במאפיינים ‹ תווית
 	No frame-script plug-ins are installed (Commands › Install Plug-in…)	לא מותקנים תוספי סקריפט פריים (פקודות ‹ התקנת תוסף…)
+	No symbols, images or sounds yet. Select artwork and press {convert} to make a symbol, or import an image or a sound with {import}.	אין עדיין סמלים, תמונות או צלילים. בחרו איור והקישו {convert} כדי ליצור סמל, או ייבאו תמונה או צליל עם {import}.
 	Nudge selection 1 px	הזזת הבחירה ב-1 פיקסל
 	Nudge selection 10 px	הזזת הבחירה ב-10 פיקסלים
 	On click	בלחיצה
@@ -207,23 +281,39 @@
 	On pointer over	בריחוף הסמן
 	On press	בלחיצה למטה
 	On release	בשחרור
+	Onion All	קליפת בצל לכל הפריימים
 	Onion Skin	קליפת בצל (Onion Skin)
 	Onion Skin On / Off	קליפת בצל: הפעלה / כיבוי
+	Onion end marker	סמן סיום של קליפת הבצל
 	Onion skin	קליפת בצל
+	Onion skin options	אפשרויות קליפת בצל
+	Onion skin options: markers, outlines, colours	אפשרויות קליפת בצל: סמנים, קווי מתאר, צבעים
+	Onion start marker	סמן התחלה של קליפת הבצל
+	Onion {n}	קליפת בצל {n}
+	Onion-skin only the frames where a keyframe starts	קליפת בצל רק לפריימים שבהם מתחיל פריים מפתח
 	Open folder	פתיחת תיקייה
 	Open it as unsaved work	פתיחה כעבודה שלא נשמרה
 	Open {name}	פתיחת {name}
 	Or after	או אחרי
+	Outline {name}	קווי מתאר עבור {name}
 	Outlines	קווי מתאר
 	PNG image	תמונת PNG
 	Paint Bucket	דלי צבע
 	Paint mode	מצב צביעה
 	Pan with any tool	הזזת התצוגה עם כל כלי
 	Path start	תחילת נתיב
+	Pick a key that has another key after it	בחרו מפתח שיש אחריו מפתח נוסף
 	Pin	הצמדה
 	Pin Here	הצמדה כאן
 	Pinned	מוצמד
+	Place on Stage	מיקום על הבמה
+	Place on Timeline	מיקום בציר הזמן
+	Place on stage	מיקום על הבמה
+	Place on timeline	מיקום בציר הזמן
 	Play / Stop	הפעלה / עצירה
+	Play the sound	השמעת הצליל
+	Playhead (frame ruler)	ראש ההפעלה (סרגל הפריימים)
+	Plays the sound on its own	משמיע את הצליל לבדו
 	Plug-in	תוסף
 	PolyStar	מצולע/כוכב
 	Position X	מיקום X
@@ -231,15 +321,24 @@
 	Press the new keys for {action}. Esc cancels.	הקישו את המקשים החדשים עבור {action}. Esc לביטול.
 	Preview Through Camera	תצוגה מקדימה דרך המצלמה
 	Previous Panel	החלונית הקודמת
+	Previous frame	הפריים הקודם
 	Project Files & Docs	קבצי הפרויקט ותיעוד
 	Property	מאפיין
+	Property curves of the motion tween at the playhead (double-click a motion span)	עקומות המאפיינים של מעבר הביניים של תנועה בראש ההפעלה (לחיצה כפולה על מקטע תנועה)
+	Property ease	ריכוך מאפיין
+	Property keyframe	פריים מפתח של מאפיין
 	Put every shortcut back to the defaults	החזרת כל קיצורי המקשים לברירת המחדל
+	Puts it on the active layer's keyframe at the playhead (or double-click its icon)	מציב אותו בפריים המפתח של השכבה הפעילה בראש ההפעלה (או לחיצה כפולה על הסמל שלו)
+	Reading the sound…	קורא את הצליל…
 	Recover unsaved work	שחזור עבודה שלא נשמרה
 	Remove Bone	הסרת עצם
+	Remove Camera	הסרת מצלמה
 	Remove Tween	הסרת מעבר ביניים
 	Remove bone	הסרת עצם
+	Remove camera	הסרת מצלמה
 	Remove event	הסרת אירוע
 	Remove script	הסרת סקריפט
+	Remove the {property} keyframe at frame {frame}	הסרת פריים המפתח של {property} בפריים {frame}
 	Remove this action	הסרת הפעולה הזו
 	Remove tween	הסרת מעבר ביניים
 	Removed the actions — {undo} to undo	הפעולות הוסרו — {undo} לביטול
@@ -266,6 +365,7 @@
 	Rust crates: licence inventory	חבילות Rust: מלאי רישיונות
 	SVG image	תמונת SVG
 	Safety	בטיחות
+	Same for all	זהה לכולם
 	Save changes to “{name}” before closing?	לשמור את השינויים ב-"{name}" לפני הסגירה?
 	Saved {path}	נשמר: {path}
 	Scanning installed fonts…	סורק גופנים מותקנים…
@@ -273,21 +373,30 @@
 	Screenshots	צילומי מסך
 	Script	סקריפט
 	Script language	שפת הסקריפט
+	Scroll the timeline	גלילת ציר הזמן
+	Scroll the timeline (or Shift+wheel anywhere over it)	גלילת ציר הזמן (או Shift+גלגלת בכל מקום מעליו)
+	Search the Library	חיפוש בספרייה
 	Seconds	שניות
 	Select All Frames	בחירת כל הפריימים
+	Select Unused Items	בחירת פריטים שאינם בשימוש
+	Select an item to preview it	בחרו פריט כדי לראות תצוגה מקדימה
 	Select one button or movie clip instance on the stage	בחרו מופע אחד של כפתור או קליפ סרט על הבמה
 	Select one button or movie clip instance on the stage to give it events (a graphic can't have them: set its symbol's Type in Properties).	בחרו מופע אחד של כפתור או קליפ סרט על הבמה כדי להוסיף לו אירועים (לגרפיקה אי אפשר: שנו את סוג הסמל שלה במאפיינים).
 	Shape tween	מעבר ביניים של צורה
 	Show Folder	הצגת התיקייה
 	Show all again	הצגת כולם שוב
+	Show the keyframes between the markers at full strength, and select and move their artwork together	הצגת פריימי המפתח שבין הסמנים בעוצמה מלאה, ובחירה והזזה של האיור שלהם יחד
+	Show the markers on the frame ruler even when onion skin is off	הצגת הסמנים בסרגל הפריימים גם כשקליפת הבצל כבויה
 	Show this line in the script	הצגת השורה הזו בסקריפט
 	Show {name}	הצגת {name}
 	Shown	מוצג
+	Smooth when scaled or turned; off keeps hard pixel edges, for pixel art	החלקה בשינוי גודל או בסיבוב; כשכבוי, נשמרים קצוות פיקסלים חדים, לפיקסל ארט
 	Snapping	הצמדה אוטומטית
 	Sound	צליל
 	Sound effect	אפקט צליל
 	Sound repeat	חזרות צליל
 	Sound sync	סנכרון צליל
+	Sound · {seconds} s	צליל · {seconds} ש׳
 	Stage	במה
 	Stage colour	צבע הבמה
 	Stage height	גובה הבמה
@@ -296,6 +405,7 @@
 	Star points	קודקודי כוכב
 	Starting the graphics card…	מפעיל את כרטיס המסך…
 	Step one frame	קידום פריים אחד
+	Stereo	סטריאו
 	Straighten	יישור
 	Stroke cap	קצה קו מתאר
 	Stroke join	חיבור קו מתאר
@@ -309,10 +419,13 @@
 	Text width	רוחב טקסט
 	Text: {text}	טקסט: {text}
 	That autosaved copy is gone	העותק שנשמר אוטומטית כבר לא קיים
+	The class scripts create this symbol by (its linkage). Kept with the document; scripts don't run yet	המחלקה שבאמצעותה סקריפטים יוצרים את הסמל הזה (הקישור שלו). נשמרת עם המסמך; סקריפטים עדיין לא רצים
 	The data font shows numbers, timecode, rulers and shortcuts; only monospaced families are listed so digits stay aligned.	גופן הנתונים מציג מספרים, קוד זמן, סרגלים וקיצורי מקשים; מוצגות רק משפחות ברוחב קבוע כדי שהספרות יישארו מיושרות.
 	The file was saved after this copy, so it opens as a new document and Save asks for a name.	הקובץ נשמר אחרי העותק הזה, ולכן הוא ייפתח כמסמך חדש ופעולת השמירה תבקש שם.
 	The graphics card can't draw the stage, so the CPU does: {why}	כרטיס המסך לא יכול לצייר את הבמה, ולכן המעבד עושה זאת: {why}
 	The movie: point and click its buttons	הסרט: הצביעו ולחצו על הכפתורים שלו
+	The object stays as it is on the span's first frame ({undo} to undo)	האובייקט נשאר כפי שהוא בפריים הראשון של המקטע ({undo} לביטול)
+	The playhead is on an empty frame of this layer.	ראש ההפעלה נמצא בפריים ריק בשכבה הזו.
 	The plug-in runs each time the playhead enters this keyframe, reads where the movie is, and sends actions back. It can't change the document.	התוסף מופעל בכל פעם שראש ההפעלה נכנס לפריים המפתח הזה, קורא את מצב הסרט ושולח פעולות בחזרה. הוא לא יכול לשנות את המסמך.
 	The reference renderer: slower on large stages. Exports always use it.	מנוע הרינדור לייחוס: איטי יותר בבמות גדולות. ייצוא תמיד משתמש בו.
 	The timeline always leaves room before frame 1 for the playhead; this adds more. It stays the same at every zoom.	ציר הזמן תמיד משאיר מקום לפני פריים 1 עבור ראש ההפעלה; הגדרה זו מוסיפה עוד. הרווח נשאר זהה בכל רמת זום.
@@ -320,16 +433,26 @@
 	This build has the interface in English only. Builds with translations list their languages here.	גרסה זו כוללת ממשק באנגלית בלבד. גרסאות עם תרגומים מציגות כאן את השפות שלהן.
 	This cannot be undone.	לא ניתן לבטל פעולה זו.
 	This scene	הסצנה הנוכחית
+	This span has no motion tween. Create one to animate its object property by property.	למקטע הזה אין מעבר ביניים של תנועה. צרו אחד כדי להנפיש את האובייקט שלו מאפיין אחר מאפיין.
+	This span is empty. Draw or place an object, then create a motion tween.	המקטע הזה ריק. ציירו או מקמו אובייקט, ואז צרו מעבר ביניים של תנועה.
+	Time at the playhead	הזמן בראש ההפעלה
+	Tint frames before the playhead and after it in their colours; off, they keep their own colours	צביעת הפריימים שלפני ראש ההפעלה ושאחריו בצבעים שלהם; כשכבוי, הם שומרים על הצבעים המקוריים
 	Trace actions, frame-script logs and anything that couldn't run appear here.	פעולות trace, יומני סקריפט פריים וכל מה שלא הצליח לרוץ מופיעים כאן.
 	Trace message	הודעת trace
 	Turn off on Linux desktops without an XDG desktop portal; AniCraft then asks for a path instead.	כבו את האפשרות בשולחנות עבודה של Linux ללא XDG desktop portal; AniCraft יבקש אז נתיב במקום זאת.
 	Tween	מעבר ביניים
 	Tween kind	סוג מעבר ביניים
+	Tween to the next keyframe	מעבר ביניים לפריים המפתח הבא
+	Tween to the next keyframe instead	מעבר ביניים לפריים המפתח הבא במקום זאת
 	Type a command, tool or setting…	הקלידו פקודה, כלי או הגדרה…
+	Unmute this layer's sounds	ביטול השתקת הצלילים של השכבה הזו
 	Unpin	ביטול הצמדה
+	Unpin point {anchor} of the motion path from frame {frame}: its X and Y keyframes go	ביטול הצמדת נקודה {anchor} של נתיב התנועה מפריים {frame}: פריימי המפתח X ו-Y שלה יוסרו
 	Up/Down choose · Enter run · Esc close	Up/Down לבחירה · Enter להפעלה · Esc לסגירה
+	Use count	מספר שימושים
 	Use it for {action}	שימוש בו עבור {action}
 	Use the system's open and save dialogs	שימוש בחלונות הפתיחה והשמירה של המערכת
+	Uses	שימושים
 	View action	פעולת תצוגה
 	WAV sound	קובץ שמע WAV
 	Web page	דף אינטרנט
@@ -346,8 +469,10 @@
 	changes	שינויים
 	fixed	קבוע
 	instance name	שם המופע
+	keyed	עם מפתחות
 	moving between fields	מעבר בין שדות
 	none	ללא
+	not used	לא בשימוש
 	nothing (not a key)	כלום (לא מקש)
 	panning with any tool	הזזת התצוגה עם כל כלי
 	paused	מושהה
@@ -371,9 +496,24 @@
 	{name} (graphic)	{name} (גרפיקה)
 	{name} (main timeline)	{name} (ציר הזמן הראשי)
 	{name} (movie clip)	{name} (קליפ סרט)
+	{name} folder row	שורת התיקייה {name}
+	{name} · armature layer	{name} · שכבת שלד
+	{name} · camera layer	{name} · שכבת מצלמה
+	{name} · folder	{name} · תיקייה
+	{name} · guide layer	{name} · שכבת מנחה
+	{name} · layer	{name} · שכבה
+	{name} · mask layer	{name} · שכבת מסכה
+	{name} · masked layer	{name} · שכבה ממוסכת
 	{os} · settings stored in {place}	{os} · ההגדרות נשמרות ב{place}
 	{path} · button	{path} · כפתור
 	{path} · movie clip	{path} · קליפ סרט
+	{property} curve	העקומה של {property}
+	{property} ease	הריכוך של {property}
+	{property} has no keyframes: it stays {value}. Click ◇ or drag its value to key it here.	ל-{property} אין פריימי מפתח: הערך נשאר {value}. לחצו על ◇ או גררו את הערך כדי ליצור כאן מפתח.
+	{property} keyframe at frame {frame}	פריים מפתח של {property} בפריים {frame}
+	{property} · keyed	{property} · עם מפתחות
+	{row} · has selected artwork	{row} · יש בה איור נבחר
+	{shown} of {total}	{shown} מתוך {total}
 	{tool} tool	הכלי {tool}
 	“{id}” isn't installed here: Test Movie says so and plays on.	"{id}" לא מותקן כאן: בדיקת הסרט תודיע על כך ותמשיך לנגן.
 @plural	+{n} more|+{n} more	+{n} נוסף|+{n} נוספים|+{n} נוספים
@@ -386,24 +526,30 @@
 @plural	Autosaved {when} · {n} frame · {scenes} scenes|Autosaved {when} · {n} frames · {scenes} scenes	נשמר אוטומטית {when} · {n} פריים · {scenes} סצנות|נשמר אוטומטית {when} · {n} פריימים · {scenes} סצנות|נשמר אוטומטית {when} · {n} פריימים · {scenes} סצנות
 @plural	Autosaved {when} · {n} frame|Autosaved {when} · {n} frames	נשמר אוטומטית {when} · {n} פריים|נשמר אוטומטית {when} · {n} פריימים|נשמר אוטומטית {when} · {n} פריימים
 @plural	Cleared {n} keyframe — {undo} to undo|Cleared {n} keyframes — {undo} to undo	נוקה {n} פריים מפתח — {undo} לביטול|נוקו {n} פריימי מפתח — {undo} לביטול|נוקו {n} פריימי מפתח — {undo} לביטול
+@plural	Copied {n} element. Paste in Place ({key}) puts it back on its keyframe.|Copied {n} elements. Paste in Place ({key}) puts each back on its keyframe.	הועתק {n} אלמנט. הדבקה במקום ({key}) מחזירה אותו לפריים המפתח שלו.|הועתקו {n} אלמנטים. הדבקה במקום ({key}) מחזירה כל אחד לפריים המפתח שלו.|הועתקו {n} אלמנטים. הדבקה במקום ({key}) מחזירה כל אחד לפריים המפתח שלו.
 @plural	Copied {n} frame|Copied {n} frames	הועתק {n} פריים|הועתקו {n} פריימים|הועתקו {n} פריימים
 @plural	Curved · {n} segment|Curved · {n} segments	מעוקל · {n} מקטע|מעוקל · {n} מקטעים|מעוקל · {n} מקטעים
 @plural	Custom ({n} point)|Custom ({n} points)	מותאם אישית ({n} נקודה)|מותאם אישית ({n} נקודות)|מותאם אישית ({n} נקודות)
+@plural	Cut {n} element from the frames between the markers. {undo} to undo.|Cut {n} elements from the frames between the markers. {undo} to undo.	נגזר {n} אלמנט מהפריימים שבין הסמנים. {undo} לביטול.|נגזרו {n} אלמנטים מהפריימים שבין הסמנים. {undo} לביטול.|נגזרו {n} אלמנטים מהפריימים שבין הסמנים. {undo} לביטול.
 @plural	Cut {n} frame — {undo} to undo|Cut {n} frames — {undo} to undo	נגזר {n} פריים — {undo} לביטול|נגזרו {n} פריימים — {undo} לביטול|נגזרו {n} פריימים — {undo} לביטול
 @plural	Delete Point|Delete Points	מחיקת נקודה|מחיקת נקודות|מחיקת נקודות
+@plural	Deleted {n} element on the frames between the markers. {undo} to undo.|Deleted {n} elements on the frames between the markers. {undo} to undo.	נמחק {n} אלמנט בפריימים שבין הסמנים. {undo} לביטול.|נמחקו {n} אלמנטים בפריימים שבין הסמנים. {undo} לביטול.|נמחקו {n} אלמנטים בפריימים שבין הסמנים. {undo} לביטול.
 @plural	Deleted {n} element — {undo} to undo|Deleted {n} elements — {undo} to undo	נמחק {n} אלמנט — {undo} לביטול|נמחקו {n} אלמנטים — {undo} לביטול|נמחקו {n} אלמנטים — {undo} לביטול
 @plural	Deleted {n} point from the motion path. {undo} to undo.|Deleted {n} points from the motion path. {undo} to undo.	נמחקה {n} נקודה מנתיב התנועה. {undo} לביטול.|נמחקו {n} נקודות מנתיב התנועה. {undo} לביטול.|נמחקו {n} נקודות מנתיב התנועה. {undo} לביטול.
 @plural	Deleted {n} point. {undo} to undo.|Deleted {n} points. {undo} to undo.	נמחקה {n} נקודה. {undo} לביטול.|נמחקו {n} נקודות. {undo} לביטול.|נמחקו {n} נקודות. {undo} לביטול.
 @plural	Doesn't run: {n} problem|Doesn't run: {n} problems	לא פועל: {n} בעיה|לא פועל: {n} בעיות|לא פועל: {n} בעיות
 @plural	Exported {path} ({n} frame, {layers} layers).|Exported {path} ({n} frames, {layers} layers).	יוצא {path} ({n} פריים, {layers} שכבות).|יוצא {path} ({n} פריימים, {layers} שכבות).|יוצא {path} ({n} פריימים, {layers} שכבות).
+@plural	Folder · {n} item|Folder · {n} items	תיקייה · {n} פריט|תיקייה · {n} פריטים|תיקייה · {n} פריטים
 @plural	Folder · {n} layer|Folder · {n} layers	תיקייה · {n} שכבה|תיקייה · {n} שכבות|תיקייה · {n} שכבות
 @plural	Moved {n} frame by {by} — {undo} to undo|Moved {n} frames by {by} — {undo} to undo	הוזז {n} פריים ב-{by} — {undo} לביטול|הוזזו {n} פריימים ב-{by} — {undo} לביטול|הוזזו {n} פריימים ב-{by} — {undo} לביטול
+@plural	Pasted in place onto {n} keyframe. {undo} to undo.|Pasted in place onto {n} keyframes. {undo} to undo.	הודבק במקום על {n} פריים מפתח. {undo} לביטול.|הודבק במקום על {n} פריימי מפתח. {undo} לביטול.|הודבק במקום על {n} פריימי מפתח. {undo} לביטול.
 @plural	Pasted {n} frame — {undo} to undo|Pasted {n} frames — {undo} to undo	הודבק {n} פריים — {undo} לביטול|הודבקו {n} פריימים — {undo} לביטול|הודבקו {n} פריימים — {undo} לביטול
 @plural	Removed {n} frame — {undo} to undo|Removed {n} frames — {undo} to undo	הוסר {n} פריים — {undo} לביטול|הוסרו {n} פריימים — {undo} לביטול|הוסרו {n} פריימים — {undo} לביטול
 @plural	Reset {n} changed shortcut to the defaults?|Reset {n} changed shortcuts to the defaults?	לאפס {n} קיצור מקשים ששונה לברירת המחדל?|לאפס {n} קיצורי מקשים ששונו לברירת המחדל?|לאפס {n} קיצורי מקשים ששונו לברירת המחדל?
 @plural	Selected {n} element on the frames between the markers|Selected {n} elements on the frames between the markers	נבחר {n} אלמנט בפריימים שבין הסמנים|נבחרו {n} אלמנטים בפריימים שבין הסמנים|נבחרו {n} אלמנטים בפריימים שבין הסמנים
 @plural	on {n} layer|on {n} layers	ב-{n} שכבה|ב-{n} שכבות|ב-{n} שכבות
 @plural	played {n} time|played {n} times	מתנגן {n} פעם|מתנגן {n} פעמים|מתנגן {n} פעמים
+@plural	used {n} time|used {n} times	בשימוש פעם {n}|בשימוש {n} פעמים|בשימוש {n} פעמים
 @plural	{first}–{last} of {n} layer|{first}–{last} of {n} layers	{first}–{last} מתוך {n} שכבה|{first}–{last} מתוך {n} שכבות|{first}–{last} מתוך {n} שכבות
 @plural	{n} command is scriptable with anicraft-cli|{n} commands are scriptable with anicraft-cli	{n} פקודה ניתנת להרצה בסקריפט עם anicraft-cli|{n} פקודות ניתנות להרצה בסקריפט עם anicraft-cli|{n} פקודות ניתנות להרצה בסקריפט עם anicraft-cli
 @plural	{n} day ago|{n} days ago	לפני {n} יום|לפני {n} ימים|לפני {n} ימים
@@ -422,4 +568,5 @@
 @plural	{n} point|{n} points	{n} נקודה|{n} נקודות|{n} נקודות
 @plural	{n} second|{n} seconds	{n} שנייה|{n} שניות|{n} שניות
 @plural	{n} silenced this session|{n} silenced this session	{n} הושתק בהפעלה זו|{n} הושתקו בהפעלה זו|{n} הושתקו בהפעלה זו
+@plural	{n} unused item selected|{n} unused items selected	נבחר {n} פריט שאינו בשימוש|נבחרו {n} פריטים שאינם בשימוש|נבחרו {n} פריטים שאינם בשימוש
 @plural	{properties} · {n} key frame|{properties} · {n} key frames	{properties} · {n} פריים מפתח|{properties} · {n} פריימי מפתח|{properties} · {n} פריימי מפתח
