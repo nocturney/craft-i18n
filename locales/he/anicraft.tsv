@@ -16,21 +16,44 @@
 	2 minutes	2 דקות
 	30 seconds	30 שניות
 	5 minutes	5 דקות
+	ANICRAFT_STAGE_RENDERER is set, and it takes precedence over this choice.	משתנה הסביבה ANICRAFT_STAGE_RENDERER מוגדר, והוא גובר על בחירה זו.
+	Actions Panel	חלונית הפעולות
+	Actual size (100%)	גודל אמיתי (100%)
+	Add a shortcut	הוספת קיצור מקשים
+	Add a shortcut for {action}	הוספת קיצור מקשים עבור {action}
 	Add action	הוספת פעולה
+	Add another shortcut	הוספת קיצור מקשים נוסף
+	Add another shortcut for {action}	הוספת קיצור מקשים נוסף עבור {action}
 	Add camera	הוספת מצלמה
 	Add event	הוספת אירוע
 	Add filter	הוספת מסנן
+	Add to / remove from selection	הוספה לבחירה / הסרה ממנה
 	Align centre	יישור למרכז
+	Align to Stage On / Off	יישור לבמה: הפעלה / כיבוי
+	Always render off the UI thread. The window never waits; the picture can trail by a frame.	תמיד לרנדר מחוץ לתהליכון הממשק. החלון אף פעם לא ממתין; התמונה עלולה לפגר בפריים אחד.
+	AniCraft is free software: MIT OR Apache-2.0, at your option.	AniCraft היא תוכנה חופשית: MIT OR Apache-2.0, לבחירתך.
+	AniCraft: Apache License 2.0	AniCraft: רישיון Apache 2.0
+	AniCraft: MIT License	AniCraft: רישיון MIT
 	Animated GIF	קובץ GIF מונפש
+	Arrow keys	מקשי החצים
+	Autosave after this many changes	שמירה אוטומטית אחרי מספר שינויים זה
+	Autosave every	שמירה אוטומטית כל
+	Autosave failed: {error}. Save your work to be safe; AniCraft will keep trying.	השמירה האוטומטית נכשלה: {error}. ליתר ביטחון שמרו את העבודה; AniCraft ימשיך לנסות.
+	Autosave is off: this system has no settings folder	השמירה האוטומטית כבויה: אין במערכת זו תיקיית הגדרות
+	Autosave is off: {error}	השמירה האוטומטית כבויה: {error}
+	Back to the default ({keys})	חזרה לברירת המחדל ({keys})
 	Bevel offset	היסט שיפוע
 	Bitmap fill	מילוי במפת סיביות
 	Bone	עצם
 	Bone angle	זווית עצם
 	Bone: {name}	עצם: {name}
 	Break Apart	פירוק
+	Brush Size Down	הקטנת גודל המברשת
+	Brush Size Up	הגדלת גודל המברשת
 	Brush angle	זווית מברשת
 	Brush size	גודל מברשת
 	Button	כפתור
+	CPU (reference)	מעבד (ייחוס)
 	Camera	מצלמה
 	Camera Tint	גוון מצלמה
 	Camera X	מצלמה X
@@ -38,50 +61,107 @@
 	Camera view	תצוגת מצלמה
 	Camera zoom	זום מצלמה
 	Cancelled	בוטל
+	Change…	שינוי…
+	Click	לחיצה
+	Click a key to change it or + to add one; right-click a key to remove it. Changes save as you go.	לחצו על מקש כדי לשנות אותו או על + כדי להוסיף; לחיצה ימנית על מקש מסירה אותו. השינויים נשמרים תוך כדי.
+	Click to change · right-click to remove	לחיצה לשינוי · לחיצה ימנית להסרה
 	Close folder	סגירת תיקייה
+	Command palette	לוח פקודות
 	Commands	פקודות
+	Confirmations	אישורים
+	Constrain shape / 45° line	שמירת פרופורציות / קו ב-45°
+	Context actions	פעולות הקשר
+	Control	בקרה
+	Could not restore {name}: {error}	לא ניתן לשחזר את {name}: {error}
 	Create tween	יצירת מעבר ביניים
 	Dash length	אורך מקף
+	Data font	גופן נתונים
+	Default (bundled: {font})	ברירת מחדל (מצורף: {font})
+	Default ({font})	ברירת מחדל ({font})
 	Delete Sound	מחיקת צליל
 	Delete layer	מחיקת שכבה
+	Delete this autosaved copy	מחיקת העותק שנשמר אוטומטית
+	Discard {name}…	השלכת {name}…
+	Discarding deletes this work for good. This cannot be undone.	השלכה מוחקת את העבודה הזו לצמיתות. לא ניתן לבטל פעולה זו.
+	Discard…	השלכה…
+	Don't ask again this session	לא לשאול שוב בהפעלה הזו
 	Dot spacing	מרווח נקודות
+	Drag	גרירה
+	Drawing on {adapter}, straight into the window.	מצייר באמצעות {adapter}, ישירות לחלון.
+	Drawing on {adapter}, then copied to the window (slower: the window's graphics device can't be shared).	מצייר באמצעות {adapter} ומעתיק לחלון (איטי יותר: לא ניתן לשתף את התקן הגרפיקה של החלון).
+	Draws the stage on the graphics card, and on the CPU when there is no card that can. The picture is the same either way.	מצייר את הבמה בכרטיס המסך, ובמעבד כשאין כרטיס מתאים. התמונה זהה בשני המקרים.
 	Edit Symbol	עריכת סמל
 	Edit actions	עריכת פעולות
 	Edit event	עריכת אירוע
 	Edit script	עריכת סקריפט
+	Edits show immediately; heavy scenes render in the background with an outline preview.	העריכות מוצגות מיד; סצנות כבדות מרונדרות ברקע עם תצוגה מקדימה של קווי מתאר.
+	Enter confirms · Esc cancels	Enter לאישור · Esc לביטול
+	Enter saves · Esc cancels	Enter לשמירה · Esc לביטול
 	Erase mode	מצב מחיקה
 	Eraser size	גודל מחק
+	Esc cancels · click the red button to proceed	Esc לביטול · לחצו על הכפתור האדום כדי להמשיך
+	Essentials	עיקרי הדברים
+	Every	כל
+	Every edit renders before the next frame. Lowest latency; can stutter on very heavy scenes.	כל עריכה מרונדרת לפני הפריים הבא. ההשהיה הנמוכה ביותר; עלול לגמגם בסצנות כבדות מאוד.
+	Every shortcut is back to the defaults.	כל קיצורי המקשים חזרו לברירת המחדל.
+	Extra start gap	רווח נוסף בהתחלה
+	File dialogs	חלונות קבצים
 	Fill colour	צבע מילוי
 	Fill on/off	הפעלה/כיבוי מילוי
 	Filter blur	טשטוש מסנן
+	Filter by name or key…	סינון לפי שם או מקש…
 	Filter fonts	סינון גופנים
+	Filter fonts…	סינון גופנים…
+	Filter shortcuts	סינון קיצורי מקשים
 	Filter type	סוג מסנן
 	First frame	הפריים הראשון
+	Fit Stage in Window	התאמת הבמה לחלון
+	Fit stage in window	התאמת הבמה לחלון
+	Font: Hack (MIT, Bitstream Vera)	גופן: Hack (MIT, Bitstream Vera)
+	Font: Noto Emoji (SIL OFL 1.1)	גופן: Noto Emoji (SIL OFL 1.1)
+	Font: Ubuntu Light (Ubuntu Font Licence 1.0)	גופן: Ubuntu Light (Ubuntu Font Licence 1.0)
+	Font: emoji-icon-font (MIT)	גופן: emoji-icon-font (MIT)
 	Frame label	תווית פריים
 	Frame number	מספר פריים
 	Frame rate	קצב פריימים
 	Frame script	סקריפט פריים
+	Frame {frame} · {seconds} s · X {x} Y {y} · {keys}	פריים {frame} · {seconds} ש׳ · X {x} Y {y} · {keys}
 	Frames	פריימים
 	Gap length	אורך רווח
 	Glow options	אפשרויות זוהר
+	Graphics card (GPU)	כרטיס מסך (GPU)
 	Hide object	הסתרת אובייקט
+	Icons: Lucide (ISC)	סמלים: Lucide (ISC)
+	If AniCraft closes unexpectedly, the next start offers to restore it. Copies stay in the settings folder, never over your files, and go away when you save.	אם AniCraft נסגר באופן לא צפוי, בהפעלה הבאה תוצע אפשרות לשחזר את העבודה. העותקים נשמרים בתיקיית ההגדרות, לעולם לא מעל הקבצים שלך, ונמחקים כשמבצעים שמירה.
+	If you don't save, your changes since the last save will be lost.	אם לא תשמרו, השינויים מאז השמירה האחרונה יאבדו.
+	Immediate	מיידי
 	Ink Bottle	בקבוק דיו
 	Instance	מופע
 	Instance name	שם מופע
+	Interface scale	קנה מידה של הממשק
+	It is an independent project, not affiliated with or endorsed by Adobe. Bundled fonts and Rust crates keep their own permissive licences, listed below.	זהו פרויקט עצמאי, שאינו קשור ל-Adobe ואינו נתמך על ידה. הגופנים וחבילות ה-Rust המצורפים כפופים לרישיונות המתירניים שלהם, המפורטים להלן.
 	Joint Limits	מגבלות מפרק
+	Keep a recovery copy of unsaved work	שמירת עותק שחזור של עבודה שלא נשמרה
+	Kept the autosaved work. File › Recover Autosaved Documents… brings it back.	העבודה שנשמרה אוטומטית נשמרה. קובץ ‹ שחזור מסמכים שנשמרו אוטומטית… מחזיר אותה.
+	Keyboard shortcuts (this editor)	קיצורי מקשים (עורך זה)
 	Keyframe	פריים מפתח
 	Knockout	ניקוב (Knockout)
 	Last frame	הפריים האחרון
+	Later keeps them: File › Recover Autosaved Documents… brings this back.	'אחר כך' שומר אותם: קובץ ‹ שחזור מסמכים שנשמרו אוטומטית… מחזיר את החלון הזה.
 	Layer Depth	עומק שכבה
 	Layer Volume	עוצמת השמע של השכבה
 	Layer depth	עומק שכבה
+	Layer names, menus and dialog text read like this.	כך נראים שמות שכבות, תפריטים וטקסט בתיבות דו־שיח.
 	Layer volume	עוצמת השמע של השכבה
 	Left channel	ערוץ שמאלי
+	Licenses & Notices	רישיונות והודעות
 	Lock {name}	נעילת {name}
 	Make Corner	המרה לנקודת פינה
 	Make Smooth	המרה לנקודה חלקה
 	Markers	סמנים
+	Menus, panels and dialogs. Your documents, layer names and the command line stay as they are.	תפריטים, חלוניות ותיבות דו־שיח. המסמכים, שמות השכבות ושורת הפקודה נשארים כפי שהם.
 	Message	הודעה
+	Middle-drag	גרירה בלחצן האמצעי
 	Miter limit	גבול זוויתי (Miter)
 	Motion tween	מעבר ביניים של תנועה
 	Move Camera	הזזת מצלמה
@@ -92,14 +172,21 @@
 	Mute {name}	השתקת {name}
 	Never saved	מעולם לא נשמר
 	New layer	שכבה חדשה
+	Next Panel	החלונית הבאה
+	Nudge selection 1 px	הזזת הבחירה ב-1 פיקסל
+	Nudge selection 10 px	הזזת הבחירה ב-10 פיקסלים
 	Onion Skin	קליפת בצל (Onion Skin)
+	Onion Skin On / Off	קליפת בצל: הפעלה / כיבוי
 	Onion skin	קליפת בצל
 	Open folder	פתיחת תיקייה
+	Open it as unsaved work	פתיחה כעבודה שלא נשמרה
 	Open {name}	פתיחת {name}
+	Or after	או אחרי
 	Outlines	קווי מתאר
 	PNG image	תמונת PNG
 	Paint Bucket	דלי צבע
 	Paint mode	מצב צביעה
+	Pan with any tool	הזזת התצוגה עם כל כלי
 	Path start	תחילת נתיב
 	Pin	הצמדה
 	Pin Here	הצמדה כאן
@@ -108,7 +195,13 @@
 	PolyStar	מצולע/כוכב
 	Position X	מיקום X
 	Position Y	מיקום Y
+	Press the new keys for {action}. Esc cancels.	הקישו את המקשים החדשים עבור {action}. Esc לביטול.
+	Preview Through Camera	תצוגה מקדימה דרך המצלמה
+	Previous Panel	החלונית הקודמת
+	Project Files & Docs	קבצי הפרויקט ותיעוד
 	Property	מאפיין
+	Put every shortcut back to the defaults	החזרת כל קיצורי המקשים לברירת המחדל
+	Recover unsaved work	שחזור עבודה שלא נשמרה
 	Remove Bone	הסרת עצם
 	Remove Tween	הסרת מעבר ביניים
 	Remove bone	הסרת עצם
@@ -122,15 +215,24 @@
 	Reset all	איפוס הכול
 	Reset all…	איפוס הכול…
 	Reset camera	איפוס מצלמה
+	Reset {action}	איפוס {action}
+	Restore {name}	שחזור {name}
+	Right-click	לחיצה ימנית
 	Roadmap	מפת דרכים
+	Rust crates: licence inventory	חבילות Rust: מלאי רישיונות
 	SVG image	תמונת SVG
+	Safety	בטיחות
+	Save changes to “{name}” before closing?	לשמור את השינויים ב-"{name}" לפני הסגירה?
 	Saved {path}	נשמר: {path}
+	Scanning installed fonts…	סורק גופנים מותקנים…
 	Scene	סצנה
 	Screenshots	צילומי מסך
 	Script	סקריפט
 	Seconds	שניות
+	Select All Frames	בחירת כל הפריימים
 	Shape tween	מעבר ביניים של צורה
 	Show Folder	הצגת התיקייה
+	Show all again	הצגת כולם שוב
 	Show {name}	הצגת {name}
 	Snapping	הצמדה אוטומטית
 	Sound	צליל
@@ -143,6 +245,7 @@
 	Stage size	גודל הבמה
 	Stage width	רוחב הבמה
 	Star points	קודקודי כוכב
+	Starting the graphics card…	מפעיל את כרטיס המסך…
 	Straighten	יישור
 	Stroke cap	קצה קו מתאר
 	Stroke join	חיבור קו מתאר
@@ -150,14 +253,54 @@
 	Stroke width	רוחב קו מתאר
 	Subselection	בחירת משנה
 	Symbol type	סוג סמל
+	System language ({name})	שפת המערכת ({name})
 	Text colour	צבע טקסט
 	Text width	רוחב טקסט
 	Text: {text}	טקסט: {text}
+	That autosaved copy is gone	העותק שנשמר אוטומטית כבר לא קיים
+	The data font shows numbers, timecode, rulers and shortcuts; only monospaced families are listed so digits stay aligned.	גופן הנתונים מציג מספרים, קוד זמן, סרגלים וקיצורי מקשים; מוצגות רק משפחות ברוחב קבוע כדי שהספרות יישארו מיושרות.
+	The file was saved after this copy, so it opens as a new document and Save asks for a name.	הקובץ נשמר אחרי העותק הזה, ולכן הוא ייפתח כמסמך חדש ופעולת השמירה תבקש שם.
+	The graphics card can't draw the stage, so the CPU does: {why}	כרטיס המסך לא יכול לצייר את הבמה, ולכן המעבד עושה זאת: {why}
+	The reference renderer: slower on large stages. Exports always use it.	מנוע הרינדור לייחוס: איטי יותר בבמות גדולות. ייצוא תמיד משתמש בו.
+	The timeline always leaves room before frame 1 for the playhead; this adds more. It stays the same at every zoom.	ציר הזמן תמיד משאיר מקום לפני פריים 1 עבור ראש ההפעלה; הגדרה זו מוסיפה עוד. הרווח נשאר זהה בכל רמת זום.
+	This build has the interface in English only. Builds with translations list their languages here.	גרסה זו כוללת ממשק באנגלית בלבד. גרסאות עם תרגומים מציגות כאן את השפות שלהן.
+	This cannot be undone.	לא ניתן לבטל פעולה זו.
+	Turn off on Linux desktops without an XDG desktop portal; AniCraft then asks for a path instead.	כבו את האפשרות בשולחנות עבודה של Linux ללא XDG desktop portal; AniCraft יבקש אז נתיב במקום זאת.
 	Tween	מעבר ביניים
 	Tween kind	סוג מעבר ביניים
+	Type a command, tool or setting…	הקלידו פקודה, כלי או הגדרה…
 	Unpin	ביטול הצמדה
+	Up/Down choose · Enter run · Esc close	Up/Down לבחירה · Enter להפעלה · Esc לסגירה
+	Use it for {action}	שימוש בו עבור {action}
+	Use the system's open and save dialogs	שימוש בחלונות הפתיחה והשמירה של המערכת
+	View action	פעולת תצוגה
 	WAV sound	קובץ שמע WAV
 	Web page	דף אינטרנט
+	Wheel	גלגלת
+	Whichever comes first. 0 changes: by time only. Copies are written in the background, so drawing never waits.	המוקדם מביניהם. 0 שינויים: לפי זמן בלבד. העותקים נכתבים ברקע, כך שהציור אף פעם לא ממתין.
 	Zoom Camera	זום מצלמה
+	Zoom at the cursor	זום במיקום הסמן
+	Zoom in / out	הגדלה / הקטנה
 	Zoom to fit	זום להתאמה
+	autosaved {when}	נשמר אוטומטית {when}
+	cancelling	ביטול
+	changes	שינויים
+	fixed	קבוע
+	moving between fields	מעבר בין שדות
+	nothing (not a key)	כלום (לא מקש)
+	panning with any tool	הזזת התצוגה עם כל כלי
+	play / stop	הפעלה / עצירה
+	quitting	יציאה מהתוכנה
+	the command palette	לוח הפקודות
+	the shortcut editor	עורך קיצורי המקשים
+	this action	פעולה זו
+	{action} shortcut {key}	{action}, קיצור {key}
+	{action}: back to the default	{action}: חזר לברירת המחדל
+	{action}: key removed	{action}: המקש הוסר
+	{action}: {key}	{action}: {key}
+	{action}: {key} (removed from {other})	{action}: {key} (הוסר מ{other})
+	{key} could not be moved.	לא ניתן היה להעביר את {key}.
+	{key} is already used by {action}.	{key} כבר משמש עבור {action}.
+	{key} is kept for {purpose}; choose another key.	{key} שמור עבור {purpose}; בחרו מקש אחר.
+	{os} · settings stored in {place}	{os} · ההגדרות נשמרות ב{place}
 	{tool} tool	הכלי {tool}
