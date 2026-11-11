@@ -307,13 +307,15 @@ in 22 catalogs, preserving the existing translations and their credits above.
 Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 `tools/sync_app.py`; no translations were newly authored in this top-up.
 
-## AniCraft: Hebrew catalog (artcraft-he batches 005–007)
+## AniCraft: Hebrew catalog (artcraft-he batches 005–008)
 
-@nocturney added `locales/he/anicraft.tsv`: 412 rows (150 in batch 005, 143 in batch 006, 119 in batch 007) for AniCraft interface strings
-(`anicraft@fc79334` for batch 005, `anicraft@93cd5b0` after; its `tr!`/`trc!`/`trn!`/`tr_noop!`
+@nocturney added `locales/he/anicraft.tsv`: 559 rows (150 in batch 005, 143 in batch 006, 119 in batch 007, 147 in batch 008) for AniCraft interface strings
+(`anicraft@fc79334` for batch 005, `anicraft@93cd5b0` for batches 006–007, `anicraft@4699c78` for batch 008; its `tr!`/`trc!`/`trn!`/`tr_noop!`
 calls) that no Hebrew catalog had, chosen from strings that are not shared rows in any locale's
-`common.tsv` (batch 005: bones and rigging, stage and camera, frames and keyframes, tweens, symbols and instances, stroke and fill properties, layers and sound, actions and events, filters, file types, autosave intervals; batch 006: dialogs and preferences: autosave and recovery, save-changes and confirmation dialogs, command palette, fonts and language, renderer and graphics card, shortcut editor and keymap phrases, licences; batch 007: actions panel, status messages and plural rows with Hebrew's three forms (one|two|other)).
+`common.tsv` (batch 005: bones and rigging, stage and camera, frames and keyframes, tweens, symbols and instances, stroke and fill properties, layers and sound, actions and events, filters, file types, autosave intervals; batch 006: dialogs and preferences: autosave and recovery, save-changes and confirmation dialogs, command palette, fonts and language, renderer and graphics card, shortcut editor and keymap phrases, licences; batch 007: actions panel, status messages and plural rows with Hebrew's three forms (one|two|other); batch 008: timeline, Library, onion skin, edit-multiple-frames and motion editing).
 AI-generated with Grok Bot, written from the English meaning and the AniCraft call sites, clean
-room; not yet reviewed by a native speaker. AniCraft embeds every craft-i18n catalog but does
+room; limited terminology and plural-form review assisted by ChatGPT and Claude Code,
+with 25 documented corrections and six batch-008 adjustments. No complete native-speaker
+review of the catalog or in-app Hebrew UI acceptance is claimed. AniCraft embeds every craft-i18n catalog but does
 not offer Hebrew yet (`i18n::READY` is left-to-right scripts only until egui lays out
 bidirectional text); until then the rows are carried as data only.
