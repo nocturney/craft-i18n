@@ -306,3 +306,15 @@ in the source PR. PhotoCraft #12851 (@rmsff) rekeys the fill-rasterization promp
 in 22 catalogs, preserving the existing translations and their credits above.
 Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 `tools/sync_app.py`; no translations were newly authored in this top-up.
+
+## AniCraft: Hebrew catalog (artcraft-he batch 005)
+
+@nocturney added `locales/he/anicraft.tsv`: 150 rows for AniCraft interface strings
+(`anicraft@fc79334`, its `tr!`/`trc!`/`trn!`/`tr_noop!` calls) that no Hebrew catalog had,
+chosen from strings that are not shared rows in any locale's `common.tsv` (bones and rigging,
+stage and camera, frames and keyframes, tweens, symbols and instances, stroke and fill
+properties, layers and sound, actions and events, filters, file types, autosave intervals).
+AI-generated with Grok Bot, written from the English meaning and the AniCraft call sites, clean
+room; not yet reviewed by a native speaker. AniCraft embeds every craft-i18n catalog but does
+not offer Hebrew yet (`i18n::READY` is left-to-right scripts only until egui lays out
+bidirectional text); until then the rows are carried as data only.

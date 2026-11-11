@@ -1,0 +1,163 @@
+# עברית (he) interface catalog for AniCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	1 minute	דקה אחת
+	10 minutes	10 דקות
+	2 minutes	2 דקות
+	30 seconds	30 שניות
+	5 minutes	5 דקות
+	Add action	הוספת פעולה
+	Add camera	הוספת מצלמה
+	Add event	הוספת אירוע
+	Add filter	הוספת מסנן
+	Align centre	יישור למרכז
+	Animated GIF	קובץ GIF מונפש
+	Bevel offset	היסט שיפוע
+	Bitmap fill	מילוי במפת סיביות
+	Bone	עצם
+	Bone angle	זווית עצם
+	Bone: {name}	עצם: {name}
+	Break Apart	פירוק
+	Brush angle	זווית מברשת
+	Brush size	גודל מברשת
+	Button	כפתור
+	Camera	מצלמה
+	Camera Tint	גוון מצלמה
+	Camera X	מצלמה X
+	Camera Y	מצלמה Y
+	Camera view	תצוגת מצלמה
+	Camera zoom	זום מצלמה
+	Cancelled	בוטל
+	Close folder	סגירת תיקייה
+	Commands	פקודות
+	Create tween	יצירת מעבר ביניים
+	Dash length	אורך מקף
+	Delete Sound	מחיקת צליל
+	Delete layer	מחיקת שכבה
+	Dot spacing	מרווח נקודות
+	Edit Symbol	עריכת סמל
+	Edit actions	עריכת פעולות
+	Edit event	עריכת אירוע
+	Edit script	עריכת סקריפט
+	Erase mode	מצב מחיקה
+	Eraser size	גודל מחק
+	Fill colour	צבע מילוי
+	Fill on/off	הפעלה/כיבוי מילוי
+	Filter blur	טשטוש מסנן
+	Filter fonts	סינון גופנים
+	Filter type	סוג מסנן
+	First frame	הפריים הראשון
+	Frame label	תווית פריים
+	Frame number	מספר פריים
+	Frame rate	קצב פריימים
+	Frame script	סקריפט פריים
+	Frames	פריימים
+	Gap length	אורך רווח
+	Glow options	אפשרויות זוהר
+	Hide object	הסתרת אובייקט
+	Ink Bottle	בקבוק דיו
+	Instance	מופע
+	Instance name	שם מופע
+	Joint Limits	מגבלות מפרק
+	Keyframe	פריים מפתח
+	Knockout	ניקוב (Knockout)
+	Last frame	הפריים האחרון
+	Layer Depth	עומק שכבה
+	Layer Volume	עוצמת השמע של השכבה
+	Layer depth	עומק שכבה
+	Layer volume	עוצמת השמע של השכבה
+	Left channel	ערוץ שמאלי
+	Lock {name}	נעילת {name}
+	Make Corner	המרה לנקודת פינה
+	Make Smooth	המרה לנקודה חלקה
+	Markers	סמנים
+	Message	הודעה
+	Miter limit	גבול זוויתי (Miter)
+	Motion tween	מעבר ביניים של תנועה
+	Move Camera	הזזת מצלמה
+	Move Points	הזזת נקודות
+	Move down	הזזה למטה
+	Move up	הזזה למעלה
+	Mute layer	השתקת שכבה
+	Mute {name}	השתקת {name}
+	Never saved	מעולם לא נשמר
+	New layer	שכבה חדשה
+	Onion Skin	קליפת בצל (Onion Skin)
+	Onion skin	קליפת בצל
+	Open folder	פתיחת תיקייה
+	Open {name}	פתיחת {name}
+	Outlines	קווי מתאר
+	PNG image	תמונת PNG
+	Paint Bucket	דלי צבע
+	Paint mode	מצב צביעה
+	Path start	תחילת נתיב
+	Pin	הצמדה
+	Pin Here	הצמדה כאן
+	Pinned	מוצמד
+	Play / Stop	הפעלה / עצירה
+	PolyStar	מצולע/כוכב
+	Position X	מיקום X
+	Position Y	מיקום Y
+	Property	מאפיין
+	Remove Bone	הסרת עצם
+	Remove Tween	הסרת מעבר ביניים
+	Remove bone	הסרת עצם
+	Remove event	הסרת אירוע
+	Remove script	הסרת סקריפט
+	Remove tween	הסרת מעבר ביניים
+	Rename layer	שינוי שם שכבה
+	Rename scene	שינוי שם סצנה
+	Renderer	מנוע רינדור
+	Rendering	רינדור
+	Reset all	איפוס הכול
+	Reset all…	איפוס הכול…
+	Reset camera	איפוס מצלמה
+	Roadmap	מפת דרכים
+	SVG image	תמונת SVG
+	Saved {path}	נשמר: {path}
+	Scene	סצנה
+	Screenshots	צילומי מסך
+	Script	סקריפט
+	Seconds	שניות
+	Shape tween	מעבר ביניים של צורה
+	Show Folder	הצגת התיקייה
+	Show {name}	הצגת {name}
+	Snapping	הצמדה אוטומטית
+	Sound	צליל
+	Sound effect	אפקט צליל
+	Sound repeat	חזרות צליל
+	Sound sync	סנכרון צליל
+	Stage	במה
+	Stage colour	צבע הבמה
+	Stage height	גובה הבמה
+	Stage size	גודל הבמה
+	Stage width	רוחב הבמה
+	Star points	קודקודי כוכב
+	Straighten	יישור
+	Stroke cap	קצה קו מתאר
+	Stroke join	חיבור קו מתאר
+	Stroke style	סגנון קו מתאר
+	Stroke width	רוחב קו מתאר
+	Subselection	בחירת משנה
+	Symbol type	סוג סמל
+	Text colour	צבע טקסט
+	Text width	רוחב טקסט
+	Text: {text}	טקסט: {text}
+	Tween	מעבר ביניים
+	Tween kind	סוג מעבר ביניים
+	Unpin	ביטול הצמדה
+	WAV sound	קובץ שמע WAV
+	Web page	דף אינטרנט
+	Zoom Camera	זום מצלמה
+	Zoom to fit	זום להתאמה
+	{tool} tool	הכלי {tool}
