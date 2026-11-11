@@ -571,3 +571,8 @@
 @plural	{n} silenced this session|{n} silenced this session	{n} הושתק בהפעלה זו|{n} הושתקו בהפעלה זו|{n} הושתקו בהפעלה זו
 @plural	{n} unused item selected|{n} unused items selected	נבחר {n} פריט שאינו בשימוש|נבחרו {n} פריטים שאינם בשימוש|נבחרו {n} פריטים שאינם בשימוש
 @plural	{properties} · {n} key frame|{properties} · {n} key frames	{properties} · {n} פריים מפתח|{properties} · {n} פריימי מפתח|{properties} · {n} פריימי מפתח
+@plural	{n} element {on_layers}|{n} elements {on_layers}	{n} אלמנט {on_layers}|{n} אלמנטים {on_layers}|{n} אלמנטים {on_layers}
+@plural	Moved {frames} {n} layer up — {undo} to undo|Moved {frames} {n} layers up — {undo} to undo	הזזה של {frames} כלפי מעלה ב-{n} שכבה — {undo} לביטול|הזזה של {frames} כלפי מעלה ב-{n} שכבות — {undo} לביטול|הזזה של {frames} כלפי מעלה ב-{n} שכבות — {undo} לביטול
+@plural	Moved {frames} {n} layer down — {undo} to undo|Moved {frames} {n} layers down — {undo} to undo	הזזה של {frames} כלפי מטה ב-{n} שכבה — {undo} לביטול|הזזה של {frames} כלפי מטה ב-{n} שכבות — {undo} לביטול|הזזה של {frames} כלפי מטה ב-{n} שכבות — {undo} לביטול
+@plural	Stage · {tool} tool · frame {frame} · {n} element selected|Stage · {tool} tool · frame {frame} · {n} elements selected	במה · כלי {tool} · פריים {frame} · נבחר {n} אלמנט|במה · כלי {tool} · פריים {frame} · נבחרו {n} אלמנטים|במה · כלי {tool} · פריים {frame} · נבחרו {n} אלמנטים
+@plural	Stage · {tool} tool · frame {frame} · {n} element selected {on_layers}|Stage · {tool} tool · frame {frame} · {n} elements selected {on_layers}	במה · כלי {tool} · פריים {frame} · נבחר {n} אלמנט {on_layers}|במה · כלי {tool} · פריים {frame} · נבחרו {n} אלמנטים {on_layers}|במה · כלי {tool} · פריים {frame} · נבחרו {n} אלמנטים {on_layers}
