@@ -39,13 +39,13 @@
 	After colour	צבע 'אחרי'
 	Align centre	יישור למרכז
 	Align to Stage On / Off	יישור לבמה: הפעלה / כיבוי
-	Allow smoothing	אפשור החלקה
+	Allow smoothing	הפעלת החלקה
 	Also morphs one shape into another	גם הופך צורה אחת לאחרת
 	Always Show Markers	הצגת סמנים תמיד
 	Always render off the UI thread. The window never waits; the picture can trail by a frame.	תמיד לרנדר מחוץ לתהליכון הממשק. החלון אף פעם לא ממתין; התמונה עלולה לפגר בפריים אחד.
 	An AniCraft document, or an Animate .fla or .xfl	מסמך AniCraft או קובץ Animate בפורמט .fla או .xfl
 	An entry point of a frame-script plug-in (WebAssembly)	נקודת כניסה של תוסף סקריפט פריים (WebAssembly)
-	Anchor Markers	עיגון סמנים
+	Anchor Markers	הצמדת סמנים לפריימים
 	AniCraft is free software: MIT OR Apache-2.0, at your option.	AniCraft היא תוכנה חופשית: MIT OR Apache-2.0, לבחירתך.
 	AniCraft: Apache License 2.0	AniCraft: רישיון Apache 2.0
 	AniCraft: MIT License	AniCraft: רישיון MIT
@@ -57,7 +57,7 @@
 	ArtCraft Launcher manages this app's version. Change its version there.	ArtCraft Launcher מנהל את גרסת התוכנה. יש לעדכן את הגרסה דרכו.
 	Ascending: click for descending	בסדר עולה: לחצו לסדר יורד
 	Autosave	שמירה אוטומטית
-	Autosave after this many changes	שמירה אוטומטית אחרי מספר שינויים זה
+	Autosave after this many changes	שמירה אוטומטית לאחר מספר השינויים שנקבע
 	Autosave every	שמירה אוטומטית כל
 	Autosave failed: {error}. Save your work to be safe; AniCraft will keep trying.	השמירה האוטומטית נכשלה: {error}. ליתר ביטחון שמרו את העבודה; AniCraft ימשיך לנסות.
 	Autosave is off: this system has no settings folder	השמירה האוטומטית כבויה: אין במערכת זו תיקיית הגדרות
@@ -71,7 +71,7 @@
 	Bitmap fill	מילוי במפת סיביות
 	Bitmap · {width}×{height}	מפת סיביות · {width}×{height}
 	Blank	ריק
-	Blue keys are pinned motion path points: drag one to move its point	מפתחות כחולים הם נקודות מוצמדות של נתיב התנועה: גררו אחד מהם כדי להזיז את הנקודה שלו
+	Blue keys are pinned motion path points: drag one to move its point	נקודות המפתח הכחולות מציינות נקודות מעוגנות בנתיב התנועה: גררו נקודת מפתח כדי להזיז את הנקודה שלה
 	Bone	עצם
 	Bone angle	זווית עצם
 	Bone: {name}	עצם: {name}
@@ -207,7 +207,7 @@
 	Frame labels survive frames being added or moved	תוויות פריים נשמרות גם כשמוסיפים או מזיזים פריימים
 	Frame number	מספר פריים
 	Frame rate	קצב פריימים
-	Frame rate, and the time the last picture took to draw	קצב פריימים, והזמן שלקח לצייר את התמונה האחרונה
+	Frame rate, and the time the last picture took to draw	קצב הפריימים וזמן ציור התמונה האחרונה
 	Frame script	סקריפט פריים
 	Frame script set — {undo} to undo	סקריפט הפריים הוגדר — {undo} לביטול
 	Frame zoom: frame width (Ctrl+wheel over the frames)	זום פריימים: רוחב פריים (Ctrl+גלגלת מעל הפריימים)
@@ -243,7 +243,7 @@
 	Joint Limits	מגבלות מפרק
 	Keep a recovery copy of unsaved work	שמירת עותק שחזור של עבודה שלא נשמרה
 	Keep it at the top of the list	הצמדה לראש הרשימה
-	Keep the markers on their frames instead of moving them with the playhead	השארת הסמנים בפריימים שלהם במקום להזיז אותם עם ראש ההפעלה
+	Keep the markers on their frames instead of moving them with the playhead	השארת הסמנים בפריימים שאליהם הוצמדו, במקום להזיז אותם עם ראש ההפעלה
 	Kept the autosaved work. File › Recover Autosaved Documents… brings it back.	עותקי השחזור נשמרו. אפשר לפתוח אותם דרך ״קובץ ‹ שחזור מסמכים שנשמרו אוטומטית…״.
 	Kept with the document as written. ActionScript 3.0 that controls the timeline runs in Test Movie and the HTML canvas export.	נשמר עם המסמך כפי שנכתב. ActionScript 3.0 ששולט בציר הזמן מופעל בבדיקת הסרט ובייצוא HTML canvas.
 	Kept with the document, but outside the ActionScript 3.0 subset AniCraft runs (or on a timeline that doesn't run scripts). The first Output lines say why; the Actions panel shows each problem in place.	נשמר עם המסמך, אבל מחוץ לתת־הקבוצה של ActionScript 3.0 ש-AniCraft מריץ (או בציר זמן שלא מריץ סקריפטים). השורות הראשונות בפלט מסבירות למה; חלונית הפעולות מציגה כל בעיה במקומה.
@@ -272,7 +272,7 @@
 	Lines written	שורות שנכתבו
 	Linkage class	מחלקת קישור
 	Lock {name}	נעילת {name}
-	Loop Playback	ניגון בלולאה
+	Loop Playback	הפעלה בלולאה
 	Loop playback	הפעלה בלולאה
 	Main timeline frame	פריים בציר הזמן הראשי
 	Make Corner	המרה לנקודת פינה
@@ -334,7 +334,7 @@
 	Onion start marker	סמן התחלה של קליפת הבצל
 	Onion {n}	קליפת בצל {n}
 	Onion-skin only the frames where a keyframe starts	קליפת בצל רק לפריימים שבהם מתחיל פריים מפתח
-	Open Recent	פתיחת קובץ אחרון
+	Open Recent	פתיחת קבצים אחרונים
 	Open folder	פתיחת תיקייה
 	Open it as unsaved work	פתיחה כעבודה שלא נשמרה
 	Open {name}	פתיחת {name}
@@ -535,7 +535,7 @@
 	WAV sound	קובץ שמע WAV
 	Web page	דף אינטרנט
 	What runs when the playhead enters a keyframe	מה מופעל כשראש ההפעלה נכנס לפריים מפתח
-	What the selected button or movie clip does on clicks and the pointer	מה הכפתור או קליפ הסרט שנבחרו עושים בלחיצות ובתנועת הסמן
+	What the selected button or movie clip does on clicks and the pointer	אופן התגובה של הכפתור או קליפ האנימציה שנבחרו ללחיצות ולתנועות הסמן
 	Wheel	גלגלת
 	Whichever comes first. 0 changes: by time only. Copies are written in the background, so drawing never waits.	המוקדם מביניהם. 0 שינויים: לפי זמן בלבד. העותקים נכתבים ברקע, כך שהציור אף פעם לא ממתין.
 	You're up to date.	התוכנה מעודכנת.
@@ -552,7 +552,7 @@
 	moving between fields	מעבר בין שדות
 	none	ללא
 	not used	לא בשימוש
-	nothing (not a key)	כלום (לא מקש)
+	nothing (not a key)	אין מקש תקין
 	panning with any tool	הזזת התצוגה עם כל כלי
 	paused	מושהה
 	play / stop	הפעלה / עצירה
@@ -567,7 +567,7 @@
 	{action}: back to the default	{action}: חזר לברירת המחדל
 	{action}: key removed	{action}: המקש הוסר
 	{action}: {key}	{action}: {key}
-	{action}: {key} (removed from {other})	{action}: {key} (הוסר מ{other})
+	{action}: {key} (removed from {other})	{action}: {key} (הוסר מהפעולה {other})
 	{fps} fps	{fps} פריימים לשנייה
 	{key} could not be moved.	לא ניתן היה להעביר את {key}.
 	{key} is already used by {action}.	{key} כבר משמש עבור {action}.
@@ -606,7 +606,7 @@
 	Choose a font	בחירת גופן
 	Choose a font the document's text uses.	בחירת גופן הנמצא בשימוש בטקסט שבמסמך.
 	Choose a Library item.	בחירת פריט מהספרייה.
-	Choose a preset	בחירת ערכה מוגדרת מראש
+	Choose a preset	בחירת הגדרה קבועה מראש
 	Choose from the Library	בחירה מהספרייה
 	Colour to find	צבע לחיפוש
 	Colour to replace with	צבע חלופי
@@ -614,7 +614,7 @@
 	Every frame of every scene, in order	כל הפריימים בכל הסצנות, לפי הסדר
 	Every scene, and every symbol in the Library	כל הסצנות וכל הסמלים בספרייה
 	Fills	מילויים
-	Find Previous	חיפוש הקודם
+	Find Previous	מעבר לתוצאה הקודמת
 	Font to find	גופן לחיפוש
 	Font to replace with	גופן חלופי
 	Formats	פורמטים
@@ -640,7 +640,7 @@
 	Playback	הפעלה
 	Playhead	סמן הניגון
 	Plays	מספר הפעלות
-	Preset	ערכה מוגדרת מראש
+	Preset	הגדרה קבועה מראש
 	Publish report	דוח פרסום
 	Publish Settings	הגדרות פרסום
 	Publish {format}	פרסום {format}
@@ -655,7 +655,7 @@
 	Replacement text	טקסט חלופי
 	Result {n} of {total}	תוצאה {n} מתוך {total}
 	Sample rate	קצב דגימה
-	Save Preset	שמירת ערכה מוגדרת מראש
+	Save Preset	שמירת הגדרה קבועה מראש
 	Save the document first: Publish writes its files beside it.	יש לשמור את המסמך תחילה: קובצי הפרסום נשמרים לצדו.
 	Scale to the browser window	התאמה לגודל חלון הדפדפן
 	Search for	חיפוש אחר
@@ -679,6 +679,19 @@
 	Whole word	מילה שלמה
 	Working…	בעבודה…
 	{format} output name	שם קובץ הפלט של {format}
+# Publish Presets: source-linked missing native tooltips, actions and statuses.
+	Apply a preset	החלת הגדרה קבועה מראש
+	The HTML page on, every other format off	דף HTML מופעל וכל שאר הפורמטים כבויים
+	New preset name	שם להגדרה קבועה מראש חדשה
+	Keep these settings as a preset you can apply to any document	שמירת ההגדרות האלה כהגדרה קבועה מראש שאפשר להחיל על כל מסמך
+	Delete Preset	מחיקת הגדרה קבועה מראש
+	Delete the preset “{name}” (asks once more)	מחיקת ההגדרה הקבועה מראש ״{name}״ (יידרש אישור נוסף)
+	Deleting a preset can't be undone	לא ניתן לבטל מחיקה של הגדרה קבועה מראש
+	You have {n} presets, the most there can be: delete one first	כבר שמורות {n} הגדרות קבועות מראש — זו הכמות המרבית. יש למחוק אחת תחילה
+	Applied the preset “{name}” — {undo} to undo	ההגדרה ״{name}״ הוחלה — {undo} לביטול
+	Saved the preset “{name}”	ההגדרה הקבועה מראש ״{name}״ נשמרה
+	Updated the preset “{name}”	ההגדרה הקבועה מראש ״{name}״ עודכנה
+	Deleted the preset “{name}”	ההגדרה הקבועה מראש ״{name}״ נמחקה
 @plural	+{n} more|+{n} more	+{n} נוסף|+{n} נוספים|+{n} נוספים
 @plural	An action can have up to {n} key.|An action can have up to {n} keys.	לפעולה יכול להיות עד {n} מקש.|לפעולה יכולים להיות עד {n} מקשים.|לפעולה יכולים להיות עד {n} מקשים.
 @plural	AniCraft didn't close properly last time. This document had changes that weren't saved:|AniCraft didn't close properly last time. These documents had changes that weren't saved:	AniCraft לא נסגר כראוי בפעם הקודמת. במסמך הזה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:
