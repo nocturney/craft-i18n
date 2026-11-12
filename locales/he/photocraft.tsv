@@ -255,7 +255,7 @@ cameraRaw	Amount	מידה
 	Apply next selected layer comp	החל את תצורת השכבות הנבחרת הבאה
 	Apply Per Tip	החל על כל קצה
 	Apply previous selected layer comp	החל את תצורת השכבות הנבחרת הקודמת
-	Apply the pen's tilt and rotation to the tip shape	החל את הטיית העט והסיבוב שלו על צורת הקצה
+	Apply the pen's tilt and rotation to the tip shape	החל את הטיית העט וסיבובו על צורת קצה המברשת
 	Apply the removal ({key})	החל את ההסרה ({key})
 	Apply to All	החל על הכול
 	Apply Vanishing Point ({key})	החל נקודת היעלמות ({key})
@@ -409,7 +409,7 @@ fontWeight	Black	שחור
 	Black & White…	שחור ולבן…
 	Black Clip	גזירת שחור
 	Black Intensity	עוצמת שחור
-	Black Matte	מסגרת שחורה
+	Black Matte	תצוגה על רקע שחור
 	Black Point Compensation	פיצוי נקודה שחורה
 	Black, White	שחור, לבן
 	Blackletter	בלאקלטר (Blackletter)
@@ -493,7 +493,7 @@ fontWeight	Bold	מודגש
 	Brush Preset picker	בוחר ערכת מברשת
 	Brush Preview	תצוגה מקדימה של מברשת
 	Brush preview color	צבע תצוגה מקדימה של מברשת
-	Brush Projection	הטלת מברשת
+	Brush Projection	הקרנת קצה המברשת
 	Brush Reconstruct Options	אפשרויות שחזור מברשת
 	Brush Settings	הגדרות מברשת
 	Brush Settings…  (F5): every option of this brush	הגדרות מברשת…  ‏(F5): כל אפשרות של מברשת זו
@@ -1590,7 +1590,7 @@ cameraData	F-Stop	צמצם (F-Stop)
 	Flip Y Jitter	ריצוד היפוך Y
 	Float All in Windows	צף הכול בחלונות
 	Float in Window	צף בחלון
-	Float Panel	צף פאנל
+	Float Panel	הצף את הפאנל
 	Floating point	נקודה צפה
 	Flow	זרימה
 	Flow Jitter	ריצוד זרימה
@@ -1661,9 +1661,9 @@ cameraData	Focal Length (35 mm)	אורך מוקד (35 מ"מ)
 	Gamma	גמא
 	Gamma Correction	תיקון גמא
 	Gamma:	גמא:
-	Gamut Warning	אזהרת טווח צבעים
-	Gamut warning color	צבע אזהרת טווח צבעים
-	Gamut warning opacity	אטימות אזהרת טווח צבעים
+	Gamut Warning	אזהרת חריגה מטווח הצבעים
+	Gamut warning color	צבע אזהרת חריגה מטווח הצבעים
+	Gamut warning opacity	אטימות אזהרת חריגה מטווח הצבעים
 	Gap	רווח
 	Gaussian	גאוסית
 	Gaussian Blur	טשטוש גאוסי
@@ -2355,7 +2355,7 @@ cameraRaw	Masking	מיסוך
 	Match Location	התאם מיקום
 	Match Rotation	התאם סיבוב
 	Match Zoom	התאם מידת תקריב
-	Matte	מסגרת (Matte)
+	Matte	צבע רקע לשקיפות (Matte)
 	Matting	מיסוך קצוות
 	Max Offset	היסט מקסימלי
 	Max Radius	רדיוס מקסימלי
@@ -3157,22 +3157,22 @@ fontWeight	Regular	רגיל
 	Remember to turn off the printer's own colour management in Print Settings…	זכור לכבות את ניהול הצבע של המדפסת עצמה בהגדרות הדפסה…
 	Remember workspace changes	זכור שינויי סביבת עבודה
 	Remove	הסר
-	Remove after each stroke	הסר אחרי כל משיכה
+	Remove after each stroke	בצע הסרה לאחר כל משיכת מברשת
 	Remove All	הסר הכול
 	Remove All Pins	הסר את כל הסיכות
 	Remove Background	הסר רקע
-	Remove Black Matte	הסר מסגרת שחורה
+	Remove Black Matte	הסר השפעת רקע שחור משולי השכבה
 	Remove from Favorites	הסר מהמועדפים
 	Remove from favorites	הסר מהמועדפים
 	Remove from Recent	הסר מהרשימה האחרונה
-	Remove Jpeg Artifact	הסר ארטיפקט JPEG
+	Remove Jpeg Artifact	הסר פגמי דחיסת JPEG
 	Remove pair	הסר זוג
 	Remove Planes	הסר מישורים
 	Remove stop	הסר נקודת עצירה
-	Remove Tool	הסר כלי
+	Remove Tool	כלי להסרת אובייקטים
 	Remove variable	הסר משתנה
 	Remove Warp Split	הסר פיצול עיוות
-	Remove White Matte	הסר מסגרת לבנה
+	Remove White Matte	הסר השפעת רקע לבן משולי השכבה
 	Remove {name} from Recent	הסר את {name} מהרשימה האחרונה
 	Rename	שנה שם
 	Rename Brush	שנה שם מברשת
@@ -3210,7 +3210,7 @@ fontWeight	Regular	רגיל
 	Report a Bug	דווח על באג
 	Report an Issue	דווח על תקלה
 	Report an Issue…	דווח על תקלה…
-	Resample	שינוי דגימה מחדש (Resample)
+	Resample	דגימה מחדש
 	Reselect	בחר מחדש
 	Reset	אפס
 	Reset Alignment	אפס יישור
@@ -3296,7 +3296,7 @@ fontWeight	Regular	רגיל
 	Rotate 90° Counter Clockwise	סובב 90° נגד כיוון השעון
 	Rotate Auto	סיבוב אוטומטי
 	Rotate Fixed	סיבוב קבוע
-	Rotate View	סבב תצוגה
+	Rotate View	סובב את התצוגה
 	Rotate View Tool	כלי סיבוב תצוגה
 	Rotate view with trackpad	סובב תצוגה עם משטח מגע
 	Rotate:	סיבוב:
@@ -4270,7 +4270,7 @@ cameraRaw	Vibrance	תוססות
 	White Clip	גזירת לבן
 	White Intensity	עוצמת לבן
 	White Is High	לבן הוא גבוה
-	White Matte	מסגרת לבנה
+	White Matte	תצוגה על רקע לבן
 	Whites	לבנים
 cameraRaw	Whites	לבנים
 	Whole Word	מילה שלמה
