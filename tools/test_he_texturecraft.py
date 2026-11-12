@@ -16,9 +16,9 @@ class HebrewTextureCraftTests(unittest.TestCase):
         cls.common, cls.common_errors=sync_app.parse((ROOT/'locales/he/common.tsv').read_text('utf-8'))
         cls.source, cls.source_errors=sync_app.parse((ROOT/'locales/ar/texturecraft.tsv').read_text('utf-8'))
 
-    def test_hebrew_app_catalog_has_337_distinct_source_rows(self):
+    def test_hebrew_app_catalog_has_527_distinct_source_rows(self):
         self.assertFalse(self.parse_errors)
-        self.assertEqual(len(self.app),337)
+        self.assertEqual(len(self.app),527)
         self.assertTrue(all(c=='' for c,s in self.app))
         self.assertTrue(all(s and v for (c,s),v in self.app.items()))
 
@@ -73,7 +73,7 @@ class HebrewTextureCraftTests(unittest.TestCase):
         for english,hebrew in samples.items():
             self.assertEqual(locale[('',english)],hebrew,english)
             self.assertIsNone(sync_app.text_problem('',english,hebrew))
-        self.assertEqual(len(self.app),337)
+        self.assertEqual(len(self.app),527)
 
 
     def test_round3_save_open_prompts_and_paths(self):
@@ -208,6 +208,87 @@ class HebrewTextureCraftTests(unittest.TestCase):
             'Save the changes to {name} first?':'האם לשמור תחילה את השינויים ב־{name}?',
             'Texture Set Settings':'הגדרות ערכת טקסטורות',
             '{n} items share a shortcut; the first one listed wins.':'ל־{n} פריטים אותו קיצור; הפריט הראשון ברשימה יקבל עדיפות.',
+        })
+
+
+    def test_round5_layer_editing(self):
+        self._assert_round4_cases({
+            "1 effect": "אפקט אחד",
+            "Add an anchor point to a layer below to use its stack as a mask.": "הוסף נקודת עיגון לשכבה שמתחת כדי להשתמש במערך השכבות שלה כמסכה.",
+            "Anchor: {name}": "עיגון: {name}",
+            "Anchor: {name} ({channel})": "עיגון: {name} ({channel})",
+            "Double-click or press Enter to edit": "לחץ פעמיים או הקש Enter לעריכה",
+            "Editing quick mask: paint where painting is allowed (U to finish)": "עריכת מסכה מהירה: צבע היכן שהצביעה מותרת (U לסיום)",
+            "Folders": "תיקיות",
+            "Invert mask value": "הפוך את ערך המסכה",
+            "Mask effects": "אפקטים של המסכה",
+            "Paint on the mesh to edit this mask. Use the Material tab's mask value for gray.": "צבע על הרשת כדי לערוך את המסכה. השתמש בערך המסכה בלשונית החומר עבור אפור.",
+            "Layer memory: {mb} MB": "זיכרון שכבה: {mb} MB",
+        })
+
+    def test_round5_painting_effects(self):
+        self._assert_round4_cases({
+            "Accent color": "צבע הדגשה",
+            "Brightness": "בהירות",
+            "Curvature": "עקמומיות",
+            "Difference": "הפרש",
+            "Emissive": "פליטת אור",
+            "Hardness": "קשיחות",
+            "Levels": "רמות",
+            "Position gradient": "מעבר צבע לפי מיקום",
+            "Spray": "ריסוס",
+            "Size jitter": "שונות בגודל",
+        })
+
+    def test_round5_mesh_baking(self):
+        self._assert_round4_cases({
+            "Bake an ID map (F8) to pick colors from the mesh.": "אפה מפת מזהים (F8) כדי לדגום צבעים מהרשת.",
+            "Baking {map} ({n}/{total}), texture set {set} of {sets}": "אופה את {map} ({n}/{total}), ערכת טקסטורות {set} מתוך {sets}",
+            "Cage Type": "סוג כלוב",
+            "Dilation Width": "רוחב הרחבה",
+            "Input high": "גבול קלט עליון",
+            "Mesh Normals Based": "מבוסס על נורמלים של הרשת",
+            "Normal Invert": "היפוך נורמל",
+            "Output Size": "גודל פלט",
+            "Samples": "דגימות",
+            "World Space Normal": "נורמל במרחב העולם",
+            "Baking {map} ({n}/{total})": "אופה את {map} ({n}/{total})",
+            "Cage: {name}": "כלוב: {name}",
+            "High poly: {name}": "רשת עתירת מצולעים: {name}",
+            "UV tile {tile} resolution": "רזולוציית אריח UV {tile}",
+        })
+
+    def test_round5_file_and_environment(self):
+        self._assert_round4_cases({
+            "Check All": "סמן הכול",
+            "Copy RGB values": "העתק ערכי RGB",
+            "Download as": "הורדה בתור",
+            "Environments": "סביבות",
+            "Keyboard": "מקלדת",
+            "no GPU": "אין GPU",
+            "Press a key...": "הקש על מקש...",
+            "Search commands or keys": "חיפוש פקודות או קיצורי מקלדת",
+            "TextureCraft project": "פרויקט TextureCraft",
+            "Version: {version} ({gpu})": "גרסה: {version} ({gpu})",
+            "Downloaded {name}": "הורד {name}",
+            "Environment: {name}": "סביבה: {name}",
+            "Loaded UI layout {path}": "פריסת הממשק נטענה מ־{path}",
+            "UI layout: {error}": "פריסת הממשק: {error}",
+        })
+
+    def test_round5_render_status_and_errors(self):
+        self._assert_round4_cases({
+            "Done on CPU: {n} / {max} samples, {s} s": "הושלם במעבד: {n} מתוך {max} דגימות, {s} שניות",
+            "Follow Newest Map": "עקוב אחר המפה החדשה ביותר",
+            "Lens size: how quickly things blur away from the focus distance": "גודל העדשה: קצב הטשטוש עם ההתרחקות ממרחק המיקוד",
+            "Light / direction": "אור / כיוון",
+            "Overlay": "שכבת־על",
+            "Path trace on the processor instead of the graphics card (slower)": "עקיבת נתיבים במעבד במקום בכרטיס הגרפי (איטית יותר)",
+            "Rendering (path traced)": "רינדור (עקיבת נתיבים)",
+            "Show or hide the texture set": "הצג או הסתר את ערכת הטקסטורות",
+            "The file dialog couldn't be shown: {error}": "לא ניתן להציג את חלונית הקבצים: {error}",
+            "Texture sets": "ערכות טקסטורות",
+            "Done on GPU: {n} / {max} samples, {s} s": "הושלם במעבד הגרפי: {n} מתוך {max} דגימות, {s} שניות",
         })
 
 if __name__=='__main__':

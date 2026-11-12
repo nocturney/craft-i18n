@@ -374,3 +374,24 @@ Translations were AI-assisted and independently drafted from English meaning
 without copying any other product's translation catalog. No additional
 native-speaker proofreading, native Hebrew GUI/RTL run, app pin update,
 installed binary, maintainer acceptance or release is claimed.
+
+## TextureCraft: fifth Hebrew quick-wins contribution (12 November 2026)
+
+VelvetOS ArtCraft Hebrew Localization authored an additional 190 Hebrew user-interface
+translations for currently present TextureCraft Rust source strings, taking the
+app-specific `locales/he/texturecraft.tsv` catalog from 337 to 527 distinct rows.
+The work covers five practical areas: layer and mask editing (33), painting,
+colors and effects (42), mesh baking and normals (42), file/setup/preferences
+(43), and rendering/status feedback (30). Every new source key was checked
+against the migrated TextureCraft catalog and the original application Rust
+source at `42c8ea5b3c3a4cabdda03f535355cd61ac756479`. One unused migrated
+catalog label was excluded rather than counted; a stray BiDi mark in the draft
+was removed. Previously delivered 337 values, including nine early curated
+Hebrew strings, are preserved unchanged. The focused source-linked regression
+suite was extended by five cases, from 15 to 20 tests.
+
+This is AI-assisted, clean-room translation authored from original English
+meaning without copying translation catalogs of other products. A native
+Hebrew speaker has not independently proofread these new strings; no native
+TextureCraft GUI, locale-picker integration, compiled/installed release,
+Hebrew RTL visual QA, maintainer merge or release is claimed.
