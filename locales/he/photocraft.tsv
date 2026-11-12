@@ -16,7 +16,7 @@
 	(No neutral color exists for {mode} mode.)	(אין צבע נייטרלי למצב {mode}.)
 	(print to the printer)	(הדפסה למדפסת)
 	+ Add variable	+ הוסף משתנה
-	0 turns this threshold off; SVG groups nested deeper than 100 levels are always rasterized.	0 מכבה את הסף הזה; קבוצות SVG מקוננות עמוק מ-100 רמות מרוסטרות תמיד.
+	0 turns this threshold off; SVG groups nested deeper than 100 levels are always rasterized.	הערך 0 משבית סף זה; קבוצות SVG המקוננות בעומק העולה על 100 רמות מומרות תמיד לרסטר.
 	10 fps	10 fps
 	100%	100%
 	101 by 101 Average	ממוצע 101 על 101
@@ -33,8 +33,8 @@
 	16 Bits/Channel	16 סיביות/ערוץ
 	175%	175%
 	180°	180°
-	2-up Horizontal	שתי תמונות אופקית
-	2-up Vertical	שתי תמונות אנכית
+	2-up Horizontal	שתי תצוגות בפריסה אופקית
+	2-up Vertical	שתי תצוגות בפריסה אנכית
 	200%	200%
 	24 bits/pixel	24 סיביות/פיקסל
 	24 fps	24 fps
@@ -42,9 +42,9 @@
 	250%	250%
 	3 by 3 Average	ממוצע 3 על 3
 	3 x 3	3 x 3
-	3-up Horizontal	שלוש תמונות אופקית
+	3-up Horizontal	שלוש תצוגות בפריסה אופקית
 	3-up Stacked	שלוש תמונות בערימה
-	3-up Vertical	שלוש תמונות אנכית
+	3-up Vertical	שלוש תצוגות בפריסה אנכית
 	30 fps	30 fps
 	30 frames @ 30 fps	30 פריימים ב-30 fps
 	300%	300%
@@ -174,8 +174,8 @@
 	AI Integrations…	שילובי בינה מלאכותית…
 	Airbrush: keeps depositing paint while the pointer rests.	אירוגרף: ממשיך להפקיד צבע כל עוד המצביע נשאר במקום.
 	Airbrush: keeps painting while the pointer rests.	אירוגרף: ממשיך לצבוע כל עוד המצביע נשאר במקום.
-	Align and Distribute	יישור וחלוקה
-	Align and distribute	יישור וחלוקה
+	Align and Distribute	יישור ופיזור
+	Align and distribute	יישור ופיזור
 	Align horizontal centers	יישר מרכזים אופקיים
 	Align left edges	יישר קצוות שמאליים
 	Align right edges	יישר קצוות ימניים
@@ -821,7 +821,7 @@ cameraRaw	Color Grading	דירוג צבע
 	Contact Sheet II…	גיליון מגע II…
 	Content-Aware	מודע לתוכן
 	Content-Aware Fill	מילוי מודע לתוכן
-	Content-aware fill	מילוי לפי תוכן
+	Content-aware fill	מילוי מודע לתוכן
 	Content-Aware Fill needs a selection on a pixel layer	מילוי מודע לתוכן דורש בחירה בשכבת פיקסלים
 	Content-Aware Fill…	מילוי מודע לתוכן…
 	Content-Aware Move	הזזה מודעת לתוכן
@@ -1217,7 +1217,7 @@ cameraData	Date Taken	תאריך צילום
 	Distance	מרחק
 	Distort	עיוות
 	Distortion	עיוות
-	Distribute	חלוקה
+	Distribute	פיזור
 	Distribution	התפלגות
 	Dither	דיתור (Dither)
 	Divide	חלוקה
@@ -1683,7 +1683,7 @@ cameraData	Focal Length (35 mm)	אורך מוקד (35 מ"מ)
 cameraRaw	Global	גלובלי
 	Global Light	אור גלובלי
 	Global Light…	אור גלובלי…
-	Global Refinements	חידודים גלובליים
+	Global Refinements	שיפורים כלליים
 	Gloss	ברק
 	Gloss Contour	קו מתאר ברק
 	Glossy	מבריק
@@ -3077,7 +3077,7 @@ cameraRaw	Purple	סגול
 	Rasterize Layers	המר שכבות לרסטר
 	Rasterize Shape	המר צורה לרסטר
 	Rasterize Smart Object	המר אובייקט חכם לרסטר
-	Rasterize svg groups deeper than	רסטר קבוצות SVG עמוקות יותר מ
+	Rasterize svg groups deeper than	המר לרסטר קבוצות SVG בעומק העולה על
 	Rasterize Type	המר טקסט לרסטר
 	Rasterize Type Layer	המר שכבת טקסט לרסטר
 	Rate	קצב
@@ -3096,7 +3096,7 @@ cameraRaw	Purple	סגול
 	Reading	קורא
 	Reading…	קורא…
 	Ready	מוכן
-	Real-Time Refinement	חידוד בזמן אמת
+	Real-Time Refinement	שיפור בזמן אמת
 	Recent file count	מספר קבצים אחרונים
 	Recent Files	קבצים אחרונים
 	Recent files	קבצים אחרונים
@@ -3459,7 +3459,7 @@ cameraRaw	Roughness	גסות
 	Select Linked Layers	בחר שכבות מקושרות
 	Select Plane	בחר מישור
 	Select Similar Colors	בחר צבעים דומים
-	Select Subject	בחר נושא
+	Select Subject	בחר את נושא התמונה
 	Select text to apply a character style	בחר טקסט כדי להחיל סגנון תווים
 	Select the crop presets to delete	בחר את ערכות החיתוך למחיקה
 	Select the crop presets to delete:	בחר את ערכות החיתוך למחיקה:
@@ -3950,7 +3950,7 @@ cameraRaw	Temperature	טמפרטורה
 	The fastest and the softest, with colour fringing on fine detail.	המהירה והרכה ביותר, עם גזירת צבע בפרטים דקים.
 	The file could not be opened.	לא ניתן היה לפתוח את הקובץ.
 	The file could not be saved.	לא ניתן היה לשמור את הקובץ.
-	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	שכבת המילוי הזו חייבת להיות מרוסטרת לפני ההמשך. תוכן המילוי שלה לא יהיה עוד עריך. לרסטר את השכבה?
+	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	כדי להמשיך יש להמיר את תוכן המילוי של השכבה לרסטר. לאחר מכן לא ניתן יהיה לערוך אותו כמילוי. להמיר את המילוי לרסטר?
 	The frame is locked	המסגרת נעולה
 	The frame is unavailable	המסגרת אינה זמינה
 	The GPU compositor is still being prepared	מרכיב ה-GPU עדיין בהכנה
@@ -3975,13 +3975,13 @@ fontWeight	Thin	דק
 	This adjustment ({key}) is kept as imported and can't be edited yet.	התאמה זו ({key}) נשמרת כמיובאת ולא ניתן עדיין לערוך אותה.
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	שכבות המסמך הזה צריכות {needed} אבל עשויות להכיל {budget}: ציור מחדש של כל המסמך משתמש ב-CPU
 	This document's layers: {needed} of {budget} for layers	שכבות המסמך הזה: {needed} מתוך {budget} לשכבות
-	This layer must be rasterized before proceeding.	השכבה הזו חייבת להיות מרוסטרת לפני ההמשך.
+	This layer must be rasterized before proceeding.	כדי להמשיך יש להמיר את השכבה לרסטר.
 	This Layer:	שכבה זו:
 	This redraw took {seconds} s on the CPU.	הציור מחדש הזה לקח {seconds} שניות על ה-CPU.
 	This session: {reason}	הפעלה זו: {reason}
-	This shape layer must be rasterized before proceeding. It will no longer be editable as a shape. Rasterize the shape?	שכבת הצורה הזו חייבת להיות מרוסטרת לפני ההמשך. היא לא תהיה עוד עריכה כצורה. לרסטר את הצורה?
-	This smart object must be rasterized before proceeding. Edit Contents will no longer be available. Rasterize the smart object?	האובייקט החכם הזה חייב להיות מרוסטר לפני ההמשך. התוכן שלו לא יהיה עוד עריך. לרסטר את האובייקט החכם?
-	This type layer must be rasterized before proceeding. Its text will no longer be editable. Rasterize the type?	שכבת הטקסט הזו חייבת להיות מרוסטרת לפני ההמשך. הטקסט שלה לא יהיה עוד עריך. לרסטר את הטקסט?
+	This shape layer must be rasterized before proceeding. It will no longer be editable as a shape. Rasterize the shape?	כדי להמשיך יש להמיר את שכבת הצורה לרסטר. לאחר מכן לא ניתן יהיה לערוך אותה כצורה. להמיר את הצורה לרסטר?
+	This smart object must be rasterized before proceeding. Edit Contents will no longer be available. Rasterize the smart object?	כדי להמשיך יש להמיר את האובייקט החכם לרסטר. לאחר מכן הפקודה עריכת תוכן לא תהיה זמינה. להמיר את האובייקט החכם לרסטר?
+	This type layer must be rasterized before proceeding. Its text will no longer be editable. Rasterize the type?	כדי להמשיך יש להמיר את שכבת הטקסט לרסטר. לאחר מכן לא ניתן יהיה לערוך את הטקסט. להמיר את הטקסט לרסטר?
 	Threshold	סף
 	Threshold Level	רמת סף
 	Threshold…	סף…
