@@ -420,7 +420,7 @@ cameraRaw	Blacks	שחורים
 	Blast	התפוצצות
 	Bleach Bypass	דילוג הלבנה (Bleach Bypass)
 	Blend	מיזוג
-	Blend Clipped Layers as Group	מזג שכבות גזורות כקבוצה
+	Blend Clipped Layers as Group	מזג שכבות עם מסכת גזירה כקבוצה
 	Blend If	מיזוג אם (Blend If)
 	Blend If:	מיזוג אם:
 	Blend Interior Effects as Group	מזג אפקטים פנימיים כקבוצה
@@ -659,7 +659,7 @@ fontWeight	Bold	מודגש
 	Click to fill similar colours	לחץ כדי למלא צבעים דומים
 	Click to pick · Esc to cancel	לחץ לבחירה · Esc לביטול
 	Click to place · Alt-click or drag off-canvas to remove	לחץ להצבה · Alt-לחיצה או גרירה מחוץ לקנבס להסרה
-	Click to refresh histogram with uncached data	לחץ לרענון ההיסטוגרמה עם נתונים לא ממוטמנים
+	Click to refresh histogram with uncached data	לחץ כדי לרענן את ההיסטוגרמה ללא שימוש בנתוני מטמון
 	Click to restore the current colour	לחץ לשחזור הצבע הנוכחי
 	Click to sample the foreground colour  ·  {key}-click for background	לחץ כדי לדגום את צבע החזית  ·  {key}-לחיצה לרקע
 	Click to zoom in  ·  {key}-click to zoom out  ·  drag right/left to zoom in/out	לחץ להגדלה  ·  {key}-לחיצה להקטנה  ·  גרור ימינה/שמאלה להגדלה/הקטנה
@@ -1212,8 +1212,8 @@ cameraData	Date Taken	תאריך צילום
 	Display Text	הצג טקסט
 	Display-p3	Display P3
 	Displays pop-up help for the fill methods	מציג עזרה קופצת על שיטות המילוי
-	Dissolve	פירוק (Dissolve)
-	Dissolve is approximated: it blends without Photoshop's dither.	פירוק (Dissolve) מקורב: הוא ממזג בלי הדיתור של Photoshop.
+	Dissolve	התמוססות (Dissolve)
+	Dissolve is approximated: it blends without Photoshop's dither.	מצב התמוססות (Dissolve) מחושב בקירוב: המיזוג אינו כולל את הדיתור של Photoshop.
 	Distance	מרחק
 	Distort	עיוות
 	Distortion	עיוות
@@ -1330,7 +1330,7 @@ cameraData	Date Taken	תאריך צילום
 	Edit Type	ערוך טקסט
 	Edit › Keyboard Shortcuts › Reset All to Defaults undoes an import.	עריכה › קיצורי מקלדת › אפס הכול לברירת המחדל מבטל ייבוא.
 	Edit › Paste	עריכה › הדבק
-@id	edit.purge.undo	בטל (Purge)
+@id	edit.purge.undo	מחיקת מצבי ביטול במסמך הפעיל
 @id	edit.transform.scale	קנה מידה
 	Edits	עריכות
 	Edits that change the whole document, such as a layer's blend mode, opacity or visibility, redraw all of it.	עריכות שמשנות את כל המסמך, כגון מצב המיזוג, האטימות או מצב התצוגה של שכבה, מציירות אותו מחדש במלואו.
@@ -1806,7 +1806,7 @@ cameraRaw	Green	ירוק
 	Hanging Punctuation	פיסוק תלוי
 	Hard	קשה
 	Hard Light	אור קשה
-	Hard Mix	מיקס קשה (Hard Mix)
+	Hard Mix	מיזוג קשיח (Hard Mix)
 	Hardness	קשיחות
 	Hardness:	קשיחות:
 	HDR Toning	גוון HDR
@@ -1850,7 +1850,7 @@ cameraRaw	Green	ירוק
 	Highlight	הדגשה
 	Highlight Amount	מידת הדגשה
 	Highlight Area	אזור הדגשה
-	Highlight Clipping Warning (O)	אזהרת גזירת הדגשות (O)
+	Highlight Clipping Warning (O)	אזהרה על אובדן פרטים באזורים בהירים (O)
 	Highlight Color	צבע הדגשה
 	Highlight Compression	דחיסת הדגשות
 	Highlight Mode	מצב הדגשה
@@ -1863,7 +1863,7 @@ cameraRaw	Green	ירוק
 	Highlights from:	הדגשות מ:
 	Hirakawa–Parks: the cleanest edges and the least colour fringing, the slowest.	Hirakawa–Parks: הקצוות הנקיים ביותר והכי פחות גזירת צבע, האיטי ביותר.
 	Histogram	היסטוגרמה
-	Histories	היסטוריות
+	Histories	היסטוריות העריכה
 	History	היסטוריה
 	History Brush	מברשת היסטוריה
 	History Brush Tool	כלי מברשת היסטוריה
@@ -2283,7 +2283,7 @@ cameraRaw	Lights	בהירים
 	Lossless	ללא אובדן
 	Low	נמוך
 	Low resolution previews	תצוגות מקדימות ברזולוציה נמוכה
-	Low-Latency Drawing (vsync off, applies at next launch)	ציור בחיוג נמוך (vsync כבוי, חל בהפעלה הבאה)
+	Low-Latency Drawing (vsync off, applies at next launch)	ציור בהשהיה נמוכה (VSync כבוי; יחול בהפעלה הבאה)
 	Lower	תחתון
 	Lowercase extension	סיומת באותיות קטנות
 	Lum	בהירות אור
@@ -2390,7 +2390,7 @@ fontWeight	Medium	בינוני
 	Merge Spot Channel	מזג ערוץ ספוט
 	Merge to HDR Pro	מיזוג ל-HDR Pro
 	Merge to HDR Pro…	מיזוג ל-HDR Pro…
-	Merge Visible	מזג גלויות
+	Merge Visible	מזג שכבות גלויות
 	Merged Layers	שכבות ממוזגות
 	Merged PRs	בקשות מיזוג ממוזגות (PRs)
 	Mesh	רשת (Mesh)
@@ -2776,7 +2776,7 @@ cameraRaw	Orange	כתום
 	Paragraph Styles	סגנונות פסקה
 	Paragraph Styles Panel	פאנל סגנונות פסקה
 	Parallel	מקביל
-	Pass Through	מעבר (Pass Through)
+	Pass Through	מעבר דרך (Pass Through)
 	Paste	הדבק
 	Paste Complete Stroke	הדבק קו מתאר מלא
 	Paste Fill	הדבק מילוי
@@ -3545,7 +3545,7 @@ fontWeight	SemiBold	מודגש-חלקי
 	Settings from {name}; {count} not supported: {names}	הגדרות מתוך {name}; {count} לא נתמכות: {names}
 	Settings:	הגדרות:
 	Shadow Amount	מידת צל
-	Shadow Clipping Warning (U)	אזהרת גזירת צללים (U)
+	Shadow Clipping Warning (U)	אזהרה על אובדן פרטים באזורים כהים (U)
 	Shadow Color	צבע צל
 	Shadow Intensity	עוצמת צל
 	Shadow Mode	מצב צל
@@ -4096,7 +4096,7 @@ cameraRaw	Tint	טינט
 	Ultra Light	קלוש ביותר
 	Unaltered	לא משתנה
 	Unavailable in this color mode	לא זמין במצב צבע זה
-	Uncached Refresh	רענון לא ממוטמן
+	Uncached Refresh	רענון ללא מטמון
 	Uncoated CMYK	CMYK לא מצופה
 	Undefined Areas	אזורים לא מוגדרים
 	Underline	קו תחתי
@@ -4225,7 +4225,7 @@ cameraRaw	Vibrance	תוססות
 	Violet, Orange	סגול, כתום
 	Visibility	מצב תצוגה
 	Visible	גלוי
-	Vivid Light	אור חזק (Vivid)
+	Vivid Light	אור עז (Vivid Light)
 	Vulkan	Vulkan
 	W	W
 	W x H x Resolution	W x H x רזולוציה
