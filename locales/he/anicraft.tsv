@@ -723,6 +723,37 @@
 	Text field	שדה טקסט
 	Layer name	שם שכבה
 	Stroke	קו מתאר
+# Round 3: original Hebrew translations of current AniCraft Brush, Publish, New Document labels.
+	Pressure	לחץ העט
+	Pen pressure varies the size, from 10 % to the full size	לחץ העט משנה את גודל המברשת, מ־10% ועד לגודל המלא
+	Opacity	אטימות
+	Pen pressure sets the stroke's opacity (its average over the stroke)	לחץ העט קובע את אטימות הקו (בממוצע לאורך הקו)
+	Curve	עקומה
+	A light touch already paints wide	גם מגע קל מצייר קו רחב
+	It takes a firm press to paint wide	נדרש לחץ חזק כדי לצייר קו רחב
+	Pressure as the pen measures it	לחץ העט כפי שהוא נמדד בפועל
+	Speed as pressure	מהירות במקום לחץ עט
+	Without a pen: drawing faster makes the stroke thinner, as a pen pressed lightly would. Pen tilt is not read yet	ללא עט דיגיטלי, ציור מהיר יותר יוצר קו דק יותר, בדומה ללחץ עט חלש. הטיית העט עדיין אינה נקלטת.
+	Taper	היצרות הקו
+	Taper at the start	היצרות בתחילת הקו
+	Taper at the end	היצרות בסוף הקו
+	Dabs	טביעות מברשת
+	Stamp the tip as separate dabs along the stroke	החתמת קצה המברשת כטביעות נפרדות לאורך הקו
+	Dab spacing	ריווח טביעות המברשת
+	Files go to your downloads (several as one ZIP).	הקבצים יישמרו בתיקיית ההורדות (כמה קבצים יאוגדו לקובץ ZIP אחד).
+	Files go beside the document, in {folder}	הקבצים יישמרו לצד המסמך, בתיקייה {folder}
+	Save the document first: files go beside it.	יש לשמור תחילה את המסמך; קובצי הפרסום יישמרו לצדו.
+	Publish	פרסום
+	The movie has no sounds yet, so Publish skips the audio.	האנימציה עדיין אינה כוללת צלילים, ולכן הפרסום ידלג על השמע.
+	The output is a folder; the frames in it are frame_00001.png and on.	הפלט הוא תיקייה שבה קובצי הפריימים נקראים frame_00001.png וכן הלאה.
+	The movie's sounds play in the page	צלילי האנימציה יושמעו בדף האינטרנט
+	Published	פורסם
+	Skipped	דולג
+	Failed	נכשל
+	HD video	וידאו HD
+	Full HD video	וידאו Full HD
+	Square post	פוסט ריבועי
+	Vertical story	סטורי אנכי
 @plural	+{n} more|+{n} more	+{n} נוסף|+{n} נוספים|+{n} נוספים
 @plural	An action can have up to {n} key.|An action can have up to {n} keys.	לפעולה יכול להיות עד {n} מקש.|לפעולה יכולים להיות עד {n} מקשים.|לפעולה יכולים להיות עד {n} מקשים.
 @plural	AniCraft didn't close properly last time. This document had changes that weren't saved:|AniCraft didn't close properly last time. These documents had changes that weren't saved:	AniCraft לא נסגר כראוי בפעם הקודמת. במסמך הזה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:
