@@ -32,7 +32,7 @@
 	Add event	הוספת אירוע
 	Add filter	הוספת מסנן
 	Add to / remove from selection	הוספה לבחירה / הסרה ממנה
-	Adds it at the stage centre	מוסיף אותו במרכז הבמה
+	Adds it at the centre of the view, on the active layer (Enter, or drag it onto the stage)	מוסיף אותו במרכז התצוגה, בשכבה הפעילה (Enter או גרירה אל הבמה)
 	After colour	צבע 'אחרי'
 	Align centre	יישור למרכז
 	Align to Stage On / Off	יישור לבמה: הפעלה / כיבוי
@@ -329,7 +329,7 @@
 	Property ease	האצה והאטה של מאפיין
 	Property keyframe	פריים מפתח של מאפיין
 	Put every shortcut back to the defaults	החזרת כל קיצורי המקשים לברירת המחדל
-	Puts it on the active layer's keyframe at the playhead (or double-click its icon)	מציב אותו בפריים המפתח של השכבה הפעילה בראש ההפעלה (או לחיצה כפולה על הסמל שלו)
+	Puts it on the active layer's keyframe at the playhead (Enter, or drag it onto the stage)	מציב אותו בפריים המפתח של השכבה הפעילה בראש ההפעלה (Enter או גרירה אל הבמה)
 	Reading the sound…	קורא את הצליל…
 	Recover unsaved work	שחזור עבודה שלא נשמרה
 	Remove Bone	הסרת עצם
