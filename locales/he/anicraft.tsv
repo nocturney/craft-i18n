@@ -785,6 +785,37 @@
 	How much of the stroke swells from a point at its start	מידת ההתרחבות של הקו מנקודה צרה בתחילתו
 	How much of the stroke thins to a point at its end	מידת ההיצרות של הקו עד לנקודה בקצהו
 	The distance between dabs, as a part of the size	המרחק בין טביעות המברשת, ביחס לגודל המברשת.
+# Round 5: verified Hebrew for Find and Replace, Library, Dialogs, Brush Library.
+	{place} › {layer}, frame {frame}	{place} › שכבה {layer}, פריים {frame}
+	{place} › {layer}	{place} › שכבה {layer}
+	$1 puts back a group	הסימון $1 משחזר קבוצת לכידה
+	in	בתוך
+	{what}, {field}, {place}	{what}, בשדה {field}, במיקום {place}
+	{kind} · {frames}	סוג: {kind} · {frames}
+	Previewing through the camera: artwork edits are paused. Turn off View › Preview Through Camera to edit.	בתצוגה מקדימה דרך המצלמה, עריכת הגרפיקה מושהית. כדי לערוך, בטלו את ״תצוגה › תצוגה מקדימה דרך המצלמה״.
+	Put on {layer} at frame {frame}	הוספה לשכבה {layer} בפריים {frame}
+	Place on {layer}	הצבה בשכבה {layer}
+	More	אפשרויות נוספות
+	At the centre of the view, on the active layer (Enter; or drag onto the stage)	במרכז התצוגה, בשכבה הפעילה (Enter או גרירה אל הבמה)
+	Mono	מונו
+	No sound: {error}	לא ניתן להשמיע שמע: {error}
+	Tool	כלי
+	Plug-ins	תוספים
+	User Guide	מדריך למשתמש
+	NOTICE	הודעה
+	Quit	יציאה
+	Edit	עריכה
+	Modify	שינוי
+	Delete…	מחיקה…
+	Export…	ייצוא…
+	Brush	מברשת
+	Brush preset	מברשת מוגדרת מראש
+	Library…	ספרייה…
+	Window › Brush Library: every brush with a preview, and your own	חלון › ספריית מברשות: כל המברשות עם תצוגה מקדימה, כולל המברשות האישיות
+	Mouse	עכבר
+	Rough edge	קצה מחוספס
+	Wears the edge in by up to this part of the size, like chalk. The same every time	שחיקה של שולי הקו בשיעור זה מתוך גודל המברשת, כמו בגיר. התוצאה זהה בכל שימוש
+	Pressure curve	עקומת לחץ
 @plural	+{n} more|+{n} more	+{n} נוסף|+{n} נוספים|+{n} נוספים
 @plural	An action can have up to {n} key.|An action can have up to {n} keys.	לפעולה יכול להיות עד {n} מקש.|לפעולה יכולים להיות עד {n} מקשים.|לפעולה יכולים להיות עד {n} מקשים.
 @plural	AniCraft didn't close properly last time. This document had changes that weren't saved:|AniCraft didn't close properly last time. These documents had changes that weren't saved:	AniCraft לא נסגר כראוי בפעם הקודמת. במסמך הזה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:
