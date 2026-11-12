@@ -19,7 +19,10 @@
 	30 seconds	30 שניות
 	5 minutes	5 דקות
 	A list of actions, in order	רשימת פעולות לפי הסדר
+	A short animation to look at and take apart	אנימציה קצרה לצפייה ולחקירת מרכיביה
 	ANICRAFT_STAGE_RENDERER is set, and it takes precedence over this choice.	משתנה הסביבה ANICRAFT_STAGE_RENDERER מוגדר, והוא גובר על בחירה זו.
+	About AniCraft	אודות AniCraft
+	Actions	פעולות
 	Actions Panel	חלונית הפעולות
 	Actual size (100%)	גודל אמיתי (100%)
 	Add a shortcut	הוספת קיצור מקשים
@@ -40,6 +43,7 @@
 	Also morphs one shape into another	גם הופך צורה אחת לאחרת
 	Always Show Markers	הצגת סמנים תמיד
 	Always render off the UI thread. The window never waits; the picture can trail by a frame.	תמיד לרנדר מחוץ לתהליכון הממשק. החלון אף פעם לא ממתין; התמונה עלולה לפגר בפריים אחד.
+	An AniCraft document, or an Animate .fla or .xfl	מסמך AniCraft או קובץ Animate בפורמט .fla או .xfl
 	An entry point of a frame-script plug-in (WebAssembly)	נקודת כניסה של תוסף סקריפט פריים (WebAssembly)
 	Anchor Markers	עיגון סמנים
 	AniCraft is free software: MIT OR Apache-2.0, at your option.	AniCraft היא תוכנה חופשית: MIT OR Apache-2.0, לבחירתך.
@@ -48,14 +52,18 @@
 	Animate each property on its own curve	הנפשת כל מאפיין בעקומה משלו
 	Animate this span's object property by property (edit the curves in the Motion Editor)	הנפשת האובייקט של המקטע הזה מאפיין אחר מאפיין (עריכת העקומות בעורך התנועה)
 	Animated GIF	קובץ GIF מונפש
+	Appearance	מראה
 	Arrow keys	מקשי החצים
+	ArtCraft Launcher manages this app's version. Change its version there.	ArtCraft Launcher מנהל את גרסת התוכנה. יש לעדכן את הגרסה דרכו.
 	Ascending: click for descending	בסדר עולה: לחצו לסדר יורד
+	Autosave	שמירה אוטומטית
 	Autosave after this many changes	שמירה אוטומטית אחרי מספר שינויים זה
 	Autosave every	שמירה אוטומטית כל
 	Autosave failed: {error}. Save your work to be safe; AniCraft will keep trying.	השמירה האוטומטית נכשלה: {error}. ליתר ביטחון שמרו את העבודה; AniCraft ימשיך לנסות.
 	Autosave is off: this system has no settings folder	השמירה האוטומטית כבויה: אין במערכת זו תיקיית הגדרות
 	Autosave is off: {error}	השמירה האוטומטית כבויה: {error}
 	Back to the default ({keys})	חזרה לברירת המחדל ({keys})
+	Back to the document	חזרה למסמך
 	Back to the theme's colours	חזרה לצבעי ערכת הנושא
 	Before	לפני
 	Before colour	צבע 'לפני'
@@ -68,6 +76,7 @@
 	Bone angle	זווית עצם
 	Bone: {name}	עצם: {name}
 	Break Apart	פירוק
+	Brush Library	ספריית המברשות
 	Brush Size Down	הקטנת גודל המברשת
 	Brush Size Up	הגדלת גודל המברשת
 	Brush angle	זווית מברשת
@@ -84,9 +93,14 @@
 	Camera zoom	זום מצלמה
 	Cancelled	בוטל
 	Change…	שינוי…
+	Check again	בדיקה חוזרת
+	Check for Updates	בדיקת עדכונים
+	Check for Updates…	בדיקת עדכונים…
+	Checking for updates…	בודק עדכונים…
 	Class	מחלקה
 	Classic tween	מעבר ביניים קלאסי
 	Classic {strength}	קלאסי {strength}
+	Clear Recent Files	ניקוי רשימת הקבצים האחרונים
 	Click	לחיצה
 	Click a key to change it or + to add one; right-click a key to remove it. Changes save as you go.	לחצו על מקש כדי לשנות אותו או על + כדי להוסיף; לחיצה ימנית על מקש מסירה אותו. השינויים נשמרים תוך כדי.
 	Click to change · right-click to remove	לחיצה לשינוי · לחיצה ימנית להסרה
@@ -95,6 +109,7 @@
 	Collapse All Folders	צמצום כל התיקיות
 	Colour of the frames after the playhead	צבע הפריימים שאחרי ראש ההפעלה
 	Colour of the frames before the playhead	צבע הפריימים שלפני ראש ההפעלה
+	Command Palette…	לוח הפקודות…
 	Command palette	לוח פקודות
 	Commands	פקודות
 	Confirmations	אישורים
@@ -102,9 +117,15 @@
 	Context actions	פעולות הקשר
 	Control	שליטה בהפעלה
 	Could not restore {name}: {error}	לא ניתן לשחזר את {name}: {error}
+	Could not save preferences: {e}	לא ניתן היה לשמור את ההעדפות: {e}
+	Couldn't check for updates: {error}	לא ניתן היה לבדוק עדכונים: {error}
 	Create Motion Tween	יצירת מעבר ביניים של תנועה
+	Create new	יצירת מסמך חדש
 	Create tween	יצירת מעבר ביניים
 	Current frame	הפריים הנוכחי
+	Custom height	גובה מותאם אישית
+	Custom size	גודל מותאם אישית
+	Custom width	רוחב מותאם אישית
 	Dash length	אורך מקף
 	Data font	גופן נתונים
 	Date added	תאריך הוספה
@@ -121,8 +142,10 @@
 	Discard {name}…	מחיקת עותק השחזור של {name}…
 	Discarding deletes this work for good. This cannot be undone.	מחיקת עותק השחזור תסיר את העבודה לצמיתות. לא ניתן לבטל פעולה זו.
 	Discard…	מחיקת עותק…
+	Documents you open or save show here, with a picture of their first frame.	מסמכים שפתחתם או שמרתם יופיעו כאן עם תמונת הפריים הראשון שלהם.
 	Don't ask again this session	לא לשאול שוב בהפעלה הזו
 	Dot spacing	מרווח נקודות
+	Downloading and verifying the update…	מוריד ומאמת את העדכון…
 	Drag	גרירה
 	Drag a key up or down to change it, or a handle to shape the ease. Double-click to add a key.	גררו מפתח למעלה או למטה כדי לשנות אותו, או ידית כדי לעצב את עקומת האצה והאטה. לחיצה כפולה מוסיפה מפתח.
 	Drag to choose how many frames onion skin shows before and after the playhead	גררו כדי לבחור כמה פריימים קליפת הבצל מציגה לפני ראש ההפעלה ואחריו
@@ -155,10 +178,13 @@
 	Every edit renders before the next frame. Lowest latency; can stutter on very heavy scenes.	כל עריכה מרונדרת לפני הפריים הבא. ההשהיה הנמוכה ביותר; עלול לגמגם בסצנות כבדות מאוד.
 	Every frame of the timeline	כל הפריימים בציר הזמן
 	Every shortcut is back to the defaults.	כל קיצורי המקשים חזרו לברירת המחדל.
+	Exit	יציאה
 	Expand All Folders	הרחבת כל התיקיות
 	Extra start gap	רווח נוסף בהתחלה
 	Fade by Distance	דהייה לפי מרחק
 	File dialogs	חלונות פתיחה ושמירה
+	File › Start Screen brings it back	להצגה מחדש: קובץ › מסך הפתיחה
+	Files	קבצים
 	Fill colour	צבע מילוי
 	Fill on/off	הפעלה/כיבוי מילוי
 	Filter blur	טשטוש מסנן
@@ -169,8 +195,10 @@
 	Filter type	סוג מסנן
 	First frame	הפריים הראשון
 	Fit Stage in Window	התאמת הבמה לחלון
+	Fit in Window	התאמה לחלון
 	Fit stage in window	התאמת הבמה לחלון
 	Folders and guide layers don't run actions. Pick another layer in the timeline.	תיקיות ושכבות מנחה לא מפעילות פעולות. בחרו שכבה אחרת בציר הזמן.
+	Follow system	לפי הגדרות המערכת
 	Font: Hack (MIT, Bitstream Vera)	גופן: Hack (MIT, Bitstream Vera)
 	Font: Noto Emoji (SIL OFL 1.1)	גופן: Noto Emoji (SIL OFL 1.1)
 	Font: Ubuntu Light (Ubuntu Font Licence 1.0)	גופן: Ubuntu Light (Ubuntu Font Licence 1.0)
@@ -208,15 +236,18 @@
 	Insert keyframe (F6)	הוספת פריים מפתח (F6)
 	Instance	מופע
 	Instance name	שם מופע
+	Interface font	גופן הממשק
 	Interface scale	קנה מידה של הממשק
 	It is an independent project, not affiliated with or endorsed by Adobe. Bundled fonts and Rust crates keep their own permissive licences, listed below.	זהו פרויקט עצמאי, שאינו קשור ל-Adobe ואינו נתמך על ידה. הגופנים וחבילות ה-Rust המצורפים כפופים לרישיונות המתירניים שלהם, המפורטים להלן.
 	Its actions run on the timeline it is on: “this” is the main timeline.	הפעולות שלו מופעלות בציר הזמן שבו הוא נמצא: "this" הוא ציר הזמן הראשי.
 	Joint Limits	מגבלות מפרק
 	Keep a recovery copy of unsaved work	שמירת עותק שחזור של עבודה שלא נשמרה
+	Keep it at the top of the list	הצמדה לראש הרשימה
 	Keep the markers on their frames instead of moving them with the playhead	השארת הסמנים בפריימים שלהם במקום להזיז אותם עם ראש ההפעלה
 	Kept the autosaved work. File › Recover Autosaved Documents… brings it back.	עותקי השחזור נשמרו. אפשר לפתוח אותם דרך ״קובץ ‹ שחזור מסמכים שנשמרו אוטומטית…״.
 	Kept with the document as written. ActionScript 3.0 that controls the timeline runs in Test Movie and the HTML canvas export.	נשמר עם המסמך כפי שנכתב. ActionScript 3.0 ששולט בציר הזמן מופעל בבדיקת הסרט ובייצוא HTML canvas.
 	Kept with the document, but outside the ActionScript 3.0 subset AniCraft runs (or on a timeline that doesn't run scripts). The first Output lines say why; the Actions panel shows each problem in place.	נשמר עם המסמך, אבל מחוץ לתת־הקבוצה של ActionScript 3.0 ש-AniCraft מריץ (או בציר זמן שלא מריץ סקריפטים). השורות הראשונות בפלט מסבירות למה; חלונית הפעולות מציגה כל בעיה במקומה.
+	Keyboard Shortcuts	קיצורי מקשים
 	Keyboard shortcuts (this editor)	קיצורי מקשים (עורך זה)
 	Keyframe	פריים מפתח
 	Keyframes Only	פריימי מפתח בלבד
@@ -230,6 +261,8 @@
 	Layer volume	עוצמת השמע של השכבה
 	Layers and frames	שכבות ופריימים
 	Left channel	ערוץ שמאלי
+	Let it move down the list again	ביטול ההצמדה לראש הרשימה
+	Library	ספרייה
 	Library (top level)	ספרייה (רמה עליונה)
 	Library name	שם בספרייה
 	Library options	אפשרויות הספרייה
@@ -239,6 +272,7 @@
 	Lines written	שורות שנכתבו
 	Linkage class	מחלקת קישור
 	Lock {name}	נעילת {name}
+	Loop Playback	ניגון בלולאה
 	Loop playback	הפעלה בלולאה
 	Main timeline frame	פריים בציר הזמן הראשי
 	Make Corner	המרה לנקודת פינה
@@ -248,7 +282,9 @@
 	Menus, panels and dialogs. Your documents, layer names and the command line stay as they are.	תפריטים, חלוניות ותיבות דו־שיח. המסמכים, שמות השכבות ושורת הפקודה נשארים כפי שהם.
 	Message	הודעה
 	Middle-drag	גרירה בלחצן האמצעי
+	Missing	לא נמצא
 	Miter limit	גבול זוויתי (Miter)
+	Motion Editor	עורך התנועה
 	Motion tween	מעבר ביניים של תנועה
 	Move Camera	הזזת מצלמה
 	Move Points	הזזת נקודות
@@ -258,6 +294,7 @@
 	Move to	העברה אל
 	Move up	הזזה למעלה
 	Moves, scales, rotates and recolours	מזיז, משנה גודל, מסובב וצובע מחדש
+	Movie Explorer	סייר הסרט
 	Movie clip (unnamed)	קליפ אנימציה (ללא שם)
 	Movie clip “{name}”	קליפ אנימציה "{name}"
 	Moving the object on the stage inside the span adds keys here	הזזת האובייקט על הבמה בתוך המקטע מוסיפה כאן מפתחות
@@ -269,11 +306,15 @@
 	New Folder	תיקייה חדשה
 	New folder above the active layer (move layers in under it with Up and Down)	תיקייה חדשה מעל השכבה הפעילה (העבירו שכבות לתוכה עם 'למעלה' ו'למטה')
 	New layer	שכבה חדשה
+	New {name}, {size}	{name} חדש, {size}
 	Next Panel	החלונית הבאה
 	Next frame	פריים הבא
 	No actions yet. Add one: Stop on a frame holds the movie there; a button's Click can then go on.	אין עדיין פעולות. הוסיפו פעולה: Stop עוצרת את ההפעלה בפריים הנוכחי, ואירוע Click בכפתור יכול להמשיך אותה.
 	No frame labels yet: name a keyframe in Properties › Label	אין עדיין תוויות פריים: תנו שם לפריים מפתח במאפיינים ‹ תווית
 	No frame-script plug-ins are installed (Commands › Install Plug-in…)	לא מותקנים תוספים לסקריפט פריים (פקודות ‹ התקנת תוסף…)
+	No installer is available for this platform.	אין מתקין זמין לפלטפורמה זו.
+	No matching commands	לא נמצאו פקודות תואמות
+	No recent files yet. Documents you open or save show here.	עדיין אין קבצים אחרונים. מסמכים שתפתחו או תשמרו יופיעו כאן.
 	No symbols, images or sounds yet. Select artwork and press {convert} to make a symbol, or import an image or a sound with {import}.	אין עדיין סמלים, תמונות או צלילים. בחרו איור והקישו {convert} כדי ליצור סמל, או ייבאו תמונה או צליל עם {import}.
 	Nudge selection 1 px	הזזת הבחירה ב-1 פיקסל
 	Nudge selection 10 px	הזזת הבחירה ב-10 פיקסלים
@@ -285,6 +326,7 @@
 	Onion All	קליפת בצל לכל הפריימים
 	Onion Skin	קליפת בצל (Onion Skin)
 	Onion Skin On / Off	קליפת בצל: הפעלה / כיבוי
+	Onion Skin Options	אפשרויות שקיפות פריימים
 	Onion end marker	סמן סיום של קליפת הבצל
 	Onion skin	קליפת בצל
 	Onion skin options	אפשרויות קליפת בצל
@@ -292,26 +334,34 @@
 	Onion start marker	סמן התחלה של קליפת הבצל
 	Onion {n}	קליפת בצל {n}
 	Onion-skin only the frames where a keyframe starts	קליפת בצל רק לפריימים שבהם מתחיל פריים מפתח
+	Open Recent	פתיחת קובץ אחרון
 	Open folder	פתיחת תיקייה
 	Open it as unsaved work	פתיחה כעבודה שלא נשמרה
 	Open {name}	פתיחת {name}
+	Open {name}, pinned	פתיחת {name}, מוצמד
+	Open…	פתיחה…
 	Or after	או אחרי
+	Or drop a document anywhere on this window.	או גררו מסמך לכל מקום בחלון הזה.
 	Outline {name}	קווי מתאר עבור {name}
 	Outlines	קווי מתאר
 	PNG image	תמונת PNG
 	Paint Bucket	דלי צבע
 	Paint mode	מצב צביעה
 	Pan with any tool	הזזת התצוגה עם כל כלי
+	Panels are docked: Tools, Stage, Timeline, Properties, Library and Movie Explorer	החלוניות מעוגנות: כלים, במה, ציר זמן, מאפיינים, ספרייה וסייר הסרט
 	Path start	תחילת נתיב
 	Pick a key that has another key after it	בחרו מפתח שיש אחריו מפתח נוסף
+	Pick a size to start a new animation, or open one you made. Esc goes back to the document.	בחרו גודל ליצירת אנימציה חדשה, או פתחו אנימציה שיצרתם. Esc מחזיר למסמך.
 	Pin	הצמדה
 	Pin Here	הצמדה כאן
 	Pinned	מוצמד
+	Pinned files stay	קבצים מוצמדים יישארו ברשימה
 	Place on Stage	מיקום על הבמה
 	Place on Timeline	מיקום בציר הזמן
 	Place on stage	מיקום על הבמה
 	Place on timeline	מיקום בציר הזמן
 	Play / Stop	הפעלה / עצירה
+	Play Test Movie in a window of its own	ניגון סרט הבדיקה בחלון נפרד
 	Play the sound	השמעת הצליל
 	Playhead (frame ruler)	ראש ההפעלה (סרגל הפריימים)
 	Plays the sound on its own	משמיע את הצליל לבדו
@@ -319,19 +369,25 @@
 	PolyStar	מצולע/כוכב
 	Position X	מיקום X
 	Position Y	מיקום Y
+	Preferences	העדפות
+	Preferences…	העדפות…
+	Press keys…	לחצו על המקשים…
 	Press the new keys for {action}. Esc cancels.	הקישו את המקשים החדשים עבור {action}. Esc לביטול.
 	Preview Through Camera	תצוגה מקדימה דרך המצלמה
 	Previous Panel	החלונית הקודמת
 	Previous frame	פריים קודם
 	Project Files & Docs	קבצי הפרויקט ותיעוד
+	Project Files & Docs…	קובצי הפרויקט והתיעוד…
 	Property	מאפיין
 	Property curves of the motion tween at the playhead (double-click a motion span)	עקומות המאפיינים של מעבר הביניים של תנועה בראש ההפעלה (לחיצה כפולה על מקטע תנועה)
 	Property ease	האצה והאטה של מאפיין
 	Property keyframe	פריים מפתח של מאפיין
 	Put every shortcut back to the defaults	החזרת כל קיצורי המקשים לברירת המחדל
 	Puts it on the active layer's keyframe at the playhead (Enter, or drag it onto the stage)	מציב אותו בפריים המפתח של השכבה הפעילה בראש ההפעלה (Enter או גרירה אל הבמה)
+	Quit AniCraft	יציאה מ-AniCraft
 	Reading the sound…	קורא את הצליל…
 	Recover unsaved work	שחזור עבודה שלא נשמרה
+	Releases	גרסאות להפצה
 	Remove Bone	הסרת עצם
 	Remove Camera	הסרת מצלמה
 	Remove Tween	הסרת מעבר ביניים
@@ -367,7 +423,9 @@
 	SVG image	תמונת SVG
 	Safety	בטיחות
 	Same for all	זהה לכולם
+	Sample animation	אנימציה לדוגמה
 	Save changes to “{name}” before closing?	לשמור את השינויים בקובץ "{name}" לפני הסגירה?
+	Save your work and stop running tasks before installing an update.	שמרו את העבודה ועצרו משימות פעילות לפני התקנת עדכון.
 	Saved {path}	נשמר: {path}
 	Scanning installed fonts…	סורק גופנים מותקנים…
 	Scene	סצנה
@@ -383,12 +441,14 @@
 	Select an item to preview it	בחרו פריט כדי לראות תצוגה מקדימה
 	Select one button or movie clip instance on the stage	בחרו מופע אחד של כפתור או קליפ אנימציה על הבמה
 	Select one button or movie clip instance on the stage to give it events (a graphic can't have them: set its symbol's Type in Properties).	בחרו מופע אחד של כפתור או קליפ אנימציה על הבמה כדי להוסיף לו אירועים (לגרפיקה אי אפשר: שנו את סוג הסמל שלה במאפיינים).
+	Settings	הגדרות
 	Shape tween	מעבר ביניים של צורה
 	Show Folder	הצגת התיקייה
 	Show all again	הצגת כולם שוב
 	Show the keyframes between the markers at full strength, and select and move their artwork together	הצגת פריימי המפתח שבין הסמנים בעוצמה מלאה, ובחירה והזזה של האיור שלהם יחד
 	Show the markers on the frame ruler even when onion skin is off	הצגת הסמנים בסרגל הפריימים גם כשקליפת הבצל כבויה
 	Show this line in the script	הצגת השורה הזו בסקריפט
+	Show this screen when AniCraft starts	הצגת המסך הזה בעת הפעלת AniCraft
 	Show {name}	הצגת {name}
 	Shown	מוצג
 	Smooth when scaled or turned; off keeps hard pixel edges, for pixel art	החלקה בשינוי גודל או בסיבוב; כשכבוי, נשמרים קצוות פיקסלים חדים, לפיקסל ארט
@@ -399,11 +459,13 @@
 	Sound sync	סנכרון צליל
 	Sound · {seconds} s	צליל · {seconds} שנ׳
 	Stage	במה
+	Stage Rendering	רינדור הבמה
 	Stage colour	צבע הבמה
 	Stage height	גובה הבמה
 	Stage size	גודל הבמה
 	Stage width	רוחב הבמה
 	Star points	קודקודי כוכב
+	Start Screen	מסך הפתיחה
 	Starting the graphics card…	מפעיל את כרטיס המסך…
 	Step one frame	קידום פריים אחד
 	Stereo	סטריאו
@@ -415,6 +477,8 @@
 	Subselection	בחירת משנה
 	Symbol type	סוג סמל
 	System language ({name})	שפת המערכת ({name})
+	Take it off the list	הסרה מהרשימה
+	Test Movie	בדיקת הסרט
 	Test Movie — {name}	בדיקת הסרט — {name}
 	Text colour	צבע טקסט
 	Text width	רוחב טקסט
@@ -422,7 +486,9 @@
 	That autosaved copy is gone	העותק שנשמר אוטומטית כבר לא קיים
 	The class scripts create this symbol by (its linkage). Kept with the document; scripts don't run yet	המחלקה שבאמצעותה סקריפטים יוצרים את הסמל הזה (הקישור שלו). נשמרת עם המסמך; סקריפטים עדיין לא רצים
 	The data font shows numbers, timecode, rulers and shortcuts; only monospaced families are listed so digits stay aligned.	גופן הנתונים מציג מספרים, קוד זמן, סרגלים וקיצורי מקשים; מוצגות רק משפחות ברוחב קבוע כדי שהספרות יישארו מיושרות.
+	The document that is open stays as it is	המסמך הפתוח יישאר ללא שינוי
 	The file was saved after this copy, so it opens as a new document and Save asks for a name.	הקובץ נשמר אחרי העותק הזה, ולכן הוא ייפתח כמסמך חדש ופעולת השמירה תבקש שם.
+	The frame rate is for every new document made here. Change the size later in Modify › Document Settings.	קצב הפריימים יחול על כל מסמך חדש שייווצר כאן. אפשר לשנות את הגודל בהמשך דרך שינוי › הגדרות מסמך.
 	The graphics card can't draw the stage, so the CPU does: {why}	כרטיס המסך לא יכול לצייר את הבמה, ולכן המעבד עושה זאת: {why}
 	The movie: point and click its buttons	הסרט: הצביעו ולחצו על הכפתורים שלו
 	The object stays as it is on the span's first frame ({undo} to undo)	האובייקט נשאר כפי שהוא בפריים הראשון של המקטע ({undo} לביטול)
@@ -430,13 +496,18 @@
 	The plug-in runs each time the playhead enters this keyframe, reads where the movie is, and sends actions back. It can't change the document.	התוסף מופעל בכל פעם שראש ההפעלה נכנס לפריים המפתח הזה, קורא את מצב הסרט ושולח פעולות בחזרה. הוא לא יכול לשנות את המסמך.
 	The reference renderer: slower on large stages. Exports always use it.	מנוע הרינדור לייחוס: איטי יותר בבמות גדולות. ייצוא תמיד משתמש בו.
 	The timeline always leaves room before frame 1 for the playhead; this adds more. It stays the same at every zoom.	ציר הזמן תמיד משאיר מקום לפני פריים 1 עבור ראש ההפעלה; הגדרה זו מוסיפה עוד. הרווח נשאר זהה בכל רמת זום.
+	The update failed: {error}	העדכון נכשל: {error}
+	The update worker stopped unexpectedly. Try checking again.	תהליך העדכון נעצר באופן לא צפוי. נסו לבדוק שוב.
+	Theme	ערכת נושא
 	These run when the playhead enters frame {keyframe} (the keyframe). For frame {frame}, add a keyframe there ({key}).	אלה מופעלים כשראש ההפעלה נכנס לפריים {keyframe} (פריים המפתח). עבור פריים {frame}, הוסיפו שם פריים מפתח ({key}).
 	This build has the interface in English only. Builds with translations list their languages here.	גרסה זו כוללת ממשק באנגלית בלבד. גרסאות עם תרגומים מציגות כאן את השפות שלהן.
 	This cannot be undone.	לא ניתן לבטל פעולה זו.
+	This installation is managed externally. Update it with its package manager or open Releases.	התקנה זו מנוהלת חיצונית. עדכנו אותה באמצעות מנהל החבילות או פתחו את דף הגרסאות.
 	This scene	הסצנה הנוכחית
 	This span has no motion tween. Create one to animate its object property by property.	למקטע הזה אין מעבר ביניים של תנועה. צרו אחד כדי להנפיש את האובייקט שלו מאפיין אחר מאפיין.
 	This span is empty. Draw or place an object, then create a motion tween.	המקטע הזה ריק. ציירו או מקמו אובייקט, ואז צרו מעבר ביניים של תנועה.
 	Time at the playhead	הזמן בראש ההפעלה
+	Timeline	ציר זמן
 	Tint frames before the playhead and after it in their colours; off, they keep their own colours	צביעת הפריימים שלפני ראש ההפעלה ושאחריו בצבעים שלהם; כשכבוי, הם שומרים על הצבעים המקוריים
 	Trace actions, frame-script logs and anything that couldn't run appear here.	פעולות trace, יומני סקריפט פריים וכל מה שלא הצליח לרוץ מופיעים כאן.
 	Trace message	הודעת trace
@@ -449,11 +520,17 @@
 	Unmute this layer's sounds	ביטול השתקת הצלילים של השכבה הזו
 	Unpin	ביטול הצמדה
 	Unpin point {anchor} of the motion path from frame {frame}: its X and Y keyframes go	ביטול הצמדת נקודה {anchor} של נתיב התנועה מפריים {frame}: פריימי המפתח X ו-Y שלה יוסרו
+	Untitled	ללא שם
 	Up/Down choose · Enter run · Esc close	Up/Down לבחירה · Enter להפעלה · Esc לסגירה
+	Update and restart	עדכון והפעלה מחדש
+	Update ready. Restarting…	העדכון מוכן. מפעיל מחדש…
+	Updated to {version}.	עודכן לגרסה {version}.
+	Use Releases or your package manager to update this installation.	עדכנו את ההתקנה דרך דף הגרסאות או מנהל החבילות.
 	Use count	מספר שימושים
 	Use it for {action}	שימוש בו עבור {action}
 	Use the system's open and save dialogs	שימוש בחלונות הפתיחה והשמירה של המערכת
 	Uses	שימושים
+	Version {version} · {stage}	גרסה {version} · {stage}
 	View action	פעולת תצוגה
 	WAV sound	קובץ שמע WAV
 	Web page	דף אינטרנט
@@ -461,6 +538,7 @@
 	What the selected button or movie clip does on clicks and the pointer	מה הכפתור או קליפ הסרט שנבחרו עושים בלחיצות ובתנועת הסמן
 	Wheel	גלגלת
 	Whichever comes first. 0 changes: by time only. Copies are written in the background, so drawing never waits.	המוקדם מביניהם. 0 שינויים: לפי זמן בלבד. העותקים נכתבים ברקע, כך שהציור אף פעם לא ממתין.
+	You're up to date.	התוכנה מעודכנת.
 	Zoom Camera	זום מצלמה
 	Zoom at the cursor	זום במיקום הסמן
 	Zoom in / out	הגדלה / הקטנה
@@ -490,12 +568,14 @@
 	{action}: key removed	{action}: המקש הוסר
 	{action}: {key}	{action}: {key}
 	{action}: {key} (removed from {other})	{action}: {key} (הוסר מ{other})
+	{fps} fps	{fps} פריימים לשנייה
 	{key} could not be moved.	לא ניתן היה להעביר את {key}.
 	{key} is already used by {action}.	{key} כבר משמש עבור {action}.
 	{key} is kept for {purpose}; choose another key.	{key} שמור עבור {purpose}; בחרו מקש אחר.
 	{name} (button)	{name} (כפתור)
 	{name} (graphic)	{name} (גרפיקה)
 	{name} (main timeline)	{name} (ציר הזמן הראשי)
+	{name} (missing)	{name} (לא נמצא)
 	{name} (movie clip)	{name} (קליפ אנימציה)
 	{name} folder row	שורת התיקייה {name}
 	{name} · armature layer	{name} · שכבת שלד
@@ -505,7 +585,9 @@
 	{name} · layer	{name} · שכבה
 	{name} · mask layer	{name} · שכבת מסכה
 	{name} · masked layer	{name} · שכבה ממוסכת
+	{name}, missing	{name}, לא נמצא
 	{os} · settings stored in {place}	{os} · מיקום שמירת ההגדרות: {place}
+	{path} is no longer there	הנתיב {path} אינו קיים עוד
 	{path} · button	{path} · כפתור
 	{path} · movie clip	{path} · קליפ אנימציה
 	{property} curve	העקומה של {property}
@@ -516,6 +598,7 @@
 	{row} · has selected artwork	{row} · יש בה איור נבחר
 	{shown} of {total}	{shown} מתוך {total}
 	{tool} tool	הכלי {tool}
+	{version} is available.	גרסה {version} זמינה.
 	“{id}” isn't installed here: Test Movie says so and plays on.	"{id}" לא מותקן כאן: בדיקת הסרט תודיע על כך ותמשיך לנגן.
 @plural	+{n} more|+{n} more	+{n} נוסף|+{n} נוספים|+{n} נוספים
 @plural	An action can have up to {n} key.|An action can have up to {n} keys.	לפעולה יכול להיות עד {n} מקש.|לפעולה יכולים להיות עד {n} מקשים.|לפעולה יכולים להיות עד {n} מקשים.
