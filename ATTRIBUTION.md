@@ -355,3 +355,22 @@ BiDi control characters protect Unicode and parameterized error/status strings.
 AI-assisted drafting from original English meaning only; no external product's
 translation table was consulted or copied. Native-speaker review, real Native
 Hebrew GUI/RTL readback, and maintainer acceptance are still required.
+
+## TextureCraft: fourth Hebrew quick-wins contribution (12 November 2026)
+
+VelvetOS ArtCraft Hebrew Localization added 138 independently authored Hebrew
+translations for actual English TextureCraft UI strings, increasing
+`locales/he/texturecraft.tsv` from 199 to 337 app-specific rows. Five
+source-verified groups: viewport/camera and navigation (26), painting/color and
+materials (30), UV/mesh work (32), assets/templates (22), and settings, keyboard
+shortcuts and status messages (28). Source strings were checked against the
+existing migrated English-key catalog and the official TextureCraft Rust source
+checkout at `42c8ea5b3c3a4cabdda03f535355cd61ac756479`, including quoted
+strings and app-level messages. Previously translated entries and all nine
+earlier curated terms remain unchanged. This contribution also extends the
+focused regression suite by five tests (15 total), covering 40 representative
+new labels, placeholders, direct Hebrew catalog resolution and Unicode checks.
+Translations were AI-assisted and independently drafted from English meaning
+without copying any other product's translation catalog. No additional
+native-speaker proofreading, native Hebrew GUI/RTL run, app pin update,
+installed binary, maintainer acceptance or release is claimed.

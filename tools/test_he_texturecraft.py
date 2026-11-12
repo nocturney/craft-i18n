@@ -16,9 +16,9 @@ class HebrewTextureCraftTests(unittest.TestCase):
         cls.common, cls.common_errors=sync_app.parse((ROOT/'locales/he/common.tsv').read_text('utf-8'))
         cls.source, cls.source_errors=sync_app.parse((ROOT/'locales/ar/texturecraft.tsv').read_text('utf-8'))
 
-    def test_hebrew_app_catalog_has_199_distinct_source_rows(self):
+    def test_hebrew_app_catalog_has_337_distinct_source_rows(self):
         self.assertFalse(self.parse_errors)
-        self.assertEqual(len(self.app),199)
+        self.assertEqual(len(self.app),337)
         self.assertTrue(all(c=='' for c,s in self.app))
         self.assertTrue(all(s and v for (c,s),v in self.app.items()))
 
@@ -30,7 +30,7 @@ class HebrewTextureCraftTests(unittest.TestCase):
             self.assertNotIn(key,self.common)
             self.assertIsNone(sync_app.text_problem(*key,value))
             self.assertEqual(unicodedata.normalize('NFC',value),value)
-            self.assertFalse(any(c in value for c in '\u202a\u202b\u202c\u202d\u202e\u2066\u2067\u2068\u2069'))
+            self.assertFalse(any(c in value for c in '\u200e\u200f\u202a\u202b\u202c\u202d\u202e\u2066\u2067\u2068\u2069'))
 
     def test_previous_nine_curated_values_preserved(self):
         preserved={
@@ -73,7 +73,7 @@ class HebrewTextureCraftTests(unittest.TestCase):
         for english,hebrew in samples.items():
             self.assertEqual(locale[('',english)],hebrew,english)
             self.assertIsNone(sync_app.text_problem('',english,hebrew))
-        self.assertEqual(len(self.app),199)
+        self.assertEqual(len(self.app),337)
 
 
     def test_round3_save_open_prompts_and_paths(self):
@@ -138,6 +138,77 @@ class HebrewTextureCraftTests(unittest.TestCase):
         }
         for source,hebrew in examples.items():
             self.assertEqual(locale[('',source)],hebrew,source)
+
+
+    def _assert_round4_cases(self, examples):
+        locale=resolved(ROOT,'he-IL')
+        for english,hebrew in examples.items():
+            with self.subTest(english=english):
+                self.assertIn(('',english),self.source)
+                self.assertNotIn(('',english),self.common)
+                self.assertEqual(self.app[('',english)],hebrew)
+                self.assertEqual(locale[('',english)],hebrew)
+                self.assertIsNone(sync_app.text_problem('',english,hebrew))
+
+    def test_round4_viewport_navigation_labels(self):
+        self._assert_round4_cases({
+            'Camera settings':'הגדרות מצלמה',
+            'Default camera':'מצלמת ברירת המחדל',
+            'Field of view (deg)':'שדה ראייה (מעלות)',
+            'Hide UI':'הסתר את הממשק',
+            'Show UV wireframe in the 2D view':'הצג קווי רשת UV בתצוגת דו־ממד',
+            'Show wireframe in the 3D view':'הצג קווי רשת בתצוגת תלת־ממד',
+            'Screenshot of the viewport':'צילום אזור התצוגה',
+            'Viewport':'אזור תצוגה',
+        })
+
+    def test_round4_paint_color_and_materials(self):
+        self._assert_round4_cases({
+            'Base color':'צבע בסיס',
+            'Blur Directional':'טשטוש כיווני',
+            'Color Balance':'איזון צבעים',
+            'Color picker':'בוחר צבעים',
+            'Flow and opacity':'זרימה ואטימות',
+            'Polygon fill':'מילוי מצולע',
+            'Smart materials':'חומרים חכמים',
+            'Stroke opacity':'אטימות משיכת המכחול',
+        })
+
+    def test_round4_uv_and_mesh_workflows(self):
+        self._assert_round4_cases({
+            'High Definition Mesh (HP)':'רשת ברזולוציה גבוהה (HP)',
+            'Mesh map: {map}':'מפת רשת: {map}',
+            'Normal map format':'פורמט מפת נורמל',
+            'Spherical projection':'הקרנה כדורית',
+            'Tri-planar projection':'הקרנה תלת־מישורית',
+            'UV tiles (UDIM)':'אריחי UV (UDIM)',
+            'UV checker':'תבנית בדיקת UV',
+            'UV island fill':'מילוי אי UV',
+        })
+
+    def test_round4_assets_and_templates(self):
+        self._assert_round4_cases({
+            'Assets':'נכסים',
+            'Deleted template "{name}"':'התבנית "{name}" נמחקה',
+            'Imported template "{name}"':'התבנית "{name}" יובאה',
+            'My smart materials':'החומרים החכמים שלי',
+            'Remove unused resources...':'הסרת משאבים שאינם בשימוש...',
+            'Rescan the library folder':'סריקה מחדש של תיקיית הספרייה',
+            'Search all assets':'חיפוש בכל הנכסים',
+            'Smart material saved to {path}':'החומר החכם נשמר ב־{path}',
+        })
+
+    def test_round4_settings_shortcuts_and_status(self):
+        self._assert_round4_cases({
+            'Details saved to {file}':'הפרטים נשמרו ב־{file}',
+            'Edit keyboard shortcuts...':'עריכת קיצורי מקלדת...',
+            'Import MaterialX material...':'ייבוא חומר MaterialX...',
+            'Not saved: {error}':'לא נשמר: {error}',
+            'Reset to {shortcut}':'איפוס ל־{shortcut}',
+            'Save the changes to {name} first?':'האם לשמור תחילה את השינויים ב־{name}?',
+            'Texture Set Settings':'הגדרות ערכת טקסטורות',
+            '{n} items share a shortcut; the first one listed wins.':'ל־{n} פריטים אותו קיצור; הפריט הראשון ברשימה יקבל עדיפות.',
+        })
 
 if __name__=='__main__':
     unittest.main()
