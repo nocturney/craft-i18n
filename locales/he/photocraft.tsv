@@ -1275,9 +1275,9 @@ cameraData	Date Taken	תאריך צילום
 	Drawn on the CPU: {reason}. Click for System Info.	צויר על ה-CPU: {reason}. לחץ לפרטי מערכת.
 	Driver: {driver}	מנהל התקן: {driver}
 	Drop an image or PSD anywhere to open it.	שחרר תמונה או PSD בכל מקום כדי לפתוח אותה.
-	Drop Shadow	צל נפל
-	Drop shadow	צל נפל
-	Drop Shadow…	צל נפל…
+	Drop Shadow	הטלת צל
+	Drop shadow	הטלת צל
+	Drop Shadow…	הטלת צל…
 	Dropped files weren't placed: their document was closed.	הקבצים שנגררו לא הוצבו: המסמך שלהם נסגר.
 	Dropped files weren't placed: too many are waiting for their document.	הקבצים שנגררו לא הוצבו: יותר מדי קבצים ממתינים למסמך שלהם.
 	Dry Brush	מברשת יבשה
@@ -1475,9 +1475,9 @@ cameraData	F-Stop	צמצם (F-Stop)
 	Faux Bold	מודגש מדומה (Faux Bold)
 	Faux Italic	נטוי מדומה (Faux Italic)
 	Favorite fonts	גופנים מועדפים
-	Feather	הכהיה (Feather)
-	Feather Radius	רדיוס הכהיה
-	Feather…	הכהיה (Feather)…
+	Feather	ריכוך קצוות
+	Feather Radius	רדיוס ריכוך קצוות
+	Feather…	ריכוך קצוות…
 	Fewer Points	פחות נקודות
 	Fiber Length	אורך סיבים
 	Fibers	סיבים
@@ -3070,16 +3070,16 @@ cameraRaw	Purple	סגול
 	Randomize Shapes	צורות אקראיות
 	Range	טווח
 	Range:	טווח:
-	Rasterize	רסטור
-	Rasterize Fill Content	רסטור תוכן מילוי
-	Rasterize Layer	רסטור שכבה
-	Rasterize Layer Style	רסטור סגנון שכבה
-	Rasterize Layers	רסטור שכבות
-	Rasterize Shape	רסטור צורה
-	Rasterize Smart Object	רסטור אובייקט חכם
+	Rasterize	המר לרסטר
+	Rasterize Fill Content	המר תוכן מילוי לרסטר
+	Rasterize Layer	המר שכבה לרסטר
+	Rasterize Layer Style	המר סגנון שכבה לרסטר
+	Rasterize Layers	המר שכבות לרסטר
+	Rasterize Shape	המר צורה לרסטר
+	Rasterize Smart Object	המר אובייקט חכם לרסטר
 	Rasterize svg groups deeper than	רסטר קבוצות SVG עמוקות יותר מ
-	Rasterize Type	רסטור טקסט
-	Rasterize Type Layer	רסטור שכבת טקסט
+	Rasterize Type	המר טקסט לרסטר
+	Rasterize Type Layer	המר שכבת טקסט לרסטר
 	Rate	קצב
 	Ratio	יחס
 	Raw Data	נתוני Raw
@@ -3129,14 +3129,14 @@ cameraRaw	Red	אדום
 	Reduce Noise	הפחת רעש
 	Reduce Noise…	הפחת רעש…
 	Reference point location	מיקום נקודת ייחוס
-	Refine	חידוד (Refine)
-	Refine Edge	חידוד קצה
-	Refine Edge Brush (R)	מברשת חידוד קצה (R)
-	Refine Edge Brush Tool	כלי מברשת חידוד קצה
-	Refine Hair	חדד שיער
-	Refine Hair needs hair detection, which isn't available yet	חידוד שיער דורש גילוי שיער, שאינו זמין עדיין
-	Refine Mode	מצב חידוד
-	Refine Strokes	חידוד משיכות
+	Refine	שיפור
+	Refine Edge	שיפור קצוות
+	Refine Edge Brush (R)	מברשת שיפור קצוות (R)
+	Refine Edge Brush Tool	כלי מברשת לשיפור קצוות
+	Refine Hair	שיפור בחירת שיער
+	Refine Hair needs hair detection, which isn't available yet	שיפור בחירת שיער מחייב זיהוי שיער, שעדיין אינו זמין
+	Refine Mode	מצב שיפור
+	Refine Strokes	משיכות לשיפור קצוות
 	Reflect	שיקוף
 	Reflected	מוחזר
 	Reflected Gradient	מעבר צבעים מוחזר
