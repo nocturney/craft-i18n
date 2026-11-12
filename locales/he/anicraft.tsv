@@ -692,6 +692,37 @@
 	Saved the preset “{name}”	ההגדרה הקבועה מראש ״{name}״ נשמרה
 	Updated the preset “{name}”	ההגדרה הקבועה מראש ״{name}״ עודכנה
 	Deleted the preset “{name}”	ההגדרה הקבועה מראש ״{name}״ נמחקה
+# Round 2: source-checked missing AniCraft Brush, Publish, Test Movie and Find labels.
+	Built-in	מברשות מובנות
+	Your brushes	המברשות האישיות
+	Brush name	שם המברשת
+	Your brush. Right-click to rename, export or delete it.	מברשת אישית. לחצו לחיצה ימנית כדי לשנות את שמה, לייצא אותה או למחוק אותה.
+	None yet. Set up a brush in Properties, then save it below.	עדיין אין מברשות אישיות. הגדירו מברשת בחלונית המאפיינים, ואז שמרו אותה למטה.
+	Save Brush	שמירת מברשת
+	Saves the brush in hand as one of yours (one with that name is replaced)	שומר את המברשת הנוכחית באוסף האישי (מברשת קיימת באותו שם תוחלף).
+	Saved the brush “{name}” to your brushes.	המברשת ״{name}״ נשמרה באוסף המברשות האישיות.
+	Animated PNG	PNG מונפש
+	Animated WebP	WebP מונפש
+	One web page that plays the movie, buttons and actions included.	דף אינטרנט אחד המפעיל את האנימציה, כולל לחצנים ופעולות.
+	An animated GIF, with exact frame timing.	קובץ GIF מונפש השומר על תזמון מדויק של הפריימים.
+	An animated PNG: full colour and real transparency, for the web and chat apps.	קובץ PNG מונפש בצבע מלא ועם שקיפות אמיתית, לאינטרנט ולאפליקציות מסרים.
+	An animated WebP, lossless: full colour and real transparency, smaller than PNG.	קובץ WebP מונפש ללא אובדן איכות, בצבע מלא ועם שקיפות אמיתית, קטן מקובץ PNG.
+	WebM or MP4 video, made with your ffmpeg (ffmpeg.org).	וידאו בפורמט WebM או MP4, שנוצר באמצעות ffmpeg המותקן במחשב (ffmpeg.org).
+	A Lottie animation (JSON) for web and apps.	אנימציית Lottie בפורמט JSON לאתרי אינטרנט ולאפליקציות.
+	Frames in a grid on one PNG, with a JSON frame map beside it.	פריימים מסודרים ברשת בתמונת PNG אחת, לצד קובץ JSON הממפה את הפריימים.
+	One PNG per frame, in a folder.	תמונת PNG נפרדת לכל פריים, בתוך תיקייה.
+	One frame as a PNG image.	פריים אחד כתמונת PNG.
+	One frame as an SVG drawing.	פריים אחד כאיור SVG.
+	Keys go to the movie	הקשות מקלדת מועברות לאנימציה
+	Click the movie to give it the keyboard	לחצו על האנימציה כדי להעביר אליה את מיקוד המקלדת
+	Show hit areas	הצגת אזורי תגובה
+	Draw where each button answers the pointer (its Hit frame) over the movie	הצגת אזורי התגובה של הלחצנים לסמן העכבר (פריים Hit) על גבי האנימציה
+	The movie: point, click and type to play it	האנימציה: הצביעו, לחצו והקלידו כדי להפעיל אותה
+	Colour	צבע
+	Bitmap	מפת סיביות
+	Text field	שדה טקסט
+	Layer name	שם שכבה
+	Stroke	קו מתאר
 @plural	+{n} more|+{n} more	+{n} נוסף|+{n} נוספים|+{n} נוספים
 @plural	An action can have up to {n} key.|An action can have up to {n} keys.	לפעולה יכול להיות עד {n} מקש.|לפעולה יכולים להיות עד {n} מקשים.|לפעולה יכולים להיות עד {n} מקשים.
 @plural	AniCraft didn't close properly last time. This document had changes that weren't saved:|AniCraft didn't close properly last time. These documents had changes that weren't saved:	AniCraft לא נסגר כראוי בפעם הקודמת. במסמך הזה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:
