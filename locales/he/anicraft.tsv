@@ -600,6 +600,85 @@
 	{tool} tool	הכלי {tool}
 	{version} is available.	גרסה {version} זמינה.
 	“{id}” isn't installed here: Test Movie says so and plays on.	"{id}" לא מותקן כאן: בדיקת הסרט תודיע על כך ותמשיך לנגן.
+# Find and Replace and Publish Settings: original Hebrew from active AniCraft English tr! callsites.
+	32-bit float	32 סיביות, נקודה צפה
+	Bit depth	עומק סיביות
+	Choose a font	בחירת גופן
+	Choose a font the document's text uses.	בחירת גופן הנמצא בשימוש בטקסט שבמסמך.
+	Choose a Library item.	בחירת פריט מהספרייה.
+	Choose a preset	בחירת ערכה מוגדרת מראש
+	Choose from the Library	בחירה מהספרייה
+	Colour to find	צבע לחיפוש
+	Colour to replace with	צבע חלופי
+	Could not make the archive: {e}	לא ניתן ליצור ארכיון: {e}
+	Every frame of every scene, in order	כל הפריימים בכל הסצנות, לפי הסדר
+	Every scene, and every symbol in the Library	כל הסצנות וכל הסמלים בספרייה
+	Fills	מילויים
+	Find Previous	חיפוש הקודם
+	Font to find	גופן לחיפוש
+	Font to replace with	גופן חלופי
+	Formats	פורמטים
+	Frame labels	תוויות פריימים
+	Frame to publish	פריים לפרסום
+	Go to the next result	מעבר לתוצאה הבאה
+	Go to the previous result	מעבר לתוצאה הקודמת
+	In {folder}	בתיקייה {folder}
+	Include sound	כלול צליל
+	Include sounds	כלול צלילים
+	Instance names	שמות מופעים
+	Item to find	פריט לחיפוש
+	Item to replace with	פריט חלופי
+	Layer names	שמות שכבות
+	Look in	חיפוש בתוך
+	Loop forever	חזרה ללא הגבלה
+	Match case	התאמה לאותיות רישיות וקטנות
+	No format is on in Publish Settings: turn one on first.	לא נבחר פורמט בהגדרות הפרסום: יש להפעיל פורמט אחד לפחות.
+	No text uses a font yet	עדיין אין טקסט המשתמש בגופן
+	Nothing found	לא נמצאו תוצאות
+	Output	פלט
+	Page title	כותרת הדף
+	Playback	הפעלה
+	Playhead	סמן הניגון
+	Plays	מספר הפעלות
+	Preset	ערכה מוגדרת מראש
+	Publish report	דוח פרסום
+	Publish Settings	הגדרות פרסום
+	Publish {format}	פרסום {format}
+	Publishing	מפרסם
+	Publishing is already running	הפרסום כבר מתבצע
+	Publishing is running	הפרסום מתבצע
+	Regular expression	ביטוי רגולרי
+	Replace All	החלפת הכול
+	Replace every result, as one step you can undo	החלפת כל התוצאות בפעולה אחת שניתן לבטל
+	Replace the current result, then go to the next	החלפת התוצאה הנוכחית ומעבר לבאה
+	Replace with	החלפה ב-
+	Replacement text	טקסט חלופי
+	Result {n} of {total}	תוצאה {n} מתוך {total}
+	Sample rate	קצב דגימה
+	Save Preset	שמירת ערכה מוגדרת מראש
+	Save the document first: Publish writes its files beside it.	יש לשמור את המסמך תחילה: קובצי הפרסום נשמרים לצדו.
+	Scale to the browser window	התאמה לגודל חלון הדפדפן
+	Search for	חיפוש אחר
+	Stage colour as background	שימוש בצבע הבמה כרקע
+	Stop after the frame being made; formats not started don't run	עצירה לאחר השלמת הפריים הנוכחי; פורמטים שטרם הופעלו לא יתחילו
+	Stopping…	עוצר…
+	Strokes	קווי מתאר
+	Text fields	שדות טקסט
+	Text to find	טקסט לחיפוש
+	The current scene and every symbol in it	הסצנה הנוכחית וכל הסמלים שבה
+	The file's name	שם הקובץ
+	The frame the playhead is on	הפריים שבו נמצא סמן הניגון
+	The Library has none	אין פריטים בספרייה
+	The whole document	המסמך כולו
+	Turn a format on first	יש להפעיל פורמט תחילה
+	Type what to find in Find and Replace	יש להזין טקסט לחיפוש בחלונית חיפוש והחלפה
+	Type what to find: results show as you type.	יש להזין טקסט לחיפוש; התוצאות יופיעו תוך כדי הקלדה.
+	Use the format's usual name: {name}	שימוש בשם הרגיל של הפורמט: {name}
+	What to search for	מה לחפש
+	Where to search	היכן לחפש
+	Whole word	מילה שלמה
+	Working…	בעבודה…
+	{format} output name	שם קובץ הפלט של {format}
 @plural	+{n} more|+{n} more	+{n} נוסף|+{n} נוספים|+{n} נוספים
 @plural	An action can have up to {n} key.|An action can have up to {n} keys.	לפעולה יכול להיות עד {n} מקש.|לפעולה יכולים להיות עד {n} מקשים.|לפעולה יכולים להיות עד {n} מקשים.
 @plural	AniCraft didn't close properly last time. This document had changes that weren't saved:|AniCraft didn't close properly last time. These documents had changes that weren't saved:	AniCraft לא נסגר כראוי בפעם הקודמת. במסמך הזה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:
