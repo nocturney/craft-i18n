@@ -16,9 +16,9 @@ class HebrewTextureCraftTests(unittest.TestCase):
         cls.common, cls.common_errors=sync_app.parse((ROOT/'locales/he/common.tsv').read_text('utf-8'))
         cls.source, cls.source_errors=sync_app.parse((ROOT/'locales/ar/texturecraft.tsv').read_text('utf-8'))
 
-    def test_hebrew_app_catalog_has_139_distinct_source_rows(self):
+    def test_hebrew_app_catalog_has_199_distinct_source_rows(self):
         self.assertFalse(self.parse_errors)
-        self.assertEqual(len(self.app),139)
+        self.assertEqual(len(self.app),199)
         self.assertTrue(all(c=='' for c,s in self.app))
         self.assertTrue(all(s and v for (c,s),v in self.app.items()))
 
@@ -30,6 +30,7 @@ class HebrewTextureCraftTests(unittest.TestCase):
             self.assertNotIn(key,self.common)
             self.assertIsNone(sync_app.text_problem(*key,value))
             self.assertEqual(unicodedata.normalize('NFC',value),value)
+            self.assertFalse(any(c in value for c in '\u202a\u202b\u202c\u202d\u202e\u2066\u2067\u2068\u2069'))
 
     def test_previous_nine_curated_values_preserved(self):
         preserved={
@@ -72,7 +73,71 @@ class HebrewTextureCraftTests(unittest.TestCase):
         for english,hebrew in samples.items():
             self.assertEqual(locale[('',english)],hebrew,english)
             self.assertIsNone(sync_app.text_problem('',english,hebrew))
-        self.assertEqual(len(self.app),139)
+        self.assertEqual(len(self.app),199)
+
+
+    def test_round3_save_open_prompts_and_paths(self):
+        locale=resolved(ROOT,'he-IL')
+        examples={
+            'Save as...':'שמירה בשם...',
+            'Save a copy...':'שמירת עותק...',
+            'Save the changes to {name} before closing?':'לשמור את השינויים ב־{name} לפני הסגירה?',
+            "Couldn't open {name}: {error}":'לא ניתן לפתוח את {name}: {error}',
+            'Saved {path}':'נשמר: {path}',
+        }
+        for source,hebrew in examples.items():
+            self.assertEqual(locale[('',source)],hebrew,source)
+            self.assertIsNone(sync_app.text_problem('',source,hebrew))
+
+    def test_round3_import_export_results(self):
+        locale=resolved(ROOT,'he-IL')
+        examples={
+            "Couldn't export textures: {error}":'לא ניתן לייצא טקסטורות: {error}',
+            "Couldn't import {name}: {error}":'לא ניתן לייבא את {name}: {error}',
+            'Exported mesh to {path}':'הרשת יוצאה אל {path}',
+            'Not imported: {files}':'לא יובאו: {files}',
+            'Import resources...':'ייבוא משאבים...',
+        }
+        for source,hebrew in examples.items():
+            self.assertEqual(locale[('',source)],hebrew,source)
+            self.assertIsNone(sync_app.text_problem('',source,hebrew))
+
+    def test_round3_layer_and_mask_actions(self):
+        locale=resolved(ROOT,'he-IL')
+        examples={
+            'Layer mask':'מסכת שכבה',
+            'Paint layer':'שכבת צביעה',
+            'Remove layer(s)':'הסר שכבות',
+            'Invert mask':'הפוך מסכה',
+            'Select a layer':'בחר שכבה',
+        }
+        for source,hebrew in examples.items():
+            self.assertEqual(locale[('',source)],hebrew,source)
+
+    def test_round3_rendering_progress_and_errors(self):
+        locale=resolved(ROOT,'he-IL')
+        examples={
+            'GPU error: {error}':'שגיאת GPU: {error}',
+            'No GPU renderer available':'אין מנוע רינדור זמין ב־GPU',
+            'Rendering':'רינדור',
+            'Rendering on CPU: {n} / {max} samples, {s} s':'רינדור במעבד: {n} מתוך {max} דגימות, {s} שנ׳',
+            "Couldn't save the render: {error}":'לא ניתן לשמור את תוצאת הרינדור: {error}',
+        }
+        for source,hebrew in examples.items():
+            self.assertEqual(locale[('',source)],hebrew,source)
+            self.assertIsNone(sync_app.text_problem('',source,hebrew))
+
+    def test_round3_settings_reset_and_resolution(self):
+        locale=resolved(ROOT,'he-IL')
+        examples={
+            'Reset all':'איפוס הכול',
+            'Reset to defaults':'איפוס לברירות המחדל',
+            'Reset UI':'איפוס הממשק',
+            'Texture resolution':'רזולוציית טקסטורה',
+            'Save UI Layout':'שמירת פריסת הממשק',
+        }
+        for source,hebrew in examples.items():
+            self.assertEqual(locale[('',source)],hebrew,source)
 
 if __name__=='__main__':
     unittest.main()

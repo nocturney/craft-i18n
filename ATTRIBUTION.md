@@ -338,3 +338,20 @@ Hebrew wording was created from English semantics, without copying localization
 files from third-party products. Translation drafting and reconciliation were
 AI-assisted; no independent native-speaker review, Hebrew GUI screenshot, full
 application build, maintainer acceptance or release is claimed.
+
+## TextureCraft: third Hebrew quick-wins contribution (12 November 2026)
+
+VelvetOS ArtCraft Hebrew Localization contributed 60 more original Hebrew
+translations to `locales/he/texturecraft.tsv`, taking the app-specific catalog
+from 139 to 199 unique English-keyed rows. The new labels cover five coherent
+high-use workflows: project open/save and unsaved-change prompts (14),
+import/export and file errors (12), layer/mask commands (12), rendering and GPU
+status/errors (12), and project/texture/UI settings (10). All 60 source keys were
+checked against official `storytold/texturecraft` Rust sources at
+`42c8ea5b3c3a4cabdda03f535355cd61ac756479` and the migrated English-key
+inventory. Existing 139 translations, including earlier curated wording,
+remain unchanged. Five new focused regression cases and checks for accidental
+BiDi control characters protect Unicode and parameterized error/status strings.
+AI-assisted drafting from original English meaning only; no external product's
+translation table was consulted or copied. Native-speaker review, real Native
+Hebrew GUI/RTL readback, and maintainer acceptance are still required.

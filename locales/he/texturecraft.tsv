@@ -13,7 +13,6 @@
 # Clean room: every entry was written from the plain meaning of the English text in ordinary
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
-
 	0 turns autosave off. Copies go to {folder}	0 משבית שמירה אוטומטית. עותקים נשמרים בתיקייה {folder}
 	2D view only	תצוגת דו־ממד בלבד
 	3D mesh	רשת תלת־ממדית
@@ -103,6 +102,7 @@
 	Channel	ערוץ
 	Channels	ערוצים
 	Clear mask	נקה מסכה
+	Clear recent projects	ניקוי רשימת הפרויקטים האחרונים
 	Click the mesh to place the decal	לחץ על הרשת כדי למקם את המדבקה
 	Coat normal	נורמל שכבת הציפוי
 	coat rough	חספוס שכבת הציפוי
@@ -115,6 +115,15 @@
 	Copy layer(s)	העתק שכבה/שכבות
 	Copy to all texture sets	העתק לכל סטי הטקסטורות
 	Copy what the texture set shows	העתק את מה שסט הטקסטורות מציג
+	Couldn't encode the render	לא ניתן לקודד את תוצאת הרינדור
+	Couldn't export textures: {error}	לא ניתן לייצא טקסטורות: {error}
+	Couldn't export the mesh: {error}	לא ניתן לייצא את הרשת: {error}
+	Couldn't export the template: {error}	לא ניתן לייצא את התבנית: {error}
+	Couldn't import {name}: {error}	לא ניתן לייבא את {name}: {error}
+	Couldn't open {name}: {error}	לא ניתן לפתוח את {name}: {error}
+	Couldn't read the render back from the GPU	לא ניתן לקרוא את תוצאת הרינדור בחזרה מה־GPU
+	Couldn't save {name}: {error}	לא ניתן לשמור את {name}: {error}
+	Couldn't save the render: {error}	לא ניתן לשמור את תוצאת הרינדור: {error}
 	Create smart material	צור חומר חכם
 	Current layer	השכבה הנוכחית
 	Cut effect	גזור אפקט
@@ -129,6 +138,7 @@
 	Display previous channel	הצג את הערוץ הקודם
 	Display previous mesh map	הצג את מפת הרשת הקודמת
 	Document resolution	רזולוציית המסמך
+	Don't save	לא לשמור
 	Drag onto an output channel	גרור אל ערוץ פלט
 	Duplicate effect	שכפל אפקט
 	Duplicate layer(s)	שכפל שכבה/שכבות
@@ -144,6 +154,7 @@
 	Export textures	ייצוא טקסטורות
 	Export Textures...	ייצוא טקסטורות...
 	Export the selected template (.json)	ייצא את התבנית הנבחרת (.json)
+	Exported mesh to {path}	הרשת יוצאה אל {path}
 	Face Normals Based	מבוסס נורמלים של פאות
 	Fill layer	שכבת מילוי
 	Fill mode	מצב מילוי
@@ -153,3 +164,51 @@
 	Filter	מסנן
 	Filters	מסננים
 	Flatten layer	שיטוח שכבה
+	General export parameters	פרמטרים כלליים לייצוא
+	GPU error: {error}	שגיאת GPU: {error}
+	Group layer(s)	קיבוץ שכבות
+	Import a template (.json)	ייבוא תבנית (.json)
+	Import baked maps	ייבוא מפות אפויות
+	Import resources...	ייבוא משאבים...
+	Invert mask	הפוך מסכה
+	Layer mask	מסכת שכבה
+	Max project size on open	גודל פרויקט מרבי בפתיחה
+	New project...	פרויקט חדש...
+	No GPU renderer available	אין מנוע רינדור זמין ב־GPU
+	No recent projects yet	אין פרויקטים אחרונים
+	Not exported: no source in this texture set	לא בוצע ייצוא: אין מקור בערכת הטקסטורות הזו
+	Not imported: {files}	לא יובאו: {files}
+	Open...	פתיחה...
+	Paint layer	שכבת צביעה
+	Paste layer(s)	הדבקת שכבות
+	Project Configuration...	הגדרות פרויקט...
+	Project opened	הפרויקט נפתח
+	Quick mask	מסכה מהירה
+	Recent projects	פרויקטים אחרונים
+	Reimport mesh	ייבוא הרשת מחדש
+	Remove layer	הסר שכבה
+	Remove layer(s)	הסר שכבות
+	Remove mask	הסר מסכה
+	Render on the CPU	רינדור במעבד (CPU)
+	Rendering	רינדור
+	Rendering on CPU: {n} / {max} samples, {s} s	רינדור במעבד: {n} מתוך {max} דגימות, {s} שנ׳
+	Rendering on GPU: {n} / {max} samples, {s} s	רינדור במעבד הגרפי: {n} מתוך {max} דגימות, {s} שנ׳
+	Reset all	איפוס הכול
+	Reset to defaults	איפוס לברירות המחדל
+	Reset UI	איפוס הממשק
+	Save a copy...	שמירת עותק...
+	Save as...	שמירה בשם...
+	Save current layout...	שמירת פריסת הממשק הנוכחית...
+	Save render...	שמירת הרינדור...
+	Save the changes to {name} before closing?	לשמור את השינויים ב־{name} לפני הסגירה?
+	Save UI Layout	שמירת פריסת הממשק
+	Saved {path}	נשמר: {path}
+	Select a layer	בחר שכבה
+	Select the layer content	בחר את תוכן השכבה
+	Show or hide the layer	הצג או הסתר את השכבה
+	Starting render...	הרינדור מתחיל...
+	Texture resolution	רזולוציית טקסטורה
+	Texture set channels	ערוצי ערכת הטקסטורות
+	Texture set resolution	רזולוציית ערכת הטקסטורות
+	The GPU couldn't render this scene: {error}	לא ניתן לרנדר את הסצנה באמצעות GPU: {error}
+	Unsaved changes	שינויים שלא נשמרו
