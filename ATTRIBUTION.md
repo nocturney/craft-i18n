@@ -310,3 +310,31 @@ Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 ## TextureCraft initial migration
 
 The `texturecraft.tsv` catalogs for ar, de, es, fr, it, ja, ko, pt-br and zh-hans were migrated from [TextureCraft `21856d778347e13857f65c8f1107170797bd070f`](https://github.com/storytold/texturecraft/tree/21856d778347e13857f65c8f1107170797bd070f/crates/ui-egui/src/i18n), MIT OR Apache-2.0. Original wording and contributor credits remain in the upstream history. Migration tooling was AI-assisted; no new translations were authored and no additional native-speaker review was performed. Every original row was checked against the resolved app and shared catalogs. Tracked in storytold/texturecraft#419.
+
+## TextureCraft: Hebrew draft (ArtCraft localization, 12 November 2026)
+
+The initial Hebrew catalog locales/he/texturecraft.tsv is an AI-assisted,
+clean-room draft using a 100-key source-linked English terminology seed from
+a separately verified Claude Code contribution (Kaneo task #62), with 9
+previously curated Hebrew TextureCraft translations preserved. Two terms
+(Export, Fill) already have identical Hebrew values in shared he/common.tsv,
+leaving 98 app-specific rows. The sources are the original English keys in
+TextureCraft, not translations from other software or the Arabic catalog.
+Source-key, placeholder, Unicode and TSV tests were performed; native
+speaker and maintainer review, Native GUI RTL QA and release approval pending.
+
+## TextureCraft: 41 reconciled additional Hebrew quick wins (12 November 2026)
+
+VelvetOS ArtCraft Hebrew Localization reconciled a separate 28-row draft against
+an independently source-verified DAY-06 98-row TextureCraft Hebrew catalog.
+Fifteen duplicate English keys were not added again; original DAY-06 wording
+was retained for their overlaps (including ten differing but plausible
+translations). Thirteen unique prior-draft rows and 28 new English-keyed
+TextureCraft interface labels were added, for 139 app-specific rows total.
+Scope: 2D/3D views, layer and generator actions, baking progress, geometry,
+materials, UI settings and parameterized status messages. The English keys were
+checked against the existing source-linked TextureCraft export catalog. Original
+Hebrew wording was created from English semantics, without copying localization
+files from third-party products. Translation drafting and reconciliation were
+AI-assisted; no independent native-speaker review, Hebrew GUI screenshot, full
+application build, maintainer acceptance or release is claimed.

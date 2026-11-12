@@ -1,0 +1,155 @@
+# עברית (he) interface catalog for TextureCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Hebrew draft: 98 previously source-verified rows, plus 41 independent quick wins.
+# Two initial seed strings already resolve from common.tsv, so 139 app rows in total.
+# Original 9 locally reviewed wording preserved; native-speaker and maintainer review pending.
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	0 turns autosave off. Copies go to {folder}	0 משבית שמירה אוטומטית. עותקים נשמרים בתיקייה {folder}
+	2D view only	תצוגת דו־ממד בלבד
+	3D mesh	רשת תלת־ממדית
+	3D meshes	רשתות תלת־ממדיות
+	3D texture painting: layers, masks, smart materials, mesh map baking and export.	צביעת טקסטורות בתלת־ממד: שכבות, מסכות, חומרים חכמים, אפיית מפות רשת וייצוא.
+	3D view only	תצוגת תלת־ממד בלבד
+	3D/2D views	תצוגות תלת־ממד ודו־ממד
+	a missing layer	שכבה חסרה
+	About TextureCraft	אודות TextureCraft
+	About TextureCraft...	אודות TextureCraft...
+	Add anchor point	הוספת נקודת עיגון
+	Add as decal (view center)	הוספה כמדבקה (מרכז התצוגה)
+	Add black mask	הוסף מסכה שחורה
+	Add channel	הוסף ערוץ
+	Add color	הוסף צבע
+	Add compare mask	הוסף מסכת השוואה
+	Add effect	הוסף אפקט
+	Add fill	הוסף מילוי
+	Add fill layer	הוסף שכבת מילוי
+	Add filter	הוסף מסנן
+	Add folder	הוסף תיקייה
+	Add generator	הוסף מחולל
+	Add High-Poly Meshes	הוסף רשתות עתירות מצולעים
+	Add levels	הוסף רמות
+	Add mask	הוסף מסכה
+	Add mask with color selection	הוסף מסכה לפי בחירת צבע
+	Add output	הוסף פלט
+	Add paint	הוסף צביעה
+	Add paint layer	הוסף שכבת צביעה
+	Add smart material from the shelf	הוסף חומר חכם מהמדף
+	Add to the layer content	הוסף לתוכן השכבה
+	Add to the mask	הוסף למסכה
+	Add white mask	הוסף מסכה לבנה
+	Add...	הוסף...
+	Advanced settings	הגדרות מתקדמות
+	All layers	כל השכבות
+	Alpha	אלפא
+	Alphas	תבניות אלפא
+	Also bound to {item} ({menu})	משויך גם אל {item} ({menu})
+	Ambient	סביבתי
+	Ambient occlusion	חסימת אור סביבתית
+	Ambient Occlusion	חסימת אור סביבתית
+	Angle (degrees)	זווית (מעלות)
+	Angle fade from	תחילת דעיכה לפי זווית
+	Angle fade to	סיום דעיכה לפי זווית
+	Angle jitter	שונות בזווית
+	Angle span	טווח זוויות
+	Anisotropy angle	זווית אנאיזוטרופיה
+	Anisotropy level	רמת אנאיזוטרופיה
+	Antialiasing	החלקת קצוות
+	AO intensity	עוצמת הסתרה סביבתית
+	Aperture	מפתח צמצם
+	Apply Diffusion	החל דיפוזיה
+	Auto Tonemapping	מיפוי טונים אוטומטי
+	Automatic (from the mesh UVs)	אוטומטי (לפי UV של הרשת)
+	Autosave every	שמירה אוטומטית בכל
+	Average Normals	נורמלים ממוצעים
+	Back to painting	חזרה לצביעה
+	Backface culling	הסתרת פאות אחוריות
+	Bake mesh maps	אפיית מפות רשת
+	Bake Mesh Maps	אפיית מפות רשת
+	Bake Selected Textures ({n})	אפיית הטקסטורות שנבחרו ({n})
+	Baked Lighting	תאורה אפויה
+	Baked maps imported: {count}	יובאו מפות אפויות: {count}
+	Baking	אפייה
+	Baking Visualization	המחשת אפייה
+	Based on each texture set's size	לפי גודל כל סט הטקסטורות
+	Basic settings	הגדרות בסיסיות
+	Bent Normals	נורמלים מעוקמים
+	Bevel	שיפוע
+	Blending	מיזוג
+	Blending mode of the displayed channel	מצב מיזוג של הערוץ המוצג
+	Blur and sharpen	טשטוש וחידוד
+	Bounces	החזרי אור
+	Bricks	לבנים
+	Brush	מברשת
+	Brush name	שם מברשת
+	Brush size	גודל מברשת
+	Brush size down / up	הקטן / הגדל גודל מברשת
+	Brushed lines	קווים מוברשים
+	Brushes	מברשות
+	Built-in (read-only): duplicate it to edit	מובנה (לקריאה בלבד): שכפל כדי לערוך
+	Built-in templates are read-only: duplicate one to edit it	תבניות מובנות הן לקריאה בלבד: שכפל תבנית כדי לערוך אותה
+	Built-in: {mesh}	מובנה: {mesh}
+	By Mesh Name	לפי שם הרשת
+	Cancel the stroke	בטל את קו המברשת
+	Channel	ערוץ
+	Channels	ערוצים
+	Clear mask	נקה מסכה
+	Click the mesh to place the decal	לחץ על הרשת כדי למקם את המדבקה
+	Coat normal	נורמל שכבת הציפוי
+	coat rough	חספוס שכבת הציפוי
+	Coat roughness	חספוס שכבת הציפוי
+	Combine with the layer's height	שלב עם גובה השכבה
+	Compare mask	מסכת השוואה
+	Content effects	אפקטים של התוכן
+	Converted maps	מפות שהומרו
+	Copy effect	העתק אפקט
+	Copy layer(s)	העתק שכבה/שכבות
+	Copy to all texture sets	העתק לכל סטי הטקסטורות
+	Copy what the texture set shows	העתק את מה שסט הטקסטורות מציג
+	Create smart material	צור חומר חכם
+	Current layer	השכבה הנוכחית
+	Cut effect	גזור אפקט
+	Cut layer(s)	גזור שכבה/שכבות
+	Cylindrical projection	הקרנה גלילית
+	Decal projection	הקרנת מדבקה
+	DirectX normal map	מפת נורמל מסוג DirectX
+	Displacement (height channel)	תזוזה (ערוץ גובה)
+	Display material	הצג חומר
+	Display next channel	הצג את הערוץ הבא
+	Display next mesh map	הצג את מפת הרשת הבאה
+	Display previous channel	הצג את הערוץ הקודם
+	Display previous mesh map	הצג את מפת הרשת הקודמת
+	Document resolution	רזולוציית המסמך
+	Drag onto an output channel	גרור אל ערוץ פלט
+	Duplicate effect	שכפל אפקט
+	Duplicate layer(s)	שכפל שכבה/שכבות
+	Edit quick mask	ערוך מסכה מהירה
+	Enable or disable the effect	הפעל או כבה את האפקט
+	Enable quick mask	הפעל מסכה מהירה
+	Environment map	מפת סביבה
+	Environment opacity	אטימות הסביבה
+	Export mesh	ייצוא רשת
+	Export Mesh...	ייצוא רשת...
+	Export template	ייצא תבנית
+	Export templates	ייצא תבניות
+	Export textures	ייצוא טקסטורות
+	Export Textures...	ייצוא טקסטורות...
+	Export the selected template (.json)	ייצא את התבנית הנבחרת (.json)
+	Face Normals Based	מבוסס נורמלים של פאות
+	Fill layer	שכבת מילוי
+	Fill mode	מצב מילוי
+	Fill only polygons the camera sees (3D view)	מלא רק מצולעים שהמצלמה רואה (תצוגה תלת־ממדית)
+	Fill the closed path (lasso)	מלא את הנתיב הסגור (לאסו)
+	Fill the path (close it first)	מלא את הנתיב (סגור אותו קודם)
+	Filter	מסנן
+	Filters	מסננים
+	Flatten layer	שיטוח שכבה
