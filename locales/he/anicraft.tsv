@@ -754,6 +754,37 @@
 	Full HD video	וידאו Full HD
 	Square post	פוסט ריבועי
 	Vertical story	סטורי אנכי
+# Round 4: 30 source-linked original Hebrew translations for publishing and brushes.
+	HTML canvas	קנבס HTML
+	Video	וידאו
+	Sprite sheet	גיליון ספרייטים
+	PNG sequence	רצף תמונות PNG
+	Audio	שמע
+	The movie's soundtrack as a WAV file.	פס הקול של האנימציה כקובץ WAV.
+	{path}, beside the document once it is saved	{path}, לצד המסמך לאחר שמירתו
+	Off: it plays the number of times you set, then stops on the last frame	כאשר האפשרות כבויה, האנימציה תופעל במספר החזרות שנקבע ותיעצר בפריים האחרון.
+	Off: the movie shows at its stage size	כאשר האפשרות כבויה, האנימציה תוצג בגודל הבמה המקורי.
+	Loop	הפעלה בלולאה
+	Off: it plays once and stops on the last frame	כאשר האפשרות כבויה, האנימציה תופעל פעם אחת ותיעצר בפריים האחרון.
+	Off: transparent	כאשר האפשרות כבויה, הרקע שקוף.
+	The movie's sounds: Opus in WebM, AAC in MP4	צלילי האנימציה יקודדו ב־Opus עבור WebM וב־AAC עבור MP4.
+	End the name in .webm (VP9) or .mp4 (H.264). AniCraft uses the ffmpeg on this computer.	יש לסיים את שם הקובץ בסיומת ‎.webm ‏(VP9) או ‎.mp4 ‏(H.264). AniCraft משתמשת ב־ffmpeg המותקן במחשב זה.
+	Padding	ריווח פנימי
+	{bits}-bit	{bits} סיביות
+	Delete “{name}”	מחיקת ״{name}״
+	Keep	השאר
+	Publish Settings…	הגדרות פרסום…
+	Waiting	בהמתנה
+	Click a brush to draw with it in the Paint Brush.	לחצו על מברשת כדי לצייר באמצעותה בכלי ״מברשת ציור״.
+	Click a brush to paint with it in the Brush.	לחצו על מברשת כדי לצייר באמצעותה בכלי ״מברשת״.
+	{name} brush	מברשת {name}
+	Use	השתמש
+	Name for the brush	שם למברשת
+	Adds the brushes in a brush set file to yours	הוספת המברשות מקובץ אוסף מברשות למברשות האישיות.
+	Writes your brushes to a brush set file, to use on another computer	ייצוא המברשות האישיות לקובץ אוסף מברשות לשימוש במחשב אחר.
+	How much of the stroke swells from a point at its start	מידת ההתרחבות של הקו מנקודה צרה בתחילתו
+	How much of the stroke thins to a point at its end	מידת ההיצרות של הקו עד לנקודה בקצהו
+	The distance between dabs, as a part of the size	המרחק בין טביעות המברשת, ביחס לגודל המברשת.
 @plural	+{n} more|+{n} more	+{n} נוסף|+{n} נוספים|+{n} נוספים
 @plural	An action can have up to {n} key.|An action can have up to {n} keys.	לפעולה יכול להיות עד {n} מקש.|לפעולה יכולים להיות עד {n} מקשים.|לפעולה יכולים להיות עד {n} מקשים.
 @plural	AniCraft didn't close properly last time. This document had changes that weren't saved:|AniCraft didn't close properly last time. These documents had changes that weren't saved:	AniCraft לא נסגר כראוי בפעם הקודמת. במסמך הזה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:
