@@ -395,3 +395,13 @@ meaning without copying translation catalogs of other products. A native
 Hebrew speaker has not independently proofread these new strings; no native
 TextureCraft GUI, locale-picker integration, compiled/installed release,
 Hebrew RTL visual QA, maintainer merge or release is claimed.
+
+## TextureCraft: sixth Hebrew quick-wins contribution (13 November 2026)
+
+VelvetOS ArtCraft Hebrew Localization prepared 35 additional Hebrew TextureCraft UI
+translations in two bounded batches: 17 settings/display labels and 18 menu/dialog/action
+labels. Source keys were verified in storytold/texturecraft Rust UI source
+at 386630ee85cb22679295b24013575d1aecb39ad2, compared against the existing
+527-row draft and shared Hebrew catalog to avoid duplicating prior work.
+Wording was authored from English meaning, with AI assistance. No independent
+native-speaker review, native RTL UI check, upstream PR, merge or release is claimed.

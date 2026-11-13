@@ -18,3 +18,21 @@ settings		Saving uses the other cores and at most this share of the free RAM. At
 settings		Size of the textures the viewport shows: lower uses less GPU memory with large texture sets. Painting and export keep full resolution.	גודל הטקסטורות המוצגות באזור התצוגה: ערך נמוך צורך פחות זיכרון GPU בערכות טקסטורות גדולות. הצביעה והייצוא אינם מושפעים.	crates/ui-egui/src/windows.rs
 settings		Start window	חלון פתיחה	crates/ui-egui/src/windows.rs
 settings		Temporal anti-aliasing (refines the 3D view while it is still)	החלקת קצוות מבוססת זמן (משפרת את תצוגת התלת־ממד כשהיא נייחת)	crates/ui-egui/src/windows.rs
+dialogs		ArtCraft website...	אתר ArtCraft...	crates/ui-egui/src/menus.rs
+dialogs		Join the community (Discord)...	הצטרפות לקהילה (Discord)...	crates/ui-egui/src/menus.rs
+dialogs		Open sample project...	פתיחת פרויקט לדוגמה...	crates/ui-egui/src/menus.rs
+dialogs		Click, then press the new shortcut (Esc cancels)	לחץ ולאחר מכן הקש על הקיצור החדש (Esc לביטול)	crates/ui-egui/src/keymap.rs
+dialogs		Click: turn this channel on or off. Alt+click: this channel only	לחיצה: הפעלת הערוץ או כיבויו. Alt+לחיצה: הפעלת ערוץ זה בלבד	crates/ui-egui/src/dock.rs
+dialogs		Name each file after its texture set, like Body_normal.png	תן לכל קובץ את שם ערכת הטקסטורות שלו, לדוגמה Body_normal.png	crates/ui-egui/src/new_project_advanced.rs
+dialogs		Not enough GPU memory to show {count} texture sets fully ({names}): lower the viewport Texture resolution in Settings. Painting and export are not affected.	אין די זיכרון GPU להצגה מלאה של {count} ערכות טקסטורות ({names}). יש להקטין את רזולוציית הטקסטורות באזור התצוגה דרך ההגדרות. הצביעה והייצוא אינם מושפעים.	crates/ui-egui/src/viewport.rs
+dialogs		Exported {n} textures to {folder}	יוצאו {n} טקסטורות אל {folder}	crates/ui-egui/src/windows.rs
+dialogs		No outputs yet: add one above, then drag input maps onto its channels.	אין עדיין פריטי פלט: הוסף פריט למעלה ולאחר מכן גרור מפות קלט לערוצים שלו.	crates/ui-egui/src/export_templates.rs
+dialogs		Open in MaterialCraft	פתיחה ב־MaterialCraft	crates/ui-egui/src/dock.rs
+dialogs		Opened in MaterialCraft: use File > Send to TextureCraft there to bring your changes back	נפתח ב־MaterialCraft: כדי להחזיר את השינויים, בחר שם File > Send to TextureCraft.	crates/ui-egui/src/dock.rs
+dialogs		Load Cage	טעינת כלוב	crates/ui-egui/src/bake_mode/common_settings.rs
+dialogs		Insert a variable	הוספת משתנה	crates/ui-egui/src/export_templates.rs
+dialogs		More in Assets > Alphas: click one, or drag it here	לפריטים נוספים, פתח נכסים > תבניות אלפא: לחץ על אחת התבניות או גרור אותה לכאן	crates/ui-egui/src/dock.rs
+dialogs		Move down	הזז למטה	crates/ui-egui/src/export_templates.rs
+dialogs		Move up	הזז למעלה	crates/ui-egui/src/export_templates.rs
+dialogs		Return to this step	חזרה לשלב זה	crates/ui-egui/src/windows.rs
+dialogs		Select...	בחירה...	crates/ui-egui/src/windows.rs

@@ -16,9 +16,9 @@ class HebrewTextureCraftTests(unittest.TestCase):
         cls.common, cls.common_errors=sync_app.parse((ROOT/'locales/he/common.tsv').read_text('utf-8'))
         cls.source, cls.source_errors=sync_app.parse((ROOT/'locales/ar/texturecraft.tsv').read_text('utf-8'))
 
-    def test_hebrew_app_catalog_has_544_distinct_source_rows(self):
+    def test_hebrew_app_catalog_has_562_distinct_source_rows(self):
         self.assertFalse(self.parse_errors)
-        self.assertEqual(len(self.app),544)
+        self.assertEqual(len(self.app),562)
         self.assertTrue(all(c=='' for c,s in self.app))
         self.assertTrue(all(s and v for (c,s),v in self.app.items()))
 
@@ -73,7 +73,7 @@ class HebrewTextureCraftTests(unittest.TestCase):
         for english,hebrew in samples.items():
             self.assertEqual(locale[('',english)],hebrew,english)
             self.assertIsNone(sync_app.text_problem('',english,hebrew))
-        self.assertEqual(len(self.app),544)
+        self.assertEqual(len(self.app),562)
 
 
     def test_round3_save_open_prompts_and_paths(self):
@@ -298,6 +298,24 @@ class HebrewTextureCraftTests(unittest.TestCase):
         rows=[r.split('\t') for r in manifest if not r.startswith('#') and not r.startswith('batch\t')]
         current=[r for r in rows if r[0]=='settings']
         self.assertEqual(len(current),17)
+        for _,context,english,hebrew,rust_path in current:
+            with self.subTest(source=english):
+                self.assertEqual(context,'')
+                self.assertTrue(rust_path.startswith('crates/ui-egui/src/'))
+                self.assertIn(('',english),self.source)
+                self.assertNotIn(('',english),self.common)
+                self.assertEqual(self.app[('',english)],hebrew)
+                self.assertEqual(locale[('',english)],hebrew)
+                self.assertIsNone(sync_app.text_problem('',english,hebrew))
+                self.assertEqual(unicodedata.normalize('NFC',hebrew),hebrew)
+
+
+    def test_20261113_dialogs_quick_wins(self):
+        locale=resolved(ROOT,'he-IL')
+        manifest=(ROOT/'docs/he-texturecraft-quickwins-2026-11-13.tsv').read_text('utf-8').splitlines()
+        rows=[r.split('\t') for r in manifest if not r.startswith('#') and not r.startswith('batch\t')]
+        current=[r for r in rows if r[0]=='dialogs']
+        self.assertEqual(len(current),18)
         for _,context,english,hebrew,rust_path in current:
             with self.subTest(source=english):
                 self.assertEqual(context,'')

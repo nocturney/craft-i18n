@@ -560,3 +560,23 @@
 	Size of the textures the viewport shows: lower uses less GPU memory with large texture sets. Painting and export keep full resolution.	גודל הטקסטורות המוצגות באזור התצוגה: ערך נמוך צורך פחות זיכרון GPU בערכות טקסטורות גדולות. הצביעה והייצוא אינם מושפעים.
 	Start window	חלון פתיחה
 	Temporal anti-aliasing (refines the 3D view while it is still)	החלקת קצוות מבוססת זמן (משפרת את תצוגת התלת־ממד כשהיא נייחת)
+
+# Quick win dialogs: source-verified on 2026-11-13; independent native RTL QA remains.
+	ArtCraft website...	אתר ArtCraft...
+	Join the community (Discord)...	הצטרפות לקהילה (Discord)...
+	Open sample project...	פתיחת פרויקט לדוגמה...
+	Click, then press the new shortcut (Esc cancels)	לחץ ולאחר מכן הקש על הקיצור החדש (Esc לביטול)
+	Click: turn this channel on or off. Alt+click: this channel only	לחיצה: הפעלת הערוץ או כיבויו. Alt+לחיצה: הפעלת ערוץ זה בלבד
+	Name each file after its texture set, like Body_normal.png	תן לכל קובץ את שם ערכת הטקסטורות שלו, לדוגמה Body_normal.png
+	Not enough GPU memory to show {count} texture sets fully ({names}): lower the viewport Texture resolution in Settings. Painting and export are not affected.	אין די זיכרון GPU להצגה מלאה של {count} ערכות טקסטורות ({names}). יש להקטין את רזולוציית הטקסטורות באזור התצוגה דרך ההגדרות. הצביעה והייצוא אינם מושפעים.
+	Exported {n} textures to {folder}	יוצאו {n} טקסטורות אל {folder}
+	No outputs yet: add one above, then drag input maps onto its channels.	אין עדיין פריטי פלט: הוסף פריט למעלה ולאחר מכן גרור מפות קלט לערוצים שלו.
+	Open in MaterialCraft	פתיחה ב־MaterialCraft
+	Opened in MaterialCraft: use File > Send to TextureCraft there to bring your changes back	נפתח ב־MaterialCraft: כדי להחזיר את השינויים, בחר שם File > Send to TextureCraft.
+	Load Cage	טעינת כלוב
+	Insert a variable	הוספת משתנה
+	More in Assets > Alphas: click one, or drag it here	לפריטים נוספים, פתח נכסים > תבניות אלפא: לחץ על אחת התבניות או גרור אותה לכאן
+	Move down	הזז למטה
+	Move up	הזז למעלה
+	Return to this step	חזרה לשלב זה
+	Select...	בחירה...
