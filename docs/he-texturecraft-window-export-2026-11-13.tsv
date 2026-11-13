@@ -1,0 +1,42 @@
+# Source: nocturney/texturecraft@2230109e515f00644741ac97087b95768785d3a0; catalog base: nocturney/craft-i18n@dacdd6082ef47d0f6f06ed55db2ae9b95b63e7f6
+# Draft: source code keys checked, native RTL UI review pending.
+# Eight entries newly present in native UI are absent from older Arabic migrated catalog (not a Hebrew blocker).
+batch	context	english	hebrew	rust_source
+window-settings		Settings	הגדרות	crates/ui-egui/src/windows.rs
+window-settings		Title bar	שורת כותרת	crates/ui-egui/src/windows.rs
+window-settings		Use the operating system's window frame and buttons instead of TextureCraft's own title bar	השתמש במסגרת החלון ובלחצניו של מערכת ההפעלה במקום בשורת הכותרת של TextureCraft	crates/ui-egui/src/windows.rs
+window-settings		Full	מלאה	crates/ui-egui/src/windows.rs
+window-settings		Half	חצי	crates/ui-egui/src/windows.rs
+window-settings		Autosaves, smart materials, presets, templates and UI layouts go to the data folder. A new folder applies on restart; files already saved stay where they are.	שמירות אוטומטיות, חומרים חכמים, הגדרות קבועות מראש, תבניות ופריסות ממשק נשמרים בתיקיית הנתונים. תיקייה חדשה תיכנס לשימוש לאחר הפעלה מחדש; קבצים שכבר נשמרו יישארו במיקומם.	crates/ui-egui/src/windows.rs
+window-settings		Use an equirectangular .hdr or .exr image as the environment	השתמש בתמונת .hdr או .exr במיפוי שווה־זווית כסביבת התצוגה	crates/ui-egui/src/windows.rs
+window-settings		View through this camera	הצג מנקודת המבט של מצלמה זו	crates/ui-egui/src/windows.rs
+window-settings		Minimize	מזער	crates/ui-egui/src/titlebar.rs
+window-settings		Restore	שחזר	crates/ui-egui/src/titlebar.rs
+window-settings		Maximize	הגדל	crates/ui-egui/src/titlebar.rs
+window-settings		Filter the remaining noise while keeping edges and texture detail	סנן את הרעש שנותר תוך שמירה על קצוות ועל פרטי המרקם	crates/ui-egui/src/render_mode.rs
+window-settings		PNG image	תמונת PNG	crates/ui-egui/src/render_mode.rs
+window-settings		Version {version}	גרסה {version}	crates/ui-egui/src/windows.rs
+window-settings		Made by the ArtCraft team and community.	נוצר על ידי צוות ArtCraft והקהילה.	crates/ui-egui/src/windows.rs
+window-settings		Join the ArtCraft community on Discord	הצטרף לקהילת ArtCraft ב־Discord	crates/ui-egui/src/windows.rs
+export-dialogs		Textures embedded; for game engines and most viewers	הטקסטורות מוטמעות בקובץ; מתאים למנועי משחק ולרוב תוכנות התצוגה	crates/ui-egui/src/windows.rs
+export-dialogs		Textures packaged; for USD tools and AR Quick Look	הטקסטורות נארזות בקובץ; מתאים לכלי USD ול־AR Quick Look	crates/ui-egui/src/windows.rs
+export-dialogs		Wavefront OBJ with MTL, textures alongside	Wavefront OBJ עם MTL, הטקסטורות בקבצים נפרדים	crates/ui-egui/src/windows.rs
+export-dialogs		glTF binary with textures	glTF בינארי עם טקסטורות	crates/ui-egui/src/windows.rs
+export-dialogs		USDZ with textures	USDZ עם טקסטורות	crates/ui-egui/src/windows.rs
+export-dialogs		USD text, textures alongside	USD טקסטואלי, הטקסטורות בקבצים נפרדים	crates/ui-egui/src/windows.rs
+export-dialogs		USD binary, textures alongside	USD בינארי, הטקסטורות בקבצים נפרדים	crates/ui-egui/src/windows.rs
+export-dialogs		{n} bits	{n} סיביות	crates/ui-egui/src/windows.rs
+export-dialogs		Padding	הרחבת שוליים	crates/ui-egui/src/windows.rs
+export-dialogs		Dilation + transparent	הרחבת שוליים + רקע שקוף	crates/ui-egui/src/windows.rs
+export-dialogs		Dilation + default background color	הרחבת שוליים + צבע הרקע המוגדר כברירת מחדל	crates/ui-egui/src/windows.rs
+export-dialogs		Dilation infinite	הרחבת שוליים ללא הגבלה	crates/ui-egui/src/windows.rs
+export-dialogs		List of exports	רשימת קובצי ייצוא	crates/ui-egui/src/windows.rs
+export-dialogs		Gray	גווני אפור	crates/ui-egui/src/export_templates.rs
+export-dialogs		Gray + A	גווני אפור + אלפא	crates/ui-egui/src/export_templates.rs
+export-dialogs		Constants	ערכים קבועים	crates/ui-egui/src/export_templates.rs
+export-dialogs		Black	שחור	crates/ui-egui/src/export_templates.rs
+export-dialogs		Gray 50%	אפור 50%	crates/ui-egui/src/export_templates.rs
+export-dialogs		White	לבן	crates/ui-egui/src/export_templates.rs
+export-dialogs		{name} copy	עותק של {name}	crates/ui-egui/src/export_templates.rs
+export-dialogs		Exported template "{name}" to {path}	התבנית "{name}" יוצאה אל {path}	crates/ui-egui/src/export_templates.rs
+export-dialogs		Remove this output	הסר פלט זה	crates/ui-egui/src/export_templates.rs
