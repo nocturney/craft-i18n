@@ -30,6 +30,9 @@
 	Add the fill as a swatch	הוספת צבע המילוי כדוגמית
 	Add the stroke colour as a swatch	הוספת צבע קו המתאר כדוגמית
 	Add Warp Pin	הוספת נקודת עיגון לעיוות
+	Add {what} to the Library	הוספת {what} לספרייה
+	Added a point to the motion path. {undo} to undo.	נוספה נקודה לנתיב התנועה. {undo} כדי לבטל את הפעולה.
+	Added a point. {undo} to undo.	נוספה נקודה. {undo} כדי לבטל את הפעולה.
 	ANICRAFT_STAGE_RENDERER is set, and it takes precedence over this choice.	משתנה הסביבה ANICRAFT_STAGE_RENDERER מוגדר, והוא גובר על בחירה זו.
 	About AniCraft	אודות AniCraft
 	Actions	פעולות
@@ -135,6 +138,7 @@
 	Could not restore {name}: {error}	לא ניתן לשחזר את {name}: {error}
 	Could not save preferences: {e}	לא ניתן היה לשמור את ההעדפות: {e}
 	Couldn't check for updates: {error}	לא ניתן היה לבדוק עדכונים: {error}
+	Create Classic Tween	יצירת הנפשת מעבר קלאסית
 	Create Motion Tween	יצירת מעבר ביניים של תנועה
 	Create new	יצירת מסמך חדש
 	Create Shape Tween	יצירת הנפשת מעבר בין צורות
@@ -156,12 +160,16 @@
 	Delete Swatch	מחיקת דוגמית צבע
 	Delete the selected swatch	מחיקת דוגמית הצבע שנבחרה
 	Delete this guide	מחיקת קו עזר זה
+	Delete this template and its picture (asks first)	מחיקת התבנית והתמונה שלה (לאחר בקשת אישור)
 	Delete Unused Items…	מחיקת פריטים שאינם בשימוש…
 	Delete layer	מחיקת שכבה
 	Delete the active layer	מחיקת השכבה הפעילה
 	Delete this autosaved copy	מחיקת העותק שנשמר אוטומטית
 	Delete this keyframe's script	מחיקת הסקריפט של פריים המפתח הזה
 	Delete whole fills and lines	מחיקת מילויים וקווים בשלמותם
+	Deleted the fill. {undo} to undo.	המילוי נמחק. {undo} כדי לבטל את הפעולה.
+	Deleted the guide. {undo} to undo.	קו העזר נמחק. {undo} כדי לבטל את הפעולה.
+	Deleted the line. {undo} to undo.	הקו נמחק. {undo} כדי לבטל את הפעולה.
 	Deletes the selected items and folders (Delete)	מוחק את הפריטים והתיקיות שנבחרו (Delete)
 	Descending: click for ascending	בסדר יורד: לחצו לסדר עולה
 	Discard {name}…	מחיקת עותק השחזור של {name}…
@@ -212,9 +220,19 @@
 	Exit	יציאה
 	Expand All Folders	הרחבת כל התיקיות
 	Export animated GIF	ייצוא GIF מונפש
+	Export animated PNG (full colour, transparent)	ייצוא PNG מונפש (צבע מלא, עם שקיפות)
+	Export animated WebP (lossless, transparent)	ייצוא WebP מונפש (ללא אובדן איכות, עם שקיפות)
+	Export audio (the movie's soundtrack as a WAV)	ייצוא שמע (פס הקול של הסרט כקובץ WAV)
 	Export frame as PNG	ייצוא פריים כקובץ PNG
 	Export frame as SVG	ייצוא פריים כקובץ SVG
+	Export HTML canvas (one web page)	ייצוא קנבס HTML (דף אינטרנט אחד)
+	Export Lottie animation (JSON, for web and apps)	ייצוא הנפשת Lottie (JSON לאינטרנט ולאפליקציות)
 	Export PNG sequence to folder	ייצוא רצף קובצי PNG לתיקייה
+	Export sprite sheet (PNG + JSON frame map)	ייצוא גיליון ספרייטים (PNG ומפת פריימים ב-JSON)
+	Export swatches (a swatch file)	ייצוא דוגמיות צבע (קובץ דוגמיות)
+	Export video (.webm or .mp4, made with your ffmpeg)	ייצוא וידאו (בפורמט webm או mp4, באמצעות ffmpeg המותקן במחשב)
+	Export your brushes (a brush set file)	ייצוא המברשות (קובץ ערכת מברשות)
+	Exported {path} ({secs} s). No sounds play in that range, so the file is silent.	הקובץ {path} יוצא ({secs} שניות). בטווח הזה אין צלילים, ולכן הקובץ שקט.
 	Extra start gap	רווח נוסף בהתחלה
 	Fade by Distance	דהייה לפי מרחק
 	File dialogs	חלונות פתיחה ושמירה
@@ -246,6 +264,7 @@
 	Frame rate, and the time the last picture took to draw	קצב הפריימים וזמן ציור התמונה האחרונה
 	Frame script	סקריפט פריים
 	Frame script set — {undo} to undo	סקריפט הפריים הוגדר — {undo} לביטול
+	Frame scripts and instance actions	סקריפטים של פריימים ופעולות של מופעים
 	Frame view	תצוגת פריימים
 	Frame zoom	תקריב פריימים
 	Frame zoom: frame width (Ctrl+wheel over the frames)	זום פריימים: רוחב פריים (Ctrl+גלגלת מעל הפריימים)
@@ -268,6 +287,10 @@
 	If AniCraft closes unexpectedly, the next start offers to restore it. Copies stay in the settings folder, never over your files, and go away when you save.	אם AniCraft נסגר באופן לא צפוי, בהפעלה הבאה תוצע אפשרות לשחזר את העבודה. העותקים נשמרים בתיקיית ההגדרות, לעולם לא מעל הקבצים שלך, ונמחקים כשמבצעים שמירה.
 	If you don't save, your changes since the last save will be lost.	אם לא תשמרו, השינויים מאז השמירה האחרונה יאבדו.
 	Immediate	מיידי
+	Import brushes (a brush set file)	ייבוא מברשות (קובץ ערכת מברשות)
+	Import swatches (a swatch file or a GIMP palette)	ייבוא דוגמיות צבע (מקובץ דוגמיות או מלוח צבעים של GIMP)
+	Import to library (WAV, OGG or MP3 sound; PNG or JPEG image)	ייבוא לספרייה (צליל בפורמט WAV, OGG או MP3; תמונה בפורמט PNG או JPEG)
+	Import to stage (SVG, PNG or JPEG; WAV, OGG or MP3 onto a new layer)	ייבוא לבמה (SVG, PNG או JPEG; צליל WAV, OGG או MP3 לשכבה חדשה)
 	Ink Bottle	בקבוק דיו
 	Insert blank keyframe (F7)	הוספת פריים מפתח ריק (F7)
 	Insert frame (F5)	הוספת פריים (F5)
@@ -380,13 +403,18 @@
 	Onion {n}	קליפת בצל {n}
 	Onion-skin only the frames where a keyframe starts	קליפת בצל רק לפריימים שבהם מתחיל פריים מפתח
 	Open document	פתיחת מסמך
+	Open or create a document first, then drop drawings, images and sounds on its stage	יש לפתוח או ליצור מסמך לפני גרירת ציורים, תמונות וצלילים אל הבמה
 	Open Recent	פתיחת קבצים אחרונים
 	Open folder	פתיחת תיקייה
 	Open it as unsaved work	פתיחה כעבודה שלא נשמרה
 	Open {name}	פתיחת {name}
 	Open {name}, pinned	פתיחת {name}, מוצמד
+	Open-source 2D vector animation studio, written in Rust.	סביבת עבודה בקוד פתוח לאנימציה וקטורית דו-ממדית, שנכתבה ב-Rust.
 	Opened	נפתח
 	Opened document	המסמך נפתח
+	Opened in your system's file viewer	נפתח במציג הקבצים של המערכת
+	Opened the plug-ins folder	תיקיית התוספים נפתחה
+	Opened the user guide in your browser	מדריך המשתמש נפתח בדפדפן
 	Open…	פתיחה…
 	Or after	או אחרי
 	Or drop a document anywhere on this window.	או גררו מסמך לכל מקום בחלון הזה.
@@ -442,9 +470,13 @@
 	Remove Bone	הסרת עצם
 	Remove Camera	הסרת מצלמה
 	Remove colour stop	הסרת נקודת עצירה בצבע
+	Remove every swatch but black and white	הסרת כל דוגמיות הצבע למעט שחור ולבן
 	Remove filter	הסרת מסנן
+	Remove Hint {letter}	הסרת רמז הצורה {letter}
 	Remove Pin	הסרת נקודת עיגון
+	Remove the depth key on this frame	הסרת מפתח העומק בפריים הזה
 	Remove this colour stop	הסרת נקודת עצירת צבע זו
+	Remove this colour stop (or drag it off the bar)	הסרת נקודת הצבע הזו (או גרירתה אל מחוץ לסרגל)
 	Remove this filter	הסרת מסנן זה
 	Remove Tween	הסרת מעבר ביניים
 	Remove bone	הסרת עצם
@@ -458,12 +490,14 @@
 	Remove warp pin	הסרת נקודת עיגון לעיוות
 	Removed the actions — {undo} to undo	הפעולות הוסרו — {undo} לביטול
 	Removed the click event — {undo} to undo	אירוע הלחיצה הוסר — {undo} לביטול
+	Removed the plug-in	התוסף הוסר
 	Removed the plug-in frame script — {undo} to undo	סקריפט הפריים של התוסף הוסר — {undo} לביטול
 	Removed the pointer out event — {undo} to undo	אירוע יציאת הסמן הוסר — {undo} לביטול
 	Removed the pointer over event — {undo} to undo	אירוע ריחוף הסמן הוסר — {undo} לביטול
 	Removed the press event — {undo} to undo	אירוע הלחיצה למטה הוסר — {undo} לביטול
 	Removed the release event — {undo} to undo	אירוע השחרור הוסר — {undo} לביטול
 	Removed the script — {undo} to undo	הסקריפט הוסר — {undo} לביטול
+	Removed the width point. {undo} to undo.	נקודת הרוחב הוסרה. {undo} כדי לבטל את הפעולה.
 	Rename layer	שינוי שם שכבה
 	Rename scene	שינוי שם סצנה
 	Renderer	מנוע רינדור
@@ -486,6 +520,8 @@
 	Saved ease name	שם עקומת ההאטה השמורה
 	Saved eases	עקומות האטה שמורות
 	Saved:	נשמר:
+	Select a keyframe with a sound to edit its envelope	יש לבחור פריים מפתח עם צליל כדי לערוך את מעטפת הצליל שלו
+	Select a tweened span to edit its ease	יש לבחור מקטע עם הנפשת מעבר כדי לערוך את עקומת ההאטה שלו
 	Select some artwork first	יש לבחור תחילה אובייקט גרפי
 	Selectable	ניתן לבחירה
 	selected	נבחר
@@ -493,6 +529,7 @@
 	Show grid	הצג רשת
 	Show guides	הצג קווי עזר
 	Show in the Movie Explorer	הצגה בסייר הסרט
+	Show only the effect, not the artwork	הצגת האפקט בלבד, ללא הגרפיקה
 	Show over objects	הצגה מעל אובייקטים
 	Show the whole sound	הצגת הצליל במלואו
 	SVG image	תמונת SVG
@@ -608,6 +645,7 @@
 	Version {version} · {stage}	גרסה {version} · {stage}
 	View action	פעולת תצוגה
 	View layer as outlines	הצגת קווי המתאר של השכבה
+	Viewers can select the text while the movie plays	הצופים יכולים לבחור טקסט בזמן שהסרט מתנגן
 	WAV sound	קובץ שמע WAV
 	Web page	דף אינטרנט
 	What runs when the playhead enters a keyframe	מה מופעל כשראש ההפעלה נכנס לפריים מפתח
