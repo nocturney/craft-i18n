@@ -28,6 +28,34 @@ class HebrewTextureCraftTests(unittest.TestCase):
         cls.common, cls.common_errors=sync_app.parse((ROOT/'locales/he/common.tsv').read_text('utf-8'))
         cls.source, cls.source_errors=sync_app.parse((ROOT/'locales/ar/texturecraft.tsv').read_text('utf-8'))
 
+    def test_20261113_window_and_export_quick_wins(self):
+        """The receipt and runtime catalog agree on all 38 source-locked additions."""
+        receipt = ROOT / 'docs/he-texturecraft-window-export-2026-11-13.tsv'
+        lines = [line for line in receipt.read_text('utf-8').splitlines() if line and not line.startswith('#')]
+        self.assertEqual(lines[0].split('\t'), ['batch', 'context', 'english', 'hebrew', 'rust_source'])
+        rows = [line.split('\t') for line in lines[1:]]
+        self.assertEqual(len(rows), 38)
+        self.assertEqual(sum(r[0] == 'window-settings' for r in rows), 16)
+        self.assertEqual(sum(r[0] == 'export-dialogs' for r in rows), 22)
+        self.assertEqual(len({(r[1], r[2]) for r in rows}), len(rows))
+        locale = resolved(ROOT, 'he-IL')
+        allowed_paths = {
+            'crates/ui-egui/src/windows.rs',
+            'crates/ui-egui/src/titlebar.rs',
+            'crates/ui-egui/src/render_mode.rs',
+            'crates/ui-egui/src/export_templates.rs',
+        }
+        for batch, context, english, hebrew, rust_source in rows:
+            with self.subTest(english=english):
+                self.assertIn(batch, ('window-settings', 'export-dialogs'))
+                self.assertIn(rust_source, allowed_paths)
+                self.assertEqual(context, '')
+                self.assertNotIn((context, english), self.common)
+                self.assertEqual(self.app[(context, english)], hebrew)
+                self.assertEqual(locale[(context, english)], hebrew)
+                self.assertIsNone(sync_app.text_problem(context, english, hebrew))
+                self.assertEqual(unicodedata.normalize('NFC', hebrew), hebrew)
+
     def test_hebrew_app_catalog_has_600_distinct_source_rows(self):
         self.assertFalse(self.parse_errors)
         self.assertEqual(len(self.app),600)
