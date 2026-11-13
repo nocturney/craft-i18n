@@ -20,6 +20,11 @@
 	5 minutes	5 דקות
 	A list of actions, in order	רשימת פעולות לפי הסדר
 	A short animation to look at and take apart	אנימציה קצרה לצפייה ולחקירת מרכיביה
+	Add Camera	הוספת מצלמה
+	Add colour stop	הוספת נקודת צבע
+	Add guide	הוספת קו עזר
+	Add Swatch	הוספת דוגמית צבע
+	Add Warp Pin	הוספת נקודת עיגון לעיוות
 	ANICRAFT_STAGE_RENDERER is set, and it takes precedence over this choice.	משתנה הסביבה ANICRAFT_STAGE_RENDERER מוגדר, והוא גובר על בחירה זו.
 	About AniCraft	אודות AniCraft
 	Actions	פעולות
@@ -53,6 +58,8 @@
 	Animate this span's object property by property (edit the curves in the Motion Editor)	הנפשת האובייקט של המקטע הזה מאפיין אחר מאפיין (עריכת העקומות בעורך התנועה)
 	Animated GIF	קובץ GIF מונפש
 	Appearance	מראה
+	Apply to Fill	החל על מילוי
+	Apply to Stroke	החל על קו מתאר
 	Arrow keys	מקשי החצים
 	ArtCraft Launcher manages this app's version. Change its version there.	ArtCraft Launcher מנהל את גרסת התוכנה. יש לעדכן את הגרסה דרכו.
 	Ascending: click for descending	בסדר עולה: לחצו לסדר יורד
@@ -77,10 +84,13 @@
 	Bone: {name}	עצם: {name}
 	Break Apart	פירוק
 	Brush Library	ספריית המברשות
+	Brush roundness	עגלגלות המברשת
+	Brush set	ערכת מברשות
 	Brush Size Down	הקטנת גודל המברשת
 	Brush Size Up	הגדלת גודל המברשת
 	Brush angle	זווית מברשת
 	Brush size	גודל מברשת
+	Brush smoothing	החלקת המברשת
 	Button	כפתור
 	Button (unnamed)	כפתור (ללא שם)
 	Button “{name}”	כפתור "{name}"
@@ -131,7 +141,9 @@
 	Date added	תאריך הוספה
 	Default (bundled: {font})	ברירת מחדל (מצורף: {font})
 	Default ({font})	ברירת מחדל ({font})
+	Delete Point	מחיקת נקודה
 	Delete Sound	מחיקת צליל
+	Delete Swatch	מחיקת דוגמית צבע
 	Delete Unused Items…	מחיקת פריטים שאינם בשימוש…
 	Delete layer	מחיקת שכבה
 	Delete the active layer	מחיקת השכבה הפעילה
@@ -156,6 +168,8 @@
 	Draws the stage on the graphics card, and on the CPU when there is no card that can. The picture is the same either way.	מצייר את הבמה בכרטיס המסך, ובמעבד כשאין כרטיס מתאים. התמונה זהה בשני המקרים.
 	Duplicate Symbol	שכפול סמל
 	Ease	האצה והאטה
+	Edit Grid	עריכת רשת
+	Edit Guides	עריכת קווי עזר
 	Edit Multiple Frames	עריכת פריימים מרובים
 	Edit Multiple Frames moves, transforms, aligns, deletes, copies and pastes artwork on several keyframes; for this, turn it off and work frame by frame.	עריכת פריימים מרובים מזיזה, משנה, מיישרת, מוחקת, מעתיקה ומדביקה איור בכמה פריימי מפתח; לפעולה זו, כבו אותה ועבדו פריים אחר פריים.
 	Edit Multiple Frames: the keyframes between the onion markers show at full strength. Select and drag artwork to move it on all of them; drag the markers on the frame ruler to choose the frames.	עריכת פריימים מרובים: פריימי המפתח שבין סמני קליפת הבצל מוצגים בעוצמה מלאה. בחרו וגררו איור כדי להזיז אותו בכולם; גררו את הסמנים בסרגל הפריימים כדי לבחור את הפריימים.
@@ -164,6 +178,7 @@
 	Edit actions	עריכת פעולות
 	Edit event	עריכת אירוע
 	Edit script	עריכת סקריפט
+	Edit Text	עריכת טקסט
 	Edit the property curves	עריכת עקומות המאפיינים
 	Edits show immediately; heavy scenes render in the background with an outline preview.	העריכות מוצגות מיד; סצנות כבדות מרונדרות ברקע עם תצוגה מקדימה של קווי מתאר.
 	Enter confirms · Esc cancels	Enter לאישור · Esc לביטול
@@ -180,6 +195,10 @@
 	Every shortcut is back to the defaults.	כל קיצורי המקשים חזרו לברירת המחדל.
 	Exit	יציאה
 	Expand All Folders	הרחבת כל התיקיות
+	Export animated GIF	ייצוא GIF מונפש
+	Export frame as PNG	ייצוא פריים כקובץ PNG
+	Export frame as SVG	ייצוא פריים כקובץ SVG
+	Export PNG sequence to folder	ייצוא רצף קובצי PNG לתיקייה
 	Extra start gap	רווח נוסף בהתחלה
 	Fade by Distance	דהייה לפי מרחק
 	File dialogs	חלונות פתיחה ושמירה
@@ -203,6 +222,7 @@
 	Font: Noto Emoji (SIL OFL 1.1)	גופן: Noto Emoji (SIL OFL 1.1)
 	Font: Ubuntu Light (Ubuntu Font Licence 1.0)	גופן: Ubuntu Light (Ubuntu Font Licence 1.0)
 	Font: emoji-icon-font (MIT)	גופן: emoji-icon-font (MIT)
+	Frame	פריים
 	Frame label	תווית פריים
 	Frame labels survive frames being added or moved	תוויות פריים נשמרות גם כשמוסיפים או מזיזים פריימים
 	Frame number	מספר פריים
@@ -250,15 +270,21 @@
 	Keyboard Shortcuts	קיצורי מקשים
 	Keyboard shortcuts (this editor)	קיצורי מקשים (עורך זה)
 	Keyframe	פריים מפתח
+	keyframe	פריים מפתח
 	Keyframes Only	פריימי מפתח בלבד
 	Knockout	ניקוב (Knockout)
 	Last frame	הפריים האחרון
 	Later keeps them: File › Recover Autosaved Documents… brings this back.	הבחירה ב״אחר כך״ שומרת את עותקי השחזור. אפשר לפתוח שוב את החלון דרך ״קובץ ‹ שחזור מסמכים שנשמרו אוטומטית…״.
+	Layer	שכבה
+	Layer colour	צבע השכבה
 	Layer Depth	עומק שכבה
+	Layer height	גובה השכבה
+	Layer Properties	מאפייני שכבה
 	Layer Volume	עוצמת השמע של השכבה
 	Layer depth	עומק שכבה
 	Layer names, menus and dialog text read like this.	כך נראים שמות שכבות, תפריטים וטקסט בתיבות דו־שיח.
 	Layer volume	עוצמת השמע של השכבה
+	Layers	שכבות
 	Layers and frames	שכבות ופריימים
 	Left channel	ערוץ שמאלי
 	Let it move down the list again	ביטול ההצמדה לראש הרשימה
@@ -339,6 +365,7 @@
 	Open it as unsaved work	פתיחה כעבודה שלא נשמרה
 	Open {name}	פתיחת {name}
 	Open {name}, pinned	פתיחת {name}, מוצמד
+	Opened	נפתח
 	Open…	פתיחה…
 	Or after	או אחרי
 	Or drop a document anywhere on this window.	או גררו מסמך לכל מקום בחלון הזה.
@@ -376,6 +403,7 @@
 	Preview Through Camera	תצוגה מקדימה דרך המצלמה
 	Previous Panel	החלונית הקודמת
 	Previous frame	פריים קודם
+	Project Files	קובצי הפרויקט
 	Project Files & Docs	קבצי הפרויקט ותיעוד
 	Project Files & Docs…	קובצי הפרויקט והתיעוד…
 	Property	מאפיין
@@ -390,6 +418,8 @@
 	Releases	גרסאות להפצה
 	Remove Bone	הסרת עצם
 	Remove Camera	הסרת מצלמה
+	Remove filter	הסרת מסנן
+	Remove Pin	הסרת נקודת עיגון
 	Remove Tween	הסרת מעבר ביניים
 	Remove bone	הסרת עצם
 	Remove camera	הסרת מצלמה
@@ -398,6 +428,7 @@
 	Remove the {property} keyframe at frame {frame}	הסרת פריים המפתח של {property} בפריים {frame}
 	Remove this action	הסרת הפעולה הזו
 	Remove tween	הסרת מעבר ביניים
+	Remove Warp	הסרת עיוות
 	Removed the actions — {undo} to undo	הפעולות הוסרו — {undo} לביטול
 	Removed the click event — {undo} to undo	אירוע הלחיצה הוסר — {undo} לביטול
 	Removed the plug-in frame script — {undo} to undo	סקריפט הפריים של התוסף הוסר — {undo} לביטול
@@ -420,6 +451,15 @@
 	Roadmap	מפת דרכים
 	Runs in Test Movie and the HTML canvas export	מופעל בבדיקת הסרט ובייצוא HTML canvas
 	Rust crates: licence inventory	חבילות Rust: מלאי רישיונות
+	Save as	שמירה בשם
+	Save Template	שמירת תבנית
+	Save Workspace	שמירת סביבת עבודה
+	Saved:	נשמר:
+	Selectable	ניתן לבחירה
+	selected	נבחר
+	Show border	הצג גבול
+	Show grid	הצג רשת
+	Show guides	הצג קווי עזר
 	SVG image	תמונת SVG
 	Safety	בטיחות
 	Same for all	זהה לכולם
