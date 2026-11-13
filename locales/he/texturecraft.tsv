@@ -541,3 +541,22 @@
 	Viewer settings	הגדרות המציג
 	Viewport	אזור תצוגה
 	Views	תצוגות
+
+# Quick win settings: source-verified on 2026-11-13; independent native RTL QA remains.
+	32 bits (float)	32 סיביות (נקודה צפה)
+	Alignment and culling	יישור והסתרת פאות
+	Cores kept for the UI	ליבות שמורות לממשק
+	Depth of field	עומק שדה
+	Depth of field (viewport and Rendering mode)	עומק שדה (אזור התצוגה ומצב רינדור)
+	Depth of the sharp plane along the view (0: the orbit center)	מיקום מישור המיקוד לאורך התצוגה (0: מרכז הסיבוב)
+	Environment exposure (EV)	חשיפת הסביבה (EV)
+	Environment rotation	סיבוב הסביבה
+	Interface scale	קנה מידה של הממשק
+	Maximum decompressed project data. Increase this limit to open larger projects.	הגודל המרבי של נתוני פרויקט לאחר פריסה. הגדל מגבלה זו כדי לפתוח פרויקטים גדולים יותר.
+	No padding (passthrough)	ללא הרחבת שוליים (מעבר ללא שינוי)
+	Quarter	רבע
+	Rebind any menu item, tool or command	הקצה מחדש קיצור לכל פריט תפריט, כלי או פקודה
+	Saving uses the other cores and at most this share of the free RAM. At least one core always works.	השמירה משתמשת בליבות הנותרות ובחלק זה לכל היותר מזיכרון ה־RAM הפנוי. לפחות ליבה אחת תמיד פעילה.
+	Size of the textures the viewport shows: lower uses less GPU memory with large texture sets. Painting and export keep full resolution.	גודל הטקסטורות המוצגות באזור התצוגה: ערך נמוך צורך פחות זיכרון GPU בערכות טקסטורות גדולות. הצביעה והייצוא אינם מושפעים.
+	Start window	חלון פתיחה
+	Temporal anti-aliasing (refines the 3D view while it is still)	החלקת קצוות מבוססת זמן (משפרת את תצוגת התלת־ממד כשהיא נייחת)

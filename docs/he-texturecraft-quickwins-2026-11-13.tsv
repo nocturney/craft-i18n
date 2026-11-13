@@ -1,0 +1,20 @@
+# Source: storytold/texturecraft@386630ee85cb22679295b24013575d1aecb39ad2; translation base: nocturney/craft-i18n@65be72aff32b4bf943f919faf39c6e6ffad9e696
+# Draft: static source lookup and catalog tests passed; not a native RTL UI acceptance
+batch	context	english	hebrew	rust_source
+settings		32 bits (float)	32 סיביות (נקודה צפה)	crates/ui-egui/src/windows.rs
+settings		Alignment and culling	יישור והסתרת פאות	crates/ui-egui/src/dock.rs
+settings		Cores kept for the UI	ליבות שמורות לממשק	crates/ui-egui/src/windows.rs
+settings		Depth of field	עומק שדה	crates/ui-egui/src/windows.rs
+settings		Depth of field (viewport and Rendering mode)	עומק שדה (אזור התצוגה ומצב רינדור)	crates/ui-egui/src/windows.rs
+settings		Depth of the sharp plane along the view (0: the orbit center)	מיקום מישור המיקוד לאורך התצוגה (0: מרכז הסיבוב)	crates/ui-egui/src/windows.rs
+settings		Environment exposure (EV)	חשיפת הסביבה (EV)	crates/ui-egui/src/windows.rs
+settings		Environment rotation	סיבוב הסביבה	crates/ui-egui/src/windows.rs
+settings		Interface scale	קנה מידה של הממשק	crates/ui-egui/src/windows.rs
+settings		Maximum decompressed project data. Increase this limit to open larger projects.	הגודל המרבי של נתוני פרויקט לאחר פריסה. הגדל מגבלה זו כדי לפתוח פרויקטים גדולים יותר.	crates/ui-egui/src/windows.rs
+settings		No padding (passthrough)	ללא הרחבת שוליים (מעבר ללא שינוי)	crates/ui-egui/src/windows.rs
+settings		Quarter	רבע	crates/ui-egui/src/windows.rs
+settings		Rebind any menu item, tool or command	הקצה מחדש קיצור לכל פריט תפריט, כלי או פקודה	crates/ui-egui/src/windows.rs
+settings		Saving uses the other cores and at most this share of the free RAM. At least one core always works.	השמירה משתמשת בליבות הנותרות ובחלק זה לכל היותר מזיכרון ה־RAM הפנוי. לפחות ליבה אחת תמיד פעילה.	crates/ui-egui/src/windows.rs
+settings		Size of the textures the viewport shows: lower uses less GPU memory with large texture sets. Painting and export keep full resolution.	גודל הטקסטורות המוצגות באזור התצוגה: ערך נמוך צורך פחות זיכרון GPU בערכות טקסטורות גדולות. הצביעה והייצוא אינם מושפעים.	crates/ui-egui/src/windows.rs
+settings		Start window	חלון פתיחה	crates/ui-egui/src/windows.rs
+settings		Temporal anti-aliasing (refines the 3D view while it is still)	החלקת קצוות מבוססת זמן (משפרת את תצוגת התלת־ממד כשהיא נייחת)	crates/ui-egui/src/windows.rs
