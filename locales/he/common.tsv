@@ -17,9 +17,9 @@
 	(none)	(ללא)
 #	1 file	
 #	16 bit	
-#	24 bit	
+	24 bit	24 סיביות
 #	24 bits/pixel	
-#	32 bit	
+	32 bit	32 סיביות
 #	32 bits/pixel	
 #	8 bit	
 	About	אודות
@@ -35,7 +35,7 @@
 #	Adaptive	
 	Add	הוספה
 	Add a comment	הוספת הערה
-#	Add Guide	
+	Add Guide	הוספת קו עזר
 	Add to Dictionary	הוספה למילון
 #	Add to favorites	
 #	Add to Swatches	
@@ -43,18 +43,18 @@
 #	Adjustments	
 	Advanced	מתקדם
 	Align	יישור
-#	Align center	
+	Align center	יישור למרכז
 	Align Left	יישור לשמאל
 #	Align left	
 	Align Right	יישור לימין
 #	Align right	
 	Align Text	יישור טקסט
-#	Align to Selection	
+	Align to Selection	יישור לבחירה
 	Alignment	יישור
 	Alignment:	יישור:
 	All	הכול
 	All Caps	אותיות רישיות בלבד
-#	All Categories	
+	All Categories	כל הקטגוריות
 	All files	כל הקבצים
 #	All Layers	
 	All pages	כל העמודים
@@ -115,7 +115,7 @@
 #	Baseline	
 #	Baseline Shift	
 #	Basic	
-#	Basic Latin	
+	Basic Latin	לטינית בסיסית
 #	Batch	
 #	Batch…	
 #	Bend:	
@@ -150,7 +150,7 @@
 #	Brightness	
 	Bring Forward	הבאה קדימה
 #	Bring to Front	
-#	Brown	
+	Brown	חום
 #	Browse	
 	Browse…	עיון…
 #	Brush Size	
@@ -198,7 +198,7 @@
 #	Clear Guides	
 #	Clear History	
 #	Clear Recent Files	
-	Clipboard	לוח
+	Clipboard	לוח הגזירים
 #	Clipping Mask	
 #	Clone	
 	Close	סגירה
@@ -220,7 +220,7 @@
 #	Color Picker	
 #	Color Settings	
 #	Color Settings…	
-#	Color Space	
+	Color Space	מרחב צבע
 #	Color Swatches	
 #	Color Table	
 	Color:	צבע:
@@ -262,7 +262,7 @@
 #	Corners	
 #	Correction	
 #	Couldn't open {name}: {e}	
-#@msg	Couldn't open {name}: {e}	
+@msg	Couldn't open {name}: {e}	לא ניתן לפתוח את ⁨{name}⁩: ⁨{e}⁩
 	Country	מדינה
 #	Crack Brightness	
 #	Crack Depth	
@@ -321,7 +321,7 @@
 #	Deselect	
 #	Deselect All	
 #	Destination	
-#	Destination:	
+	Destination:	יעד:
 #	Details	
 	Diagonal	אלכסוני
 #	Diameter	
@@ -331,7 +331,7 @@
 #	Diffuse Glow	
 #	Diffusion	
 #	Digits	
-#	Dimensions	
+	Dimensions	ממדים
 #	Direct Selection Tool	
 #	Direction	
 #	Direction Balance	
@@ -430,7 +430,7 @@
 #	Eyedropper Tool	
 #	Faded Film	
 #	Fast	
-#	Favorites	
+	Favorites	מועדפים
 #	Feather	
 	Field	שדה
 	Field properties	מאפייני שדה
@@ -559,7 +559,7 @@
 #	Horizontal scale	
 #	Horizontally	
 #	Hue	
-#	Hue Shift	
+	Hue Shift	הסטת גוון
 #	Hue/Saturation…	
 	Hyphenation	מיקוף
 #	Icon	
@@ -584,16 +584,16 @@
 #	Install Plug-in…	
 #	Intensity	
 	Interface	ממשק
-#	Interface Language	
+	Interface Language	שפת הממשק
 	Interface language	שפת הממשק
 	Interface Theme	ערכת נושא לממשק
 #	Interlaced	
 #	Interpolation	
-#	Intersect	
+	Intersect	חיתוך
 	Intersection	חיתוך
 #	Invert	
 #	Invert Mask	
-#	Isolate	
+	Isolate	בידוד
 	Italian	איטלקית
 	Italic	נטוי
 	Japanese	יפנית
@@ -618,7 +618,7 @@
 	Landscape	לרוחב
 	Language	שפה
 #	Language Options	
-#	Language:	
+	Language:	שפה:
 	Large	גדול
 	Lasso	לאסו
 #	Lasso Tool	
@@ -628,11 +628,11 @@
 #	Layer	
 #	Layers	
 	Layout	פריסה
-#	Layout:	
+	Layout:	פריסה:
 #	Leading	
 	Left	שמאל
 #	Left Diagonal	
-#	Left to Right	
+	Left to Right	משמאל לימין
 	Left:	שמאל:
 #	Legal	
 #	Length	
@@ -676,7 +676,7 @@
 	Link	קישור
 	Links	קישורים
 	List	רשימה
-#	List View	
+	List View	תצוגת רשימה
 #	List view	
 	Location	מיקום
 #	Location:	
@@ -713,7 +713,7 @@
 #	Message:	
 #	Metadata	
 #	Method	
-#	Method:	
+	Method:	שיטה:
 #	Mezzotint	
 #	Mezzotint…	
 	Middle	אמצע
@@ -723,7 +723,7 @@
 #	Minimize	
 	Minimum	מינימום
 #	Mirror	
-#	Missing	
+	Missing	חסר
 #	Mobile	
 #	Mode	
 #	Mode:	
@@ -787,7 +787,7 @@
 	Nonbreaking Space	רווח בלתי ניתן לשבירה
 	None	ללא
 	Normal	רגיל
-#	Not available	
+	Not available	לא זמין
 #	NTSC Colors	
 	Number	מספר
 	Object	אובייקט
@@ -795,7 +795,7 @@
 #	Odd Fields	
 	Odd pages only	עמודים אי-זוגיים בלבד
 	Off	כבוי
-#	Offline	
+	Offline	לא מקוון
 #	Offset	
 #	Offset:	
 	OK	אישור
@@ -1007,7 +1007,7 @@
 	Save As	שמירה בשם
 #	Save as PDF	
 	Save as Template	שמירה כתבנית
-#	Save as Template…	
+	Save as Template…	שמירה כתבנית…
 #	Save As…	
 #	Save Preset…	
 #	Save Selection	
@@ -1031,7 +1031,7 @@
 #	Select:	
 	Selected pages	עמודים נבחרים
 	Selection	בחירה
-#	Selection Tool	
+	Selection Tool	כלי הבחירה
 #	Selective	
 	Send Backward	העברה אחורה
 #	Send to Back	
@@ -1067,7 +1067,7 @@
 #	Show Mesh	
 #	Show Rulers	
 	Show rulers	הצגת סרגלים
-#	Show Tool Tips	
+	Show Tool Tips	הצגת תיאורי כלים
 #	Show:	
 #	Sides:	
 #	Simplify	
@@ -1195,7 +1195,7 @@
 	Total	סה"כ
 #	Total:	
 	Tracking	מעקב
-	Transform	המרה
+	Transform	שינוי צורה
 	Translate	תרגום
 	Transparency	שקיפות
 #	Transparent	
@@ -1205,7 +1205,7 @@
 #	Twirl	
 #	Twist	
 	Type	סוג
-#	Type Tool	
+	Type Tool	כלי הטקסט
 	Type:	סוג:
 #	Typewriter	
 #	Type…	
@@ -1227,7 +1227,7 @@
 #	Updates	
 	UPPERCASE	אותיות גדולות
 #	Use Default	
-#	User	
+	User	משתמש
 	Username	שם משתמש
 	Value	ערך
 #	Value:	
