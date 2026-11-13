@@ -7,8 +7,8 @@
 #   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
 #   Lines starting with # and blank lines are ignored. A missing entry shows in English.
 #
-# Hebrew draft: 98 source-verified seed rows, plus 41, 60, 138 and 190 quick-win additions.
-# Two initial seed strings already resolve from common.tsv, so 527 app rows in total.
+# Hebrew draft: source-verified seed and iterative quick wins; 38 additional window/export rows in this branch.
+# Two initial seed strings already resolve from common.tsv; 600 distinct app rows in this branch.
 # Original 9 locally reviewed wording preserved; native-speaker and maintainer review pending.
 # Clean room: every entry was written from the plain meaning of the English text in ordinary
 # computing vocabulary. No other product's localisation, string table or translated UI was
@@ -580,3 +580,45 @@
 	Move up	הזז למעלה
 	Return to this step	חזרה לשלב זה
 	Select...	בחירה...
+
+# Quick win: window and display settings; source-verified 2026-11-13; native RTL review pending.
+	Settings	הגדרות
+	Title bar	שורת כותרת
+	Use the operating system's window frame and buttons instead of TextureCraft's own title bar	השתמש במסגרת החלון ובלחצניו של מערכת ההפעלה במקום בשורת הכותרת של TextureCraft
+	Full	מלאה
+	Half	חצי
+	Autosaves, smart materials, presets, templates and UI layouts go to the data folder. A new folder applies on restart; files already saved stay where they are.	שמירות אוטומטיות, חומרים חכמים, הגדרות קבועות מראש, תבניות ופריסות ממשק נשמרים בתיקיית הנתונים. תיקייה חדשה תיכנס לשימוש לאחר הפעלה מחדש; קבצים שכבר נשמרו יישארו במיקומם.
+	Use an equirectangular .hdr or .exr image as the environment	השתמש בתמונת .hdr או .exr במיפוי שווה־זווית כסביבת התצוגה
+	View through this camera	הצג מנקודת המבט של מצלמה זו
+	Minimize	מזער
+	Restore	שחזר
+	Maximize	הגדל
+	Filter the remaining noise while keeping edges and texture detail	סנן את הרעש שנותר תוך שמירה על קצוות ועל פרטי המרקם
+	PNG image	תמונת PNG
+	Version {version}	גרסה {version}
+	Made by the ArtCraft team and community.	נוצר על ידי צוות ArtCraft והקהילה.
+	Join the ArtCraft community on Discord	הצטרף לקהילת ArtCraft ב־Discord
+
+# Quick win: export dialogs and output templates; source-verified 2026-11-13; native RTL review pending.
+	Textures embedded; for game engines and most viewers	הטקסטורות מוטמעות בקובץ; מתאים למנועי משחק ולרוב תוכנות התצוגה
+	Textures packaged; for USD tools and AR Quick Look	הטקסטורות נארזות בקובץ; מתאים לכלי USD ול־AR Quick Look
+	Wavefront OBJ with MTL, textures alongside	Wavefront OBJ עם MTL, הטקסטורות בקבצים נפרדים
+	glTF binary with textures	glTF בינארי עם טקסטורות
+	USDZ with textures	USDZ עם טקסטורות
+	USD text, textures alongside	USD טקסטואלי, הטקסטורות בקבצים נפרדים
+	USD binary, textures alongside	USD בינארי, הטקסטורות בקבצים נפרדים
+	{n} bits	{n} סיביות
+	Padding	הרחבת שוליים
+	Dilation + transparent	הרחבת שוליים + רקע שקוף
+	Dilation + default background color	הרחבת שוליים + צבע הרקע המוגדר כברירת מחדל
+	Dilation infinite	הרחבת שוליים ללא הגבלה
+	List of exports	רשימת קובצי ייצוא
+	Gray	גווני אפור
+	Gray + A	גווני אפור + אלפא
+	Constants	ערכים קבועים
+	Black	שחור
+	Gray 50%	אפור 50%
+	White	לבן
+	{name} copy	עותק של {name}
+	Exported template "{name}" to {path}	התבנית "{name}" יוצאה אל {path}
+	Remove this output	הסר פלט זה
