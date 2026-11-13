@@ -29,6 +29,7 @@
 	Add Swatch	הוספת דוגמית צבע
 	Add the fill as a swatch	הוספת צבע המילוי כדוגמית
 	Add the stroke colour as a swatch	הוספת צבע קו המתאר כדוגמית
+	Add the swatches in a swatch file (.json) or a GIMP palette (.gpl)	הוספת דוגמיות צבע מקובץ ‎.json או מלוח צבעים של GIMP ‏(.gpl)
 	Add Warp Pin	הוספת נקודת עיגון לעיוות
 	Add {what} to the Library	הוספת {what} לספרייה
 	Added a point to the motion path. {undo} to undo.	נוספה נקודה לנתיב התנועה. {undo} כדי לבטל את הפעולה.
@@ -94,10 +95,12 @@
 	Brush Library	ספריית המברשות
 	Brush roundness	עגלגלות המברשת
 	Brush set	ערכת מברשות
+	Brush size ({keys})	גודל המברשת ({keys})
 	Brush Size Down	הקטנת גודל המברשת
 	Brush Size Up	הגדלת גודל המברשת
 	Brush angle	זווית מברשת
 	Brush size	גודל מברשת
+	Brush size {size} px	גודל המברשת: {size} פיקסלים
 	Brush smoothing	החלקת המברשת
 	Button	כפתור
 	Button (unnamed)	כפתור (ללא שם)
@@ -153,11 +156,13 @@
 	Default (bundled: {font})	ברירת מחדל (מצורף: {font})
 	Default ({font})	ברירת מחדל ({font})
 	Delete Envelope Point	מחיקת נקודת מעטפת
+	Delete or right-click; the ends stay	מחיקה או לחיצה ימנית; נקודות הקצה נשארות
 	Delete Point	מחיקת נקודה
 	Delete Points	מחיקת נקודות
 	Delete Saved Ease	מחיקת עקומת האטה שמורה
 	Delete Sound	מחיקת צליל
 	Delete Swatch	מחיקת דוגמית צבע
+	Delete template {name}	מחיקת התבנית {name}
 	Delete the selected swatch	מחיקת דוגמית הצבע שנבחרה
 	Delete this guide	מחיקת קו עזר זה
 	Delete this template and its picture (asks first)	מחיקת התבנית והתמונה שלה (לאחר בקשת אישור)
@@ -167,6 +172,7 @@
 	Delete this autosaved copy	מחיקת העותק שנשמר אוטומטית
 	Delete this keyframe's script	מחיקת הסקריפט של פריים המפתח הזה
 	Delete whole fills and lines	מחיקת מילויים וקווים בשלמותם
+	Delete {axis} guide {n}	מחיקת קו עזר מספר {n} בציר {axis}
 	Deleted the fill. {undo} to undo.	המילוי נמחק. {undo} כדי לבטל את הפעולה.
 	Deleted the guide. {undo} to undo.	קו העזר נמחק. {undo} כדי לבטל את הפעולה.
 	Deleted the line. {undo} to undo.	הקו נמחק. {undo} כדי לבטל את הפעולה.
@@ -189,6 +195,7 @@
 	Draws the stage on the graphics card, and on the CPU when there is no card that can. The picture is the same either way.	מצייר את הבמה בכרטיס המסך, ובמעבד כשאין כרטיס מתאים. התמונה זהה בשני המקרים.
 	Duplicate Symbol	שכפול סמל
 	Ease	האצה והאטה
+	Edit Ease…	עריכת עקומת ההאצה וההאטה…
 	Edit Grid	עריכת רשת
 	Edit Guides	עריכת קווי עזר
 	Edit Motion Path	עריכת נתיב התנועה
@@ -202,8 +209,11 @@
 	Edit event	עריכת אירוע
 	Edit script	עריכת סקריפט
 	Edit Text	עריכת טקסט
+	Edit the ease: drag its points and handles	עריכת עקומת ההאצה וההאטה: גרירת נקודות ונקודות בקרה
 	Edit the property curves	עריכת עקומות המאפיינים
+	Edit the property curves and eases	עריכת עקומות המאפיינים ועקומות ההאצה וההאטה
 	Edit this saved ease	עריכת עקומת האטה שמורה זו
+	Edit what it does on clicks and the pointer ({key})	עריכת הפעולות שלו בלחיצות ובתנועת המצביע ({key})
 	Edits show immediately; heavy scenes render in the background with an outline preview.	העריכות מוצגות מיד; סצנות כבדות מרונדרות ברקע עם תצוגה מקדימה של קווי מתאר.
 	Enter confirms · Esc cancels	Enter לאישור · Esc לביטול
 	Enter saves · Esc cancels	Enter לשמירה · Esc לביטול
@@ -230,8 +240,10 @@
 	Export PNG sequence to folder	ייצוא רצף קובצי PNG לתיקייה
 	Export sprite sheet (PNG + JSON frame map)	ייצוא גיליון ספרייטים (PNG ומפת פריימים ב-JSON)
 	Export swatches (a swatch file)	ייצוא דוגמיות צבע (קובץ דוגמיות)
+	Export Swatches…	ייצוא דוגמיות צבע…
 	Export video (.webm or .mp4, made with your ffmpeg)	ייצוא וידאו (בפורמט webm או mp4, באמצעות ffmpeg המותקן במחשב)
 	Export your brushes (a brush set file)	ייצוא המברשות (קובץ ערכת מברשות)
+	Exported {path} ({secs} s).	הקובץ יוצא אל {path} ({secs} שניות).
 	Exported {path} ({secs} s). No sounds play in that range, so the file is silent.	הקובץ {path} יוצא ({secs} שניות). בטווח הזה אין צלילים, ולכן הקובץ שקט.
 	Extra start gap	רווח נוסף בהתחלה
 	Fade by Distance	דהייה לפי מרחק
@@ -266,16 +278,20 @@
 	Frame script set — {undo} to undo	סקריפט הפריים הוגדר — {undo} לביטול
 	Frame scripts and instance actions	סקריפטים של פריימים ופעולות של מופעים
 	Frame view	תצוגת פריימים
+	Frame view: frame width and row height	תצוגת פריימים: רוחב הפריים וגובה השורה
 	Frame zoom	תקריב פריימים
 	Frame zoom: frame width (Ctrl+wheel over the frames)	זום פריימים: רוחב פריים (Ctrl+גלגלת מעל הפריימים)
+	Frame {a}	פריים {a}
 	Frame {frame}	פריים {frame}
 	Frame {frame} is empty on this layer. Add a blank keyframe ({key}) to give it actions.	פריים {frame} ריק בשכבה הזו. הוסיפו פריים מפתח ריק ({key}) כדי לתת לו פעולות.
 	Frame {frame} · point {anchor} of the motion path: drag to move the point	פריים {frame} · נקודה {anchor} של נתיב התנועה: גררו כדי להזיז את הנקודה
 	Frame {frame} · {seconds} s · X {x} Y {y} · {keys}	פריים {frame} · {seconds} ש׳ · X {x} Y {y} · {keys}
+	Frame {frame}: {label}	פריים {frame}: {label}
 	Frames	פריימים
 	Frames farther from the playhead are fainter	פריימים רחוקים יותר מראש ההפעלה חיוורים יותר
 	Frames here don't run (graphic and button timelines, guide layers); the script is kept with the document.	פריימים כאן לא מופעלים (צירי זמן של גרפיקה ושל כפתור, שכבות מנחה); הסקריפט נשמר עם המסמך.
 	Frames of {name}	הפריימים של {name}
+	Frames that repeat the one before are stored once, shown longer.	פריימים שחוזרים על הקודם נשמרים פעם אחת ומוצגים למשך זמן ארוך יותר.
 	Gap length	אורך רווח
 	Give every property's segment at this frame this ease	החלת ההאצה וההאטה הזו על המקטע של כל מאפיין בפריים הזה
 	Glow options	אפשרויות זוהר
@@ -289,6 +305,7 @@
 	Immediate	מיידי
 	Import brushes (a brush set file)	ייבוא מברשות (קובץ ערכת מברשות)
 	Import swatches (a swatch file or a GIMP palette)	ייבוא דוגמיות צבע (מקובץ דוגמיות או מלוח צבעים של GIMP)
+	Import Swatches…	ייבוא דוגמיות צבע…
 	Import to library (WAV, OGG or MP3 sound; PNG or JPEG image)	ייבוא לספרייה (צליל בפורמט WAV, OGG או MP3; תמונה בפורמט PNG או JPEG)
 	Import to stage (SVG, PNG or JPEG; WAV, OGG or MP3 onto a new layer)	ייבוא לבמה (SVG, PNG או JPEG; צליל WAV, OGG או MP3 לשכבה חדשה)
 	Ink Bottle	בקבוק דיו
@@ -318,6 +335,9 @@
 	Later keeps them: File › Recover Autosaved Documents… brings this back.	הבחירה ב״אחר כך״ שומרת את עותקי השחזור. אפשר לפתוח שוב את החלון דרך ״קובץ ‹ שחזור מסמכים שנשמרו אוטומטית…״.
 	Layer	שכבה
 	Layer colour	צבע השכבה
+	Layer colour as hex	צבע השכבה בייצוג הקסדצימלי
+	Layer colour {hex}	צבע השכבה {hex}
+	Layer colour: its outlines and its bar on the timeline	צבע השכבה: קווי המתאר שלה והפס שלה בציר הזמן
 	Layer Depth	עומק שכבה
 	Layer height	גובה השכבה
 	Layer Height	גובה השכבה
@@ -326,6 +346,7 @@
 	Layer depth	עומק שכבה
 	Layer names, menus and dialog text read like this.	כך נראים שמות שכבות, תפריטים וטקסט בתיבות דו־שיח.
 	Layer volume	עוצמת השמע של השכבה
+	Layer {layer}	שכבה {layer}
 	Layers	שכבות
 	Layers and frames	שכבות ופריימים
 	Left channel	ערוץ שמאלי
@@ -407,7 +428,9 @@
 	Open Recent	פתיחת קבצים אחרונים
 	Open folder	פתיחת תיקייה
 	Open it as unsaved work	פתיחה כעבודה שלא נשמרה
+	Open {label}	פתיחת {label}
 	Open {name}	פתיחת {name}
+	Open {name} (you'll be asked about unsaved changes)	פתיחת {name} (תוצג בקשת אישור לגבי שינויים שלא נשמרו)
 	Open {name}, pinned	פתיחת {name}, מוצמד
 	Open-source 2D vector animation studio, written in Rust.	סביבת עבודה בקוד פתוח לאנימציה וקטורית דו-ממדית, שנכתבה ב-Rust.
 	Opened	נפתח
@@ -487,7 +510,10 @@
 	Remove this action	הסרת הפעולה הזו
 	Remove tween	הסרת מעבר ביניים
 	Remove Warp	הסרת עיוות
+	Remove warp	הסרת העיוות
 	Remove warp pin	הסרת נקודת עיגון לעיוות
+	Remove {filter}	הסרת המסנן {filter}
+	Remove {filter} colour stop	הסרת נקודת הצבע של המסנן {filter}
 	Removed the actions — {undo} to undo	הפעולות הוסרו — {undo} לביטול
 	Removed the click event — {undo} to undo	אירוע הלחיצה הוסר — {undo} לביטול
 	Removed the plug-in	התוסף הוסר
@@ -498,6 +524,8 @@
 	Removed the release event — {undo} to undo	אירוע השחרור הוסר — {undo} לביטול
 	Removed the script — {undo} to undo	הסקריפט הוסר — {undo} לביטול
 	Removed the width point. {undo} to undo.	נקודת הרוחב הוסרה. {undo} כדי לבטל את הפעולה.
+	Removes the bone and the bones below it; the shape's points follow the bones that are left	הסרת העצם והעצמות שתחתיה; נקודות הצורה יעקבו אחר העצמות שנותרו
+	Removes the picked pin from every keyframe (Delete)	הסרת הסיכה שנבחרה מכל פריים מפתח (Delete)
 	Rename layer	שינוי שם שכבה
 	Rename scene	שינוי שם סצנה
 	Renderer	מנוע רינדור
@@ -516,15 +544,21 @@
 	Save document as	שמירת המסמך בשם
 	Save it in this category	שמירה בקטגוריה זו
 	Save Template	שמירת תבנית
+	Save these swatches as a swatch file (.json) for other documents	שמירת דוגמיות הצבע לקובץ ‎.json לשימוש במסמכים אחרים
 	Save Workspace	שמירת סביבת עבודה
+	Save Workspace…	שמירת סביבת העבודה…
 	Saved ease name	שם עקומת ההאטה השמורה
 	Saved eases	עקומות האטה שמורות
+	Saved {path} to your downloads	הקובץ {path} נשמר בתיקיית ההורדות
 	Saved:	נשמר:
 	Select a keyframe with a sound to edit its envelope	יש לבחור פריים מפתח עם צליל כדי לערוך את מעטפת הצליל שלו
 	Select a tweened span to edit its ease	יש לבחור מקטע עם הנפשת מעבר כדי לערוך את עקומת ההאטה שלו
 	Select some artwork first	יש לבחור תחילה אובייקט גרפי
 	Selectable	ניתן לבחירה
 	selected	נבחר
+	Selected {name}	נבחר: {name}
+	Show another bitmap from the Library here, keeping its position and transform	הצגת תמונת מפת סיביות אחרת מהספרייה כאן תוך שמירת המיקום והטרנספורמציה שלה
+	Show another symbol here, keeping position, colour effect, filters and name	הצגת סמל אחר כאן תוך שמירת המיקום, אפקט הצבע, המסננים והשם
 	Show border	הצג גבול
 	Show grid	הצג רשת
 	Show guides	הצג קווי עזר
@@ -532,6 +566,7 @@
 	Show only the effect, not the artwork	הצגת האפקט בלבד, ללא הגרפיקה
 	Show over objects	הצגה מעל אובייקטים
 	Show the whole sound	הצגת הצליל במלואו
+	Show this layer's frames around the playhead while onion skin is on	הצגת פריימים של השכבה סביב ראש הנגינה כאשר תצוגת הפריימים השקופים מופעלת
 	SVG image	תמונת SVG
 	Safety	בטיחות
 	Same for all	זהה לכולם
@@ -644,6 +679,7 @@
 	Uses	שימושים
 	Version {version} · {stage}	גרסה {version} · {stage}
 	View action	פעולת תצוגה
+	View as outlines in the layer's colour (on the stage only)	הצגה כקווי מתאר בצבע השכבה (על הבמה בלבד)
 	View layer as outlines	הצגת קווי המתאר של השכבה
 	Viewers can select the text while the movie plays	הצופים יכולים לבחור טקסט בזמן שהסרט מתנגן
 	WAV sound	קובץ שמע WAV
