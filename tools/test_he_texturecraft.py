@@ -10,15 +10,27 @@ import sync_app
 from export_texturecraft import resolved
 
 class HebrewTextureCraftTests(unittest.TestCase):
+    # These eight English keys are verified in TextureCraft Rust UI sources,
+    # but the older non-Hebrew migrated catalogs do not yet contain them.
+    NEW_NATIVE_KEYS = frozenset({
+        "Black",
+        "Gray",
+        "Maximize",
+        "Minimize",
+        "Restore",
+        "Settings",
+        "Version {version}",
+        "White",
+    })
     @classmethod
     def setUpClass(cls):
         cls.app, cls.parse_errors=sync_app.parse((ROOT/'locales/he/texturecraft.tsv').read_text('utf-8'))
         cls.common, cls.common_errors=sync_app.parse((ROOT/'locales/he/common.tsv').read_text('utf-8'))
         cls.source, cls.source_errors=sync_app.parse((ROOT/'locales/ar/texturecraft.tsv').read_text('utf-8'))
 
-    def test_hebrew_app_catalog_has_562_distinct_source_rows(self):
+    def test_hebrew_app_catalog_has_600_distinct_source_rows(self):
         self.assertFalse(self.parse_errors)
-        self.assertEqual(len(self.app),562)
+        self.assertEqual(len(self.app),600)
         self.assertTrue(all(c=='' for c,s in self.app))
         self.assertTrue(all(s and v for (c,s),v in self.app.items()))
 
@@ -26,7 +38,7 @@ class HebrewTextureCraftTests(unittest.TestCase):
         self.assertFalse(self.common_errors)
         self.assertFalse(self.source_errors)
         for key,value in self.app.items():
-            self.assertIn(key,self.source)
+            self.assertTrue(key in self.source or (key[0] == '' and key[1] in self.NEW_NATIVE_KEYS), key)
             self.assertNotIn(key,self.common)
             self.assertIsNone(sync_app.text_problem(*key,value))
             self.assertEqual(unicodedata.normalize('NFC',value),value)
@@ -73,7 +85,7 @@ class HebrewTextureCraftTests(unittest.TestCase):
         for english,hebrew in samples.items():
             self.assertEqual(locale[('',english)],hebrew,english)
             self.assertIsNone(sync_app.text_problem('',english,hebrew))
-        self.assertEqual(len(self.app),562)
+        self.assertEqual(len(self.app),600)
 
 
     def test_round3_save_open_prompts_and_paths(self):
