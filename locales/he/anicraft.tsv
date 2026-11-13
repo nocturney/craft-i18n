@@ -21,9 +21,14 @@
 	A list of actions, in order	רשימת פעולות לפי הסדר
 	A short animation to look at and take apart	אנימציה קצרה לצפייה ולחקירת מרכיביה
 	Add Camera	הוספת מצלמה
+	Add Colour Effect	הוספת אפקט צבע
 	Add colour stop	הוספת נקודת צבע
+	Add Corner Point	הוספת נקודת פינה
+	Add Envelope Point	הוספת נקודת מעטפת
 	Add guide	הוספת קו עזר
 	Add Swatch	הוספת דוגמית צבע
+	Add the fill as a swatch	הוספת צבע המילוי כדוגמית
+	Add the stroke colour as a swatch	הוספת צבע קו המתאר כדוגמית
 	Add Warp Pin	הוספת נקודת עיגון לעיוות
 	ANICRAFT_STAGE_RENDERER is set, and it takes precedence over this choice.	משתנה הסביבה ANICRAFT_STAGE_RENDERER מוגדר, והוא גובר על בחירה זו.
 	About AniCraft	אודות AniCraft
@@ -94,6 +99,7 @@
 	Button	כפתור
 	Button (unnamed)	כפתור (ללא שם)
 	Button “{name}”	כפתור "{name}"
+	Copy Ease	העתקת עקומת האטה
 	CPU (reference)	מעבד (ייחוס)
 	Camera	מצלמה
 	Camera Tint	גוון מצלמה
@@ -131,6 +137,7 @@
 	Couldn't check for updates: {error}	לא ניתן היה לבדוק עדכונים: {error}
 	Create Motion Tween	יצירת מעבר ביניים של תנועה
 	Create new	יצירת מסמך חדש
+	Create Shape Tween	יצירת הנפשת מעבר בין צורות
 	Create tween	יצירת מעבר ביניים
 	Current frame	הפריים הנוכחי
 	Custom height	גובה מותאם אישית
@@ -141,14 +148,20 @@
 	Date added	תאריך הוספה
 	Default (bundled: {font})	ברירת מחדל (מצורף: {font})
 	Default ({font})	ברירת מחדל ({font})
+	Delete Envelope Point	מחיקת נקודת מעטפת
 	Delete Point	מחיקת נקודה
+	Delete Points	מחיקת נקודות
+	Delete Saved Ease	מחיקת עקומת האטה שמורה
 	Delete Sound	מחיקת צליל
 	Delete Swatch	מחיקת דוגמית צבע
+	Delete the selected swatch	מחיקת דוגמית הצבע שנבחרה
+	Delete this guide	מחיקת קו עזר זה
 	Delete Unused Items…	מחיקת פריטים שאינם בשימוש…
 	Delete layer	מחיקת שכבה
 	Delete the active layer	מחיקת השכבה הפעילה
 	Delete this autosaved copy	מחיקת העותק שנשמר אוטומטית
 	Delete this keyframe's script	מחיקת הסקריפט של פריים המפתח הזה
+	Delete whole fills and lines	מחיקת מילויים וקווים בשלמותם
 	Deletes the selected items and folders (Delete)	מוחק את הפריטים והתיקיות שנבחרו (Delete)
 	Descending: click for ascending	בסדר יורד: לחצו לסדר עולה
 	Discard {name}…	מחיקת עותק השחזור של {name}…
@@ -170,16 +183,19 @@
 	Ease	האצה והאטה
 	Edit Grid	עריכת רשת
 	Edit Guides	עריכת קווי עזר
+	Edit Motion Path	עריכת נתיב התנועה
 	Edit Multiple Frames	עריכת פריימים מרובים
 	Edit Multiple Frames moves, transforms, aligns, deletes, copies and pastes artwork on several keyframes; for this, turn it off and work frame by frame.	עריכת פריימים מרובים מזיזה, משנה, מיישרת, מוחקת, מעתיקה ומדביקה איור בכמה פריימי מפתח; לפעולה זו, כבו אותה ועבדו פריים אחר פריים.
 	Edit Multiple Frames: the keyframes between the onion markers show at full strength. Select and drag artwork to move it on all of them; drag the markers on the frame ruler to choose the frames.	עריכת פריימים מרובים: פריימי המפתח שבין סמני קליפת הבצל מוצגים בעוצמה מלאה. בחרו וגררו איור כדי להזיז אותו בכולם; גררו את הסמנים בסרגל הפריימים כדי לבחור את הפריימים.
 	Edit Multiple Frames: {first}–{last}	עריכת פריימים מרובים: {first}–{last}
+	Edit sound envelope	עריכת מעטפת הצליל
 	Edit Symbol	עריכת סמל
 	Edit actions	עריכת פעולות
 	Edit event	עריכת אירוע
 	Edit script	עריכת סקריפט
 	Edit Text	עריכת טקסט
 	Edit the property curves	עריכת עקומות המאפיינים
+	Edit this saved ease	עריכת עקומת האטה שמורה זו
 	Edits show immediately; heavy scenes render in the background with an outline preview.	העריכות מוצגות מיד; סצנות כבדות מרונדרות ברקע עם תצוגה מקדימה של קווי מתאר.
 	Enter confirms · Esc cancels	Enter לאישור · Esc לביטול
 	Enter saves · Esc cancels	Enter לשמירה · Esc לביטול
@@ -230,6 +246,8 @@
 	Frame rate, and the time the last picture took to draw	קצב הפריימים וזמן ציור התמונה האחרונה
 	Frame script	סקריפט פריים
 	Frame script set — {undo} to undo	סקריפט הפריים הוגדר — {undo} לביטול
+	Frame view	תצוגת פריימים
+	Frame zoom	תקריב פריימים
 	Frame zoom: frame width (Ctrl+wheel over the frames)	זום פריימים: רוחב פריים (Ctrl+גלגלת מעל הפריימים)
 	Frame {frame}	פריים {frame}
 	Frame {frame} is empty on this layer. Add a blank keyframe ({key}) to give it actions.	פריים {frame} ריק בשכבה הזו. הוסיפו פריים מפתח ריק ({key}) כדי לתת לו פעולות.
@@ -279,6 +297,7 @@
 	Layer colour	צבע השכבה
 	Layer Depth	עומק שכבה
 	Layer height	גובה השכבה
+	Layer Height	גובה השכבה
 	Layer Properties	מאפייני שכבה
 	Layer Volume	עוצמת השמע של השכבה
 	Layer depth	עומק שכבה
@@ -360,17 +379,20 @@
 	Onion start marker	סמן התחלה של קליפת הבצל
 	Onion {n}	קליפת בצל {n}
 	Onion-skin only the frames where a keyframe starts	קליפת בצל רק לפריימים שבהם מתחיל פריים מפתח
+	Open document	פתיחת מסמך
 	Open Recent	פתיחת קבצים אחרונים
 	Open folder	פתיחת תיקייה
 	Open it as unsaved work	פתיחה כעבודה שלא נשמרה
 	Open {name}	פתיחת {name}
 	Open {name}, pinned	פתיחת {name}, מוצמד
 	Opened	נפתח
+	Opened document	המסמך נפתח
 	Open…	פתיחה…
 	Or after	או אחרי
 	Or drop a document anywhere on this window.	או גררו מסמך לכל מקום בחלון הזה.
 	Outline {name}	קווי מתאר עבור {name}
 	Outlines	קווי מתאר
+	Paste Ease	הדבקת עקומת האטה
 	PNG image	תמונת PNG
 	Paint Bucket	דלי צבע
 	Paint mode	מצב צביעה
@@ -406,6 +428,7 @@
 	Project Files	קובצי הפרויקט
 	Project Files & Docs	קבצי הפרויקט ותיעוד
 	Project Files & Docs…	קובצי הפרויקט והתיעוד…
+	Project folder	תיקיית הפרויקט
 	Property	מאפיין
 	Property curves of the motion tween at the playhead (double-click a motion span)	עקומות המאפיינים של מעבר הביניים של תנועה בראש ההפעלה (לחיצה כפולה על מקטע תנועה)
 	Property ease	האצה והאטה של מאפיין
@@ -418,8 +441,11 @@
 	Releases	גרסאות להפצה
 	Remove Bone	הסרת עצם
 	Remove Camera	הסרת מצלמה
+	Remove colour stop	הסרת נקודת עצירה בצבע
 	Remove filter	הסרת מסנן
 	Remove Pin	הסרת נקודת עיגון
+	Remove this colour stop	הסרת נקודת עצירת צבע זו
+	Remove this filter	הסרת מסנן זה
 	Remove Tween	הסרת מעבר ביניים
 	Remove bone	הסרת עצם
 	Remove camera	הסרת מצלמה
@@ -429,6 +455,7 @@
 	Remove this action	הסרת הפעולה הזו
 	Remove tween	הסרת מעבר ביניים
 	Remove Warp	הסרת עיוות
+	Remove warp pin	הסרת נקודת עיגון לעיוות
 	Removed the actions — {undo} to undo	הפעולות הוסרו — {undo} לביטול
 	Removed the click event — {undo} to undo	אירוע הלחיצה הוסר — {undo} לביטול
 	Removed the plug-in frame script — {undo} to undo	סקריפט הפריים של התוסף הוסר — {undo} לביטול
@@ -452,14 +479,22 @@
 	Runs in Test Movie and the HTML canvas export	מופעל בבדיקת הסרט ובייצוא HTML canvas
 	Rust crates: licence inventory	חבילות Rust: מלאי רישיונות
 	Save as	שמירה בשם
+	Save document as	שמירת המסמך בשם
+	Save it in this category	שמירה בקטגוריה זו
 	Save Template	שמירת תבנית
 	Save Workspace	שמירת סביבת עבודה
+	Saved ease name	שם עקומת ההאטה השמורה
+	Saved eases	עקומות האטה שמורות
 	Saved:	נשמר:
+	Select some artwork first	יש לבחור תחילה אובייקט גרפי
 	Selectable	ניתן לבחירה
 	selected	נבחר
 	Show border	הצג גבול
 	Show grid	הצג רשת
 	Show guides	הצג קווי עזר
+	Show in the Movie Explorer	הצגה בסייר הסרט
+	Show over objects	הצגה מעל אובייקטים
+	Show the whole sound	הצגת הצליל במלואו
 	SVG image	תמונת SVG
 	Safety	בטיחות
 	Same for all	זהה לכולם
@@ -572,6 +607,7 @@
 	Uses	שימושים
 	Version {version} · {stage}	גרסה {version} · {stage}
 	View action	פעולת תצוגה
+	View layer as outlines	הצגת קווי המתאר של השכבה
 	WAV sound	קובץ שמע WAV
 	Web page	דף אינטרנט
 	What runs when the playhead enters a keyframe	מה מופעל כשראש ההפעלה נכנס לפריים מפתח
