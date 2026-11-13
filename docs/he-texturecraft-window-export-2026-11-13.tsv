@@ -8,7 +8,7 @@ window-settings		Use the operating system's window frame and buttons instead of 
 window-settings		Full	מלאה	crates/ui-egui/src/windows.rs
 window-settings		Half	חצי	crates/ui-egui/src/windows.rs
 window-settings		Autosaves, smart materials, presets, templates and UI layouts go to the data folder. A new folder applies on restart; files already saved stay where they are.	שמירות אוטומטיות, חומרים חכמים, הגדרות קבועות מראש, תבניות ופריסות ממשק נשמרים בתיקיית הנתונים. תיקייה חדשה תיכנס לשימוש לאחר הפעלה מחדש; קבצים שכבר נשמרו יישארו במיקומם.	crates/ui-egui/src/windows.rs
-window-settings		Use an equirectangular .hdr or .exr image as the environment	השתמש בתמונת .hdr או .exr במיפוי שווה־זווית כסביבת התצוגה	crates/ui-egui/src/windows.rs
+window-settings		Use an equirectangular .hdr or .exr image as the environment	השתמש בתמונת .hdr או .exr במיפוי קווי רוחב ואורך כתמונת סביבה	crates/ui-egui/src/windows.rs
 window-settings		View through this camera	הצג מנקודת המבט של מצלמה זו	crates/ui-egui/src/windows.rs
 window-settings		Minimize	מזער	crates/ui-egui/src/titlebar.rs
 window-settings		Restore	שחזר	crates/ui-egui/src/titlebar.rs
