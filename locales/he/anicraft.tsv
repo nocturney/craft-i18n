@@ -105,6 +105,17 @@
 	Button	כפתור
 	Button (unnamed)	כפתור (ללא שם)
 	Button “{name}”	כפתור "{name}"
+	Colour Effect	אפקט צבע
+	Colour effect	אפקט צבע
+	Colour effect style	סגנון אפקט צבע
+	Colour of {name}	הצבע של {name}
+	Colour picker	בורר צבעים
+	Colour stop	נקודת מעבר צבע
+	Colour stop position	מיקום נקודת מעבר הצבע
+	Colour swatches	דוגמיות צבע
+	Colour swatches and the document's swatches	דוגמיות צבע ודוגמיות המסמך
+	Colours	צבעים
+	Colours you mix or type show here	צבעים שתערבב או תזין יופיעו כאן
 	Copy Ease	העתקת עקומת האטה
 	CPU (reference)	מעבד (ייחוס)
 	Camera	מצלמה
@@ -181,6 +192,7 @@
 	Discard {name}…	מחיקת עותק השחזור של {name}…
 	Discarding deletes this work for good. This cannot be undone.	מחיקת עותק השחזור תסיר את העבודה לצמיתות. לא ניתן לבטל פעולה זו.
 	Discard…	מחיקת עותק…
+	Document class	מחלקת מסמך
 	Documents you open or save show here, with a picture of their first frame.	מסמכים שפתחתם או שמרתם יופיעו כאן עם תמונת הפריים הראשון שלהם.
 	Don't ask again this session	לא לשאול שוב בהפעלה הזו
 	Dot spacing	מרווח נקודות
@@ -264,6 +276,7 @@
 	Fit stage in window	התאמת הבמה לחלון
 	Folders and guide layers don't run actions. Pick another layer in the timeline.	תיקיות ושכבות מנחה לא מפעילות פעולות. בחרו שכבה אחרת בציר הזמן.
 	Follow system	לפי הגדרות המערכת
+	Font size	גודל גופן
 	Font: Hack (MIT, Bitstream Vera)	גופן: Hack (MIT, Bitstream Vera)
 	Font: Noto Emoji (SIL OFL 1.1)	גופן: Noto Emoji (SIL OFL 1.1)
 	Font: Ubuntu Light (Ubuntu Font Licence 1.0)	גופן: Ubuntu Light (Ubuntu Font Licence 1.0)
@@ -375,13 +388,25 @@
 	Miter limit	גבול זוויתי (Miter)
 	Motion Editor	עורך התנועה
 	Motion tween	מעבר ביניים של תנועה
+	Move	הזזה
+	Move 9-Slice Guide	הזזת קו עזר לחלוקה לתשעה אזורים
+	Move Armature	הזזת שלד העצמות
 	Move Camera	הזזת מצלמה
+	Move colour stop	הזזת נקודת מעבר צבע
+	Move Envelope Point	הזזת נקודה במעטפת
+	Move Guide	הזזת קו עזר
+	Move Handle	הזזת נקודת בקרה
+	Move Motion Path	הזזת נתיב תנועה
+	Move Point	הזזת נקודה
 	Move Points	הזזת נקודות
 	Move down	הזזה למטה
 	Move layer down	הזזת השכבה למטה
 	Move layer up	הזזת השכבה למעלה
+	Move property keyframes	הזזת פריימי מפתח של מאפיין
+	Move Shape Hint	הזזת רמז צורה
 	Move to	העברה אל
 	Move up	הזזה למעלה
+	Move Warp Pin	הזזת סיכת עיוות
 	Moves, scales, rotates and recolours	מזיז, משנה גודל, מסובב וצובע מחדש
 	Movie Explorer	סייר הסרט
 	Movie clip (unnamed)	קליפ אנימציה (ללא שם)
@@ -444,6 +469,8 @@
 	Outline {name}	קווי מתאר עבור {name}
 	Outlines	קווי מתאר
 	Paste Ease	הדבקת עקומת האטה
+	Play once	ניגון פעם אחת
+	Play the sound with this envelope	השמעת הצליל באמצעות מעטפת זו
 	PNG image	תמונת PNG
 	Paint Bucket	דלי צבע
 	Paint mode	מצב צביעה
@@ -567,6 +594,8 @@
 	Show over objects	הצגה מעל אובייקטים
 	Show the whole sound	הצגת הצליל במלואו
 	Show this layer's frames around the playhead while onion skin is on	הצגת פריימים של השכבה סביב ראש הנגינה כאשר תצוגת הפריימים השקופים מופעלת
+	Stop colour (this stop stays transparent)	צבע נקודת המעבר (נקודה זו נשארת שקופה)
+	Stop the preview	עצירת התצוגה המקדימה
 	SVG image	תמונת SVG
 	Safety	בטיחות
 	Same for all	זהה לכולם
@@ -627,7 +656,11 @@
 	Take it off the list	הסרה מהרשימה
 	Test Movie	בדיקת הסרט
 	Test Movie — {name}	בדיקת הסרט — {name}
+	Text alignment	יישור טקסט
 	Text colour	צבע טקסט
+	Text on Path	טקסט על נתיב
+	Text on the stage	טקסט על הבמה
+	Text type	סוג טקסט
 	Text width	רוחב טקסט
 	Text: {text}	טקסט: {text}
 	That autosaved copy is gone	העותק שנשמר אוטומטית כבר לא קיים
@@ -688,10 +721,13 @@
 	What the selected button or movie clip does on clicks and the pointer	אופן התגובה של הכפתור או קליפ האנימציה שנבחרו ללחיצות ולתנועות הסמן
 	Wheel	גלגלת
 	Whichever comes first. 0 changes: by time only. Copies are written in the background, so drawing never waits.	המוקדם מביניהם. 0 שינויים: לפי זמן בלבד. העותקים נכתבים ברקע, כך שהציור אף פעם לא ממתין.
+	Window graphics	עיבוד גרפי של החלון
 	You're up to date.	התוכנה מעודכנת.
 	Zoom Camera	זום מצלמה
 	Zoom at the cursor	זום במיקום הסמן
+	Zoom in	הגדלת התצוגה
 	Zoom in / out	הגדלה / הקטנה
+	Zoom out	הקטנת התצוגה
 	Zoom to fit	זום להתאמה
 	autosaved {when}	נשמר אוטומטית {when}
 	cancelling	ביטול
