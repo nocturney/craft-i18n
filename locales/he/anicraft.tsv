@@ -34,6 +34,7 @@
 	Add {what} to the Library	הוספת {what} לספרייה
 	Added a point to the motion path. {undo} to undo.	נוספה נקודה לנתיב התנועה. {undo} כדי לבטל את הפעולה.
 	Added a point. {undo} to undo.	נוספה נקודה. {undo} כדי לבטל את הפעולה.
+	Alpha	ערוץ אלפא
 	Angle	זווית
 	ANICRAFT_STAGE_RENDERER is set, and it takes precedence over this choice.	משתנה הסביבה ANICRAFT_STAGE_RENDERER מוגדר, והוא גובר על בחירה זו.
 	About AniCraft	אודות AniCraft
@@ -70,9 +71,11 @@
 	Appearance	מראה
 	Apply to Fill	החל על מילוי
 	Apply to Stroke	החל על קו מתאר
+	Armature	שלד עצמות
 	Arrow keys	מקשי החצים
 	ArtCraft Launcher manages this app's version. Change its version there.	ArtCraft Launcher מנהל את גרסת התוכנה. יש לעדכן את הגרסה דרכו.
 	Ascending: click for descending	בסדר עולה: לחצו לסדר יורד
+	Attach	צירוף
 	Autosave	שמירה אוטומטית
 	Autosave after this many changes	שמירה אוטומטית לאחר מספר השינויים שנקבע
 	Autosave every	שמירה אוטומטית כל
@@ -84,10 +87,13 @@
 	Back to the theme's colours	חזרה לצבעי ערכת הנושא
 	Before	לפני
 	Before colour	צבע 'לפני'
+	Bend	כיפוף
 	Bevel offset	היסט שיפוע
 	Bitmap fill	מילוי במפת סיביות
 	Bitmap · {width}×{height}	מפת סיביות · {width}×{height}
 	Blank	ריק
+	Blending	מיזוג
+	Blue	כחול
 	Blue keys are pinned motion path points: drag one to move its point	נקודות המפתח הכחולות מציינות נקודות מעוגנות בנתיב התנועה: גררו נקודת מפתח כדי להזיז את הנקודה שלה
 	Blur	טשטוש
 	Bone	עצם
@@ -120,6 +126,8 @@
 	Colour swatches and the document's swatches	דוגמיות צבע ודוגמיות המסמך
 	Colours	צבעים
 	Colours you mix or type show here	צבעים שתערבב או תזין יופיעו כאן
+	Constrain	הגבלה
+	Contrast	ניגודיות
 	Copy Ease	העתקת עקומת האטה
 	Corners	פינות
 	CPU (reference)	מעבד (ייחוס)
@@ -167,6 +175,7 @@
 	Custom size	גודל מותאם אישית
 	Custom width	רוחב מותאם אישית
 	Damping	שיכוך
+	Dash	קו מקווקו
 	Dash length	אורך מקף
 	Data font	גופן נתונים
 	Date added	תאריך הוספה
@@ -195,11 +204,13 @@
 	Deleted the line. {undo} to undo.	הקו נמחק. {undo} כדי לבטל את הפעולה.
 	Deletes the selected items and folders (Delete)	מוחק את הפריטים והתיקיות שנבחרו (Delete)
 	Depth	עומק
+	Depth key	מפתח עומק
 	Descending: click for ascending	בסדר יורד: לחצו לסדר עולה
 	Discard	ביטול השינויים
 	Discard {name}…	מחיקת עותק השחזור של {name}…
 	Discarding deletes this work for good. This cannot be undone.	מחיקת עותק השחזור תסיר את העבודה לצמיתות. לא ניתן לבטל פעולה זו.
 	Discard…	מחיקת עותק…
+	Distance	מרחק
 	Dock	עגינה
 	Document class	מחלקת מסמך
 	Documents you open or save show here, with a picture of their first frame.	מסמכים שפתחתם או שמרתם יופיעו כאן עם תמונת הפריים הראשון שלהם.
@@ -245,10 +256,12 @@
 	Enter saves · Esc cancels	Enter לשמירה · Esc לביטול
 	Entry	נקודת כניסה
 	Entry point	נקודת כניסה
+	Envelope	מעטפת
 	Erase mode	מצב מחיקה
 	Eraser size	גודל מחק
 	Esc cancels · click the red button to proceed	Esc לביטול · לחצו על הכפתור האדום כדי להמשיך
 	Essentials	פעולות בסיסיות
+	Events	אירועים
 	Every	כל
 	Every edit renders before the next frame. Lowest latency; can stutter on very heavy scenes.	כל עריכה מרונדרת לפני הפריים הבא. ההשהיה הנמוכה ביותר; עלול לגמגם בסצנות כבדות מאוד.
 	Every frame of the timeline	כל הפריימים בציר הזמן
@@ -271,8 +284,10 @@
 	Export your brushes (a brush set file)	ייצוא המברשות (קובץ ערכת מברשות)
 	Exported {path} ({secs} s).	הקובץ יוצא אל {path} ({secs} שניות).
 	Exported {path} ({secs} s). No sounds play in that range, so the file is silent.	הקובץ {path} יוצא ({secs} שניות). בטווח הזה אין צלילים, ולכן הקובץ שקט.
+	Extend	הרחבה
 	Extra start gap	רווח נוסף בהתחלה
 	Fade by Distance	דהייה לפי מרחק
+	Farther	רחוק יותר
 	File dialogs	חלונות פתיחה ושמירה
 	File › Start Screen brings it back	להצגה מחדש: קובץ › מסך הפתיחה
 	Files	קבצים
@@ -323,6 +338,7 @@
 	Frames of {name}	הפריימים של {name}
 	Frames that repeat the one before are stored once, shown longer.	פריימים שחוזרים על הקודם נשמרים פעם אחת ומוצגים למשך זמן ארוך יותר.
 	Gap length	אורך רווח
+	Gap size	גודל המרווח
 	Give every property's segment at this frame this ease	החלת ההאצה וההאטה הזו על המקטע של כל מאפיין בפריים הזה
 	Glow options	אפשרויות זוהר
 	Gradient	מעבר צבע
@@ -332,9 +348,12 @@
 	Guide	שכבת מנחה
 	Guided	שכבה מונחית
 	Guides	קווי עזר
+	Hand	יד
 	Hide object	הסתרת אובייקט
+	High	גבוה
 	Highlight	הדגשה
 	History	היסטוריה
+	Hue	גוון
 	Icons: Lucide (ISC)	סמלים: Lucide (ISC)
 	If AniCraft closes unexpectedly, the next start offers to restore it. Copies stay in the settings folder, never over your files, and go away when you save.	אם AniCraft נסגר באופן לא צפוי, בהפעלה הבאה תוצע אפשרות לשחזר את העבודה. העותקים נשמרים בתיקיית ההגדרות, לעולם לא מעל הקבצים שלך, ונמחקים כשמבצעים שמירה.
 	If you don't save, your changes since the last save will be lost.	אם לא תשמרו, השינויים מאז השמירה האחרונה יאבדו.
@@ -344,7 +363,9 @@
 	Import Swatches…	ייבוא דוגמיות צבע…
 	Import to library (WAV, OGG or MP3 sound; PNG or JPEG image)	ייבוא לספרייה (צליל בפורמט WAV, OGG או MP3; תמונה בפורמט PNG או JPEG)
 	Import to stage (SVG, PNG or JPEG; WAV, OGG or MP3 onto a new layer)	ייבוא לבמה (SVG, PNG או JPEG; צליל WAV, OGG או MP3 לשכבה חדשה)
+	Ink	דיו
 	Ink Bottle	בקבוק דיו
+	Inner	פנימי
 	Insert blank keyframe (F7)	הוספת פריים מפתח ריק (F7)
 	Insert frame (F5)	הוספת פריים (F5)
 	Insert keyframe (F6)	הוספת פריים מפתח (F6)
@@ -354,6 +375,7 @@
 	Interface scale	קנה מידה של הממשק
 	It is an independent project, not affiliated with or endorsed by Adobe. Bundled fonts and Rust crates keep their own permissive licences, listed below.	זהו פרויקט עצמאי, שאינו קשור ל-Adobe ואינו נתמך על ידה. הגופנים וחבילות ה-Rust המצורפים כפופים לרישיונות המתירניים שלהם, המפורטים להלן.
 	Its actions run on the timeline it is on: “this” is the main timeline.	הפעולות שלו מופעלות בציר הזמן שבו הוא נמצא: "this" הוא ציר הזמן הראשי.
+	Join	חיבור
 	Joint Limits	מגבלות מפרק
 	Keep a recovery copy of unsaved work	שמירת עותק שחזור של עבודה שלא נשמרה
 	Keep it at the top of the list	הצמדה לראש הרשימה
@@ -394,6 +416,7 @@
 	Library options	אפשרויות הספרייה
 	Library: drop here for the top level	ספרייה: שחררו כאן לרמה העליונה
 	Licenses & Notices	רישיונות והודעות
+	Limits	מגבלות
 	Line type	סוג קו
 	Line {line}, column {column}: {message}	שורה {line}, עמודה {column}: {message}
 	Lines written	שורות שנכתבו
@@ -403,18 +426,25 @@
 	Lock {name}	נעילת {name}
 	Loop Playback	הפעלה בלולאה
 	Loop playback	הפעלה בלולאה
+	Looping	השמעה חוזרת
+	Low	נמוך
+	Luminance	בהיקות
 	Main timeline frame	פריים בציר הזמן הראשי
 	Make Corner	המרה לנקודת פינה
 	Make Smooth	המרה לנקודה חלקה
 	Markers	סמנים
 	Mask	מסכה
+	Mask type	סוג מסכה
 	Masked	שכבה ממוסכת
 	Menus, panels and dialogs. Your documents, layer names and the command line stay as they are.	תפריטים, חלוניות ותיבות דו־שיח. המסמכים, שמות השכבות ושורת הפקודה נשארים כפי שהם.
+	Mesh	רשת
 	Message	הודעה
 	Middle-drag	גרירה בלחצן האמצעי
 	Missing	לא נמצא
+	Miter	חיבור חד
 	Miter limit	גבול זוויתי (Miter)
 	Mixer	מערבל צבעים
+	Mode	מצב
 	Motion	תנועה
 	Motion Editor	עורך התנועה
 	Motion tween	מעבר ביניים של תנועה
@@ -442,11 +472,13 @@
 	Movie clip (unnamed)	קליפ אנימציה (ללא שם)
 	Movie clip “{name}”	קליפ אנימציה "{name}"
 	Moving the object on the stage inside the span adds keys here	הזזת האובייקט על הבמה בתוך המקטע מוסיפה כאן מפתחות
+	Multiline	ריבוי שורות
 	Mute	השתקה
 	Mute layer	השתקת שכבה
 	Mute this layer's sounds (in playback and every export)	השתקת הצלילים של השכבה הזו (בהפעלה ובכל ייצוא)
 	Mute {name}	השתקת {name}
 	Name it to address it from actions (letters, digits and _). Its events work without a name.	תנו לו שם כדי לפנות אליו מתוך פעולות (אותיות לטיניות, ספרות וקו תחתון _). האירועים שלו פועלים גם ללא שם.
+	Nearer	קרוב יותר
 	Never saved	מעולם לא נשמר
 	New Folder	תיקייה חדשה
 	New folder above the active layer (move layers in under it with Up and Down)	תיקייה חדשה מעל השכבה הפעילה (העבירו שכבות לתוכה עם 'למעלה' ו'למטה')
@@ -456,7 +488,9 @@
 	Next frame	פריים הבא
 	No actions yet. Add one: Stop on a frame holds the movie there; a button's Click can then go on.	אין עדיין פעולות. הוסיפו פעולה: Stop עוצרת את ההפעלה בפריים הנוכחי, ואירוע Click בכפתור יכול להמשיך אותה.
 	No colour	ללא צבע
+	No Ease	ללא שינוי קצב
 	No fill	ללא מילוי
+	no frame	ללא פריים
 	No frame labels yet: name a keyframe in Properties › Label	אין עדיין תוויות פריים: תנו שם לפריים מפתח במאפיינים ‹ תווית
 	No frame-script plug-ins are installed (Commands › Install Plug-in…)	לא מותקנים תוספים לסקריפט פריים (פקודות ‹ התקנת תוסף…)
 	No installer is available for this platform.	אין מתקין זמין לפלטפורמה זו.
@@ -502,8 +536,10 @@
 	Or drop a document anywhere on this window.	או גררו מסמך לכל מקום בחלון הזה.
 	Outline {name}	קווי מתאר עבור {name}
 	Outlines	קווי מתאר
+	Overflow	גלישה
 	Paste Ease	הדבקת עקומת האטה
 	Path	נתיב
+	Pins	נעצים
 	Play once	ניגון פעם אחת
 	Play the sound with this envelope	השמעת הצליל באמצעות מעטפת זו
 	PNG image	תמונת PNG
@@ -528,6 +564,7 @@
 	Playhead (frame ruler)	ראש ההפעלה (סרגל הפריימים)
 	Plays the sound on its own	משמיע את הצליל לבדו
 	Plug-in	תוסף
+	Polygon	מצולע
 	PolyStar	מצולע/כוכב
 	Position X	מיקום X
 	Position Y	מיקום Y
@@ -553,6 +590,9 @@
 	Radial	רדיאלי
 	Reading the sound…	קורא את הצליל…
 	Recover unsaved work	שחזור עבודה שלא נשמרה
+	Red	אדום
+	Reflect	שיקוף
+	Release	שחרור
 	Releases	גרסאות להפצה
 	Reload	טעינה מחדש
 	Remove Bone	הסרת עצם
@@ -604,6 +644,7 @@
 	Restore {name}	שחזור {name}
 	Right-click	לחיצה ימנית
 	Roadmap	מפת דרכים
+	Round	מעוגל
 	Roundness	עיגול פינות
 	Runs in Test Movie and the HTML canvas export	מופעל בבדיקת הסרט ובייצוא HTML canvas
 	Rust crates: licence inventory	חבילות Rust: מלאי רישיונות
@@ -618,6 +659,7 @@
 	Saved eases	עקומות האטה שמורות
 	Saved {path} to your downloads	הקובץ {path} נשמר בתיקיית ההורדות
 	Saved:	נשמר:
+	Scaling	שינוי קנה מידה
 	Select a keyframe with a sound to edit its envelope	יש לבחור פריים מפתח עם צליל כדי לערוך את מעטפת הצליל שלו
 	Select a tweened span to edit its ease	יש לבחור מקטע עם הנפשת מעבר כדי לערוך את עקומת ההאטה שלו
 	Select some artwork first	יש לבחור תחילה אובייקט גרפי
@@ -635,10 +677,15 @@
 	Show over objects	הצגה מעל אובייקטים
 	Show the whole sound	הצגת הצליל במלואו
 	Show this layer's frames around the playhead while onion skin is on	הצגת פריימים של השכבה סביב ראש הנגינה כאשר תצוגת הפריימים השקופים מופעלת
+	Sides	צדדים
 	Smooth	חלק
 	Smoothing	החלקה
+	Solid	מלא
+	Spring	קפיץ
+	Springs	קפיצים
 	Stop colour (this stop stays transparent)	צבע נקודת המעבר (נקודה זו נשארת שקופה)
 	Stop the preview	עצירת התצוגה המקדימה
+	Strength	עוצמה
 	SVG image	תמונת SVG
 	Safety	בטיחות
 	Same for all	זהה לכולם
@@ -737,6 +784,7 @@
 	Timeline	ציר זמן
 	Tint	גוון
 	Tint frames before the playhead and after it in their colours; off, they keep their own colours	צביעת הפריימים שלפני ראש ההפעלה ושאחריו בצבעים שלהם; כשכבוי, הם שומרים על הצבעים המקוריים
+	To stage	לבמה
 	Trace actions, frame-script logs and anything that couldn't run appear here.	פעולות trace, יומני סקריפט פריים וכל מה שלא הצליח לרוץ מופיעים כאן.
 	Trace message	הודעת trace
 	Turn off on Linux desktops without an XDG desktop portal; AniCraft then asks for a path instead.	כבו את האפשרות בשולחנות עבודה של Linux ללא XDG desktop portal; AniCraft יבקש אז נתיב במקום זאת.
@@ -758,6 +806,7 @@
 	Use it for {action}	שימוש בו עבור {action}
 	Use the system's open and save dialogs	שימוש בחלונות הפתיחה והשמירה של המערכת
 	Uses	שימושים
+	Variable	משתנה
 	Version {version} · {stage}	גרסה {version} · {stage}
 	View action	פעולת תצוגה
 	View as outlines in the layer's colour (on the stage only)	הצגה כקווי מתאר בצבע השכבה (על הבמה בלבד)
@@ -772,6 +821,7 @@
 	Whichever comes first. 0 changes: by time only. Copies are written in the background, so drawing never waits.	המוקדם מביניהם. 0 שינויים: לפי זמן בלבד. העותקים נכתבים ברקע, כך שהציור אף פעם לא ממתין.
 	Width	רוחב
 	Window graphics	עיבוד גרפי של החלון
+	Wrap	גלישה
 	You're up to date.	התוכנה מעודכנת.
 	Zoom Camera	זום מצלמה
 	Zoom at the cursor	זום במיקום הסמן
