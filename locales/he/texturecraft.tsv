@@ -12,40 +12,90 @@
 # consulted or copied; add entries the same way.
 # AI-assisted draft: source SHA references recorded in day-14 Kaneo ArtCraft task #17.
 
+	{action} (undone)	{action} (בוטל)
 	{n} bits	{n} סיביות
 	{name} copy	עותק של {name}
+	ACES filmic	סגנון ACES Filmic
 	Add output	הוסף פלט
 	Add...	הוסף...
 	Advanced settings	הגדרות מתקדמות
+	AO intensity	עוצמת AO
+	Aperture	צמצם
 	Baked maps imported: {count}	מפות אפויות יובאו: {count}
+	Base color, Metallic, Roughness and Specular level.	צבע בסיס, מתכתיות, חספוס ורמת ספקולר.
 	Built-in (read-only): duplicate it to edit	מובנית (לקריאה בלבד): שכפל אותה כדי לערוך
 	Built-in templates are read-only: duplicate one to edit it	תבניות מובנות הן לקריאה בלבד: שכפל תבנית כדי לערוך אותה
+	Camera settings	הגדרות מצלמה
 	Clear	נקה
+	Color of the light that travels under the surface (each channel goes as far as its value)	צבע האור הנכנס מתחת לפני השטח (כל ערוץ מגיע עד לערכו)
+	Continue with the sample project	המשך עם פרויקט לדוגמה
 	Couldn't export the template: {error}	לא ניתן לייצא את התבנית: {error}
 	Couldn't import {name}: {error}	לא ניתן לייבא את {name}: {error}
 	Delete the selected template	מחק את התבנית שנבחרה
+	Delete this camera	מחק מצלמה זו
 	Deleted template "{name}"	התבנית "{name}" נמחקה
+	Depth of field	עומק שדה
+	Depth of field (viewport and Rendering mode)	עומק שדה (חלון התצוגה ומצב רינדור)
+	Depth of the sharp plane along the view (0: the orbit center)	עומק המישור החד לאורך המבט (0: מרכז המסלול)
+	Don't save	אל תשמור
 	Double-click to rename	לחיצה כפולה לשינוי שם
 	Duplicate the selected template	שכפל את התבנית שנבחרה
+	Environment blur	טשטוש סביבה
+	Environment exposure (EV)	חשיפת סביבה (EV)
+	Environment rotation	סיבוב סביבה
+	Environment settings	הגדרות סביבה
 	Exported template "{name}" to {path}	התבנית "{name}" יוצאה אל {path}
+	Field of view (deg)	שדה ראייה (מעלות)
 	File name without extension; variables insert names	שם הקובץ ללא סיומת; משתנים מוסיפים שמות
+	Focus distance	מרחק מוקד
 	Gray	אפור
 	Images	תמונות
 	Import a template (.json)	ייבא תבנית (.json)
 	Import baked maps	ייבא מפות אפויות
+	Import HDR...	ייבוא HDR...
 	Imported template "{name}"	התבנית "{name}" יובאה
+	Index of refraction	מקדם שבירה
 	Input maps	מפות קלט
 	Insert a variable	הוסף משתנה
+	Key light (shadow-casting light, direct only)	מקור אור ראשי (מטיל צללים, אור ישיר בלבד)
+	Lens size: how quickly things blur away from the focus distance	גודל עדשה: באיזו מהירות דברים מיטשטשים ככל שמתרחקים ממרחק המוקד
 	Move down	הזז למטה
 	Move up	הזז למעלה
 	Name each file after its texture set, like Body_normal.png	קבע שם לכל קובץ לפי סט המרקמים שלו, כמו Body_normal.png
+	New project...	פרויקט חדש...
 	New template	תבנית חדשה
 	No outputs yet: add one above, then drag input maps onto its channels.	אין פלטים עדיין: הוסף פלט למעלה, ואז גרור מפות קלט אל הערוצים שלו.
+	No recent projects yet	אין עדיין פרויקטים אחרונים
 	Normal map format	פורמט מפת נורמל
 	Not exported: no source in this texture set	לא יוצא: אין מקור בסט מרקמים זה
 	Not imported: {files}	לא יובאו: {files}
 	Not saved: {error}	לא נשמר: {error}
+	Offsets the textures by the height channel, at the height to normal strength	מסיט את המרקמים לפי ערוץ הגובה, בעוצמת המרה מגובה לנורמל
+	Open...	פתח...
+	Orthographic	אורתוגרפי
 	Output templates	תבניות פלט
+	Parallax occlusion (height channel)	חסימת פרלקסה (ערוץ גובה)
+	Pick focus in the viewport	בחר מוקד בחלון התצוגה
+	Project opened	הפרויקט נפתח
+	Recent projects	פרויקטים אחרונים
 	Remove this output	הסר פלט זה
 	Rename the selected template	שנה את שם התבנית שנבחרה
+	Return to this step	חזור לשלב זה
+	Save the changes to {name} before closing?	האם לשמור את השינויים ב-{name} לפני הסגירה?
+	Save the changes to {name} first?	האם לשמור תחילה את השינויים ב-{name}?
+	Save view as camera	שמור תצוגה כמצלמה
+	Scatter color	צבע פיזור
+	Scatter radius	רדיוס פיזור
 	Select an output template	בחר תבנית פלט
+	Show at startup	הצג בעת ההפעלה
+	Show UV wireframe in the 2D view	הצג רשת UV בתצוגה הדו-ממדית
+	Show wireframe in the 3D view	הצג רשת תיל בתצוגת התלת-ממד
+	Subsurface scattering	פיזור תת-משטחי
+	Temporal anti-aliasing (refines the 3D view while it is still)	החלקת קצוות זמנית (משפרת את תצוגת התלת-ממד כשהיא נייחת)
+	TextureCraft PBR - Metallic Roughness	TextureCraft PBR - מתכתיות וחספוס (Metallic Roughness)
+	TextureCraft PBR - Specular Glossiness	TextureCraft PBR - ספקולר וברק (Specular Glossiness)
+	Tone mapping	מיפוי טונים
+	Transmission	שידור (Transmission)
+	Use an equirectangular .hdr or .exr image as the environment	השתמש בתמונה equirectangular מסוג .hdr או .exr כסביבה
+	View through this camera	הצג דרך מצלמה זו
+	Viewer settings	הגדרות צופה
