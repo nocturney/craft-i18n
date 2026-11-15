@@ -1114,6 +1114,16 @@
 	Rough edge	קצה מחוספס
 	Wears the edge in by up to this part of the size, like chalk. The same every time	שחיקה של שולי הקו בשיעור זה מתוך גודל המברשת, כמו בגיר. התוצאה זהה בכל שימוש
 	Pressure curve	עקומת לחץ
+	Attach {name} to camera	הצמדת {name} למצלמה
+	Down: the button while it is pressed	לחוץ: מראה הכפתור בזמן לחיצה
+	Insert blank keyframe	הוספת פריים מפתח ריק
+	Mute sounds (while you work; exports keep their sound)	השתקת צלילים בזמן העבודה (השמע נשמר בייצוא)
+	Onion skin {name}	קליפת בצל {name}
+	Over: the button with the pointer over it	מעבר עכבר: מראה הכפתור כשהסמן מעליו
+	Pick any colour in Layer Properties	בחרו צבע במאפייני השכבה
+	Playback volume: {pct} %	עוצמת השמעה: {pct} %
+	Unmute sounds	ביטול השתקת צלילים
+	Up: the button as it first shows	מצב רגיל: מראה הכפתור בתחילה
 @plural	+{n} more|+{n} more	+{n} נוסף|+{n} נוספים|+{n} נוספים
 @plural	An action can have up to {n} key.|An action can have up to {n} keys.	לפעולה יכול להיות עד {n} מקש.|לפעולה יכולים להיות עד {n} מקשים.|לפעולה יכולים להיות עד {n} מקשים.
 @plural	AniCraft didn't close properly last time. This document had changes that weren't saved:|AniCraft didn't close properly last time. These documents had changes that weren't saved:	AniCraft לא נסגר כראוי בפעם הקודמת. במסמך הזה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:
