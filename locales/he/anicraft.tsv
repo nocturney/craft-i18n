@@ -35,6 +35,7 @@
 	Added a point to the motion path. {undo} to undo.	נוספה נקודה לנתיב התנועה. {undo} כדי לבטל את הפעולה.
 	Added a point. {undo} to undo.	נוספה נקודה. {undo} כדי לבטל את הפעולה.
 	Alpha	ערוץ אלפא
+	Always snap	הצמד תמיד
 	Angle	זווית
 	ANICRAFT_STAGE_RENDERER is set, and it takes precedence over this choice.	משתנה הסביבה ANICRAFT_STAGE_RENDERER מוגדר, והוא גובר על בחירה זו.
 	About AniCraft	אודות AniCraft
@@ -345,14 +346,18 @@
 	Graphics card (GPU)	כרטיס מסך (GPU)
 	Green	ירוק
 	Grid	רשת
+	Grid colour	צבע הרשת
 	Guide	שכבת מנחה
+	Guide colour	צבע קווי העזר
 	Guided	שכבה מונחית
 	Guides	קווי עזר
+	Guides in this scene	קווי עזר בסצנה זו
 	Hand	יד
 	Hide object	הסתרת אובייקט
 	High	גבוה
 	Highlight	הדגשה
 	History	היסטוריה
+	Horizontal spacing	מרווח אופקי
 	Hue	גוון
 	Icons: Lucide (ISC)	סמלים: Lucide (ISC)
 	If AniCraft closes unexpectedly, the next start offers to restore it. Copies stay in the settings folder, never over your files, and go away when you save.	אם AniCraft נסגר באופן לא צפוי, בהפעלה הבאה תוצע אפשרות לשחזר את העבודה. העותקים נשמרים בתיקיית ההגדרות, לעולם לא מעל הקבצים שלך, ונמחקים כשמבצעים שמירה.
@@ -424,6 +429,7 @@
 	Lock	נעילה
 	Lock fill	נעילת המילוי
 	Lock {name}	נעילת {name}
+	Lock guides	נעל קווי עזר
 	Loop Playback	הפעלה בלולאה
 	Loop playback	הפעלה בלולאה
 	Looping	השמעה חוזרת
@@ -482,6 +488,8 @@
 	Never saved	מעולם לא נשמר
 	New Folder	תיקייה חדשה
 	New folder above the active layer (move layers in under it with Up and Down)	תיקייה חדשה מעל השכבה הפעילה (העבירו שכבות לתוכה עם 'למעלה' ו'למטה')
+	New guide direction	כיוון קו עזר חדש
+	New guide position	מיקום קו עזר חדש
 	New layer	שכבה חדשה
 	New {name}, {size}	{name} חדש, {size}
 	Next Panel	החלונית הבאה
@@ -680,6 +688,9 @@
 	Sides	צדדים
 	Smooth	חלק
 	Smoothing	החלקה
+	Snap accuracy	דיוק הצמדה
+	Snap to grid	הצמד לרשת
+	Snap to guides	הצמד לקווי עזר
 	Solid	מלא
 	Spring	קפיץ
 	Springs	קפיצים
@@ -808,6 +819,7 @@
 	Uses	שימושים
 	Variable	משתנה
 	Version {version} · {stage}	גרסה {version} · {stage}
+	Vertical spacing	מרווח אנכי
 	View action	פעולת תצוגה
 	View as outlines in the layer's colour (on the stage only)	הצגה כקווי מתאר בצבע השכבה (על הבמה בלבד)
 	View layer as outlines	הצגת קווי המתאר של השכבה
