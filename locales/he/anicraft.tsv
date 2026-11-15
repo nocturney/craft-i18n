@@ -114,6 +114,7 @@
 	Button	כפתור
 	Button (unnamed)	כפתור (ללא שם)
 	Button “{name}”	כפתור "{name}"
+	Can be distant	אפשר גם ממרחק
 	Centre	מרכז
 	Classic	קלאסי
 	Colour Effect	אפקט צבע
@@ -391,6 +392,11 @@
 	Keyboard Shortcuts	קיצורי מקשים
 	Keyboard shortcuts (this editor)	קיצורי מקשים (עורך זה)
 	Keyframe	פריים מפתח
+	Locked guides can't be dragged; new ones can still be added	לא ניתן לגרור קווי עזר נעולים; עדיין אפשר להוסיף קווים חדשים
+	Must be close	יש להיות קרוב
+	None yet. Add one below, or drag one from a ruler (View › Rulers).	עדיין אין קווי עזר. הוסף קו למטה, או גרור קו מסרגל (תצוגה › סרגלים).
+	Spacing ↔	מרווח אופקי ↔
+	Spacing ↕	מרווח אנכי ↕
 	keyframe	פריים מפתח
 	Keyframes Only	פריימי מפתח בלבד
 	Knockout	ניקוב (Knockout)
