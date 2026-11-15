@@ -190,6 +190,7 @@
 	All document contents except metadata	כל תוכן המסמך למעט מטא־נתונים
 	All form fields are tagged	כל שדות הטופס מתויגים
 	All form fields have description	לכל שדות הטופס יש תיאור
+	All marks	כל הסימנים
 	All multimedia objects are tagged	כל אובייקטי המולטימדיה מתויגים
 	All open documents	כל המסמכים הפתוחים
 	All page content is tagged	כל תוכן העמוד מתויג
@@ -298,6 +299,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Black and white	שחור ולבן
 	Black on white	שחור על לבן
 	Blank page	עמוד ריק
+	Bleed marks	סימני גלישה
 	Blue	כחול
 	bold	מודגש
 	Booklet	חוברת
@@ -307,6 +309,8 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Bookmarks are present in large documents	במסמכים גדולים קיימות סימניות
 	Bookmarks Panel and Page	חלונית סימניות ועמוד
 	Border Color:	צבע הגבול:
+	Border colour	צבע הגבול
+	Border opacity	אטימות הגבול
 	Borders and Colors	גבולות וצבעים
 	Both	שניהם
 	Both sides	שני הצדדים
@@ -329,6 +333,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Calibrate from two points	כיול באמצעות שתי נקודות
 	Callout	בועת הסבר
 	Can't be read: {e}	לא ניתן לקרוא: {e}
+	Cancel drawing	ביטול הציור
 	Cancelled	בוטל
 	Cancelling…	מבטל…
 	Case-sensitive	התאמה לאותיות רישיות וקטנות
@@ -367,6 +372,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Change {key}	שינוי {key}
 	Change {what}	שינוי {what}
 	Changes allowed	שינויים מותרים
+	Changes here apply to all {n} selected comments	השינויים כאן חלים על כל {n} ההערות שנבחרו
 	Changing the document	שינוי המסמך
 	Character encoding	קידוד תווים
 	Character limit 0 means no limit. A comb of characters needs a limit.	מגבלת תווים 0 פירושה שאין מגבלה. רשת תווים מחייבת הגבלת תווים.
@@ -383,6 +389,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Check for accessibility	בדיקת נגישות
 	Check for accessibility…	בדיקת נגישות…
 	Check for updates	בדוק עדכונים
+	Check for updates when PdfCraft starts	בדיקת עדכונים בעת הפעלת PdfCraft
 	Check for updates…	בדיקת עדכונים…
 	Check spelling	בדיקת איות
 	Check that the tags read in the order a sighted reader would. Use the Reading Order tool or the Tags panel to correct it.	יש לוודא שהתגיות נקראות בסדר שבו קורא רואה היה קורא. אפשר לתקן זאת באמצעות כלי סדר הקריאה או חלונית התגיות.
@@ -448,6 +455,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Color Images	תמונות צבעוניות
 	Color Spaces	מרחבי צבע
 	Colour	צבע
+	Colour bars	פסי צבע
 	Colours are remapped while rendering; the document itself never changes.	הצבעים ממופים מחדש בזמן הרינדור; המסמך עצמו אינו משתנה.
 	Column select	בחירת עמודה
 	Column spacing	מרווח בין עמודות
@@ -482,6 +490,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Compare files…	השוואת קבצים…
 	Compare this file with an older version: Compare files… in All tools.	כדי להשוות קובץ זה לגרסה ישנה, יש לבחור „השוואת קבצים…” ב„כל הכלים”.
 	Compatibility	תאימות
+	Complete	סיום
 	Completed	הושלם
 	Compress a PDF	דחיסת PDF
 	Compress document structure (object streams)	דחיסת מבנה המסמך (זרמי אובייקטים)
@@ -502,6 +511,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Copied {what}	הועתקו {what}
 	Copies, two-sided printing and colour are chosen in the browser's print dialog.	מספר העותקים, הדפסה דו־צדדית וצבע נבחרים בחלון ההדפסה של הדפדפן.
 	Copies:	עותקים:
+	Copy comment	העתקת הערה
 	Copy Image	העתקת תמונה
 	Copy Image in Original Format	העתקת תמונה בפורמט המקורי
 	Copy or cut pages first	יש להעתיק או לגזור תחילה עמודים
@@ -630,6 +640,7 @@ key	Delete	Delete
 	Delete attachment {key}	מחיקת קובץ מצורף {key}
 	Delete bookmark	מחיקת סימנייה
 	Delete comment	מחיקת הערה
+	Delete comments	מחיקת הערות
 	Delete content	מחיקת תוכן
 	Delete document JavaScript	מחיקת JavaScript מהמסמך
 	Delete field	מחיקת שדה
@@ -772,8 +783,10 @@ key	Delete	Delete
 comment menu	Edit	עריכה
 	Edit a PDF	עריכת PDF
 	Edit Action	עריכת פעולה
+	Edit attachment description	עריכת תיאור הקובץ המצורף
 	Edit comment	עריכת הערה
 	Edit content	עריכת תוכן
+	Edit description	עריכת התיאור
 	Edit document JavaScript	עריכת JavaScript במסמך
 	Edit fields	עריכת שדות
 	Edit image	עריכת תמונה
@@ -937,6 +950,7 @@ calendar date	February	פברואר
 	Fill colour:	צבע המילוי:
 	Fill colour: none	צבע מילוי: ללא
 	Fill in {name}	מילוי {name}
+	Fill opacity	אטימות המילוי
 	Filling in form fields and signing existing signature fields	מילוי שדות טופס וחתימה בשדות חתימה קיימים
 	Filling of form fields	מילוי שדות טופס
 	Filter comments	סינון הערות
@@ -1133,6 +1147,7 @@ certificate	Intended usage	שימוש מיועד
 	Intersection	נקודת חיתוך
 	Intersections	נקודות חיתוך
 	Invert	היפוך צבעים
+	Invert middle-button drag	היפוך הגרירה בלחצן האמצעי
 	Invisible Rectangle	מלבן בלתי נראה
 	Irregular tables confuse cell navigation. Give every row the same number of cells (counting spans).	טבלאות לא אחידות מקשות על ניווט בין התאים. יש להגדיר לכל שורה אותו מספר תאים, כולל תאים ממוזגים.
 	is available	זמין
@@ -1206,9 +1221,11 @@ certificate	Key usage	שימוש במפתח
 	Light theme	ערכת נושא בהירה
 	Limit of	מגבלה של
 	Line ending	קצה קו
+	Line opacity	אטימות הקו
 	Line Style:	סגנון הקו:
 	Line thickness	עובי הקו
 	Line Thickness:	עובי הקו:
+	Line weight	עובי הקו
 	Link Action	פעולת הקישור
 	Link Appearance	מראה הקישור
 	Link Properties	מאפייני קישור
@@ -1261,6 +1278,7 @@ calendar date	March	מרץ
 	Mark pages for redaction	סימון עמודים להשחרה
 	Mark with checkmark	סימון ב־וי
 	Marked	מסומן
+	Marks	סימנים
 	Markup	סימון
 	Marquee Zoom	הגדלת אזור מסומן
 	Marquee zoom	הגדלה לפי אזור
@@ -1314,6 +1332,7 @@ calendar weekday	Mo	ב׳
 	Move	העברה
 	Move bookmark	העברת סימנייה
 	Move comment	העברת הערה
+	Move comments	העברת הערות
 	Move down	העברה למטה
 	Move earlier	העברה למעלה
 	Move image	הזזת תמונה
@@ -1499,6 +1518,7 @@ animation effects	On	מופעל
 	Open this web page?	לפתוח את דף האינטרנט הזה?
 	Open to page	פתיחה בעמוד
 	open to see what it will include	פתח כדי לראות מה ייכלל
+	Open web and email addresses written in the page text	פתיחת כתובות אינטרנט ודוא״ל שכתובות בטקסט העמוד
 	Opened with	נפתח באמצעות
 	Opened, but its security settings don't allow combining. Enter the permissions password.	הקובץ נפתח, אך הגדרות האבטחה שלו אינן מאפשרות שילוב. יש להזין את סיסמת ההרשאות.
 	Opening the browser's print dialog…	פותח את חלון ההדפסה של הדפדפן…
@@ -1550,6 +1570,7 @@ animation effects	On	מופעל
 	Page display: {layout}	תצוגת העמוד: {layout}
 	Page does not require timed responses	העמוד אינו דורש תגובות מוגבלות בזמן
 	Page grid	רשת העמודים
+	Page information	פרטי העמוד
 	Page labels	תוויות עמודים
 	Page layout	פריסת עמוד
 	Page navigation	ניווט בין עמודים
@@ -1598,6 +1619,7 @@ animation effects	On	מופעל
 	Panel layout could not be restored: {error}	לא ניתן לשחזר את פריסת החלוניות: {error}
 	Panel move was not applied: {error}	העברת החלונית לא בוצעה: {error}
 	Panels	חלוניות
+	Panning or auto-scrolling with the middle (wheel) button moves the page the other way.	הזזה או גלילה אוטומטית באמצעות הלחצן האמצעי (הגלגלת) מזיזות את העמוד בכיוון ההפוך.
 	Paper:	נייר:
 	Paragraph spacing	מרווח בין פסקאות
 	Part of	חלק מ־
@@ -1607,6 +1629,8 @@ animation effects	On	מופעל
 	Password security	הגנה באמצעות סיסמה
 	Password-protected	מוגן בסיסמה
 	Paste after	הדבקה לאחר
+	Paste bookmarks	הדבקת סימניות
+	Paste comments	הדבקת הערות
 	Paste pages	הדבקת עמודים
 	Path	נתיב
 	Paths	נתיבים
@@ -1775,6 +1799,7 @@ certificate	Public key	מפתח ציבורי
 	Redo {action}	ביצוע חוזר של {action}
 	Reduce file size	הקטנת גודל הקובץ
 	Reduce file size…	הקטנת גודל הקובץ…
+	Registration marks	סימני רישום
 	Regularity	אחידות
 	Rejected	נדחה
 	Reliable character encoding is provided	קידוד תווים אמין מוגדר
@@ -1795,6 +1820,7 @@ certificate	Public key	מפתח ציבורי
 	Remove hidden information…	הסרת מידע מוסתר…
 	Remove invalid links and bookmarks	הסרת קישורים וסימניות לא תקינים
 	Remove page	הסרת עמוד
+	Remove printer marks	הסרת סימני דפוס
 	Remove redaction marks	הסרת סימוני השחרה
 	Remove saved {what}	הסרת {what} שנשמר
 	Remove security	הסרת ההגנה
@@ -1880,6 +1906,7 @@ certificate	Public key	מפתח ציבורי
 	Right Edge	הקצה הימני
 	Right Footer Text	טקסט הכותרת התחתונה הימנית
 	Right Header Text	טקסט הכותרת העליונה הימנית
+	Room on each side	מקום בכל צד
 	Rotate Clockwise	סיבוב עם כיוון השעון
 	Rotate clockwise	סיבוב עם כיוון השעון
 	Rotate Counterclockwise	סיבוב נגד כיוון השעון
@@ -2216,6 +2243,7 @@ certificate	Subject	נושא
 	Text is compared word by word; the differences are shown on the new file.	הטקסט מושווה מילה אחר מילה; ההבדלים מוצגים בקובץ החדש.
 	Text language is specified	שפת הטקסט מוגדרת
 	Text must contrast enough with its background for people with low vision. Check the colours by eye or with a contrast tool.	הטקסט צריך להיות מובחן דיו מהרקע עבור אנשים עם ראייה ירודה. יש לבדוק את הצבעים בעין או בכלי לבדיקת ניגודיות.
+	Text opacity	אטימות הטקסט
 	Text recognition is already running	זיהוי הטקסט כבר פועל
 	Text recognition isn't installed: its model files are missing. Reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them.	זיהוי הטקסט אינו מותקן: קובצי המודל חסרים. יש להתקין מחדש את PdfCraft או להגדיר את PDFCRAFT_MODELS לתיקייה שמכילה אותם.
 	Text recognition isn't installed: its models are missing (run `cargo xtask models`, or set PDFCRAFT_MODELS).	זיהוי הטקסט אינו מותקן: המודלים חסרים (יש להריץ `cargo xtask models` או להגדיר את PDFCRAFT_MODELS).
@@ -2359,6 +2387,7 @@ calendar weekday	Th	ה׳
 	The timestamp's byte range does not match the file.	טווח הבתים של חותמת הזמן אינו תואם לקובץ.
 	The title in the metadata and the document information differ	הכותרת במטא־נתונים שונה מהכותרת בפרטי המסמך
 	the title must not be empty	הכותרת אינה יכולה להיות ריקה
+	The trim box is kept where it is, so the printed page cuts the same.	תיבת החיתוך נשארת במקומה, כך שהעמוד המודפס נחתך באותו אופן.
 	The value is shown as typed.	הערך מוצג כפי שהוקלד.
 	The window should show a meaningful title rather than the file name. Set a title and Initial View > Show: Document Title.	בחלון צריכה להופיע כותרת משמעותית במקום שם הקובץ. יש להגדיר כותרת ואת „תצוגה ראשונית” > „הצגה: כותרת המסמך”.
 	The window shows the file name, not the title (Initial View > Show)	החלון מציג את שם הקובץ במקום את הכותרת (תצוגה ראשונית > הצגה)
@@ -2474,6 +2503,7 @@ signature pad	Type	הקלדה
 	Unchecked reads	קריאות שלא נבדקו
 	Underline text	הוספת קו תחתון לטקסט
 	Undid {label}	בוטלה הפעולה {label}
+	Undo last point	ביטול הנקודה האחרונה
 	Undo {action}	ביטול הפעולה {action}
 	Unit	יחידה
 	Units	יחידות
@@ -2571,6 +2601,7 @@ calendar weekday	We	ד׳
 	What word or phrase would you like to search for?	איזו מילה או איזו סדרת מילים לחפש?
 	White on black	לבן על שחור
 	Whole words only	מילים שלמות בלבד
+	Widen the page to make room	הרחבת העמוד כדי לפנות מקום
 	Width	רוחב
 	Window Options	אפשרויות חלון
 	Windows store  ·  	מאגר Windows  ·  
