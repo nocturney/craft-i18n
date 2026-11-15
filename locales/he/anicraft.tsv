@@ -32,6 +32,7 @@
 	Add the swatches in a swatch file (.json) or a GIMP palette (.gpl)	הוספת דוגמיות צבע מקובץ ‎.json או מלוח צבעים של GIMP ‏(.gpl)
 	Add Warp Pin	הוספת נקודת עיגון לעיוות
 	Add {what} to the Library	הוספת {what} לספרייה
+	Added a camera. Drag on the stage to pan it, turn it with the round handle, zoom with the wheel. {undo} to undo.	נוספה מצלמה. גררו אותה על הבמה כדי להזיז את התצוגה, סובבו בעזרת הידית העגולה ושנו את התקריב בעזרת גלגלת העכבר. {undo} לביטול.
 	Added a point to the motion path. {undo} to undo.	נוספה נקודה לנתיב התנועה. {undo} כדי לבטל את הפעולה.
 	Added a point. {undo} to undo.	נוספה נקודה. {undo} כדי לבטל את הפעולה.
 	Alpha	ערוץ אלפא
@@ -77,6 +78,7 @@
 	ArtCraft Launcher manages this app's version. Change its version there.	ArtCraft Launcher מנהל את גרסת התוכנה. יש לעדכן את הגרסה דרכו.
 	Ascending: click for descending	בסדר עולה: לחצו לסדר יורד
 	Attach	צירוף
+	Attach Layer to Camera: the layer stays where it is on screen while the camera moves (titles, HUDs)	הצמדת שכבה למצלמה: השכבה נשארת במקומה על המסך כשהמצלמה נעה (לכותרות ולתצוגות עיליות)
 	Autosave	שמירה אוטומטית
 	Autosave after this many changes	שמירה אוטומטית לאחר מספר השינויים שנקבע
 	Autosave every	שמירה אוטומטית כל
@@ -224,6 +226,7 @@
 	Drag to choose how many frames onion skin shows before and after the playhead	גררו כדי לבחור כמה פריימים קליפת הבצל מציגה לפני ראש ההפעלה ואחריו
 	Drag to choose the frames onion skin shows (anchored: they stay when the playhead moves)	גררו כדי לבחור את הפריימים שקליפת הבצל מציגה (מעוגנים: הם נשארים כשראש ההפעלה זז)
 	Draw onion frames as outlines only	ציור פריימי קליפת הבצל כקווי מתאר בלבד
+	Draw the grid over the artwork; off, it shows under it, on the stage	הצגת הרשת מעל היצירה; כשהאפשרות כבויה, הרשת מוצגת מתחת ליצירה על הבמה
 	Drawing	ציור
 	Drawing on {adapter}, straight into the window.	מצייר באמצעות {adapter}, ישירות לחלון.
 	Drawing on {adapter}, then copied to the window (slower: the window's graphics device can't be shared).	מצייר באמצעות {adapter} ומעתיק לחלון (איטי יותר: לא ניתן לשתף את התקן הגרפיקה של החלון).
@@ -339,6 +342,7 @@
 	Frames here don't run (graphic and button timelines, guide layers); the script is kept with the document.	פריימים כאן לא מופעלים (צירי זמן של גרפיקה ושל כפתור, שכבות מנחה); הסקריפט נשמר עם המסמך.
 	Frames of {name}	הפריימים של {name}
 	Frames that repeat the one before are stored once, shown longer.	פריימים שחוזרים על הקודם נשמרים פעם אחת ומוצגים למשך זמן ארוך יותר.
+	Frames {a}–{b}	פריימים {a}–{b}
 	Gap length	אורך רווח
 	Gap size	גודל המרווח
 	Give every property's segment at this frame this ease	החלת ההאצה וההאטה הזו על המקטע של כל מאפיין בפריים הזה
@@ -358,6 +362,7 @@
 	High	גבוה
 	Highlight	הדגשה
 	History	היסטוריה
+	Horizontal guides are at y, vertical ones at x, in stage pixels from its top-left corner	מיקום קווי עזר אופקיים נקבע לפי y, ואנכיים לפי x, בפיקסלים ביחס לפינה השמאלית העליונה של הבמה
 	Horizontal spacing	מרווח אופקי
 	Hue	גוון
 	Icons: Lucide (ISC)	סמלים: Lucide (ISC)
@@ -382,6 +387,7 @@
 	It is an independent project, not affiliated with or endorsed by Adobe. Bundled fonts and Rust crates keep their own permissive licences, listed below.	זהו פרויקט עצמאי, שאינו קשור ל-Adobe ואינו נתמך על ידה. הגופנים וחבילות ה-Rust המצורפים כפופים לרישיונות המתירניים שלהם, המפורטים להלן.
 	Its actions run on the timeline it is on: “this” is the main timeline.	הפעולות שלו מופעלות בציר הזמן שבו הוא נמצא: "this" הוא ציר הזמן הראשי.
 	Join	חיבור
+	Join Motion	חיבור תנועה
 	Joint Limits	מגבלות מפרק
 	Keep a recovery copy of unsaved work	שמירת עותק שחזור של עבודה שלא נשמרה
 	Keep it at the top of the list	הצמדה לראש הרשימה
@@ -395,8 +401,13 @@
 	Locked guides can't be dragged; new ones can still be added	לא ניתן לגרור קווי עזר נעולים; עדיין אפשר להוסיף קווים חדשים
 	Must be close	יש להיות קרוב
 	None yet. Add one below, or drag one from a ruler (View › Rulers).	עדיין אין קווי עזר. הוסף קו למטה, או גרור קו מסרגל (תצוגה › סרגלים).
+	Onion skin is off: turn it on in the timeline header to see the frames around the playhead	קליפת בצל כבויה: הפעילו אותה בכותרת ציר הזמן כדי לראות את הפריימים שסביב סמן ההפעלה
+	Onion skin this layer (Alt-click: this layer only, again: every layer)	הפעלת קליפת בצל בשכבה זו (Alt+לחיצה: שכבה זו בלבד; לחיצה נוספת: כל השכבות)
+	Playback volume	עוצמת השמע בהפעלה
 	Spacing ↔	מרווח אופקי ↔
 	Spacing ↕	מרווח אנכי ↕
+	Split Motion	פיצול תנועה
+	Split the motion tween in two at frame {frame} — {undo} to undo	פיצול מעבר הביניים של התנועה לשניים בפריים {frame} — {undo} לביטול
 	keyframe	פריים מפתח
 	Keyframes Only	פריימי מפתח בלבד
 	Knockout	ניקוב (Knockout)
@@ -872,6 +883,7 @@
 	{action}: key removed	{action}: המקש הוסר
 	{action}: {key}	{action}: {key}
 	{action}: {key} (removed from {other})	{action}: {key} (הוסר מהפעולה {other})
+	{axis} guide {n} position	מיקום קו עזר {n} בציר {axis}
 	{fps} fps	{fps} פריימים לשנייה
 	{key} could not be moved.	לא ניתן היה להעביר את {key}.
 	{key} is already used by {action}.	{key} כבר משמש עבור {action}.
