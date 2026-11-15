@@ -268,6 +268,18 @@ review of the catalog or in-app Hebrew UI acceptance is claimed. AniCraft embeds
 not offer Hebrew yet (`i18n::READY` is left-to-right scripts only until egui lays out
 bidirectional text); until then the rows are carried as data only.
 
+Follow-up catalog contributions through 16 November 2026 bring `locales/he/anicraft.tsv`
+to **1,184 active app-specific rows** (the initial 565 documented above plus 619 later
+source-linked additions). The latest 12 rows in
+[`d03ffbf`](https://github.com/nocturney/craft-i18n/commit/d03ffbfdae9febc091aa4e8878cf703d152d3d23)
+cover grid/guides and camera, playback and timeline controls. These 12 are original
+AI-assisted Hebrew drafts written from the matching English `tr!`/`tr_noop!` literals in
+AniCraft `src/aids_dialog.rs` and `src/timeline.rs`; they were checked for exact source
+keys, duplicate/placeholder/Unicode NFC/punctuation safety, but have **not** been
+line-by-line native-speaker-reviewed or accepted in a running Hebrew/RTL UI. This
+addition does not enable a new locale or alter commands, source English keys or app
+behavior.
+
 ## Language data
 
 Every file under `language-data/` ([ADR 0004](docs/adr/0004-third-party-language-data.md),
