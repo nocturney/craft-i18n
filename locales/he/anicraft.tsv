@@ -1285,3 +1285,30 @@
 	Windows' own graphics: try this if the window flickers or goes black with another choice.	מנגנון הגרפיקה של Windows: נסו אותו אם החלון מהבהב או הופך לשחור בשיטה אחרת.
 	The Mac's own graphics.	מנגנון הגרפיקה של Mac.
 	Older and slower, but works with most graphics drivers. The stage is drawn on the CPU or on a graphics device of its own.	שיטה ותיקה ואיטית יותר, אך תואמת לרוב מנהלי ההתקנים הגרפיים. הבמה מצוירת באמצעות המעבד או התקן גרפי ייעודי.
+
+# AniCraft colour and gradient panel, original English tr! call sites in src/colour_panel.rs
+# Official source blob 1b84d5e94f76b8c94cbfab43a5f814f5043a62c7; independent clean-room Hebrew drafts (AI-assisted), native-speaker review pending.
+	Fill colour picker	בורר צבע מילוי
+	Solid colour	צבע אחיד
+	Linear gradient: colours along a line	מעבר צבע קווי: צבעים לאורך קו
+	Radial gradient: colours out from a centre	מעבר צבע מעגלי: צבעים היוצאים מהמרכז
+	Bitmap fill: a Library image, tiled	מילוי במפת סיביות: תמונה מהספרייה החוזרת באריחים
+	Fill type: {kind}	סוג מילוי: {kind}
+	Import an image into the Library first (File › Import › Import to Library), then fill with it.	תחילה יבאו תמונה לספרייה (קובץ › ייבוא › ייבוא לספרייה), ולאחר מכן השתמשו בה למילוי.
+	No fill. Choose a type above to fill again.	ללא מילוי. בחרו סוג למעלה כדי להוסיף מילוי מחדש.
+	missing bitmap	תמונת מפת סיביות חסרה
+	Fill bitmap	מפת סיביות למילוי
+	Scale, turn and skew it with the Gradient Transform tool (F).	שנו את הגודל, הסיבוב וההטיה באמצעות הכלי לשינוי צורת מעבר צבע (F).
+	Gradient swatches	דוגמיות מעבר צבע
+	Gradient swatch: {name}	דוגמית מעבר צבע: {name}
+	Past its ends the gradient keeps its end colours	מעבר לקצותיו, מעבר הצבע שומר על צבעי הקצה
+	Past its ends the gradient mirrors back and forth	מעבר לקצותיו, מעבר הצבע משתקף הלוך ושוב
+	Past its ends the gradient starts again	מעבר לקצותיו, מעבר הצבע מתחיל מחדש
+	Linear RGB	RGB קווי
+	Mix the colours in linear light: brighter, more even blends	ערבוב צבעים באור קווי: מעברים בהירים ואחידים יותר
+	Focal point	נקודת מוקד
+	Where the ramp starts, from the centre along the gradient's axis (drag the triangle with the Gradient Transform tool)	נקודת ההתחלה של רצף הצבעים, מן המרכז לאורך ציר מעבר הצבע (גררו את המשולש באמצעות הכלי לשינוי צורת מעבר צבע)
+	Gradient: add a colour stop	מעבר צבע: הוספת נקודת עצירה לצבע
+	Click to add a colour stop. Drag a stop to move it, or off the bar to remove it. With a stop focused, the arrow keys move it and Delete removes it.	לחצו להוספת נקודת עצירה לצבע. גררו נקודה כדי להזיז אותה או אל מחוץ לפס כדי להסירה. כשהנקודה ממוקדת, מקשי החצים מזיזים אותה ו-Delete מסיר אותה.
+	Colour stop {stop} of {count} at {at}%	נקודת עצירה {stop} מתוך {count} במיקום {at}%
+	Stop {stop} at	נקודת עצירה {stop} במיקום
