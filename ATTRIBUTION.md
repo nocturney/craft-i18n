@@ -269,7 +269,7 @@ not offer Hebrew yet (`i18n::READY` is left-to-right scripts only until egui lay
 bidirectional text); until then the rows are carried as data only.
 
 Follow-up catalog contributions through 16 November 2026 bring `locales/he/anicraft.tsv`
-to **1,233 active app-specific rows** (the initial 565 documented above plus 668 later
+to **1,263 active app-specific rows** (the initial 565 documented above plus 698 later
 source-linked additions). An earlier 12-row batch in
 [`d03ffbf`](https://github.com/nocturney/craft-i18n/commit/d03ffbfdae9febc091aa4e8878cf703d152d3d23)
 cover grid/guides and camera, playback and timeline controls. These 12 are original
@@ -309,7 +309,7 @@ in [official AniCraft `src/movie_explorer.rs`](https://github.com/storytold/anic
 (source Git blob `67f4f1895f847d9492b7584a04f535c291b1e7ea`). The
 [translation-only commit `2274cce`](https://github.com/nocturney/craft-i18n/commit/2274cce27d57c6d034c62b6939f0cf4d2e9cf82d)
 preserves all previous 1,212 AniCraft rows and the separate Hebrew common catalog;
-there are now 1,233 distinct AniCraft app-specific rows. This source-derived,
+that Movie Explorer batch brought the count to 1,233 distinct AniCraft app-specific rows. This source-derived,
 AI-assisted clean-room draft covers scene/symbol/layer descriptions, Movie Explorer
 search, accessibility state and navigation; named placeholders, escaped newline,
 source matching, NFC, uniqueness, and unsafe bidi controls were checked. An
@@ -317,6 +317,26 @@ isolated checkout of that exact commit passed all 37 Python tools tests on
 permitted Windows Chris (exit 0). Native AniCraft RTL/fonts, save-close-reopen,
 Cargo, maintainer CI approval, full native-speaker review and release have not
 been validated by this contribution. Hebrew remains catalog-only, not READY.
+
+
+Thirty further source-keyed original Hebrew translations were contributed on 16 November
+2026 in [commit `10e539a`](https://github.com/nocturney/craft-i18n/commit/10e539aeac94789b5356f50e1754b8d9bb386336)
+for AniCraft plug-in UI, actions, sandbox explanations and renderer preferences.
+They cover 24 previously untranslated English call sites in official AniCraft
+[`src/plugins_ui.rs`](https://github.com/storytold/anicraft/blob/main/src/plugins_ui.rs)
+(source blob `0a29f62c69cf5378e281f53fa927c6f578db0788`) and six in
+[`src/prefs.rs`](https://github.com/storytold/anicraft/blob/main/src/prefs.rs)
+(source blob `5cfbbcae59a9de1c3de4fccd14b07ede7d3212e6`). The author
+used ChatGPT to draft original, clean-room Hebrew from these English literals only;
+no proprietary translation bundle was copied. All prior 1,233 app-specific rows
+and `locales/he/common.tsv` were preserved; the app-specific catalog now has
+1,263 distinct active rows. Key membership, shared-catalog overlap, braces-based
+placeholders, trailing ellipses, duplicate keys, UTF-8 NFC and unsafe directional
+controls passed preflight; a permitted Windows Chris isolated checkout of the
+exact translation commit ran 37 Python catalog-tool tests successfully. Native
+AniCraft Hebrew/RTL, font readability, document save-close-reopen, Rust/Cargo
+integration, maintainer CI approval and native-speaker review are **not** claimed;
+these additions remain catalog data only.
 
 
 ## Language data
