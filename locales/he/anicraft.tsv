@@ -1252,3 +1252,36 @@
 	{kind}: {row}, closed	{kind}: {row}, סגור
 	{row}\nDouble-click to go there	{row}\nלחיצה כפולה למעבר למיקום
 	Went to {row}	בוצע מעבר אל {row}
+
+# AniCraft plug-ins and renderer preferences; clean-room English-source translation (AI-assisted).
+# English call sites: src/plugins_ui.rs @ 0a29f62c69cf5378e281f53fa927c6f578db0788; src/prefs.rs @ 5cfbbcae59a9de1c3de4fccd14b07ede7d3212e6.
+	Some plug-ins could not be loaded: {list}	לא ניתן היה לטעון חלק מהתוספים: {list}
+	Plug-ins: {error}	תוספים: {error}
+	A frame script: it runs while the movie plays. Pick it for a keyframe in the Actions panel (F9)	סקריפט פריים: מופעל בזמן שהסרט מתנגן. בחרו בו עבור פריים מפתח בחלונית פעולות (F9)
+	An export format: find it in File › Export	תבנית ייצוא: זמינה בתפריט קובץ › ייצוא
+	Eases: pick them in a tween's ease menu	עקומות שינוי קצב: בחרו אותן בתפריט שינוי הקצב של מעבר הביניים
+	The plug-in “{id}” is no longer installed	התוסף „{id}” אינו מותקן עוד
+	{plugin}: {reason}	תוסף {plugin}: {reason}
+	No plug-ins installed yet	עדיין לא הותקנו תוספים
+	Plug-in · {by}	תוסף · מאת {by}
+	Preview on the stage	תצוגה מקדימה על הבמה
+	Enter applies · Esc cancels · one undo step	Enter להחלה · Esc לביטול · שלב ביטול אחד
+	{name} — {undo} to undo	{name} — {undo} לביטול
+	No plug-ins installed yet. Plug-ins are WebAssembly (.wasm) files that add commands (generators, selection effects), export formats and eases.	עדיין לא הותקנו תוספים. תוספים הם קובצי WebAssembly ‏(.wasm) שמוסיפים פקודות (מחוללים ואפקטים לבחירה), תבניות ייצוא ועקומות שינוי קצב.
+	Remove…	הסרה…
+	Export the movie in this format	ייצוא הסרט בתבנית זו
+	Run	הפעלה
+	Run…	הפעלה…
+	by {author} · {id} · {size} KB	מאת {author} · {id} · {size} KB
+	Install Plug-in…	התקנת תוסף…
+	Plug-ins run sandboxed: they can change the open document through AniCraft's commands, never your files. An export format only reads the frames; AniCraft writes its file.	תוספים פועלים בסביבה מבודדת: הם יכולים לשנות את המסמך הפתוח באמצעות פקודות AniCraft, אך לא לגשת לקבצים שלכם. תבנית ייצוא קוראת את הפריימים בלבד; AniCraft כותבת את הקובץ.
+	{name}: {message} — {undo} to undo	{name}: {message} — {undo} לביטול
+	Installed {name} {version} — find it in Commands › Plug-ins	התוסף {name} בגרסה {version} הותקן — זמין בתפריט פקודות › תוספים
+	Updated {name} {version} — find it in Commands › Plug-ins	התוסף {name} עודכן לגרסה {version} — זמין בתפריט פקודות › תוספים
+	Removed {name}	התוסף {name} הוסר
+	Background	רקע
+	AniCraft tries the best way for this computer first, and the next one if a way doesn't work.	AniCraft מנסה תחילה את שיטת התצוגה המתאימה ביותר למחשב זה, ואם היא אינה פועלת, עוברת לשיטה הבאה.
+	Try this if the window flickers or goes black with another choice.	נסו אפשרות זו אם החלון מהבהב או הופך לשחור בעת שימוש בשיטה אחרת.
+	Windows' own graphics: try this if the window flickers or goes black with another choice.	מנגנון הגרפיקה של Windows: נסו אותו אם החלון מהבהב או הופך לשחור בשיטה אחרת.
+	The Mac's own graphics.	מנגנון הגרפיקה של Mac.
+	Older and slower, but works with most graphics drivers. The stage is drawn on the CPU or on a graphics device of its own.	שיטה ותיקה ואיטית יותר, אך תואמת לרוב מנהלי ההתקנים הגרפיים. הבמה מצוירת באמצעות המעבד או התקן גרפי ייעודי.
