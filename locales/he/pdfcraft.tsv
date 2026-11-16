@@ -10,6 +10,9 @@
 # Clean room: every entry was written from the plain meaning of the English text in ordinary
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
+# DAY-03 2026-11-16: 32 original AI-assisted Hebrew additions from the official English
+# source-key column of locales/de/pdfcraft.tsv (Git blob 0aeb4154db56628c088ea94f05fd838b95d769c7).
+# No German translations copied; native RTL/font and human review pending.
 
 	  · not fixable here	  · לא ניתן לתקן כאן
 	 (page {p})	 (עמוד {p})
@@ -66,6 +69,8 @@
 	A {} annotation has no appearance stream	להערה מסוג {} אין זרם מראה
 	A {} annotation isn't set to print, or is hidden	הערה מסוג {} אינה מוגדרת להדפסה או שהיא מוסתרת
 	About PdfCraft	אודות PdfCraft
+	Accent-sensitive	רגיש לסימני ניקוד
+	Accept	אשר
 	Accept entire page	אישור העמוד כולו
 	Accepted	התקבל
 	Accessibility Checker	בודק נגישות
@@ -95,6 +100,8 @@
 	Add a digital signature field	הוספת שדה חתימה דיגיטלית
 	Add a drop-down list	הוספת רשימה נפתחת
 	Add a list box	הוספת תיבת רשימה
+	Add a page from template {name}	הוספת עמוד מהתבנית {name}
+	Add a paper size of your own to the list	הוספת גודל נייר מותאם אישית לרשימה
 	Add a radio button	הוספת כפתור בחירה
 	Add a reply	הוספת תגובה
 	Add a stamp	הוספת חותמת
@@ -107,13 +114,16 @@
 	Add an Action	הוספת פעולה
 	Add an image field	הוספת שדה תמונה
 	Add arrow	הוספת חץ
+	Add at least one recipient.	יש להוסיף נמען אחד לפחות.
 	Add at least two files	יש להוסיף לפחות שני קבצים
 	Add background	הוספת רקע
 	Add background…	הוספת רקע…
 	Add Bates numbering…	הוספת מספור Bates…
 	Add bookmark	הוספת סימנייה
 	Add callout	הוספת תיבת הסבר
+	Add certificate file…	הוספת קובץ תעודה…
 	Add checkmark	הוספת סימן וי
+	Add circle	הוספת עיגול
 	Add cloud	הוספת ענן
 	Add comment	הוספת הערה
 	Add comments	הוספת הערות
@@ -125,6 +135,7 @@
 	Add field	הוספת שדה
 	Add fields	הוספת שדות
 	Add file attachment	הוספת קובץ מצורף
+	Add files or folders to recognize.	הוסף קבצים או תיקיות לזיהוי טקסט.
 	Add files to combine	הוספת קבצים לשילוב
 	Add files…	הוספת קבצים…
 	Add folder	הוספת תיקייה
@@ -173,6 +184,7 @@
 	Add underline	הוספת קו תחתון
 	Add watermark	הוספת סימן מים
 	Add watermark…	הוספת סימן מים…
+	Add your digital ID	הוספת המזהה הדיגיטלי שלך
 	Add {what}	הוספת {what}
 	Added 1 comment	נוספה הערה אחת
 	Added more than once	נוסף יותר מפעם אחת
@@ -237,6 +249,7 @@
 	Angle	זווית
 	Animation effects	אפקטים של אנימציה
 	Animation that flashes can cause seizures. Check scripts and media for flicker.	אנימציה מהבהבת עלולה לגרום להתקפים. יש לבדוק סקריפטים ומדיה לאיתור הבהוב.
+	Annotation	הערה
 	Annotations, form fill-in, and digital signatures	הערות, מילוי טפסים וחתימות דיגיטליות
 	Another file dialog is still open. Finish with it first.	חלון בחירת קובץ אחר עדיין פתוח. יש לסיים בו תחילה.
 	Any	כל
@@ -250,6 +263,7 @@ theme	Appearance	מראה
 	Appearance settings…	הגדרות מראה…
 	Application	יישום
 	Applied 1 redaction mark. Save to remove the content from the file.	בוצעה השחרה אחת. יש לשמור כדי להסיר את התוכן מהקובץ.
+	Applied immediately and saved for next time. Keep the font file in its current location.	השינוי חל מיד ונשמר לפעם הבאה. יש להשאיר את קובץ הגופן במיקומו הנוכחי.
 	Applied {n} redaction marks. Save to remove the content from the file.	בוצעו {n} השחרות. יש לשמור כדי להסיר את התוכן מהקובץ.
 	Applies to 1 page	חל על עמוד אחד
 	Applies to {n} pages	חל על {n} עמודים
@@ -266,6 +280,10 @@ calendar date	April	אפריל
 	Arrange image	ארגן את התמונה
 	ArtCraft website	אתר ArtCraft
 	Ask about this document	שאלות על המסמך
+	Ask before a document opens in Full Screen mode	בקש אישור לפני פתיחת מסמך במצב מסך מלא
+	Ask to make PdfCraft the default PDF app	הצע להגדיר את PdfCraft כיישום ברירת המחדל לפתיחת קובצי PDF
+	Ask to scan more pages	הצג בקשה לסריקת עמודים נוספים
+	Ask whether to recognize the current page or all pages when editing a scan.	שאל אם לזהות טקסט בעמוד הנוכחי או בכל העמודים בעת עריכת סריקה.
 	Asks GitHub for the latest release. Nothing is downloaded or installed automatically.	בודק ב־GitHub מהי הגרסה האחרונה. שום דבר אינו מורד או מותקן אוטומטית.
 	Associated with content	משויך לתוכן
 	At least one signature has problems.	יש בעיות בלפחות אחת מהחתימות.
@@ -313,6 +331,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Behind text and images	מאחורי טקסט ותמונות
 	Beveled	משופע
 	Bicubic downsampling to	דגימה מופחתת בשיטה דו־קובית לרזולוציה
+	Binarize	המרה לשחור ולבן
 	Binding	כריכה
 	Binding:	צד הכריכה:
 	Black	שחור
@@ -333,6 +352,8 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Border Color:	צבע הגבול:
 	Border colour	צבע הגבול
 	Border opacity	אטימות הגבול
+	Border shape	צורת המסגרת
+	Border:	מסגרת:
 	Borders and Colors	גבולות וצבעים
 	Both	שניהם
 	Both sides	שני הצדדים
@@ -367,7 +388,11 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Center vertically	מרכוז אנכי
 	Center window on screen	מרכוז החלון במסך
 	Centre	מרכוז
+	Centre point	נקודת מרכז
+	Centre points	נקודות מרכז
+	Certificate	תעודה
 	Certificate authority	רשות אישורים
+	Certificate encryption will be applied when you save	הצפנה באמצעות תעודה תוחל בעת השמירה
 	Certificate Signing	חתימת אישור
 	Certificate Viewer	מציג האישורים
 	Certificates	אישורים
@@ -375,6 +400,8 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Certify	אישור
 	Certify (invisible signature)	אישור באמצעות חתימה בלתי נראית
 	Certify (visible signature)	אישור באמצעות חתימה גלויה
+	Change a signed document?	לשנות מסמך חתום?
+	Change anyway	שנה בכל זאת
 	Change Author	שינוי מחבר
 	Change comment properties	שינוי מאפייני הערה
 	Change document properties	שינוי מאפייני המסמך
@@ -417,6 +444,8 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Check that the tags read in the order a sighted reader would. Use the Reading Order tool or the Tags panel to correct it.	יש לוודא שהתגיות נקראות בסדר שבו קורא רואה היה קורא. אפשר לתקן זאת באמצעות כלי סדר הקריאה או חלונית התגיות.
 	Check the pages	בדיקת העמודים
 	Check the pages of {name}: {why}	יש לבדוק את עמודי {name}: {why}
+	Check the scanner is on and connected, then choose Continue.	ודא שהסורק מופעל ומחובר, ואז בחר 'המשך'.
+	Check the scanner is on and connected, then choose Try again.	ודא שהסורק מופעל ומחובר, ואז בחר 'נסה שוב'.
 	CheckBox	תיבת סימון
 	Checkbox	תיבת סימון
 	Checked	מסומן
@@ -437,11 +466,17 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Choose a PNG or JPEG image (up to 4 MiB). Transparency is preserved.	בחר תמונת PNG או JPEG (עד 4 MiB). השקיפות נשמרת.
 	Choose a stamp, then click on the page to place it.	יש לבחור חותמת ואז ללחוץ בעמוד כדי למקם אותה.
 	Choose an image	בחירת תמונה
+	Choose font…	בחירת גופן…
+	Choose ICC profile…	בחירת פרופיל ICC…
 	Choose images	בחירת תמונות
 	Choose image…	בחירת תמונה…
+	Choose individual tools	בחירת כלים בנפרד
+	Choose new keys for {command}	בחירת מקשים חדשים עבור {command}
 	Choose paper by PDF page size	בחירת נייר לפי גודל עמוד ה־PDF
 	Choose photo…	בחירת תמונה…
+	Choose raw file…	בחירת קובץ גולמי…
 	Choose the digital ID that you want to use for signing:	יש לבחור את המזהה הדיגיטלי שישמש לחתימה:
+	Choose the signature to remove:	בחירת החתימה להסרה:
 	Choose…	בחירה…
 	Clean Up	ניקוי
 	Clean-up	ניקוי
