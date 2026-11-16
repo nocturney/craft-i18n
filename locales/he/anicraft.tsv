@@ -1229,3 +1229,26 @@
 @plural	Moved {frames} {n} layer down — {undo} to undo|Moved {frames} {n} layers down — {undo} to undo	הזזה של {frames} כלפי מטה ב-{n} שכבה — {undo} לביטול|הזזה של {frames} כלפי מטה ב-{n} שכבות — {undo} לביטול|הזזה של {frames} כלפי מטה ב-{n} שכבות — {undo} לביטול
 @plural	Stage · {tool} tool · frame {frame} · {n} element selected|Stage · {tool} tool · frame {frame} · {n} elements selected	במה · כלי {tool} · פריים {frame} · נבחר {n} אלמנט|במה · כלי {tool} · פריים {frame} · נבחרו {n} אלמנטים|במה · כלי {tool} · פריים {frame} · נבחרו {n} אלמנטים
 @plural	Stage · {tool} tool · frame {frame} · {n} element selected {on_layers}|Stage · {tool} tool · frame {frame} · {n} elements selected {on_layers}	במה · כלי {tool} · פריים {frame} · נבחר {n} אלמנט {on_layers}|במה · כלי {tool} · פריים {frame} · נבחרו {n} אלמנטים {on_layers}|במה · כלי {tool} · פריים {frame} · נבחרו {n} אלמנטים {on_layers}
+
+# Movie Explorer: original English UI call sites from AniCraft src/movie_explorer.rs, source blob 67f4f1895f847d9492b7584a04f535c291b1e7ea.
+	Symbol definitions	הגדרות סמלים
+	Movie clip	קליפ סרט
+	Mask layer	שכבת מסכה
+	Guide layer	שכבת קווי עזר
+	Camera layer	שכבת מצלמה
+	Armature layer	שכבת שלד
+	On {event}: {actions}	באירוע {event}: {actions}
+	Search the Movie Explorer	חיפוש בסייר הסרט
+	Buttons, movie clips and graphics	לחצנים, קליפים וגרפיקה
+	Sounds and bitmaps	צלילים ותמונות מפת סיביות
+	Sounds on keyframes, and bitmaps	צלילים בפריימי מפתח ותמונות מפת סיביות
+	Off: what is on them, straight under the scene	כשהאפשרות כבויה: התוכן מוצג ישירות מתחת לסצנה
+	All scenes	כל הסצנות
+	Every symbol in the Library, with what is inside it	כל סמל בספרייה, כולל התוכן שלו
+	What the Movie Explorer shows	מה מוצג בסייר הסרט
+	Nothing to show: turn on more Show buttons.	אין מה להציג: הפעילו לחצני 'הצג' נוספים.
+	Nothing matches the search.	לא נמצאו תוצאות לחיפוש.
+	{kind}: {row}, open	{kind}: {row}, פתוח
+	{kind}: {row}, closed	{kind}: {row}, סגור
+	{row}\nDouble-click to go there	{row}\nלחיצה כפולה למעבר למיקום
+	Went to {row}	בוצע מעבר אל {row}
