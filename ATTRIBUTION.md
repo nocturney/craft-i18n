@@ -269,7 +269,7 @@ not offer Hebrew yet (`i18n::READY` is left-to-right scripts only until egui lay
 bidirectional text); until then the rows are carried as data only.
 
 Follow-up catalog contributions through 16 November 2026 bring `locales/he/anicraft.tsv`
-to **1,193 active app-specific rows** (the initial 565 documented above plus 628 later
+to **1,212 active app-specific rows** (the initial 565 documented above plus 647 later
 source-linked additions). The latest 12 rows in
 [`d03ffbf`](https://github.com/nocturney/craft-i18n/commit/d03ffbfdae9febc091aa4e8878cf703d152d3d23)
 cover grid/guides and camera, playback and timeline controls. These 12 are original
@@ -289,6 +289,19 @@ without copying another product's localized interface; source-key, duplicate,
 placeholder, UTF-8/NFC, punctuation and unsafe-bidi checks were performed.
 These nine labels have not been line-by-line reviewed by a native speaker or
 verified in a running Hebrew/RTL AniCraft UI. They are catalog data only.
+
+Nineteen additional timeline, keyframe, tween and onion-skin status/menu labels
+were authored on 16 November 2026 from exact English `tr!` callsites in the
+[official AniCraft `src/timeline.rs`](https://github.com/storytold/anicraft/blob/main/src/timeline.rs)
+(source Git blob `37ed1f9b96fb70d3c8c08ebde403125eabfa207b`).
+They were added in [`f1f91a8`](https://github.com/nocturney/craft-i18n/commit/f1f91a80e5452e8f74418573bfb850df3432a5d8)
+without replacing the existing 1,193 entries. The original AI-assisted, clean-room
+Hebrew wording was checked against live English source literals, the shared Hebrew
+catalog, unique keys, named placeholders, ellipses, Unicode NFC and unsafe bidi
+controls. An isolated exact-source-code checkout passed 37 Python catalog/tool tests
+on Windows; no Cargo, native AniCraft Hebrew/RTL screenshot or native-speaker review
+was completed for these new rows. These are translation data, not a claim that
+AniCraft now selects Hebrew or that upstream CI passed.
 
 
 ## Language data
