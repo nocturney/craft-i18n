@@ -69,6 +69,7 @@
 	Accepted	התקבל
 	Accessibility Checker	בודק נגישות
 	Accessibility Checker Options	אפשרויות בודק הנגישות
+	Accessibility panel	חלונית נגישות
 	Accessibility permission flag	דגל הרשאת נגישות
 	Accessibility permission flag is set	דגל הרשאת הנגישות מוגדר
 	Accessibility Report	דוח נגישות
@@ -85,6 +86,7 @@
 	Actual Size	גודל מקורי
 	Actual size	גודל מקורי
 	Actual text	טקסט בפועל
+	Add a bookmark for each file	הוספת סימנייה לכל קובץ
 	Add a button	הוספת כפתור
 	Add a callout	הוספת תיבת הסבר
 	Add a checkbox	הוספת תיבת סימון
@@ -145,6 +147,7 @@
 	Add Page Numbers	הוספת מספרי עמודים
 	Add polygon	הוספת מצולע
 	Add printer marks	הוספת סימני דפוס
+	Add printer marks…	הוספת סימני דפוס…
 	Add rectangle	הוספת מלבן
 	Add redaction mark	הוספת סימון השחרה
 	Add search index	הוספת אינדקס חיפוש
@@ -266,6 +269,7 @@ calendar date	April	אפריל
 	Attaching files is not available on the web yet	צירוף קבצים עדיין אינו זמין בגרסת האינטרנט
 	Attachment	קובץ מצורף
 	Attachments	קבצים מצורפים
+	Attachments panel	חלונית קבצים מצורפים
 	Attachments Panel and Page	חלונית קבצים מצורפים ועמוד
 	Audit space usage	בדיקת השימוש במקום
 	Audit space usage…	בדיקת שימוש במקום…
@@ -276,6 +280,7 @@ calendar date	August	אוגוסט
 	Auto-rotate pages	סיבוב עמודים אוטומטי
 	Auto-size text to fit redaction region	התאמה אוטומטית של גודל הטקסט לאזור ההשחרה
 	Automatically	באופן אוטומטי
+	Automatically rotate sideways and upside-down pages	סיבוב אוטומטי של עמודים על הצד או הפוכים
 	Automatically tag PDF	תיוג אוטומטי של PDF
 	Available	זמין
 	average	ממוצע
@@ -307,6 +312,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Bookmark options	אפשרויות סימניות
 	Bookmarks	סימניות
 	Bookmarks are present in large documents	במסמכים גדולים קיימות סימניות
+	Bookmarks panel	חלונית סימניות
 	Bookmarks Panel and Page	חלונית סימניות ועמוד
 	Border Color:	צבע הגבול:
 	Border colour	צבע הגבול
@@ -417,6 +423,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Choose an image	בחירת תמונה
 	Choose images	בחירת תמונות
 	Choose image…	בחירת תמונה…
+	Choose paper by PDF page size	בחירת נייר לפי גודל עמוד ה־PDF
 	Choose photo…	בחירת תמונה…
 	Choose the digital ID that you want to use for signing:	יש לבחור את המזהה הדיגיטלי שישמש לחתימה:
 	Choose…	בחירה…
@@ -478,6 +485,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Commenting, filling in form fields, and signing existing signature fields	הוספת הערות, מילוי שדות טופס וחתימה בשדות חתימה קיימים
 	comments	הערות
 	Comments & Forms	הערות וטפסים
+	Comments & Markup	הערות וכלי סימון
 	Comments and markups	הערות וסימונים
 	Comments only	הערות בלבד
 	Comments panel	חלונית הערות
@@ -493,6 +501,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Complete	סיום
 	Completed	הושלם
 	Compress a PDF	דחיסת PDF
+	Compress and export	דחיסה וייצוא
 	Compress document structure (object streams)	דחיסת מבנה המסמך (זרמי אובייקטים)
 	Compression	דחיסה
 	Configure a Digital ID for Signing	הגדרת מזהה דיגיטלי לחתימה
@@ -512,6 +521,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Copies, two-sided printing and colour are chosen in the browser's print dialog.	מספר העותקים, הדפסה דו־צדדית וצבע נבחרים בחלון ההדפסה של הדפדפן.
 	Copies:	עותקים:
 	Copy comment	העתקת הערה
+	Copy comments	העתקת הערות
 	Copy Image	העתקת תמונה
 	Copy Image in Original Format	העתקת תמונה בפורמט המקורי
 	Copy or cut pages first	יש להעתיק או לגזור תחילה עמודים
@@ -577,6 +587,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Create PDF from images	יצירת PDF מתמונות
 	Create PDF from images…	יצירת PDF מתמונות…
 	Create PDF from multiple files…	יצירת PDF ממספר קבצים…
+	Create PDF from scanner…	יצירת PDF מסורק…
 	Create separate PDFs…	יצירת קובצי PDF נפרדים…
 	Create {what}	יצירת {what}
 	Created 1 link	נוצר קישור אחד
@@ -595,6 +606,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Crop image	חתוך תמונה
 	Crop page	חיתוך עמוד
 	Crop pages	חיתוך עמודים
+	Crop scanner borders to the paper edge	חיתוך שולי הסריקה לפי קצה הנייר
 	Cross	צלב
 key	Ctrl	Ctrl
 	Currency symbol:	סמל מטבע:
@@ -639,6 +651,7 @@ key	Delete	Delete
 	Delete attachment	מחיקת קובץ מצורף
 	Delete attachment {key}	מחיקת קובץ מצורף {key}
 	Delete bookmark	מחיקת סימנייה
+	Delete bookmarks	מחיקת סימניות
 	Delete comment	מחיקת הערה
 	Delete comments	מחיקת הערות
 	Delete content	מחיקת תוכן
@@ -654,7 +667,18 @@ key	Delete	Delete
 	Delete selected fields	מחיקת השדות שנבחרו
 	Delete selected pages (Organize)	מחיקת העמודים שנבחרו (ארגון)
 	Delete stamp	מחיקת חותמת
+	Delete tag	מחיקת תגית
 	Delete the selected pages	מחיקת העמודים שנבחרו
+	Deskew pages	יישור הטיית עמודים
+	Document timestamp	חותמת זמן של המסמך
+	Export to EPUB…	ייצוא ל־EPUB…
+	Export to Excel…	ייצוא ל־Excel…
+	Flatten comments and form fields	שיטוח הערות ושדות טופס
+	Insert scanned pages	הוספת עמודים סרוקים
+	New tag	תגית חדשה
+	Open next PDF in folder	פתיחת קובץ ה־PDF הבא בתיקייה
+	Open previous PDF in folder	פתיחת קובץ ה־PDF הקודם בתיקייה
+	Page thumbnails panel	חלונית תמונות ממוזערות של עמודים
 @plural	Delete {n} field|Delete {n} fields	מחיקת שדה {n}|מחיקת {n} שדות|מחיקת {n} שדות
 	Delete {o}	מחיקת {o}
 	Describe the figure	תיאור האיור
