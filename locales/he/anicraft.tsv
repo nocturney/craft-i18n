@@ -1151,6 +1151,25 @@
 	Playback volume: {pct} %	עוצמת השמעה: {pct} %
 	Unmute sounds	ביטול השתקת צלילים
 	Up: the button as it first shows	מצב רגיל: מראה הכפתור בתחילה
+	actions	פעולות
+	blank keyframe	פריים מפתח ריק
+	broken tween	מעבר ביניים מנותק
+	classic tween	מעבר ביניים קלאסי
+	Frame {frame} · {layer} · {what}	פריים {frame} · {layer} · {what}
+	Insert frame	הוספת פריים
+	Insert keyframe	הוספת פריים מפתח
+	keys stay (Shift)	פריימי המפתח נשארים במקומם (Shift)
+	keys stretch	פריימי המפתח נמתחים
+	label “{label}”	תווית “{label}”
+	More…	עוד…
+	Morph this keyframe's shapes into the next keyframe's	שינוי הדרגתי של צורות פריים המפתח הזה לצורות שבפריים המפתח הבא
+	motion tween	מעבר ביניים של תנועה
+	Onion skin on {name} only (Alt-click it again for every layer)	קליפת בצל מוצגת רק בשכבה {name} (לחצו שוב בשילוב Alt כדי להציג בכל השכבות)
+	Onion skin on every layer again	קליפת בצל מוצגת שוב בכל השכבות
+	Properties…	מאפיינים…
+	shape tween	מעבר ביניים של צורה
+	Short	מקוצר
+	sound	צליל
 @plural	+{n} more|+{n} more	+{n} נוסף|+{n} נוספים|+{n} נוספים
 @plural	An action can have up to {n} key.|An action can have up to {n} keys.	לפעולה יכול להיות עד {n} מקש.|לפעולה יכולים להיות עד {n} מקשים.|לפעולה יכולים להיות עד {n} מקשים.
 @plural	AniCraft didn't close properly last time. This document had changes that weren't saved:|AniCraft didn't close properly last time. These documents had changes that weren't saved:	AniCraft לא נסגר כראוי בפעם הקודמת. במסמך הזה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:|AniCraft לא נסגר כראוי בפעם הקודמת. במסמכים האלה היו שינויים שלא נשמרו:
