@@ -66,6 +66,7 @@
 	A {} annotation has no appearance stream	להערה מסוג {} אין זרם מראה
 	A {} annotation isn't set to print, or is hidden	הערה מסוג {} אינה מוגדרת להדפסה או שהיא מוסתרת
 	About PdfCraft	אודות PdfCraft
+	Accept entire page	אישור העמוד כולו
 	Accepted	התקבל
 	Accessibility Checker	בודק נגישות
 	Accessibility Checker Options	אפשרויות בודק הנגישות
@@ -151,6 +152,7 @@
 	Add rectangle	הוספת מלבן
 	Add redaction mark	הוספת סימון השחרה
 	Add search index	הוספת אינדקס חיפוש
+	Add searchable text	הוספת טקסט הניתן לחיפוש
 	Add signature	הוספת חתימה
 	Add squiggly underline	הוספת קו תחתון גלי
 	Add stamp	הוספת חותמת
@@ -164,6 +166,7 @@
 	Add the files to combine	הוספת הקבצים לשילוב
 	Add the PDFs to combine	הוספת קובצי ה־PDF לשילוב
 	Add the steps this action runs, in order.	יש להוסיף את שלבי הפעולה לפי סדר הביצוע.
+	Add to dictionary	הוספה למילון
 	Add to Trusted Certificates	הוספה לאישורים מהימנים
 	Add to trusted certificates	הוספה לאישורים מהימנים
 	Add tools to hotbar	הוסף כלים לסרגל הכלים המהיר
@@ -178,6 +181,7 @@
 	Added the first {n} PDFs in {folder}	נוספו {n} קובצי ה־PDF הראשונים בתיקייה {folder}
 	Added {n} comments	נוספו {n} הערות
 	Adding images arrives on the web with file pickers for images	הוספת תמונות תגיע לגרסת האינטרנט עם בוחרי קבצים לתמונות
+	Additional Metadata	מטא־נתונים נוספים
 	Adds invisible text over each word; the page image is not changed	מוסיף טקסט בלתי נראה מעל כל מילה; תמונת העמוד אינה משתנה
 	Advanced optimization	מיטוב מתקדם
 	Advanced options	אפשרויות מתקדמות
@@ -185,9 +189,14 @@
 	Advanced search…	חיפוש מתקדם…
 	AI assistant	עוזר בינה מלאכותית
 	Algorithm	אלגוריתם
+	Align bottom	יישור לתחתית
+	Align center	יישור למרכז
 	Align fields	יישור שדות
 	Align left	יישור לשמאל
+	Align middle	יישור לאמצע
+	Align objects	יישור אובייקטים
 	Align right	יישור לימין
+	Align top	יישור לחלק העליון
 	All annotations are tagged	כל ההערות מתויגות
 	All document contents	כל תוכן המסמך
 	All document contents except metadata	כל תוכן המסמך למעט מטא־נתונים
@@ -277,8 +286,12 @@ calendar date	April	אפריל
 calendar date	August	אוגוסט
 	Auto follows the system's text size. Pages always render at the display's full resolution.	המצב האוטומטי משתמש בגודל הטקסט של המערכת. העמודים מוצגים תמיד ברזולוציה המלאה של המסך.
 	Auto portrait/landscape	כיוון לאורך/לרוחב אוטומטי
+	Auto-deskew	תיקון הטיה אוטומטי
+	Auto-detect	זיהוי אוטומטי
+	Auto-rotate	סיבוב אוטומטי
 	Auto-rotate pages	סיבוב עמודים אוטומטי
 	Auto-size text to fit redaction region	התאמה אוטומטית של גודל הטקסט לאזור ההשחרה
+	Automatic text direction	כיוון טקסט אוטומטי
 	Automatically	באופן אוטומטי
 	Automatically rotate sideways and upside-down pages	סיבוב אוטומטי של עמודים על הצד או הפוכים
 	Automatically tag PDF	תיוג אוטומטי של PDF
@@ -291,16 +304,19 @@ calendar date	August	אוגוסט
 	Back to the document	חזרה למסמך
 	Background	רקע
 	background	רקע
+	Background removal	הסרת רקע
 	Basic constraints	אילוצים בסיסיים
 certificate	Basic constraints	אילוצים בסיסיים
 	Bates numbering	מספור Bates
 	Before each selected page (select pages in Organize)	לפני כל עמוד שנבחר (יש לבחור עמודים בתצוגת ארגון)
 	Before the number	לפני המספר
+	Behind text and images	מאחורי טקסט ותמונות
 	Beveled	משופע
 	Bicubic downsampling to	דגימה מופחתת בשיטה דו־קובית לרזולוציה
 	Binding	כריכה
 	Binding:	צד הכריכה:
 	Black	שחור
+	Black & White Document	מסמך בשחור־לבן
 	Black and white	שחור ולבן
 	Black on white	שחור על לבן
 	Blank page	עמוד ריק
@@ -447,8 +463,10 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Close all	סגירת הכול
 	Close file	סגירת קובץ
 	Close menu	סגור תפריט
+	Close Other Tabs	סגירת כרטיסיות אחרות
 	Close panel	סגירת חלונית
 	Close Tab	סגירת לשונית
+	Close Tabs to the Right	סגירת הכרטיסיות שמימין
 	Closed arrow	חץ סגור
 	Cloud	ענן
 	Collapse	צמצום
@@ -496,6 +514,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Compare Files	השוואת קבצים
 	Compare files	השוואת קבצים
 	Compare files…	השוואת קבצים…
+	Compare panel	חלונית השוואה
 	Compare this file with an older version: Compare files… in All tools.	כדי להשוות קובץ זה לגרסה ישנה, יש לבחור „השוואת קבצים…” ב„כל הכלים”.
 	Compatibility	תאימות
 	Complete	סיום
@@ -516,6 +535,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Continue	המשך
 	Continuous scrolling	גלילה רציפה
 	Convert colors	המרת צבעים
+	Convert to PDF with PdfCraft	המרה ל־PDF באמצעות PdfCraft
 	Copied to clipboard	הועתק ללוח הגזירים
 	Copied {what}	הועתקו {what}
 	Copies, two-sided printing and colour are chosen in the browser's print dialog.	מספר העותקים, הדפסה דו־צדדית וצבע נבחרים בחלון ההדפסה של הדפדפן.
@@ -525,11 +545,14 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Copy Image	העתקת תמונה
 	Copy Image in Original Format	העתקת תמונה בפורמט המקורי
 	Copy or cut pages first	יש להעתיק או לגזור תחילה עמודים
+	Copy page numbers	העתקת מספרי עמודים
 	Copy pages	העתקת עמודים
+	Copy path	העתקת נתיב
 	Copy selected text	העתקת הטקסט שנבחר
 	Copy text	העתקת טקסט
 	Copy to clipboard	העתקה ללוח הגזירים
 	Correct recognized text	תיקון הטקסט שזוהה
+	Correct recognized text…	תיקון טקסט שזוהה…
 	Could not save: {e}	השמירה נכשלה: {e}
 	Couldn't add {name}: {e}	לא ניתן להוסיף את {name}: {e}
 	Couldn't check for updates: {e}	לא ניתן לבדוק עדכונים: {e}
@@ -587,6 +610,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Create PDF from images	יצירת PDF מתמונות
 	Create PDF from images…	יצירת PDF מתמונות…
 	Create PDF from multiple files…	יצירת PDF ממספר קבצים…
+	Create PDF from Scanner	יצירת PDF מסורק
 	Create PDF from scanner…	יצירת PDF מסורק…
 	Create separate PDFs…	יצירת קובצי PDF נפרדים…
 	Create {what}	יצירת {what}
