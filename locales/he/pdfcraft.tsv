@@ -2880,3 +2880,6 @@ calendar weekday	We	ד׳
 	Listing scanners…	מאתר סורקים…
 	Large scan	סריקה גדולה
 	Make searchable (recognize text)	הפוך למסמך שניתן לחיפוש (זיהוי טקסט)
+	This document's script is asking	הסקריפט של מסמך זה שואל
+	Document: {name}	מסמך: {name}
+	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	בקשה זו מגיעה מהמסמך, לא מ-PdfCraft. הזינו סיסמה רק אם אתם סומכים על מסמך זה.
