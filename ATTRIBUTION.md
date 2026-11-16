@@ -269,7 +269,7 @@ not offer Hebrew yet (`i18n::READY` is left-to-right scripts only until egui lay
 bidirectional text); until then the rows are carried as data only.
 
 Follow-up catalog contributions through 16 November 2026 bring `locales/he/anicraft.tsv`
-to **1,184 active app-specific rows** (the initial 565 documented above plus 619 later
+to **1,193 active app-specific rows** (the initial 565 documented above plus 628 later
 source-linked additions). The latest 12 rows in
 [`d03ffbf`](https://github.com/nocturney/craft-i18n/commit/d03ffbfdae9febc091aa4e8878cf703d152d3d23)
 cover grid/guides and camera, playback and timeline controls. These 12 are original
@@ -279,6 +279,17 @@ keys, duplicate/placeholder/Unicode NFC/punctuation safety, but have **not** bee
 line-by-line native-speaker-reviewed or accepted in a running Hebrew/RTL UI. This
 addition does not enable a new locale or alter commands, source English keys or app
 behavior.
+
+Nine further original Hebrew workspace-management UI labels were translated on
+16 November 2026 from exact English `tr!` literals in the official AniCraft
+[`src/workspaces_window.rs`](https://github.com/storytold/anicraft/blob/main/src/workspaces_window.rs)
+(source Git blob `2ab21ed1b3401cf0c52ba9d97aab8bdc2b5203bf`). They cover workspace naming, current/built-in status,
+reset and two-click permanent deletion. AI-assisted, authored from the English meaning
+without copying another product's localized interface; source-key, duplicate,
+placeholder, UTF-8/NFC, punctuation and unsafe-bidi checks were performed.
+These nine labels have not been line-by-line reviewed by a native speaker or
+verified in a running Hebrew/RTL AniCraft UI. They are catalog data only.
+
 
 ## Language data
 

@@ -88,6 +88,7 @@
 	Back to the default ({keys})	חזרה לברירת המחדל ({keys})
 	Back to the document	חזרה למסמך
 	Back to the theme's colours	חזרה לצבעי ערכת הנושא
+	Back to the workspace as built or saved	חזרה לסביבת העבודה כפי שנוצרה או נשמרה
 	Before	לפני
 	Before colour	צבע 'לפני'
 	Bend	כיפוף
@@ -113,12 +114,14 @@
 	Brush size	גודל מברשת
 	Brush size {size} px	גודל המברשת: {size} פיקסלים
 	Brush smoothing	החלקת המברשת
+	Built-in workspaces can be reset but not deleted. Save Workspace… adds one of your own.	אפשר לאפס סביבות עבודה מובנות, אך לא למחוק אותן. הפקודה שמירת סביבת עבודה… יוצרת סביבת עבודה משלכם.
 	Button	כפתור
 	Button (unnamed)	כפתור (ללא שם)
 	Button “{name}”	כפתור "{name}"
 	Can be distant	אפשר גם ממרחק
 	Centre	מרכז
 	Classic	קלאסי
+	Click again to delete it; this can't be undone	לחצו שוב כדי למחוק; לא ניתן לבטל פעולה זו
 	Colour Effect	אפקט צבע
 	Colour effect	אפקט צבע
 	Colour effect style	סגנון אפקט צבע
@@ -186,6 +189,7 @@
 	Default (bundled: {font})	ברירת מחדל (מצורף: {font})
 	Default ({font})	ברירת מחדל ({font})
 	Delete Envelope Point	מחיקת נקודת מעטפת
+	Delete for Good	מחיקה לצמיתות
 	Delete or right-click; the ends stay	מחיקה או לחיצה ימנית; נקודות הקצה נשארות
 	Delete Point	מחיקת נקודה
 	Delete Points	מחיקת נקודות
@@ -201,6 +205,7 @@
 	Delete the active layer	מחיקת השכבה הפעילה
 	Delete this autosaved copy	מחיקת העותק שנשמר אוטומטית
 	Delete this keyframe's script	מחיקת הסקריפט של פריים המפתח הזה
+	Delete this workspace (asks with a second click)	מחיקת סביבת העבודה (נדרש אישור בלחיצה נוספת)
 	Delete whole fills and lines	מחיקת מילויים וקווים בשלמותם
 	Delete {axis} guide {n}	מחיקת קו עזר מספר {n} בציר {axis}
 	Deleted the fill. {undo} to undo.	המילוי נמחק. {undo} כדי לבטל את הפעולה.
@@ -399,7 +404,9 @@
 	Keyboard shortcuts (this editor)	קיצורי מקשים (עורך זה)
 	Keyframe	פריים מפתח
 	Locked guides can't be dragged; new ones can still be added	לא ניתן לגרור קווי עזר נעולים; עדיין אפשר להוסיף קווים חדשים
+	Manage Workspaces	ניהול סביבות עבודה
 	Must be close	יש להיות קרוב
+	New name for “{name}”	שם חדש עבור {name}
 	None yet. Add one below, or drag one from a ruler (View › Rulers).	עדיין אין קווי עזר. הוסף קו למטה, או גרור קו מסרגל (תצוגה › סרגלים).
 	Onion skin is off: turn it on in the timeline header to see the frames around the playhead	קליפת בצל כבויה: הפעילו אותה בכותרת ציר הזמן כדי לראות את הפריימים שסביב סמן ההפעלה
 	Onion skin this layer (Alt-click: this layer only, again: every layer)	הפעלת קליפת בצל בשכבה זו (Alt+לחיצה: שכבה זו בלבד; לחיצה נוספת: כל השכבות)
@@ -408,6 +415,8 @@
 	Spacing ↕	מרווח אנכי ↕
 	Split Motion	פיצול תנועה
 	Split the motion tween in two at frame {frame} — {undo} to undo	פיצול מעבר הביניים של התנועה לשניים בפריים {frame} — {undo} לביטול
+	built in	מובנית
+	in use	בשימוש
 	keyframe	פריים מפתח
 	Keyframes Only	פריימי מפתח בלבד
 	Knockout	ניקוב (Knockout)
