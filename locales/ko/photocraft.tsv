@@ -1483,6 +1483,7 @@ cameraRaw	Hue	색조
 	Image Assets	이미지 에셋
 	Image Balance	이미지 균형
 	Image compositor: {processor}	이미지 합성 처리기: {processor}
+	Image Compression	이미지 압축
 	image file path	이미지 파일 경로
 	Image interpolation	이미지 보간
 	Image Options	이미지 옵션
@@ -1772,6 +1773,7 @@ cameraRaw	Luminance	휘도
 cameraRaw	Luminance Detail	휘도 세부 정보
 	Lut	색상 검색표
 	LUT folder	LUT 폴더
+	LZW	LZW
 cameraRaw	Magenta	자홍
 layerLabel	Magenta	자홍
 	Magenta  ·  Green	마젠타 · 초록
@@ -2531,6 +2533,8 @@ fontWeight	Regular	보통
 	Rotate 90° Clockwise	시계 방향으로 90° 회전
 	Rotate 90° Counter Clockwise	시계 반대 방향으로 90° 회전
 	Rotate View	보기 회전
+	Rotate View Left	보기를 왼쪽으로 회전
+	Rotate View Right	보기를 오른쪽으로 회전
 	Rotate View Tool	보기 회전 도구
 	Rotate view with trackpad	트랙패드로 보기 회전
 	Rotation Adaptation	회전 적응
@@ -2578,6 +2582,7 @@ cameraRaw	Saturation	채도
 	Save for Web (Legacy)…	웹용으로 저장(기존 방식)…
 	Save Full-Size Composite in .pcraft Files	.pcraft 파일에 전체 크기 합성 이미지 저장
 	Save HTML and Images	HTML 및 이미지 저장
+	Save Image Pyramid	이미지 피라미드 저장
 	Save in background	백그라운드에서 저장
 	Save Path	패스 저장
 	Save Pixel Aspect Ratio	픽셀 종횡비 저장
@@ -2589,6 +2594,7 @@ cameraRaw	Saturation	채도
 	Save these settings as a Camera Raw .xmp file	이 설정을 Camera Raw .xmp 파일로 저장
 	Save these shortcuts as a .kys file	이 단축키를 .kys 파일로 저장
 	Save these shortcuts as a new set	이 단축키를 새 세트로 저장
+	Save Transparency	투명도 저장
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	작업을 저장하고 PhotoCraft를 다시 시작하면 GPU 가속을 다시 시도합니다. 현재 세션에서는 CPU 렌더링을 계속 사용합니다.
 	Saved a copy as {path}	사본을 {path}(으)로 저장했습니다.
 	Saved contours to {file}	윤곽선을 {file}에 저장했습니다
@@ -3317,6 +3323,7 @@ cameraRaw	Yellow	노랑
 	ZigZag	지그재그
 	Zigzag	지그재그
 	ZigZag…	지그재그…
+	ZIP	ZIP
 navigator	Zoom	확대/축소
 	Zoom clicked point to center	클릭한 지점을 중앙으로 확대
 	Zoom In (hold, drag to scrub)	확대(누르고 유지, 드래그로 조절)
@@ -3370,3 +3377,34 @@ navigator	Zoom	확대/축소
 	“{name}” already exists. Replace it?	“{name}”이(가) 이미 있습니다. 대치하시겠습니까?
 	…and {n} more	…외 {n}개
 	↑↓ navigate   {key} run   esc close	↑↓ 이동   {key} 실행   esc 닫기
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	가져오기 변환 보고서
+	Import-time outcomes. Editing uses native PhotoCraft rules.	가져올 때의 처리 결과입니다. 편집에는 PhotoCraft의 기본 규칙이 적용됩니다.
+	A newer report format is retained. Its details cannot be displayed.	더 새로운 형식의 보고서가 보존되어 있습니다. 세부 정보는 표시할 수 없습니다.
+	No conversion report was recorded.	기록된 변환 보고서가 없습니다.
+	No entries on this page.	이 페이지에는 항목이 없습니다.
+	Layer mask	레이어 마스크
+	Source item	원본 항목
+	{first}–{last} of {total}	전체 {total}개 중 {first}–{last}
+	Native equivalent	네이티브 동등 표현
+	Native approximation	네이티브 근사 표현
+	Retained, not applied	보존됨, 적용되지 않음
+	Nonessential data skipped	필수가 아닌 데이터 생략
+	Unknown outcome	알 수 없는 결과
+	Native rules	네이티브 규칙
+	Native capability limit	네이티브 기능 제한
+	Conversion not implemented	변환 미구현
+	Resource unavailable	리소스를 사용할 수 없음
+	Invalid optional data	잘못된 선택적 데이터
+	Retention limit	보존 용량 제한
+	Precision conversion	정밀도 변환
+	Unknown reason	알 수 없는 이유
+	Native layer {id} (removed; historical reference)	네이티브 레이어 {id} (삭제됨, 과거 참조)
+	Native layer: {name}	네이티브 레이어: {name}
+	Alpha Percentile	알파 백분위수
+	Alpha Weighted	알파 가중
+	Color Percentile	색상 백분위수
+	Connectivity	연결성
+	Disc	원형
+	Each	각각

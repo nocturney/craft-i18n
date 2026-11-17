@@ -1548,6 +1548,7 @@ cameraRaw	Hue	Kleurtoon
 	Ignore exif profile tag	EXIF-profieltag negeren
 	Image Assets	Afbeeldingsmiddelen
 	Image Balance	Afbeeldingsbalans
+	Image Compression	Afbeeldingscompressie
 	image file path	pad van afbeeldingsbestand
 	Image interpolation	Afbeeldingsinterpolatie
 	Image Options	Afbeeldingsopties
@@ -1855,6 +1856,7 @@ cameraRaw	Luminance Detail	Luminantiedetail
 	Luminosity	Lichtsterkte
 	Lut	LUT
 	LUT folder	LUT-map
+	LZW	LZW
 	Mac Crisp	Mac helder
 	Mac LCD	Mac LCD
 	Mac OS	Mac OS
@@ -2643,6 +2645,8 @@ fontWeight	Regular	Normaal
 	Rotate Auto	Automatisch roteren
 	Rotate Fixed	Vast roteren
 	Rotate View	Weergave roteren
+	Rotate View Left	Weergave naar links draaien
+	Rotate View Right	Weergave naar rechts draaien
 	Rotate View Tool	Weergave-roteergereedschap
 	Rotate view with trackpad	Weergave roteren met trackpad
 	Rotation Adaptation	Rotatieaanpassing
@@ -2696,6 +2700,7 @@ cameraRaw	Roughness	Ruwheid
 	Save Full-Size Composite in .pcraft Files	Samengestelde afbeelding op volle grootte opslaan in .pcraft-bestanden
 	Save HTML and Images	HTML en afbeeldingen opslaan
 	Save Image	Afbeelding opslaan
+	Save Image Pyramid	Afbeeldingspiramide opslaan
 	Save in background	Op de achtergrond opslaan
 	Save Pixel Aspect Ratio	Pixelverhouding opslaan
 	Save selection as channel	Selectie opslaan als kanaal
@@ -2706,6 +2711,7 @@ cameraRaw	Roughness	Ruwheid
 	Save these settings as a Camera Raw .xmp file	Deze instellingen opslaan als Camera Raw-.xmp-bestand
 	Save these shortcuts as a .kys file	Deze sneltoetsen als .kys-bestand opslaan
 	Save these shortcuts as a new set	Deze sneltoetsen als nieuwe set opslaan
+	Save Transparency	Transparantie opslaan
 	Saved contours to {file}	Contouren opgeslagen in {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Opgeslagen voor web: {n} bestand|Opgeslagen voor web: {n} bestanden
 	Saved Multichannel	Opgeslagen meerkanaals
@@ -3440,6 +3446,7 @@ cameraRaw	Yellow	Geel
 	ZigZag	Zigzag
 	Zigzag	Zigzag
 	ZigZag…	Zigzag…
+	ZIP	ZIP
 	Zoom	Zoomen
 	Zoom clicked point to center	Aangeklikt punt naar midden zoomen
 	Zoom resizes windows	Zoomen past venstergrootte aan
@@ -3488,3 +3495,35 @@ cameraRaw	Yellow	Geel
 	…and {n} more	…en nog {n}
 	↑↓ navigate   {key} run   esc close	↑↓ navigeren   {key} uitvoeren   esc sluiten
 	↑↓ navigate   ↵ run   esc close	↑↓ navigeren   ↵ uitvoeren   esc sluiten
+
+# PhotoCraft native import/report additions (photocraft@0ec85da).
+	Import Conversion Report	Rapport over importconversie
+	Import-time outcomes. Editing uses native PhotoCraft rules.	Resultaten op het moment van importeren. Bewerken volgt de eigen regels van PhotoCraft.
+	A newer report format is retained. Its details cannot be displayed.	Een rapport in een nieuwer formaat is bewaard. De details kunnen niet worden weergegeven.
+	No conversion report was recorded.	Er is geen conversierapport vastgelegd.
+	No entries on this page.	Geen vermeldingen op deze pagina.
+	Layer mask	Laagmasker
+	Source item	Bronitem
+	{first}–{last} of {total}	{first}–{last} van {total}
+	Native equivalent	Eigen equivalent
+	Native approximation	Eigen benadering
+	Retained, not applied	Bewaard, niet toegepast
+	Nonessential data skipped	Niet-essentiële gegevens overgeslagen
+	Unknown outcome	Onbekend resultaat
+	Native rules	Eigen regels
+	Native capability limit	Beperking van eigen functies
+	Conversion not implemented	Conversie niet geïmplementeerd
+	Resource unavailable	Bron niet beschikbaar
+	Invalid optional data	Ongeldige optionele gegevens
+	Retention limit	Bewaarlimiet
+	Precision conversion	Precisieconversie
+	Unknown reason	Onbekende reden
+	Native layer {id} (removed; historical reference)	Eigen laag {id} (verwijderd; historische verwijzing)
+	Native layer: {name}	Eigen laag: {name}
+	Alpha Percentile	Alfapercentiel
+	Alpha Weighted	Alfagewogen
+	Color Percentile	Kleurpercentiel
+	Connectivity	Connectiviteit
+	Disc	Cirkelvormige omgeving
+	Each	Elk kanaal
+	Value	Waarde
