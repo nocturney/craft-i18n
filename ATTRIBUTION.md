@@ -433,3 +433,7 @@ meaning without copying translation catalogs of other products. A native
 Hebrew speaker has not independently proofread these new strings; no native
 TextureCraft GUI, locale-picker integration, compiled/installed release,
 Hebrew RTL visual QA, maintainer merge or release is claimed.
+
+### 2026-11-17 TextureCraft additions (74 source-key-verified UI strings)
+
+@nocturney contributed 74 further original AI-assisted Hebrew interface translations for TextureCraft, increasing the app-specific catalog from 527 to 601 rows without altering any existing rows. English source keys are independently present in the upstream Arabic and German catalog source-key columns; neither catalog's translated values were used. These additions cover camera, exposure, rendering, project settings, UI preferences, material outputs and export workflows. Source-key/placeholder/Unicode tests run separately. This remains a partial draft: no independent native-speaker or Native RTL/font rendering review is claimed.

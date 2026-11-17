@@ -16,11 +16,27 @@ class HebrewTextureCraftTests(unittest.TestCase):
         cls.common, cls.common_errors=sync_app.parse((ROOT/'locales/he/common.tsv').read_text('utf-8'))
         cls.source, cls.source_errors=sync_app.parse((ROOT/'locales/ar/texturecraft.tsv').read_text('utf-8'))
 
-    def test_hebrew_app_catalog_has_527_distinct_source_rows(self):
+    def test_hebrew_app_catalog_has_601_distinct_source_rows(self):
         self.assertFalse(self.parse_errors)
-        self.assertEqual(len(self.app),527)
+        self.assertEqual(len(self.app),601)
         self.assertTrue(all(c=='' for c,s in self.app))
         self.assertTrue(all(s and v for (c,s),v in self.app.items()))
+
+    def test_round6_74_additions_are_source_backed_and_resolve(self):
+        locale=resolved(ROOT,'he-IL')
+        examples={
+            'Depth of field':'עומק שדה',
+            'Cores kept for the UI':'ליבות שמורות לממשק',
+            'Interface scale':'קנה מידה של הממשק',
+            'Environment exposure (EV)':'חשיפת הסביבה (EV)',
+            'Scatter radius':'רדיוס פיזור',
+            'Index of refraction':'מקדם שבירה',
+            'Quarter':'רבע',
+            'Start window':'חלון פתיחה',
+        }
+        for english,hebrew in examples.items():
+            self.assertEqual(locale[('',english)],hebrew,english)
+            self.assertIsNone(sync_app.text_problem('',english,hebrew))
 
     def test_source_parity_and_no_common_retranslations(self):
         self.assertFalse(self.common_errors)
@@ -73,7 +89,7 @@ class HebrewTextureCraftTests(unittest.TestCase):
         for english,hebrew in samples.items():
             self.assertEqual(locale[('',english)],hebrew,english)
             self.assertIsNone(sync_app.text_problem('',english,hebrew))
-        self.assertEqual(len(self.app),527)
+        self.assertEqual(len(self.app),601)
 
 
     def test_round3_save_open_prompts_and_paths(self):

@@ -7,8 +7,8 @@
 #   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
 #   Lines starting with # and blank lines are ignored. A missing entry shows in English.
 #
-# Hebrew draft: 98 source-verified seed rows, plus 41, 60, 138 and 190 quick-win additions.
-# Two initial seed strings already resolve from common.tsv, so 527 app rows in total.
+# Hebrew draft: 98 source-verified seed rows, plus 41, 60, 138, 190 and 74 quick-win additions.
+# Two initial seed strings already resolve from common.tsv, so 601 app rows in total.
 # Original 9 locally reviewed wording preserved; native-speaker and maintainer review pending.
 # Clean room: every entry was written from the plain meaning of the English text in ordinary
 # computing vocabulary. No other product's localisation, string table or translated UI was
@@ -541,3 +541,81 @@
 	Viewer settings	הגדרות המציג
 	Viewport	אזור תצוגה
 	Views	תצוגות
+
+# 2026-11-17: 74 additional original English-key-verified Hebrew UI strings.
+# The English source-key column is present in both upstream ar/texturecraft.tsv and de/texturecraft.tsv.
+# Native Hebrew fonts, GUI rendering and independent linguistic review remain pending.
+	32 bits (float)	32 סיביות (נקודה צפה)
+	ACES filmic	סגנון ACES Filmic
+	Alignment and culling	יישור והסתרת פאות
+	ArtCraft website...	אתר ArtCraft...
+	Autosaves, smart materials, presets, templates and UI layouts go to the data folder. A new folder applies on restart; files already saved stay where they are.	שמירות אוטומטיות, חומרים חכמים, הגדרות קבועות מראש, תבניות ופריסות ממשק נשמרים בתיקיית הנתונים. תיקייה חדשה תיכנס לשימוש לאחר הפעלה מחדש; קבצים שכבר נשמרו יישארו במיקומם.
+	Base color, Metallic, Roughness and Specular level.	צבע בסיס, מתכתיות, חספוס ורמת ספקולר.
+	Click, then press the new shortcut (Esc cancels)	לחץ ולאחר מכן הקש על הקיצור החדש (Esc לביטול)
+	Click: turn this channel on or off. Alt+click: this channel only	לחיצה: הפעלת הערוץ או כיבויו. Alt+לחיצה: הפעלת ערוץ זה בלבד
+	Color of the light that travels under the surface (each channel goes as far as its value)	צבע האור הנכנס מתחת לפני השטח (כל ערוץ מגיע עד לערכו)
+	Constants	ערכים קבועים
+	Cores kept for the UI	ליבות שמורות לממשק
+	Depth of field	עומק שדה
+	Depth of field (viewport and Rendering mode)	עומק שדה (אזור התצוגה ומצב רינדור)
+	Depth of the sharp plane along the view (0: the orbit center)	מיקום מישור המיקוד לאורך התצוגה (0: מרכז הסיבוב)
+	Dilation + default background color	הרחבת שוליים + צבע הרקע המוגדר כברירת מחדל
+	Dilation + transparent	הרחבת שוליים + רקע שקוף
+	Dilation infinite	הרחבת שוליים ללא הגבלה
+	Environment exposure (EV)	חשיפת הסביבה (EV)
+	Environment rotation	סיבוב הסביבה
+	Exported template "{name}" to {path}	התבנית "{name}" יוצאה אל {path}
+	Exported {n} textures to {folder}	יוצאו {n} טקסטורות אל {folder}
+	Filter the remaining noise while keeping edges and texture detail	סנן את הרעש שנותר תוך שמירה על קצוות ועל פרטי המרקם
+	Gray + A	גווני אפור + אלפא
+	Gray 50%	אפור 50%
+	Half	חצי
+	Index of refraction	מקדם שבירה
+	Insert a variable	הוספת משתנה
+	Interface scale	קנה מידה של הממשק
+	Join the ArtCraft community on Discord	הצטרף לקהילת ArtCraft ב־Discord
+	Join the community (Discord)...	הצטרפות לקהילה (Discord)...
+	List of exports	רשימת קובצי ייצוא
+	Load Cage	טעינת כלוב
+	Made by the ArtCraft team and community.	נוצר על ידי צוות ArtCraft והקהילה.
+	Maximum decompressed project data. Increase this limit to open larger projects.	הגודל המרבי של נתוני פרויקט לאחר פריסה. הגדל מגבלה זו כדי לפתוח פרויקטים גדולים יותר.
+	More in Assets > Alphas: click one, or drag it here	לפריטים נוספים, פתח נכסים > תבניות אלפא: לחץ על אחת התבניות או גרור אותה לכאן
+	Move down	הזז למטה
+	Move up	הזז למעלה
+	Name each file after its texture set, like Body_normal.png	תן לכל קובץ את שם ערכת הטקסטורות שלו, לדוגמה Body_normal.png
+	No outputs yet: add one above, then drag input maps onto its channels.	אין עדיין פריטי פלט: הוסף פריט למעלה ולאחר מכן גרור מפות קלט לערוצים שלו.
+	No padding (passthrough)	ללא הרחבת שוליים (מעבר ללא שינוי)
+	Not enough GPU memory to show {count} texture sets fully ({names}): lower the viewport Texture resolution in Settings. Painting and export are not affected.	אין די זיכרון GPU להצגה מלאה של {count} ערכות טקסטורות ({names}). יש להקטין את רזולוציית הטקסטורות באזור התצוגה דרך ההגדרות. הצביעה והייצוא אינם מושפעים.
+	Offsets the textures by the height channel, at the height to normal strength	מסיט את המרקמים לפי ערוץ הגובה, בעוצמת המרה מגובה לנורמל
+	Open in MaterialCraft	פתיחה ב־MaterialCraft
+	Open sample project...	פתיחת פרויקט לדוגמה...
+	Opened in MaterialCraft: use File > Send to TextureCraft there to bring your changes back	נפתח ב־MaterialCraft: כדי להחזיר את השינויים, בחר שם File > Send to TextureCraft.
+	PNG image	תמונת PNG
+	Padding	הרחבת שוליים
+	Quarter	רבע
+	Rebind any menu item, tool or command	הקצה מחדש קיצור לכל פריט תפריט, כלי או פקודה
+	Remove this output	הסר פלט זה
+	Return to this step	חזרה לשלב זה
+	Saving uses the other cores and at most this share of the free RAM. At least one core always works.	השמירה משתמשת בליבות הנותרות ובחלק זה לכל היותר מזיכרון ה־RAM הפנוי. לפחות ליבה אחת תמיד פעילה.
+	Scatter radius	רדיוס פיזור
+	Select...	בחירה...
+	Size of the textures the viewport shows: lower uses less GPU memory with large texture sets. Painting and export keep full resolution.	גודל הטקסטורות המוצגות באזור התצוגה: ערך נמוך צורך פחות זיכרון GPU בערכות טקסטורות גדולות. הצביעה והייצוא אינם מושפעים.
+	Start window	חלון פתיחה
+	Subsurface scattering	פיזור תת-משטחי
+	Temporal anti-aliasing (refines the 3D view while it is still)	החלקת קצוות מבוססת זמן (משפרת את תצוגת התלת־ממד כשהיא נייחת)
+	TextureCraft PBR - Metallic Roughness	TextureCraft PBR - מתכתיות וחספוס (Metallic Roughness)
+	TextureCraft PBR - Specular Glossiness	TextureCraft PBR - ספקולר וברק (Specular Glossiness)
+	Textures embedded; for game engines and most viewers	הטקסטורות מוטמעות בקובץ; מתאים למנועי משחק ולרוב תוכנות התצוגה
+	Textures packaged; for USD tools and AR Quick Look	הטקסטורות נארזות בקובץ; מתאים לכלי USD ול־AR Quick Look
+	Title bar	שורת כותרת
+	Transmission	שידור (Transmission)
+	USD binary, textures alongside	USD בינארי, הטקסטורות בקבצים נפרדים
+	USD text, textures alongside	USD טקסטואלי, הטקסטורות בקבצים נפרדים
+	USDZ with textures	USDZ עם טקסטורות
+	Use an equirectangular .hdr or .exr image as the environment	השתמש בתמונת .hdr או .exr במיפוי קווי רוחב ואורך כתמונת סביבה
+	Use the operating system's window frame and buttons instead of TextureCraft's own title bar	השתמש במסגרת החלון ובלחצניו של מערכת ההפעלה במקום בשורת הכותרת של TextureCraft
+	View through this camera	הצג מנקודת המבט של מצלמה זו
+	Wavefront OBJ with MTL, textures alongside	Wavefront OBJ עם MTL, הטקסטורות בקבצים נפרדים
+	glTF binary with textures	glTF בינארי עם טקסטורות
+	{name} copy	עותק של {name}
+	{n} bits	{n} סיביות
