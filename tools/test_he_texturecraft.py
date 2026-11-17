@@ -16,9 +16,9 @@ class HebrewTextureCraftTests(unittest.TestCase):
         cls.common, cls.common_errors=sync_app.parse((ROOT/'locales/he/common.tsv').read_text('utf-8'))
         cls.source, cls.source_errors=sync_app.parse((ROOT/'locales/ar/texturecraft.tsv').read_text('utf-8'))
 
-    def test_hebrew_app_catalog_has_707_distinct_source_rows(self):
+    def test_hebrew_app_catalog_has_792_distinct_source_rows(self):
         self.assertFalse(self.parse_errors)
-        self.assertEqual(len(self.app),707)
+        self.assertEqual(len(self.app),792)
         self.assertTrue(all(c=='' for c,s in self.app))
         self.assertTrue(all(s and v for (c,s),v in self.app.items()))
 
@@ -49,6 +49,20 @@ class HebrewTextureCraftTests(unittest.TestCase):
             'Height offset': 'היסט גובה',
             'Radial symmetry': 'סימטריה רדיאלית',
             'Triangle fill': 'מילוי משולש',
+        }
+        for english,hebrew in examples.items():
+            self.assertEqual(locale[('',english)],hebrew,english)
+            self.assertIsNone(sync_app.text_problem('',english,hebrew))
+
+    def test_round8_rendering_and_materials_english_keys(self):
+        locale=resolved(ROOT,'he-IL')
+        examples={
+            'Clamp': 'הגבלת טווח',
+            'Vivid light': 'אור חי',
+            'Histogram Scan': 'סריקת היסטוגרמה',
+            'Place as decal': 'מיקום כמדבקה',
+            'Relative to Bounding Box': 'יחסי לתיבה התוחמת',
+            'Visible polygons only': 'מצולעים גלויים בלבד',
         }
         for english,hebrew in examples.items():
             self.assertEqual(locale[('',english)],hebrew,english)
@@ -105,7 +119,7 @@ class HebrewTextureCraftTests(unittest.TestCase):
         for english,hebrew in samples.items():
             self.assertEqual(locale[('',english)],hebrew,english)
             self.assertIsNone(sync_app.text_problem('',english,hebrew))
-        self.assertEqual(len(self.app),707)
+        self.assertEqual(len(self.app),792)
 
 
     def test_round3_save_open_prompts_and_paths(self):

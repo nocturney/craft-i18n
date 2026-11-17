@@ -441,3 +441,7 @@ Hebrew RTL visual QA, maintainer merge or release is claimed.
 ### 2026-11-17 TextureCraft round-seven materials/rendering quick wins
 
 @nocturney contributed 106 further original, AI-assisted Hebrew translations for texture/material and rendering UI, expanding the Hebrew TextureCraft catalog from 601 to 707 distinct app entries. Both the upstream Arabic and German source-key columns were checked for each exact English key; none of the foreign-language translations were consulted or copied. No existing Hebrew key/value changed. Tests verify source parity, placeholders and Unicode. Native typography/RTL and independent Hebrew terminology proofreading are still pending.
+
+### 2026-11-17 TextureCraft round-eight source-verified rendering labels
+
+@nocturney contributed 85 additional original AI-assisted Hebrew UI translations for TextureCraft's material/rendering/texture controls, bringing app-specific row coverage from 707 to 792. Every new English source key was checked against upstream `ar/texturecraft.tsv` and `de/texturecraft.tsv` key columns, without consulting either translated column. The preceding 707 Hebrew values and contexts remain intact. Python locale integrity tests were run; native glyph/RTL and independent linguistic review remain outstanding.
