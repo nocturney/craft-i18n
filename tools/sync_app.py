@@ -112,6 +112,10 @@ def unusable_row(context, source, value):
     """Why no row can ever be written on these three columns, or None."""
     if any(unicodedata.category(c) == "Cc" or c == "﻿" for c in context + source + value):
         return "invisible character"
+    # LRO/RLO reorder visible characters and can disguise source labels in review.
+    # Do not ban LRI/RLI/FSI/PDI: balanced isolates can safely delimit RTL text.
+    if any(c in "\u202d\u202e" for c in context + source + value):
+        return "directional override character"
     if not source or not value:
         return "empty column"
     if context.startswith("@") and context not in RESERVED:

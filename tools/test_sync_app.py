@@ -87,6 +87,27 @@ class Sync(unittest.TestCase):
     def snapshot(self):
         return {p: p.read_bytes() for p in sorted(self.root.rglob("*.tsv"))}
 
+    def test_directional_overrides_cannot_hide_english_or_translations(self):
+        # Only dangerous LRO/RLO controls are rejected; legitimate isolation
+        # for mixed Hebrew/Latin labels still passes through unchanged.
+        for mark in ("\u202d", "\u202e"):
+            for context, source, value in (
+                (mark, "Save", "שמירה"),
+                ("", "Save" + mark, "שמירה"),
+                ("", "Save", "שמירה" + mark),
+            ):
+                with self.subTest(mark=hex(ord(mark)), source=source, context=context):
+                    self.assertEqual(sync_app.unusable_row(context, source, value),
+                                     "directional override character")
+                    self.assertEqual(sync_app.fix((context, source), value, 2),
+                                     (None, "directional override character"))
+        # Isolating a Latin filename inside Hebrew is not an override and
+        # must remain valid for correctly rendered mixed-direction labels.
+        self.assertIsNone(sync_app.unusable_row("", "Saved {path}",
+                                              "נשמר \u2066{path}\u2069"))
+        self.assertEqual(sync_app.fix(("", "Saved {path}"),
+                                      "נשמר \u2066{path}\u2069", 2)[1], "נשמר \u2066{path}\u2069")
+
     def test_unchanged_app_changes_nothing_and_round_trips(self):
         before = self.snapshot()
         code, out = self.run_sync()
