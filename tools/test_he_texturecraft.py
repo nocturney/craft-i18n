@@ -16,9 +16,9 @@ class HebrewTextureCraftTests(unittest.TestCase):
         cls.common, cls.common_errors=sync_app.parse((ROOT/'locales/he/common.tsv').read_text('utf-8'))
         cls.source, cls.source_errors=sync_app.parse((ROOT/'locales/ar/texturecraft.tsv').read_text('utf-8'))
 
-    def test_hebrew_app_catalog_has_601_distinct_source_rows(self):
+    def test_hebrew_app_catalog_has_707_distinct_source_rows(self):
         self.assertFalse(self.parse_errors)
-        self.assertEqual(len(self.app),601)
+        self.assertEqual(len(self.app),707)
         self.assertTrue(all(c=='' for c,s in self.app))
         self.assertTrue(all(s and v for (c,s),v in self.app.items()))
 
@@ -33,6 +33,22 @@ class HebrewTextureCraftTests(unittest.TestCase):
             'Index of refraction':'מקדם שבירה',
             'Quarter':'רבע',
             'Start window':'חלון פתיחה',
+        }
+        for english,hebrew in examples.items():
+            self.assertEqual(locale[('',english)],hebrew,english)
+            self.assertIsNone(sync_app.text_problem('',english,hebrew))
+
+    def test_round7_material_and_rendering_english_keys(self):
+        locale=resolved(ROOT,'he-IL')
+        examples={
+            'Cube': 'קובייה',
+            'MaterialX materials': 'חומרי MaterialX',
+            'No Parameters': 'ללא פרמטרים',
+            'Roughness': 'חספוס',
+            'My brushes': 'המברשות שלי',
+            'Height offset': 'היסט גובה',
+            'Radial symmetry': 'סימטריה רדיאלית',
+            'Triangle fill': 'מילוי משולש',
         }
         for english,hebrew in examples.items():
             self.assertEqual(locale[('',english)],hebrew,english)
@@ -89,7 +105,7 @@ class HebrewTextureCraftTests(unittest.TestCase):
         for english,hebrew in samples.items():
             self.assertEqual(locale[('',english)],hebrew,english)
             self.assertIsNone(sync_app.text_problem('',english,hebrew))
-        self.assertEqual(len(self.app),601)
+        self.assertEqual(len(self.app),707)
 
 
     def test_round3_save_open_prompts_and_paths(self):

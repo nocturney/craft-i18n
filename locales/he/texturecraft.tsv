@@ -7,8 +7,8 @@
 #   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
 #   Lines starting with # and blank lines are ignored. A missing entry shows in English.
 #
-# Hebrew draft: 98 source-verified seed rows, plus 41, 60, 138, 190 and 74 quick-win additions.
-# Two initial seed strings already resolve from common.tsv, so 601 app rows in total.
+# Hebrew draft: 98 source-verified seed rows, plus 41, 60, 138, 190, 74 and 106 quick-win additions.
+# Two initial seed strings already resolve from common.tsv, so 707 app rows in total.
 # Original 9 locally reviewed wording preserved; native-speaker and maintainer review pending.
 # Clean room: every entry was written from the plain meaning of the English text in ordinary
 # computing vocabulary. No other product's localisation, string table or translated UI was
@@ -619,3 +619,113 @@
 	glTF binary with textures	glTF בינארי עם טקסטורות
 	{name} copy	עותק של {name}
 	{n} bits	{n} סיביות
+
+# 2026-11-17 round seven: 106 original Hebrew labels for source-verified TextureCraft material/render workflows.
+# English keys verified against upstream Arabic and German source-key columns only.
+# No other language translations used; independent linguistic/Native RTL review remains pending.
+	Amber	ענבר
+	Attenuation	הנחתה
+	Cavities	שקעים
+	Checker	דוגמת משבצות
+	Closed path	נתיב סגור
+	Cloud	ענן
+	Clouds	עננים
+	Constant	קבוע
+	Copper	נחושת
+	Copy from	העתקה מתוך
+	Coral	אלמוג
+	Cosine	קוסינוס
+	Count	מספר
+	Cube	קובייה
+	Custom File	קובץ מותאם אישית
+	Cyan / red	ציאן / אדום
+	Cylinder	גליל
+	Dirt	לכלוך
+	Distance-Based	מבוסס מרחק
+	Distribution	התפלגות
+	Edge Distance	מרחק מקצה
+	Edge Protection	הגנת קצוות
+	Fabric weave	אריגת בד
+	Fine noise	רעש עדין
+	Fingerprints	טביעות אצבע
+	Follow path	מעקב אחר נתיב
+	Full Scene	כל הסצנה
+	Glossiness	ברק
+	Gravity	כבידה
+	Ground Plane	מישור הקרקע
+	Hammered	מרוקע
+	Hard light	אור חזק
+	Height offset	היסט גובה
+	High Pass	מעבר גבוה
+	Histogram Range	טווח היסטוגרמה
+	Histogram Shift	הסטת היסטוגרמה
+	Instance	מופע
+	Leather grain	מרקם עור
+	Main shader	הצללה ראשית
+	Manual	ידני
+	Marble veins	עורקי שיש
+	Material Color	צבע חומר
+	MaterialX materials	חומרי MaterialX
+	Medium dark	כהה בינוני
+	Mesh fill	מילוי רשת
+	Mesh ID	מזהה רשת
+	Metallic	מתכתי
+	Mirror symmetry	סימטריית מראה
+	missing source	מקור חסר
+	Mosaic	פסיפס
+	My brushes	המברשות שלי
+	No Parameters	ללא פרמטרים
+	Normalization	נרמול
+	Offset right	היסט ימינה
+	Offset up	היסט כלפי מעלה
+	Paint chips	קילופי צבע
+	Particles	חלקיקים
+	Passthrough	מעבר ללא שינוי
+	Paste effect	הדבקת אפקט
+	Per Material	לפי חומר
+	Plane	מישור
+	Pores	נקבוביות
+	Position jitter	שונות מיקום
+	Radial symmetry	סימטריה רדיאלית
+	Range	טווח
+	Remove effect	הסרת אפקט
+	Remove last	הסרת האחרון
+	Remove point	הסרת נקודה
+	Resizing	שינוי גודל
+	Rotation (degrees)	סיבוב (מעלות)
+	Roughness	חספוס
+	Rounded cube	קובייה מעוגלת
+	Scale / tiling	קנה מידה / ריצוף
+	Scaling Divisor	מחלק קנה המידה
+	Scratches	שריטות
+	Secondary Rays	קרניים משניות
+	Select source	בחירת מקור
+	Self Occlusion	הסתרה עצמית
+	Shader instance	מופע הצללה
+	Sheen roughness	חספוס ברק משי
+	Shift + wheel	Shift + גלגלת
+	Smart masks	מסכות חכמות
+	Soft light	אור רך
+	Specular level	רמת ספקולריות
+	Sphere	כדור
+	Spread Angle	זווית פיזור
+	Stamp depth	עומק חותמת
+	Stencil	שבלונה
+	Steps	שלבים
+	Streaks	פסים
+	Stripes	פסים
+	Submesh	תת־רשת
+	Symmetry	סימטריה
+	Thin areas	אזורים דקים
+	Tile	אריח
+	Tiles	אריחים
+	Tint	גוון
+	Toggle mask	החלפת מצב המסכה
+	Torus	טורוס
+	Triangle fill	מילוי משולש
+	UDIM plane	מישור UDIM
+	Uniform value	ערך אחיד
+	Vertex Color	צבע קדקוד
+	Voronoi	וורונוי
+	Wood grain	סיבי עץ
+	Yellow / blue	צהוב / כחול
