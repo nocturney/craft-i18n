@@ -355,6 +355,8 @@ translations and English keys remain unchanged. These AI-assisted drafts still
 require native-speaker and RTL/font review. The 17 November integration merge
 retains the newly added upstream PhotoCraft import/report attribution.
 
+On 17 November 2026, 115 additional short Hebrew UI labels were originally drafted from the current official AniCraft `tr!`/`tr_noop!` English source literals at commit `20a45a47f62c2458c0f424db5507e10445365d51`, covering panels, accessibility, typography, docking, gradients and filters. The prior 1,287 entries are unchanged; the catalog now has **1402** unique entries. This is an AI-assisted language draft, not native-speaker approval or native RTL/font acceptance.
+
 ## Language data
 
 Every file under `language-data/` ([ADR 0004](docs/adr/0004-third-party-language-data.md),

@@ -1312,3 +1312,122 @@
 	Click to add a colour stop. Drag a stop to move it, or off the bar to remove it. With a stop focused, the arrow keys move it and Delete removes it.	לחצו להוספת נקודת עצירה לצבע. גררו נקודה כדי להזיז אותה או אל מחוץ לפס כדי להסירה. כשהנקודה ממוקדת, מקשי החצים מזיזים אותה ו-Delete מסיר אותה.
 	Colour stop {stop} of {count} at {at}%	נקודת עצירה {stop} מתוך {count} במיקום {at}%
 	Stop {stop} at	נקודת עצירה {stop} במיקום
+
+# 2026-11-17 round 8: original Hebrew translations from official AniCraft tr!/tr_noop! English source keys.
+# Source: storytold/anicraft 20a45a47f62c2458c0f424db5507e10445365d51. No other-language translations used.
+# Hebrew native speaker, shaping, RTL and glyph tests remain pending.
+	Actions…	פעולות…
+	Adjust colour	התאמת צבע
+	Advertising	פרסום
+	After	אחרי
+	Align left	יישור לשמאל
+	Align right	יישור לימין
+	Brightness	בהירות
+	Clear Swatches	ניקוי דוגמיות
+	Close Tab Group	סגירת קבוצת כרטיסיות
+	Close Window	סגירת חלון
+	Copy Filter	העתקת מסנן
+	Corner radius	רדיוס פינה
+	Current document	המסמך הנוכחי
+	Dark (Graphite)	כהה (גרפיט)
+	Disable All	השבתת הכול
+	Dock Left	עיגון לשמאל
+	Dock Right	עיגון לימין
+	Drawing Object	אובייקט ציור
+	Duplicate Swatch	שכפול דוגמית
+	Dynamic text	טקסט דינמי
+	Empty text	טקסט ריק
+	Enable All	הפעלת הכול
+	Expand the Dock	הרחבת אזור העגינה
+	Expand the dock	הרחבת אזור העגינה
+	Export to	ייצוא אל
+	Eyedropper	טפטפת
+	Field height	גובה שדה
+	Field size	גודל שדה
+	Field width	רוחב שדה
+	Filter colour	צבע מסנן
+	Filter offset	היסט מסנן
+	Filter options	אפשרויות מסנן
+	Filter quality	איכות מסנן
+	Fit in window	התאמה לחלון
+	Fold Group	כיווץ קבוצה
+	Free Transform	שינוי צורה חופשי
+	Go to	מעבר אל
+	Graphite	גרפיט
+	Green offset	היסט ירוק
+	Help for This	עזרה עבור פריט זה
+	Hex colour	צבע הקסדצימלי
+	High contrast	ניגודיות גבוהה
+	Horizontal ruler	סרגל אופקי
+	Input text	טקסט קלט
+	just now	זה עתה
+	Kind	סוג
+	Later	מאוחר יותר
+	Letter spacing	ריווח בין אותיות
+	Letters	אותיות
+	Library folder	תיקיית ספרייה
+	Linear gradient	מעבר צבע קווי
+	Logs	יומנים
+	Lottie animation	הנפשת Lottie
+	Max characters	מספר תווים מרבי
+	Mute sounds	השתקת צלילים
+	Mute Sounds	השתקת צלילים
+	My Templates	התבניות שלי
+	My templates	התבניות שלי
+	no limit	ללא הגבלה
+	Not Now	לא עכשיו
+	Number of sides	מספר צלעות
+	Object drawing	ציור אובייקטים
+	Outline colour	צבע קווי מתאר
+	Point	נקודה
+	Point size	גודל נקודה
+	Point value	ערך נקודה
+	Radial gradient	מעבר צבע מעגלי
+	Remove All	הסרת הכול
+	Remove Filter	הסרת מסנן
+	Rename Preset	שינוי שם ההגדרה מראש
+	Saturation	רוויה
+	Save as Preset…	שמירה כהגדרה מראש…
+	Scale height	קנה מידה לגובה
+	Scale width	קנה מידה לרוחב
+	Scatter	פיזור
+	Shadow offset	היסט צל
+	Shortcut…	קיצור דרך…
+	Side	צד
+	Single frame	פריים יחיד
+	Single line	שורה אחת
+	Slide X	הזזה בציר X
+	Slide Y	הזזה בציר Y
+	Small	קטן
+	Social	רשתות חברתיות
+	Sounds	צלילים
+	Stack With	צירוף לערימה
+	Static text	טקסט סטטי
+	Storyboard	לוח סיפור
+	Straight	ישר
+	Subtract	חיסור
+	Swap Bitmap	החלפת מפת סיביות
+	Swap Colours	החלפת צבעים
+	Swap Symbol	החלפת סמל
+	Swap…	החלפה…
+	Swatch name	שם דוגמית
+	Symbol name	שם סמל
+	Sync	סנכרון
+	Template name	שם תבנית
+	Texture	מרקם
+	Tilt	הטיה
+	Tint amount	עוצמת גוון
+	Tint colour	צבע הגוון
+	Tiny	זעיר
+	Title card	כרטיס כותרת
+	Turn Off	כיבוי
+	Turn On	הפעלה
+	Type text	הקלדת טקסט
+	Unfold Group	הרחבת קבוצה
+	Use This Copy	שימוש בעותק זה
+	User guide	מדריך למשתמש
+	Vertical ruler	סרגל אנכי
+	Walk cycle	מחזור הליכה
+	Weights	משקלים
+	Workspace	סביבת עבודה
+	yesterday	אתמול
