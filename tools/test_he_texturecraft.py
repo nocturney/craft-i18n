@@ -16,9 +16,9 @@ class HebrewTextureCraftTests(unittest.TestCase):
         cls.common, cls.common_errors=sync_app.parse((ROOT/'locales/he/common.tsv').read_text('utf-8'))
         cls.source, cls.source_errors=sync_app.parse((ROOT/'locales/ar/texturecraft.tsv').read_text('utf-8'))
 
-    def test_hebrew_app_catalog_has_826_distinct_source_rows(self):
+    def test_hebrew_app_catalog_has_843_distinct_source_rows(self):
         self.assertFalse(self.parse_errors)
-        self.assertEqual(len(self.app),826)
+        self.assertEqual(len(self.app),843)
         self.assertTrue(all(c=='' for c,s in self.app))
         self.assertTrue(all(s and v for (c,s),v in self.app.items()))
 
@@ -119,7 +119,7 @@ class HebrewTextureCraftTests(unittest.TestCase):
         for english,hebrew in samples.items():
             self.assertEqual(locale[('',english)],hebrew,english)
             self.assertIsNone(sync_app.text_problem('',english,hebrew))
-        self.assertEqual(len(self.app),826)
+        self.assertEqual(len(self.app),843)
 
 
     def test_round3_save_open_prompts_and_paths(self):
