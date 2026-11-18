@@ -869,3 +869,48 @@
 	There is no mesh file to read again. Select one.	אין קובץ רשת לטעינה מחדש. בחר קובץ.
 	UV Tile settings (UDIMs)	הגדרות אריחי UV (UDIM)
 	The UV tiles (UDIMs) of each texture set, shown for reference. Change them in Texture Set Settings.	אריחי UV (UDIM) של כל ערכת טקסטורות מוצגים לעיון. ניתן לשנותם בהגדרות ערכת הטקסטורות.
+	Alt + LMB drag	גרירה עם Alt ולחצן העכבר השמאלי
+	MMB drag / Alt + MMB	גרירה בלחצן העכבר האמצעי / Alt + לחצן העכבר האמצעי
+	Wheel / Alt + RMB drag	גלגלת העכבר / גרירה עם Alt ולחצן העכבר הימני
+	Place path points on the mesh	מיקום נקודות הנתיב על הרשת
+	Instantiate across texture sets	יצירת מופעים בכל ערכות הטקסטורות
+	Normal: painting uses the flat normal	נורמל: הצביעה משתמשת בנורמל השטוח
+	Relative to the bounding box diagonal.	ביחס לאורך האלכסון של התיבה התוחמת.
+	{pattern} (scale {scale}, seed {seed})	{pattern} (קנה מידה {scale}, ערך אתחול {seed})
+	Right-click a layer > Create smart material	לחיצה ימנית על שכבה > יצירת חומר חכם
+	Use the control channel or `texturecraft-cli render` for screenshots	לצילומי מסך השתמשו בערוץ הבקרה או בפקודה `texturecraft-cli render`
+	Colors near the first shift towards the second, keeping their shading.	צבעים הקרובים לצבע הראשון משתנים לכיוון הצבע השני, תוך שמירה על ההצללה שלהם.
+	Dark to light: the content's luminance picks a color along these stops.	מכהה לבהיר: רמת הבהירות של התוכן קובעת צבע לאורך נקודות העצירה.
+	Hold S: left-drag rotates, right-drag scales, middle-drag moves the stencil.	החזיקו S: גרירה בלחצן השמאלי מסובבת, בימני משנה קנה מידה, ובאמצעי מזיזה את השבלונה.
+	Ctrl+right-drag in a view sets the size and hardness, Ctrl+left-drag the flow and angle.	גרירה בלחצן הימני עם Ctrl בתצוגה מגדירה גודל וקשיות; גרירה בלחצן השמאלי עם Ctrl מגדירה זרימה וזווית.
+	{file}: add above the selected layer (or drag it into the layer stack or onto the viewport)	{file}: הוספה מעל השכבה שנבחרה (או גרירה לערימת השכבות או לאזור התצוגה)
+	Path: click adds a point, click the curve inserts one, drag moves it, Enter applies, Esc cancels	נתיב: לחיצה מוסיפה נקודה, לחיצה על העקומה מוסיפה נקודה בתוכה, גרירה מזיזה אותה, Enter מחיל ו־Esc מבטל
+	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	פיקסלים בשכבות צבועות: {pixels} MB; ערוצים מורכבים: {composites} MB; מטמון הרכבה: {cache} MB
+	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	ערוץ האלפא של התמונה מגדיר את צורת המדבקה; פאות הפונות לכיוון הנגדי ומשטחים שמעבר לעומקה נשארים שקופים.
+	Records the stack up to this layer. Fill effects in masks (and fill layers) above can read it as a source.	שומר את מצב ערימת השכבות עד לשכבה זו. אפקטי מילוי במסכות (ובשכבות מילוי) שמעל יכולים להשתמש בו כמקור.
+	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	משולש ממלא משולשים בודדים; מצולע ממלא מרובעים ומצולעים מרובי צלעות; רשת ממלאת גאומטריה מחוברת; אי UV ממלא איי UV
+	How far light travels under the surface, as a fraction of the mesh size (where the Scattering weight channel is painted)	המרחק שהאור עובר מתחת לפני השטח, ביחס לגודל הרשת (כאשר צובעים בערוץ משקל הפיזור)
+	How strongly transmissive surfaces bend light (where the Transmission channel is painted): water 1.33, glass 1.5, diamond 2.42	מידת שבירת האור במשטחים מעבירי אור (כאשר צובעים בערוץ העברת האור): מים 1.33, זכוכית 1.5, יהלום 2.42
+	For the whole project: how normal map images set as mesh maps are read (set them again after a change), and the default for export	לכל הפרויקט: כיצד מפוענחות תמונות של מפות נורמל שהוגדרו כמפות רשת (יש להגדירן מחדש לאחר שינוי), ומהי ברירת המחדל לייצוא
+	Base color is the diffuse color, Specular the F0 color and Glossiness 1 - roughness (add these channels in the texture set settings).	צבע הבסיס הוא הצבע הדיפוזי, Specular הוא צבע F0, וברק הוא 1 פחות חספוס (יש להוסיף ערוצים אלה בהגדרות ערכת הטקסטורות).
+	What the 3D view shows while the bake runs: the newest finished map, one finished map, or the material. Maps not baked yet show a neutral value.	מה מוצג בתצוגת התלת־ממד בזמן האפייה: המפה האחרונה שהושלמה, מפה שהושלמה או החומר. מפות שטרם נאפו מוצגות בערך ניטרלי.
+	Paths stay editable: pick one to move its points or change its brush and material, and the sublayer repaints at once. Add paths with the Path tool.	נתיבים נשארים ניתנים לעריכה: בחרו נתיב כדי להזיז את נקודותיו או לשנות את המברשת והחומר שלו, ותת־השכבה תיצבע מחדש מיד. הוסיפו נתיבים בכלי הנתיב.
+	Moves the surface by the height channel on a finer copy of the mesh, at the height to normal strength (viewport only: painting follows the base surface)	מזיז את פני השטח לפי ערוץ הגובה בעותק מפורט יותר של הרשת, בעוצמת המרת הגובה לנורמל (בתצוגה בלבד: הצביעה נצמדת למשטח הבסיס)
+	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	{n} נקודות בקרה. לחצו על הרשת (או על תצוגת הדו־ממד) כדי להוסיף נקודות וגררו כדי לכוונן אותן; לחצו על הנקודה הראשונה כדי לסגור את הנתיב. Enter צובע באמצעות המברשת (נתיב סגור ומלא ממלא את שטחו), Esc מבטל.
+	Optional channels add a clear coat (Coat weight, Coat roughness, Coat normal), sheen (Sheen weight, color, roughness), anisotropy (Anisotropy level, angle), subsurface scattering (Scattering weight) and transmission (Transmission).	ערוצים אופציונליים מוסיפים שכבת ציפוי שקופה (משקל, חספוס ונורמל של הציפוי), ברק רך (משקל, צבע וחספוס), אניזוטרופיה (רמה וזווית), פיזור תת־משטחי (משקל פיזור) והעברת אור (Transmission).
+	Relative to Ray Distances	יחסי למרחקי הקרניים
+	Height to normal strength	עוצמת המרת גובה לנורמל
+	Mask Editor: Edge wear	עורך המסכות: שחיקת קצוות
+	Radius (texels at 2K)	רדיוס (טקסלים ברזולוציית 2K)
+	Intensity (texels at 2K)	עוצמה (טקסלים ברזולוציית 2K)
+	Source  U {u}  V {v}	מקור  U {u}  V {v}
+	UI {ms} ms	ממשק {ms} אלפיות שנייה
+	Opened {name}	נפתח {name}
+	Offset {axis}	היסט {axis}
+	Sheen color × weight	צבע הברק הרך × משקל
+	Coat weight	משקל הציפוי
+	3D MESH	רשת תלת־ממדית
+	Log	יומן
+	off	כבוי
+	Grunge	לכלוך ושחיקה
+	F0 from specular level	F0 מרמת ההחזרה הספקולרית
