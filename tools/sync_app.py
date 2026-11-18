@@ -116,6 +116,11 @@ def unusable_row(context, source, value):
     # Do not ban LRI/RLI/FSI/PDI: balanced isolates can safely delimit RTL text.
     if any(c in "\u202d\u202e" for c in context + source + value):
         return "directional override character"
+    # LRE/RLE/PDF are legacy embedding controls. Even without an override,
+    # they can silently change review order or terminate a surrounding span.
+    # Balanced Unicode isolates (LRI/RLI/FSI/PDI) remain supported.
+    if any(c in "\u202a\u202b\u202c" for c in context + source + value):
+        return "legacy directional embedding character"
     # Isolate controls are safe only in complete, independently balanced fields.
     # An orphan opener or PDI can spill text direction across adjacent UI labels.
     for column in (context, source, value):

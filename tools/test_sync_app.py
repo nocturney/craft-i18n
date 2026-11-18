@@ -108,6 +108,22 @@ class Sync(unittest.TestCase):
         self.assertEqual(sync_app.fix(("", "Saved {path}"),
                                       "נשמר \u2066{path}\u2069", 2)[1], "נשמר \u2066{path}\u2069")
 
+    def test_legacy_directional_embedding_markers_are_rejected_in_each_field(self):
+        # LRE, RLE and PDF may reorder labels or close a surrounding span.
+        # Each TSV field is independently validated before writing.
+        for mark in ("\u202a", "\u202b", "\u202c"):
+            for context, source, value in (
+                (mark, "Save", "שמירה"),
+                ("", "Save" + mark, "שמירה"),
+                ("", "Save", "שמירה" + mark),
+            ):
+                with self.subTest(mark=hex(ord(mark)), context=context,
+                                  source=source, value=value):
+                    self.assertEqual(sync_app.unusable_row(context, source, value),
+                                     "legacy directional embedding character")
+                    self.assertEqual(sync_app.fix((context, source), value, 2),
+                                     (None, "legacy directional embedding character"))
+
     def test_unbalanced_directional_isolates_are_rejected_per_column(self):
         # Every TSV column is a separate BiDi context; balancing across columns
         # is invalid even when the overall concatenated text is balanced.
