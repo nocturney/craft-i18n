@@ -124,6 +124,24 @@ class Sync(unittest.TestCase):
                     self.assertEqual(sync_app.fix((context, source), value, 2),
                                      (None, "legacy directional embedding character"))
 
+    def test_deprecated_directional_formatting_controls_are_rejected_per_field(self):
+        # U+206A..U+206F are deprecated bidi-format controls, not isolates.
+        for mark in ("\u206a", "\u206b", "\u206c", "\u206d", "\u206e", "\u206f"):
+            for context, source, value in (
+                (mark, "Save", "שמירה"),
+                ("", "Save" + mark, "שמירה"),
+                ("", "Save", "שמירה" + mark),
+            ):
+                with self.subTest(mark=hex(ord(mark)), context=context,
+                                  source=source, value=value):
+                    self.assertEqual(sync_app.unusable_row(context, source, value),
+                                     "deprecated directional formatting character")
+                    self.assertEqual(sync_app.fix((context, source), value, 2),
+                                     (None, "deprecated directional formatting character"))
+        # Do not ban valid locale punctuation or modern bidirectional marks.
+        for mark in ("\u200e", "\u200f", "\u061c"):
+            self.assertIsNone(sync_app.unusable_row("", "Save", "נשמר " + mark + "כעת"))
+
     def test_unbalanced_directional_isolates_are_rejected_per_column(self):
         # Every TSV column is a separate BiDi context; balancing across columns
         # is invalid even when the overall concatenated text is balanced.
