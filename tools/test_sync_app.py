@@ -108,6 +108,33 @@ class Sync(unittest.TestCase):
         self.assertEqual(sync_app.fix(("", "Saved {path}"),
                                       "נשמר \u2066{path}\u2069", 2)[1], "נשמר \u2066{path}\u2069")
 
+    def test_unbalanced_directional_isolates_are_rejected_per_column(self):
+        # Every TSV column is a separate BiDi context; balancing across columns
+        # is invalid even when the overall concatenated text is balanced.
+        openers = ("\u2066", "\u2067", "\u2068")  # LRI, RLI, FSI
+        for opener in openers:
+            for context, source, value in (
+                ("", "Save", "שמירה" + opener),
+                ("", "Save" + opener, "שמירה"),
+                (opener, "Save", "שמירה"),
+                ("", "Save", "\u2069שמירה"),
+                ("", "Save\u2069", "שמירה"),
+                ("\u2069", "Save", "שמירה"),
+                ("", "Saved {path}", "נשמר " + opener + "{path}\u2069\u2069"),
+            ):
+                with self.subTest(opener=hex(ord(opener)), context=context,
+                                  source=source, value=value):
+                    self.assertEqual(sync_app.unusable_row(context, source, value),
+                                     "unbalanced directional isolate")
+                    self.assertEqual(sync_app.fix((context, source), value, 2),
+                                     (None, "unbalanced directional isolate"))
+
+        # Balanced nested isolates still allow embedded Latin paths in Hebrew.
+        balanced = "נשמר \u2067שם \u2066{path}\u2069\u2069"
+        self.assertIsNone(sync_app.unusable_row("", "Saved {path}", balanced))
+        self.assertEqual(sync_app.fix(("", "Saved {path}"), balanced, 2)[1],
+                         balanced)
+
     def test_unchanged_app_changes_nothing_and_round_trips(self):
         before = self.snapshot()
         code, out = self.run_sync()

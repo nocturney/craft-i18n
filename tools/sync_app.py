@@ -116,6 +116,19 @@ def unusable_row(context, source, value):
     # Do not ban LRI/RLI/FSI/PDI: balanced isolates can safely delimit RTL text.
     if any(c in "\u202d\u202e" for c in context + source + value):
         return "directional override character"
+    # Isolate controls are safe only in complete, independently balanced fields.
+    # An orphan opener or PDI can spill text direction across adjacent UI labels.
+    for column in (context, source, value):
+        isolates = 0
+        for char in column:
+            if char in "\u2066\u2067\u2068":  # LRI, RLI, FSI
+                isolates += 1
+            elif char == "\u2069":  # PDI
+                if not isolates:
+                    return "unbalanced directional isolate"
+                isolates -= 1
+        if isolates:
+            return "unbalanced directional isolate"
     if not source or not value:
         return "empty column"
     if context.startswith("@") and context not in RESERVED:
