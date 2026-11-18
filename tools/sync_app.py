@@ -121,6 +121,11 @@ def unusable_row(context, source, value):
     # Balanced Unicode isolates (LRI/RLI/FSI/PDI) remain supported.
     if any(c in "\u202a\u202b\u202c" for c in context + source + value):
         return "legacy directional embedding character"
+    # Deprecated Unicode bidirectional formatting controls (ISS, ASS, IAFS,
+    # AAFS, NADS, NODS) have no legitimate role in UI translation catalogs.
+    # Keep modern balanced isolates and explicit LRM/RLM/ALM marks available.
+    if any(c in "\u206a\u206b\u206c\u206d\u206e\u206f" for c in context + source + value):
+        return "deprecated directional formatting character"
     # Isolate controls are safe only in complete, independently balanced fields.
     # An orphan opener or PDI can spill text direction across adjacent UI labels.
     for column in (context, source, value):
