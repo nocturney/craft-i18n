@@ -16,9 +16,9 @@ class HebrewTextureCraftTests(unittest.TestCase):
         cls.common, cls.common_errors=sync_app.parse((ROOT/'locales/he/common.tsv').read_text('utf-8'))
         cls.source, cls.source_errors=sync_app.parse((ROOT/'locales/ar/texturecraft.tsv').read_text('utf-8'))
 
-    def test_hebrew_app_catalog_has_792_distinct_source_rows(self):
+    def test_hebrew_app_catalog_has_843_distinct_source_rows(self):
         self.assertFalse(self.parse_errors)
-        self.assertEqual(len(self.app),792)
+        self.assertEqual(len(self.app),843)
         self.assertTrue(all(c=='' for c,s in self.app))
         self.assertTrue(all(s and v for (c,s),v in self.app.items()))
 
@@ -119,7 +119,7 @@ class HebrewTextureCraftTests(unittest.TestCase):
         for english,hebrew in samples.items():
             self.assertEqual(locale[('',english)],hebrew,english)
             self.assertIsNone(sync_app.text_problem('',english,hebrew))
-        self.assertEqual(len(self.app),792)
+        self.assertEqual(len(self.app),843)
 
 
     def test_round3_save_open_prompts_and_paths(self):
@@ -336,6 +336,22 @@ class HebrewTextureCraftTests(unittest.TestCase):
             "Texture sets": "ערכות טקסטורות",
             "Done on GPU: {n} / {max} samples, {s} s": "הושלם במעבד הגרפי: {n} מתוך {max} דגימות, {s} שניות",
         })
+
+    def test_round9_source_locked_hebrew_additions(self):
+        locale=resolved(ROOT,'he-IL')
+        examples={
+            "min": "דק׳",
+            "Free and open source (MIT OR Apache-2.0), written in Rust.": "קוד פתוח וחופשי (MIT OR Apache-2.0), נכתב בשפת Rust.",
+            "Image: {name}": "תמונה: {name}",
+            "Not enough GPU memory to show texture set \"{name}\" fully: lower the viewport Texture resolution in Settings. Painting and export are not affected.": "אין מספיק זיכרון GPU להצגת ערכת הטקסטורות \"{name}\" במלואה: הקטן את רזולוציית הטקסטורה בחלון התצוגה דרך ההגדרות. הצביעה והייצוא אינם מושפעים.",
+            "Works in texture space, like the blur: it does not cross UV seams.": "פועל במרחב הטקסטורה, כמו טשטוש: אינו חוצה תפרי UV.",
+        }
+        for english,hebrew in examples.items():
+            self.assertIn(('',english),self.source)
+            self.assertNotIn(('',english),self.common)
+            self.assertEqual(self.app[('',english)],hebrew)
+            self.assertEqual(locale[('',english)],hebrew)
+            self.assertIsNone(sync_app.text_problem('',english,hebrew))
 
 if __name__=='__main__':
     unittest.main()

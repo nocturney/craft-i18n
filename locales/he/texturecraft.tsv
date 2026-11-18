@@ -818,3 +818,54 @@
 	Visible polygons only	מצולעים גלויים בלבד
 	Vivid light	אור חי
 	Warp Directional	עיוות כיווני
+	min	דק׳
+	Free and open source (MIT OR Apache-2.0), written in Rust.	קוד פתוח וחופשי (MIT OR Apache-2.0), נכתב בשפת Rust.
+	Built-in mesh	רשת מובנית
+	Change them in Texture Set Settings	ניתן לשנות אותם בהגדרות ערכת הטקסטורות
+	Choose another mesh file for the project. It is read when you press OK.	בחר קובץ רשת אחר לפרויקט. הקובץ ייטען לאחר לחיצה על אישור.
+	Choosing or reimporting a mesh recomputes all channels.	בחירת רשת או ייבואה מחדש מחשבת מחדש את כל הערוצים.
+	Colors read as gray. Add a levels or blur effect above to shape the result.	הצבעים נקראים כגווני אפור. הוסף מעליהם אפקט רמות או טשטוש לעיצוב התוצאה.
+	Contained center: fill polygons whose center is in the rectangle	מרכז פנימי: מילוי מצולעים שמרכזם נמצא בתוך המלבן
+	Drop an image from the Assets panel here to use it as this mesh map	גרור לכאן תמונה מלוח הנכסים כדי להשתמש בה כמפת הרשת הזו
+	File not found	הקובץ לא נמצא
+	Fit the input range to the histogram	התאם את טווח הקלט להיסטוגרמה
+	Flips the image's green channel, for normal maps made with Y pointing down	הופך את הערוץ הירוק בתמונה, עבור מפות נורמלים שבהן ציר Y פונה מטה
+	Fold or unfold these effects	כווץ או הרחב את האפקטים האלה
+	Green channel convention of normal maps: OpenGL (Y+) or DirectX (Y-). Imported and exported normal maps follow it.	מוסכמת הערוץ הירוק במפות נורמלים: OpenGL (Y+) או DirectX (Y-). מפות נורמלים מיובאות ומיוצאות בהתאם.
+	Hold V and click the mesh to set the clone source	החזק את V ולחץ על הרשת כדי לקבוע את מקור השכפול
+	Hold V and click the mesh to set the source, then paint elsewhere to copy it.	החזק את V ולחץ על הרשת כדי לקבוע את המקור, ואז צבע במקום אחר כדי להעתיק ממנו.
+	How a rectangle selects polygons	אופן בחירת מצולעים באמצעות מלבן
+	Image: {name}	תמונה: {name}
+	Import an image (File > Import resources) to project it onto the mesh.	ייבא תמונה (קובץ > ייבוא משאבים) כדי להקרין אותה על הרשת.
+	Import images to use them in fills and masks	ייבוא תמונות לשימוש במילויים ובמסכות
+	Import settings	הגדרות ייבוא
+	Intersection: fill polygons the rectangle touches	חיתוך: מילוי מצולעים שהמלבן נוגע בהם
+	No UV tiles	אין אריחי UV
+	Not enough GPU memory to show texture set "{name}" fully: lower the viewport Texture resolution in Settings. Painting and export are not affected.	אין מספיק זיכרון GPU להצגת ערכת הטקסטורות "{name}" במלואה: הקטן את רזולוציית הטקסטורה בחלון התצוגה דרך ההגדרות. הצביעה והייצוא אינם מושפעים.
+	Painted strokes follow the surface when the new mesh's UVs differ	משיחות המכחול שנצבעו יישארו על פני המשטח גם כשמיפוי ה־UV של הרשת החדשה שונה
+	Parameters change in the desktop app, with MaterialCraft installed	ניתן לשנות פרמטרים ביישום שולחן העבודה כאשר MaterialCraft מותקן
+	Particle brush (slides down the surface)	מברשת חלקיקים (מחליקה על פני המשטח)
+	Particle brush: particles slide down the surface	מברשת חלקיקים: החלקיקים מחליקים על פני המשטח
+	Preserve stroke positions on mesh	שימור מיקומי משיחות המכחול על הרשת
+	Project configuration	תצורת הפרויקט
+	PROJECT SETTINGS	הגדרות הפרויקט
+	Read the mesh file again, keeping the layers and painted strokes	טען מחדש את קובץ הרשת תוך שמירה על השכבות ומשיחות המכחול
+	Return to Painting Mode	חזרה למצב צביעה
+	Select a paint layer or a layer's mask to fill	בחר שכבת צביעה או מסכת שכבה למילוי
+	Select the mask (Alt+click: show it in the viewport)	בחר את המסכה (Alt+לחיצה: הצג אותה בחלון התצוגה)
+	The mesh file the project is built on. Hover the path to see it in full.	קובץ הרשת שעליו מבוסס הפרויקט. רחף מעל הנתיב כדי לראות אותו במלואו.
+	There is no mesh file to read again. Select one.	אין קובץ רשת לטעינה מחדש. בחר קובץ.
+	UDIM tiles painted by this texture set, each at the set's size	אריחי UDIM שנצבעו בערכת הטקסטורות הזו, כל אחד בגודל הערכה
+	Use Low Poly Mesh as High Poly Mesh	השתמש ברשת דלת מצולעים כרשת עתירת מצולעים
+	Use this brush (keeps its size)	השתמש במברשת זו (שומרת על גודלה)
+	UV Tile settings (UDIMs)	הגדרות אריחי UV (UDIM)
+	Viewport and brush (fixed)	חלון תצוגה ומברשת (קבוע)
+	Width (texels at 2K)	רוחב (טקסלים ברזולוציית 2K)
+	Works in texture space, like the blur: it does not cross UV seams.	פועל במרחב הטקסטורה, כמו טשטוש: אינו חוצה תפרי UV.
+	{count} effects	{count} אפקטים
+	The next click in the 3D view moves the decal there	הלחיצה הבאה בתצוגת התלת־ממד תעביר לשם את המדבקה
+	The UV tiles (UDIMs) of each texture set, shown for reference. Change them in Texture Set Settings.	אריחי UV (UDIM) של כל ערכת טקסטורות מוצגים לעיון. ניתן לשנותם בהגדרות ערכת הטקסטורות.
+	PBR - Metallic Roughness (TextureCraft)	PBR – מתכתיות וחספוס (TextureCraft)
+	The first stroke sets the offset from the source.	משיחת המכחול הראשונה קובעת את ההיסט ביחס למקור.
+	"{layer}" can't be filled: select a paint layer or a layer's mask	לא ניתן למלא את "{layer}": יש לבחור שכבת צביעה או מסכת שכבה
+	"{layer}" has no paint yet: the filter changes what you paint on it.	עדיין אין צבע על "{layer}": המסנן משנה את מה שצובעים עליה.
