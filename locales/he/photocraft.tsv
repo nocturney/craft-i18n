@@ -4428,3 +4428,32 @@ navigator	Zoom	תקריב
 	↑↓ navigate   ↵ run   esc close	↑↓ ניווט   ↵ הפעלה   esc סגירה
 	✓ Color Indicates Masked Areas	✓ הצבע מציין אזורים ממוסכים
 	✓ Color Indicates Selected Areas	✓ הצבע מציין אזורים נבחרים
+# Additional original Hebrew PhotoCraft color, RAW and document UI labels (19 November 2026).
+	A picked document is no longer a grayscale document of the same size.	המסמך שנבחר כבר אינו מסמך בגווני אפור באותם ממדים.
+	A picked document is no longer open.	המסמך שנבחר כבר אינו פתוח.
+	Canceled opening {name}	פתיחת {name} בוטלה
+	Center the gradient (offset 0, 0)	מרכז את מעבר הצבע (היסט 0, 0)
+	Click to fill similar colors	לחץ למילוי אזורים בצבעים דומים
+	Click to restore the current color	לחץ לשחזור הצבע הנוכחי
+	Click to sample the foreground color  ·  {key}-click for background	לחץ לדגימת צבע החזית  ·  לחיצה עם {key} לדגימת צבע הרקע
+	Color Blindness - Deuteranopia-type	עיוורון צבעים מסוג דויטרנופיה
+	Color Blindness - Protanopia-type	עיוורון צבעים מסוג פרוטנופיה
+	Drag around the center to rotate the view  ·  Shift constrains to 15°	גרור סביב המרכז כדי לסובב את התצוגה  ·  Shift מגביל לקפיצות של 15°
+	Internet Standard RGB (sRGB)	RGB תקני לאינטרנט (sRGB)
+	Legacy Macintosh RGB (Gamma 1.8)	RGB ישן של Macintosh (גאמה 1.8)
+	Make Shape	צור צורה
+	Memory usage percent	אחוז השימוש בזיכרון
+	Message	הודעה
+	No settings saved: these raws can't keep a sidecar here	לא נשמרו הגדרות: אי אפשר לשמור כאן קובץ נלווה לקובצי RAW אלה
+	Not a web color: click for the nearest web color	זה אינו צבע אינטרנט: לחץ לבחירת צבע האינטרנט הקרוב ביותר
+	Nothing to save: these raws are at their default settings	אין מה לשמור: קובצי RAW אלה משתמשים בהגדרות ברירת המחדל
+	Out of gamut for printing: click for the nearest printable color	מחוץ לטווח הצבעים להדפסה: לחץ לבחירת הצבע הקרוב ביותר שניתן להדפיס
+	Pick a different document for each channel.	בחר מסמך אחר לכל ערוץ.
+	Rotate View Left	סובב את התצוגה שמאלה
+	Rotate View Right	סובב את התצוגה ימינה
+	Sample: foreground color	דגימה: צבע החזית
+	Save Full-Size Composite in .pcraft Files	שמור תמונה מורכבת בגודל מלא בקובצי .pcraft
+	Save the settings to each raw's sidecar without opening it	שמור את ההגדרות בקובץ נלווה לכל קובץ RAW בלי לפתוח אותו
+	Scratch Size Limit (MB, 0 = No Limit)	מגבלת נפח לדיסק עבודה זמני (MB, 0 = ללא הגבלה)
+	Shrinkwrap Canvas on Save	התאם את גבולות משטח העבודה לתוכן בעת שמירה
+	Some settings could not be saved; the raws stay open	לא ניתן לשמור חלק מההגדרות; קובצי RAW נשארים פתוחים
