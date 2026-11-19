@@ -3129,3 +3129,23 @@ calendar weekday	We	ד׳
 	This document is digitally signed. Sanitizing rewrites the whole file, which invalidates the signatures, so it can only go ahead without them.	המסמך הזה חתום דיגיטלית. ניקוי המסמך כותב מחדש את הקובץ כולו ומבטל את תוקף החתימות, ולכן אפשר להמשיך רק בלעדיהן.
 	This document is signed. A change adds a new version: the signatures stay valid for the version they signed, and viewers will show that the document was changed after signing.	המסמך הזה חתום. שינוי ייצור גרסה חדשה: החתימות יישארו תקפות לגרסה שעליה חתמו, ותוכנות הצפייה יציינו שהמסמך השתנה לאחר החתימה.
 	This is a picture of a signature, not a digital signature: only the mark on the page goes. The original file is kept as it is.	זוהי תמונה של חתימה, ולא חתימה דיגיטלית: רק הסימן המוצג בעמוד יוסר. הקובץ המקורי יישאר ללא שינוי.
+	Draw a rectangle on the page or click content, then choose its tag.	שרטטו מלבן בעמוד או לחצו על תוכן, ואז בחרו את התגית שלו.
+	Mark everything in this tag as an artifact and remove the tag from reading order	סימון כל תוכן התגית כארטיפקט והסרת התגית מסדר הקריאה
+	Move into previous tag	העברה אל תוך התגית הקודמת
+	Move out of parent tag	הוצאה מתגית האב
+	No errors: the structure follows the Arlington PDF Model.	לא נמצאו שגיאות: מבנה המסמך תואם למודל Arlington PDF.
+	Remove tag, keep its contents	הסרת התגית תוך שמירת התוכן שלה
+	Scanned pages need OCR. Reading order follows extracted page text.	עמודים סרוקים מחייבים זיהוי טקסט (OCR). סדר הקריאה מבוסס על הטקסט שחולץ מהעמוד.
+	Tag annotation	תיוג הערה
+	Tag content as {type}	תיוג התוכן בתור {type}
+	Untagged content	תוכן שאינו מתויג
+	Validate structure	אימות מבנה המסמך
+	Validate structure…	אימות מבנה המסמך…
+	Recognized text	טקסט שזוהה
+	Recognize scanned text automatically	זיהוי אוטומטי של טקסט סרוק
+	Recognize text on this page or throughout the document?	לזהות טקסט בעמוד הזה או בכל המסמך?
+	OCR complete — no text recognized on this page.	זיהוי הטקסט הושלם — לא זוהה טקסט בעמוד הזה.
+	Re-OCR entire page	זיהוי טקסט מחדש בכל העמוד
+	Re-OCR this region	זיהוי טקסט מחדש באזור הזה
+	Text recognition cancelled. {summary}	זיהוי הטקסט בוטל. {summary}
+	Wait for text recognition to finish before changing add-ons	יש להמתין להשלמת זיהוי הטקסט לפני שינוי תוספים.
