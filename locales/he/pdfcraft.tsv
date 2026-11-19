@@ -3198,7 +3198,7 @@ calendar weekday	We	ד׳
 	Enter Full Screen	כניסה למצב מסך מלא
 	Full screen mode ({key}); Esc leaves it	מצב מסך מלא ({key}); יציאה באמצעות Esc
 	Measure one of the lines below with a ruler, from one end mark to the other, and type its length beside it. The longest line you can measure is the most accurate; measuring several averages them.	מדדו בסרגל אחד מהקווים שלהלן, מסימון הקצה האחד עד לסימון הקצה השני, והזינו את אורכו לצדו. מדידת הקו הארוך ביותר היא המדויקת ביותר; מדידת כמה קווים מאפשרת לחשב ממוצע.
-	Off, a document's request to open in Full Screen mode is ignored. You can still enter it from the View menu.	כשהאפשרות כבויה, בקשת המסמך להיפתח במצב מסך מלא תתעלם. עדיין אפשר להיכנס למצב מסך מלא דרך התפריט 'תצוגה'.
+	Off, a document's request to open in Full Screen mode is ignored. You can still enter it from the View menu.	כשהאפשרות כבויה, היישום יתעלם מבקשת המסמך להיפתח במצב מסך מלא. עדיין אפשר להיכנס למצב מסך מלא דרך התפריט 'תצוגה'.
 	Optical resolution {x} × {y} dpi.	רזולוציה אופטית: {x} × {y} dpi.
 	Screen / email	מסך / דוא״ל
 	Screen resolution	רזולוציית מסך
