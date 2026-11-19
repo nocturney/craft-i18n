@@ -2883,3 +2883,26 @@ calendar weekday	We	ד׳
 	This document's script is asking	הסקריפט של מסמך זה שואל
 	Document: {name}	מסמך: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	בקשה זו מגיעה מהמסמך, לא מ-PdfCraft. הזינו סיסמה רק אם אתם סומכים על מסמך זה.
+	1 page scanned	נסרק עמוד אחד
+	1 page was scanned.	נסרק עמוד אחד.
+	A cover on the scanner is open.	אחד ממכסי הסורק פתוח.
+	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	הגבלת מספר העמודים עוצרת את מזין הנייר לאחר מספר הגיליונות שנקבע. ביטול מסיים את ההעברה מוקדם; העמודים שכבר התקבלו נשארים במסמך.
+	All pages asks the driver for the whole stack.	האפשרות 'כל העמודים' מבקשת ממנהל ההתקן לסרוק את כל ערימת הדפים.
+	Asking the printer…	מתבצעת פנייה למדפסת…
+	Cancel reverse sides	ביטול סריקת הצדדים האחוריים
+	Check that the feeder has paper, or wait for the scanner to finish, then choose Continue.	ודאו שיש נייר במזין, או המתינו לסיום פעולת הסורק, ואז בחרו 'המשך'.
+	Check that the feeder has paper, or wait for the scanner to finish, then choose Try again.	ודאו שיש נייר במזין, או המתינו לסיום פעולת הסורק, ואז בחרו 'נסה שוב'.
+	Clear the jam and load the remaining sheets squarely, then choose Continue.	שחררו את חסימת הנייר וטענו את הגיליונות שנותרו כשהם מיושרים, ואז בחרו 'המשך'.
+	Clear the jam and load the sheets squarely, then choose Try again.	שחררו את חסימת הנייר וטענו את הגיליונות כשהם מיושרים, ואז בחרו 'נסה שוב'.
+	Close the feeder cover and check the paper, then choose Continue.	סגרו את מכסה מזין הנייר, בדקו את הנייר ובחרו 'המשך'.
+	Close the feeder cover and check the paper, then choose Try again.	סגרו את מכסה מזין הנייר, בדקו את הנייר ובחרו 'נסה שוב'.
+	Connected by USB.	מחובר באמצעות USB.
+	Connected over the network (Web Services). Options come from that driver, not the USB one.	מחובר דרך הרשת (שירותי אינטרנט). האפשרויות מתקבלות ממנהל התקן זה, ולא ממנהל התקן ה־USB.
+	Couldn't start scanning	לא ניתן להתחיל בסריקה
+	Couldn't reach the printer	לא ניתן ליצור קשר עם המדפסת
+	Click a word to inspect it; drag a rectangle to re-read part of the page	לחצו על מילה כדי לבדוק אותה; גררו מלבן כדי לזהות מחדש טקסט בחלק מהעמוד
+	AVG CONFIDENCE	רמת ודאות ממוצעת
+	CONFIDENCE	רמת ודאות
+	Confidence weighted	משוקלל לפי רמת ודאות
+	Corrected text (Enter commits)	טקסט מתוקן (Enter שומר את השינוי)
+	Couldn't be read: {reason}	לא ניתן לקרוא: {reason}
