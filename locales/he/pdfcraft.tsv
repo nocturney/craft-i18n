@@ -3399,3 +3399,11 @@ calendar weekday	We	ד׳
 	Use your system software manager to update PdfCraft.	יש לעדכן את PdfCraft דרך מנהל התוכנות של המערכת.
 	View release page…	פתיחת דף הגרסה…
 	You choose where the new version is saved. Continue?	אפשר לבחור היכן לשמור את הגרסה החדשה. להמשיך?
+	Install a plugin	התקנת תוסף
+	Install a plugin…	התקנת תוסף…
+	Manage plugins…	ניהול תוספים…
+	No plugins installed	לא מותקנים תוספים
+	No plugins installed yet. Install a .wasm plug-in to extend PdfCraft.	עדיין לא הותקנו תוספים. התקינו תוסף מקובץ .wasm כדי להרחיב את היכולות של PdfCraft.
+	No plugins installed. A plugin is a single .wasm file; install one above.	לא הותקנו תוספים. כל תוסף הוא קובץ .wasm יחיד; אפשר להתקין אותו באזור שמעל.
+	Plugins	תוספים
+	Refresh plugins	רענון תוספים
