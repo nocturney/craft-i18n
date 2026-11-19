@@ -4586,3 +4586,16 @@ colorRange	Invert	היפוך
 	Mask None	ללא מסכה
 	Pick Color From Image	דגימת צבע מהתמונה
 document	Orientation	כיוון
+	blue	כחול
+@id	edit.clear	נקה
+@id	edit.stroke	יצירת קו מתאר…
+	gray	אפור
+	green	ירוק
+@id	layer.layerMask.apply	החלת מסכת שכבה
+layerLabel	Magenta	מג'נטה
+	none	ללא
+	orange	כתום
+layerLabel	Red	אדום
+	red	אדום
+	violet	סגול
+	yellow	צהוב
