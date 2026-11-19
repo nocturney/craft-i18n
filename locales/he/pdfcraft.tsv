@@ -3312,3 +3312,15 @@ calendar weekday	We	ד׳
 	Transfer format: {format}.	תבנית העברה: {format}.
 	It is certified: filling in forms and signing are allowed; other changes invalidate the certification.	המסמך מאושר: מותר למלא טפסים ולחתום עליו; שינויים אחרים יבטלו את האישור.
 	It is certified: filling in forms, signing and commenting are allowed; other changes invalidate the certification.	המסמך מאושר: מותר למלא טפסים, לחתום עליו ולהוסיף הערות; שינויים אחרים יבטלו את האישור.
+	Highlight content	הדגשת תוכן
+	Read and comment	קריאה והוספת הערות
+	Rotate comment	סיבוב הערה
+	The clipboard holds no comments	הלוח אינו מכיל הערות
+	The comment being edited no longer exists, so its text was not saved.	ההערה שנערכה כבר אינה קיימת, ולכן הטקסט שלה לא נשמר.
+	The copied comments are larger than this page; they were placed as they are	ההערות שהועתקו גדולות מעמוד זה; הן הוצבו ללא שינוי.
+	Undo the last review change (Ctrl+Z)	ביטול שינוי הסקירה האחרון (Ctrl+Z)
+	unreviewed	טרם נבדק
+	F8: next word to review; Shift+F8 goes back	F8: מעבר למילה הבאה לבדיקה; Shift+F8: חזרה למילה הקודמת
+	Shift+F8: the previous word to review	Shift+F8: מעבר למילה הקודמת לבדיקה
+	{n} word(s) to review	{n} מילים לבדיקה
+	The preview could not be shown.	לא ניתן היה להציג את התצוגה המקדימה.
