@@ -4487,3 +4487,24 @@ navigator	Zoom	תקריב
 	Connectivity	קישוריות
 	Disc	סביבה מעגלית
 	Each	כל אחד
+	Canceled {label}	{label} בוטל
+	DDS Import	ייבוא DDS
+	Distribute Heights	פיזור אחיד של גבהים
+	Distribute Widths	פיזור אחיד של רוחבים
+	Equalize Entire Image Based On Selected Area	השוואת גוונים בכל התמונה לפי האזור הנבחר
+	Equalize Selected Area Only	השוואת גוונים באזור הנבחר בלבד
+	Flip vertically	היפוך אנכי
+	Generator enabled	המחולל פעיל
+	Gradient-corrected interpolation: sharp and fast, with some color fringing on fine detail.	אינטרפולציה עם תיקון מפל צבע: חדה ומהירה, אך ייתכנו שוליים צבעוניים בפרטים עדינים.
+	Hirakawa–Parks: the cleanest edges and the least color fringing, the slowest.	שיטת Hirakawa–Parks: הקצוות הנקיים ביותר ומינימום שוליים צבעוניים, אך היא האיטית ביותר.
+	Invalid numeric entry. An integer between {min}% and {max}% is required. Previous value was inserted.	הערך שהוזן אינו תקין. יש להזין מספר שלם בין {min}% ל־{max}%. הערך הקודם הוחזר.
+	Load transparency as alpha channel	טעינת שקיפות כערוץ אלפא
+	Mipmaps as separate layers	רמות Mipmap כשכבות נפרדות
+	Netscape Gray	אפור Netscape
+	Open cancelled	הפתיחה בוטלה
+	Open failed: {error}	הפתיחה נכשלה: {error}
+	Playback Options	אפשרויות ניגון
+	Remember to turn off the printer's own color management in Print Settings…	יש להשבית את ניהול הצבע של המדפסת עצמה בהגדרות ההדפסה…
+	The fastest and the softest, with color fringing on fine detail.	השיטה המהירה והרכה ביותר, אך עם שוליים צבעוניים בפרטים עדינים.
+	Working CMY Plates	לוחות הפרדת CMY פעילים
+	{label} is writing the file and can no longer be canceled	{label} כותב את הקובץ ולא ניתן עוד לבטל את הפעולה
