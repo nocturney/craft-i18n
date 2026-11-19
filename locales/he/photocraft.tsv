@@ -4539,3 +4539,16 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	כך משוחזרים הצבעים מפסיפס מסנני הצבע של המצלמה. השיטה מוחלת בפתיחת הקובץ; התצוגה המקדימה מציגה את השיטה שבה נפתח.
 	{name} ({width} × {height})	{name} ({width} × {height})
 @plural	{n} mip level|{n} mip levels	{n} רמת MIP|{n} רמות MIP|{n} רמות MIP
+	Bloat	ניפוח
+	Currency	סימני מטבע
+	Cyrillic	קירילית
+	Greek	יוונית
+	Import Brushes… (.abr)	ייבוא מברשות… (.abr)
+	Kerning: Metrics, Optical or a value in 1/1000 em (Alt+←/→ at the caret)	ריווח תווים (Kerning): לפי מדדים, אופטי או ערך ביחידות של 1/1000 em (Alt+←/→ במיקום הסמן)
+	Latin 1	לטינית 1
+	Latin Extended-A	לטינית מורחבת A
+	Latin Extended-B	לטינית מורחבת B
+	Math Symbols	סמלים מתמטיים
+	Numbers	מספרים
+	Pucker	כיווץ
+	Save Path	שמור נתיב
