@@ -176,9 +176,12 @@
 	Airbrush: keeps painting while the pointer rests.	אירוגרף: ממשיך לצבוע כל עוד המצביע נשאר במקום.
 	Align and Distribute	יישור ופיזור
 	Align and distribute	יישור ופיזור
+	Align bottom edges	יישר את הקצוות התחתונים
 	Align horizontal centers	יישר מרכזים אופקיים
 	Align left edges	יישר קצוות שמאליים
 	Align right edges	יישר קצוות ימניים
+	Align top edges	יישר את הקצוות העליונים
+	Align vertical centers	יישר את המרכזים האנכיים
 	Align with layer	יישר עם השכבה
 	Align {what}	יישר {what}
 	Aligned	מיושר
@@ -333,7 +336,9 @@ cameraRaw	Aqua	אקווה
 	Auto-Hide	הסתרה אוטומטית
 	Auto-Leading	ריווח שורות אוטומטי
 	Auto-leading %	% ריווח שורות אוטומטי
+	Auto-nest Layers	קינון שכבות אוטומטי
 	Auto-Select:	בחירה אוטומטית:
+	Auto-size Canvas	התאם את גודל משטח העבודה אוטומטית
 	Automate	אוטומציה
 	Automatic (recommended)	אוטומטי (מומלץ)
 	Automatic paragraph direction	כיוון פסקה אוטומטי
@@ -634,6 +639,7 @@ fontWeight	Bold	מודגש
 	Clear History	נקה היסטוריה
 	Clear Layer Style	נקה סגנון שכבה
 	Clear Override	נקה דריסה
+	Clear Recent File List	נקה את רשימת הקבצים האחרונים
 	Clear Recent Files	נקה קבצים אחרונים
 	Clear Samples	נקה דגימות
 	Clear Selected Artboard Guides	נקה קווים מנחים של לוח הציור הנבחר
@@ -671,6 +677,7 @@ fontWeight	Bold	מודגש
 	Click: corner · Drag: smooth · {alt}-drag: break handle · Click or drag first point: close · {key} finish · Esc cancel	לחיצה: פינה · גרירה: החלקה · {alt}-גרירה: שבירת ידית · לחיצה או גרירה של הנקודה הראשונה: סגירה · {key} סיום · Esc ביטול
 	Click: select anchor · Drag: move anchor, handle or segment · {shift}-click: add · {alt}-click: whole subpath	לחיצה: בחירת עוגן · גרירה: הזזת עוגן, ידית או קטע · {shift}-לחיצה: הוספה · {alt}-לחיצה: תת-נתיב שלם
 	Click: smooth point · Double-click: corner · Drag a point: move · Click first point: close · {key} finish	לחיצה: נקודה חלקה · לחיצה כפולה: פינה · גרירת נקודה: הזזה · לחיצה על הנקודה הראשונה: סגירה · {key} סיום
+	Clip Thumbnails to Document Bounds	חתוך תמונות ממוזערות לגבולות המסמך
 	Clip Thumbnails to Layer Bounds	גזור תמונות ממוזערות לגבולות השכבה
 	Clip thumbnails to layer bounds	גזור תמונות ממוזערות לגבולות השכבה
 	Clip to layer below	גזור לשכבה שמתחת
@@ -812,6 +819,7 @@ cameraRaw	Color Grading	דירוג צבע
 	Confirm	אשר
 	Confirm or cancel the open action step dialog first	אשר או בטל קודם את תיבת הדו-שיח של שלב הפעולה הפתוחה
 	Conform	התאמה (Conform)
+	Consolidate All to Here	אחד את כל החלונות לכאן
 	Consolidate All to Tabs	אחד הכול לכרטיסיות
 	Constant	קבוע
 	Constrain proportions	שמור על פרופורציות
@@ -829,6 +837,7 @@ cameraRaw	Color Grading	דירוג צבע
 	Content-Aware Scale	שינוי קנה מידה מודע לתוכן
 	Contents:	תוכן:
 	Contextual Alternates	חלופות הקשריות
+	Contextual Task Bar	סרגל משימות הקשרי
 	Contiguous	רציף
 	Continue	המשך
 	Contour	קו מתאר
@@ -891,6 +900,7 @@ cameraRaw	Color Grading	דירוג צבע
 	Could not complete the Free Transform command because the layer is locked.	לא ניתן היה להשלים את פקודת שינוי הצורה החופשי כי השכבה נעולה.
 	Could not open	לא ניתן לפתוח
 	Could not rename the action: {error}	לא ניתן היה לשנות את שם הפעולה: {error}
+	Could not transform because the layer is locked.	לא ניתן לשנות את צורת השכבה משום שהיא נעולה.
 	Could not transform: the layer is empty	לא ניתן לשנות צורה: השכבה ריקה
 	Could not use Perspective Warp: the layer is empty	לא ניתן להשתמש בעיוות פרספקטיבה: השכבה ריקה
 	Could not use Puppet Warp: no opaque pixels	לא ניתן להשתמש בעיוות בובה: אין פיקסלים אטומים
@@ -1081,6 +1091,7 @@ cameraData	Date Taken	תאריך צילום
 	Default colours (D)	צבעי ברירת מחדל (D)
 	Default Features	תכונות ברירת מחדל
 	Default Foreground and Background Colors	צבעי חזית ורקע ברירת מחדל
+	Default Foreground and Background Colors (D)	צבעי ברירת המחדל של החזית והרקע (D)
 	Default Leaves	עלים ברירת מחדל
 	Default PhotoCraft Size	גודל ברירת מחדל של PhotoCraft
 	Default printer	מדפסת ברירת מחדל
@@ -1218,6 +1229,8 @@ cameraData	Date Taken	תאריך צילום
 	Distort	עיוות
 	Distortion	עיוות
 	Distribute	פיזור
+	Distribute horizontally	פזר באופן אופקי
+	Distribute vertically	פזר באופן אנכי
 	Distribution	התפלגות
 	Dither	דיתור (Dither)
 	Divide	חלוקה
@@ -1317,6 +1330,7 @@ cameraData	Date Taken	תאריך צילום
 	Edge Thickness	עובי קצה
 	Edge Width	רוחב קצה
 	Edit	עריכה
+	Edit Brush…	ערוך מברשת…
 	Edit Contents	ערוך תוכן
 	Edit in Quick Mask Mode	ערוך במצב מסכה מהירה
 	Edit in Quick Mask Mode  (Q)	ערוך במצב מסכה מהירה  (Q)
@@ -1345,7 +1359,9 @@ cameraData	Date Taken	תאריך צילום
 	Ellipse Tool	כלי אליפסה
 	Elliptical Marquee Tool	כלי בחירה אליפטי
 	Email	דוא"ל
+	Embed All Linked	הטמע את כל הפריטים המקושרים
 	Embed Color Profile	הטבע פרופיל צבע
+	Embed Linked	הטמע פריט מקושר
 	Embed profiles	הטבע פרופילים
 	Embedded Profile Mismatch	חוסר התאמה בפרופיל המוטבע
 	Emboss…	תבליט…
@@ -1402,6 +1418,7 @@ cameraData	Date Taken	תאריך צילום
 	Expand Detection Area	הרחב אזור גילוי
 	Expand group  ({key}-click: all groups)	הרחב קבוצה  ({key}-לחיצה: כל הקבוצות)
 	Expand group  (⌥-click: all groups)	הרחב קבוצה  (⌥-לחיצה: כל הקבוצות)
+	Expand layer group on click	הרחב קבוצת שכבות בלחיצה
 	Expand New Effects	הרחב אפקטים חדשים
 	Expand Panel Group	הרחב קבוצת פאנלים
 	Expand…	הרחבה…
@@ -1830,6 +1847,7 @@ cameraRaw	Green	ירוק
 	Hide All	הסתר הכול
 	Hide All Effects	הסתר את כל האפקטים
 	Hide Auto Slices	הסתר פרוסות אוטומטיות
+	Hide bar	הסתר סרגל
 	Hide Font Classes	הסתר סוגי גופנים
 	Hide Grid	הסתר רשת
 	Hide Layers	הסתר שכבות
@@ -2057,6 +2075,7 @@ fontWeight	Italic	נטוי
 	Justify last left	יישור לשני הצדדים, שורה אחרונה לשמאל
 	Justify last right	יישור לשני הצדדים, שורה אחרונה לימין
 	Keep proportions	שמור על פרופורציות
+	Keep Relative Position During Layer Reordering	שמור על המיקום היחסי בעת שינוי סדר השכבות
 	Keep this tab open to retain your brushes.	השאר כרטיסייה זו פתוחה כדי לשמור על המברשות שלך.
 	Keep Using CPU	המשך להשתמש ב-CPU
 	Keep view in sync	שמור על סנכרון תצוגה
@@ -2084,6 +2103,7 @@ fontWeight	Italic	נטוי
 	Language Options	אפשרויות שפה
 	Large document: redrawing on the CPU	מסמך גדול: ציור מחדש על ה-CPU
 	Large tabs	כרטיסיות גדולות
+	Large Thumbnails	תמונות ממוזערות גדולות
 	Lasso around an area, then drag the selection	צייר לאסו מסביב לאזור, ואז גרור את הבחירה
 	Lasso Tool	כלי לאסו
 	Last Brush	המברשת האחרונה
@@ -2378,6 +2398,7 @@ fontWeight	Medium	בינוני
 	Medium gray	אפור בינוני
 	Medium Lines	קווים בינוניים
 	Medium Strokes	משיכות בינוניות
+	Medium Thumbnails	תמונות ממוזערות בינוניות
 	Memory Usage	שימוש בזיכרון
 	Memory usage mb	שימוש בזיכרון (MB)
 	Menus	תפריטים
@@ -2451,6 +2472,7 @@ cameraData	Model	דגם
 	Monospace	ברוחב אחיד (Monospace)
 	More	עוד
 	More documents	מסמכים נוספים
+	More options	אפשרויות נוספות
 	More panels	פאנלים נוספים
 	More Points	נקודות נוספות
 	Mosaic	פסיפס
@@ -2463,6 +2485,7 @@ cameraData	Model	דגם
 	Mouse Controls	פקדי עכבר
 	Mouse Coordinates	קואורדינטות עכבר
 	Move	הזזה
+	Move bar	הזז סרגל
 	Move Down	הזז מטה
 	Move effect down	הזז אפקט מטה
 	Move effect layer down	הזז שכבת אפקט מטה
@@ -2473,6 +2496,7 @@ cameraData	Model	דגם
 	Move Layer	הזז שכבה
 	Move Panel	הזז פאנל
 	Move to	הזז אל
+	Move to New Window	העבר לחלון חדש
 	Move Tool	כלי הזזה
 	Move Toolbar to the Left	העבר את סרגל הכלים שמאלה
 	Move Toolbar to the Right	העבר את סרגל הכלים ימינה
@@ -2515,6 +2539,7 @@ cameraData	Model	דגם
 	New Crop Preset…	ערכת חיתוך חדשה…
 	New Document With Mask	מסמך חדש עם מסכה
 	New document…	מסמך חדש…
+	New Document…	מסמך חדש…
 	New document…     ⌘N	מסמך חדש…     ⌘N
 	New effect layer	שכבת אפקט חדשה
 	New file	קובץ חדש
@@ -2605,6 +2630,7 @@ layerLabel	No Color	בלי צבע
 	No Spelling Suggestions	אין הצעות איות
 	No subject found — try a rectangle around the object	לא נמצא נושא — נסה מלבן מסביב לאובייקט
 	No subject found — try Object Selection or the Lasso	לא נמצא נושא — נסה בחירת אובייקטים או לאסו
+	No Thumbnails	ללא תמונות ממוזערות
 	No tool presets.	אין ערכות כלים קבועות מראש.
 	No Vector Mask	ללא מסכת וקטור
 	Noise	רעש
@@ -2618,6 +2644,7 @@ layerLabel	No Color	בלי צבע
 	Not a web colour: click for the nearest web colour	לא צבע אינטרנט: לחץ לצבע האינטרנט הקרוב ביותר
 	Not Clipped	לא גזור
 	Not Empty	לא ריק
+	Not enough grayscale documents for this mode.	אין מספיק מסמכים בגווני אפור למצב זה.
 	Not in Dictionary:	לא במילון:
 	Not Linked	לא מקושר
 	Not Locked	לא נעול
@@ -2672,6 +2699,7 @@ layerLabel	No Color	בלי צבע
 	Opacity:	אטימות:
 	Open	פתח
 	Open a document to define variables.	פתח מסמך כדי להגדיר משתנים.
+	Open a document to select a color range.	פתח מסמך כדי לבחור טווח צבעים.
 	Open a document to select a colour range.	פתח מסמך כדי לבחור טווח צבעים.
 	Open a document to use the timeline.	פתח מסמך כדי להשתמש בציר הזמן.
 	Open anyway	פתח בכל זאת
@@ -2680,6 +2708,7 @@ layerLabel	No Color	בלי צבע
 	Open As…	פתח בתור…
 	Open color-less EXR as ACEScg	פתח EXR חסר-צבע כ-ACEScg
 	Open documents as tabs	פתח מסמכים כלשוניות
+	Open Document…	פתח מסמך…
 	Open Download Page	פתח עמוד הורדה
 	Open EXR Parts…	פתח חלקי EXR…
 	Open File	פתח קובץ
@@ -2873,6 +2902,7 @@ cameraRaw	Orange	כתום
 	Picture Frame…	מסגרת תמונה…
 	Picture Package…	חוברת תמונה…
 	Pillow Emboss	תבליט כרית
+	Pin bar position	קבע את מיקום הסרגל
 	Pin Depth:	עומק סיכה:
 	Pin Light	אור סיכה (Pin Light)
 	Pinch	צביטה
@@ -2911,6 +2941,8 @@ cameraRaw	Orange	כתום
 	Please wait…	המתן בבקשה…
 	Plug-ins	תוספים
 	Plug-ins…	תוספים…
+	Plugins	תוספים
+	Plugins…	תוספים…
 	Png	PNG
 	Point	נקודה
 	Point Curve	עקומת נקודה
@@ -3219,6 +3251,7 @@ fontWeight	Regular	רגיל
 	Reset All to Defaults	אפס הכול לברירת המחדל
 	Reset All Tools	אפס את כל הכלים
 	Reset all tools to their default settings?	לאפס את כל הכלים להגדרות ברירת המחדל שלהם?
+	Reset bar position	אפס את מיקום הסרגל
 	Reset GPU Backend	אפס מנגנון GPU (Backend)
 	Reset Preferences	אפס העדפות
 	Reset Section	אפס מקטע
@@ -3260,6 +3293,7 @@ fontWeight	Regular	רגיל
 	Retry GPU tries the graphics processor again now.	ניסיון חזרה ל-GPU מנסה את המעבד הגרפי מחדש כעת.
 	Retry saving presets	נסה לשמור ערכות קבועות מראש שוב
 	Reveal All	חשוף הכול
+	Reveal in Explorer	הצג בסייר הקבצים
 	Reveal in Finder	הצג ב-Finder
 	Reveal Selection	חשוף בחירה
 	Reverse	הפוך סדר
@@ -3352,6 +3386,7 @@ cameraRaw	Roughness	גסות
 	Save As Preset	שמור כערכה קבועה מראש
 	Save As…	שמור בשם…
 	Save before closing?	לשמור לפני הסגירה?
+	Save canceled	השמירה בוטלה
 	Save cancelled	השמירה בוטלה
 	Save Changes	שמור שינויים
 	Save Contours…	שמור קווי מתאר…
@@ -3418,6 +3453,7 @@ cameraRaw	Roughness	גסות
 	Script Events Manager	מנהל אירועי סקריפט
 	Script Events Manager…	מנהל אירועי סקריפט…
 	Scripts	סקריפטים
+	Scroll All Windows	גלול את כל החלונות
 	Scroll menu down	גלול תפריט למטה
 	Scroll menu up	גלול תפריט למעלה
 	Scroll to zoom	גלול לתקריב
@@ -3617,9 +3653,11 @@ fontWeight	SemiBold	מודגש-חלקי
 	Show Guides  (⌘;)	הצג קווים מנחים  (⌘;)
 	Show highlight on rollover	הצג הדגשה במעבר עכבר
 	Show home recent files	הצג קבצים אחרונים במסך הבית
+	Show hover bounds from Layers	הצג גבולות בריחוף בחלונית השכבות
 	Show in Explorer	הצג ב-Explorer
 	Show in Folder	הצג בתיקייה
 	Show Lab Color Readouts	הצג קריאות צבע Lab
+	Show layer bounds on hover	הצג גבולות שכבה בריחוף
 	Show layer mask badges	הצג תגי מסכת שכבה
 	Show Layers	הצג שכבות
 	Show Mask	הצג מסכה
@@ -3669,6 +3707,7 @@ fontWeight	SemiBold	מודגש-חלקי
 	Skew	הטיה
 	Skewness	אלכסוניות
 	Skip	דלג
+	Skip transform when placing	דלג על שינוי צורה בעת הצבה
 	Sky	שמיים
 	Slab Serif	Slab Serif
 	Slant	שיפוע
@@ -3681,6 +3720,7 @@ fontWeight	SemiBold	מודגש-חלקי
 	Slices are locked (View › Lock Slices)	הפרוסות נעולות (תצוגה › נעל פרוסות)
 	Slices From Guides	פרוסות מקווים מנחים
 	Small	קטן
+	Small Thumbnails	תמונות ממוזערות קטנות
 	Smart Blur	טשטוש חכם
 	Smart Blur…	טשטוש חכם…
 	Smart Filter	מסנן חכם
@@ -3888,6 +3928,7 @@ curves	Smooth	החלק
 	Swatches	דוגמיות צבע
 	Switch between free transform and warp modes	החלף בין מצבי שינוי צורה חופשי ועיוות
 	Switch Foreground and Background Colors	החלף צבעי חזית ורקע
+	Switch Foreground and Background Colors (X)	החלף בין צבע החזית לצבע הרקע (X)
 	Switch theme	החלף עיצוב
 	Switched to CPU rendering	הוחלף לעיבוד CPU
 	Symmetry Off	סימטריה כבויה
