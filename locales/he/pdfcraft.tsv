@@ -3341,3 +3341,30 @@ calendar weekday	We	ד׳
 	The scanner reported a paper problem (a jam or several sheets fed together).	הסורק דיווח על בעיית נייר (תקיעת נייר או הזנה של כמה דפים יחד).
 	Refresh lists scanners. It does not feed paper.	הפעולה ״רענון״ מעדכנת את רשימת הסורקים ואינה מזינה נייר.
 	The feeder ran out of paper.	נגמר הנייר במזין הדפים.
+	ENGINE · STRATEGY	מנוע · אסטרטגיה
+	Add a second engine's reading when the first is unsure	הוסף את פענוח המנוע השני כאשר המנוע הראשון אינו בטוח
+	Always read with both engines and merge the words	פענח תמיד באמצעות שני המנועים ומזג את המילים
+	Both engines, combined as the Strategy says	שני המנועים, בשילוב לפי האסטרטגיה שנבחרה
+	Use the chosen engine's reading alone	השתמש בפענוח של המנוע הנבחר בלבד
+	The built-in engine (pure Rust)	המנוע המובנה (Rust טהור)
+	LOW-CONFIDENCE WORDS	מילים שזוהו ברמת ודאות נמוכה
+	Select a word on the page to inspect it	בחר מילה בעמוד כדי לבדוק אותה
+	Recognize the text of scanned pages in the background (the file is not changed)	זהה טקסט בעמודים סרוקים ברקע (הקובץ אינו משתנה)
+	Recognized text applied ({n} words, one undoable step)	הטקסט שזוהה הוחל ({n} מילים, פעולה אחת שניתן לבטל)
+	Read {n} words on {m} of {t} pages	זוהו {n} מילים ב־{m} מתוך {t} עמודים
+	Cancelled — {n} words were read on {m} of {t} pages; the rest were not read	בוטל — זוהו {n} מילים ב־{m} מתוך {t} עמודים; היתר לא פוענחו
+	Reading file {n} of {total}: {name}	מפענח קובץ {n} מתוך {total}: {name}
+	Reading page {page}…	מפענח עמוד {page}…
+	Pages that couldn't be read: {n}	עמודים שלא ניתן היה לפענח: {n}
+	The page was read again; its words were replaced (undo in the panel)	העמוד פוענח מחדש; המילים שלו הוחלפו (ניתן לבטל בחלונית)
+	The page's words were applied as one undoable step ({n} words)	מילות העמוד הוחלו בפעולה אחת שניתן לבטל ({n} מילים)
+	The page's words were cleared (undo in the panel)	מילות העמוד נמחקו (ניתן לבטל בחלונית)
+	The re-read found no text; the existing words are unchanged	בפענוח החוזר לא נמצא טקסט; המילים הקיימות לא שונו
+	The region was read again; its words were replaced (undo in the panel)	האזור פוענח מחדש; המילים שלו הוחלפו (ניתן לבטל בחלונית)
+	Straightens skewed text lines before reading	מיישר שורות טקסט נטויות לפני הפענוח
+	Turns pages scanned sideways or upside down upright before reading	מסובב עמודים שנסרקו על הצד או הפוכים לפני הפענוח
+	The selected word is gone; choose another	המילה שנבחרה אינה קיימת עוד; בחר מילה אחרת
+	OCR results rejected.	תוצאות זיהוי הטקסט נדחו.
+	Skip files that already have text	דלג על קבצים שכבר מכילים טקסט
+	Skip pages that already have text	דלג על עמודים שכבר מכילים טקסט
+	Reads pages and files even where the skip options would leave them alone	מפענח עמודים וקבצים גם אם אפשרויות הדילוג היו משאירות אותם ללא שינוי
