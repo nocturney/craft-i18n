@@ -3507,3 +3507,24 @@ calendar weekday	We	ד׳
 	What you want to end up with (order, extract, split, combine)	התוצאה הרצויה (סידור, חילוץ, פיצול או איחוד)
 	Word, PowerPoint and Excel (converted to PDF)	Word, PowerPoint ו־Excel (מומרים ל־PDF)
 	The document couldn't be prepared	לא ניתן היה להכין את המסמך
+	Copies, two-sided printing, colour and the printer are chosen in the system print dialog, which opens when you print.	מספר העותקים, הדפסה דו־צדדית, צבע והמדפסת נבחרים בחלון ההדפסה של המערכת, שנפתח בעת ההדפסה.
+	Duplex	הדפסה דו־צדדית
+	Duplex is not offered.	הדפסה דו־צדדית אינה זמינה.
+	I confirm sending this document to this printer	אני מאשר/ת את שליחת המסמך למדפסת זו
+	Manual duplex needs one reverse side for each front.	בהדפסה דו־צדדית ידנית נדרש צד אחורי אחד לכל צד קדמי.
+	Pages that use Type 3 fonts print as images, because Windows can close PdfCraft while printing them. The other pages print as usual.	עמודים הכוללים גופנים מסוג Type 3 יודפסו כתמונות, משום ש־Windows עלול לסגור את PdfCraft בזמן הדפסתם. יתר העמודים יודפסו כרגיל.
+	Print area…	אזור הדפסה…
+	Printing condition:	מצב ההדפסה:
+	Simulate overprinting	הדמיית הדפסת יתר
+	Show art, trim and bleed boxes	הצגת מסגרות אזור התוכן, החיתוך והגלישה
+	This printer does not take a copies setting.	מדפסת זו אינה תומכת בהגדרת מספר העותקים.
+	This printer does not take a quality setting.	מדפסת זו אינה תומכת בהגדרת איכות ההדפסה.
+	This printer does not take a resolution setting.	מדפסת זו אינה תומכת בהגדרת הרזולוציה.
+	This printer does not take an orientation setting.	מדפסת זו אינה תומכת בהגדרת כיוון הדף.
+	This printer only prints in black and white.	מדפסת זו מדפיסה בשחור־לבן בלבד.
+	This printer only prints one-sided.	מדפסת זו מדפיסה בצד אחד של הדף בלבד.
+	To print this large file, load all of it first with Load to edit.	כדי להדפיס קובץ גדול זה, יש לטעון תחילה את כולו באמצעות ״טעינה לעריכה״.
+	Too many spot inks to separate: {names}	יותר מדי צבעי ספוט להפרדה: {names}
+	Trim marks	סימני חיתוך
+	The same printer is also available over the network.	אותה מדפסת זמינה גם דרך הרשת.
+	The same printer is also available over USB.	אותה מדפסת זמינה גם בחיבור USB.
