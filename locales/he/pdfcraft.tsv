@@ -3422,3 +3422,13 @@ calendar weekday	We	ד׳
 	Select at least one other page.	יש לבחור לפחות עמוד נוסף.
 	Select text on one page to use this action	כדי להשתמש בפעולה זו, יש לבחור טקסט בעמוד אחד
 	Show on other pages too	הצגה גם בעמודים אחרים
+	At the current {ppi} ppi this line should measure {length} {unit}.	ברזולוציה הנוכחית של {ppi} פיקסלים לאינץ׳, אורך הקו אמור להיות {length} {unit}.
+	Cursor coordinates	קואורדינטות הסמן
+	Measured length	אורך שנמדד
+	Measured on a sample of the pages at this resolution and format; the files may differ.	המדידה בוצעה במדגם עמודים ברזולוציה ובתבנית הנוכחיות; הקבצים עשויים להיות שונים.
+	Point at the page to read its ink coverage.	הצבע על העמוד כדי לבדוק את כיסוי הדיו שלו.
+	Reference point: {point} (Tab: next)	נקודת ייחוס: {point} (Tab: הנקודה הבאה)
+	Scale corner {n}	פינת קנה מידה {n}
+	That length can't be right for this line: check the unit.	האורך הזה אינו מתאים לקו; יש לבדוק את יחידת המידה.
+	The document changed while its margins were measured; nothing was cropped	המסמך השתנה במהלך מדידת השוליים; לא בוצע חיתוך.
+	These measurements differ by more than 2%: check them.	המדידות שונות זו מזו ביותר מ־2%; יש לבדוק אותן.
