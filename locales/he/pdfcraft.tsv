@@ -3238,3 +3238,17 @@ calendar weekday	We	ד׳
 	The restrictions apply to recipients without “All permissions”. It's applied when you save.	ההגבלות חלות על נמענים שאין להם ״כל ההרשאות״. הן יוחלו בעת השמירה.
 	Only the recipients can open the document, each with the private key of their own certificate.	רק הנמענים יוכלו לפתוח את המסמך, כל אחד באמצעות המפתח הפרטי של האישור שלו.
 	Signing then goes online: the timestamp server receives a hash of the signature, and the certificate authorities are asked whether the certificates are revoked. With both, signatures are PAdES B-LTA.	לאחר מכן החתימה ממשיכה באופן מקוון: שרת חותמות הזמן מקבל ערך גיבוב של החתימה, ורשויות האישורים מתבקשות לבדוק אם האישורים בוטלו. עם שני אלה החתימות עומדות בתקן PAdES B-LTA.
+	Fill & sign mode	מצב מילוי וחתימה
+	Fill & Sign: add another saved signature	מילוי וחתימה: הוספת חתימה שמורה נוספת
+	Fill & Sign: add other saved initials	מילוי וחתימה: הוספת ראשי תיבות שמורים נוספים
+	Fill & Sign: circle	מילוי וחתימה: עיגול
+	Initials {n}	ראשי תיבות {n}
+	No signature was found. Adjust the ink sensitivity or keep the original image.	לא זוהתה חתימה. יש לשנות את רגישות זיהוי הדיו או להשאיר את התמונה המקורית.
+	Save initials first	יש לשמור תחילה ראשי תיבות
+	Select a placed signature first	יש לבחור תחילה חתימה שהוצבה במסמך
+	Use this size for saved initials	שימוש בגודל זה לראשי תיבות שמורים
+	Use this size for saved signature	שימוש בגודל זה לחתימה שמורה
+	Visual initials (Fill & Sign, not digital)	ראשי תיבות חזותיים (מילוי וחתימה, לא חתימה דיגיטלית)
+	Visual signature (Fill & Sign, not digital)	חתימה חזותית (מילוי וחתימה, לא חתימה דיגיטלית)
+	You can keep up to {n} sets of initials. Remove one to add another.	ניתן לשמור עד {n} קבוצות של ראשי תיבות. כדי להוסיף קבוצה נוספת יש להסיר קבוצה קיימת.
+	{chars} can't be written into the PDF yet: Fill & Sign text is Western European or Korean only. Pick a numeric format such as dd.mm.yyyy.	עדיין לא ניתן לכתוב את התווים {chars} בקובץ PDF: טקסט בכלי מילוי וחתימה תומך רק בתווים ממערב אירופה או בקוריאנית. יש לבחור תבנית מספרית, למשל dd.mm.yyyy.
