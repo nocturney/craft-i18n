@@ -7,7 +7,7 @@
 #   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
 #   Lines starting with # and blank lines are ignored. A missing entry shows in English.
 #
-# Hebrew draft: 931 unique app rows; additions are source-checked against English keys.
+# Hebrew draft: 943 unique app rows; additions are source-checked against English keys.
 # Two original seed strings resolve from common.tsv and are not duplicated here.
 # Original 9 locally reviewed wording preserved; native-speaker and maintainer review pending.
 # Clean room: every entry was written from the plain meaning of the English text in ordinary
@@ -959,3 +959,15 @@
 	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	קורא את מפת העקמומיות כפי שנאפתה; שינוי המצב או הגודל מפעיל את הגדרות גודל הפרטים.
 	Tangent | Wrap	משיק | עטיפה
 	WebGPU isn't available in this browser, so TextureCraft runs on WebGL2: Rendering mode path traces on the CPU (slower) and large texture sets show at reduced resolution. A current Chrome, Edge or Safari has WebGPU.	WebGPU אינו זמין בדפדפן זה, ולכן TextureCraft פועל באמצעות WebGL2: במצב רינדור, עקיבת הנתיבים מתבצעת במעבד (לאט יותר), וערכות טקסטורות גדולות מוצגות ברזולוציה נמוכה יותר. גרסאות עדכניות של Chrome, Edge ו־Safari תומכות ב־WebGPU.
+	Black	שחור
+	Details	פרטים
+	Dismiss	סגירה
+	Distance	מרחק
+	Divide	חלוקה
+	Edit	עריכה
+	Height	גובה
+	Radius	רדיוס
+	Restore	שחזור
+	Settings	הגדרות
+	Subtract	חיסור
+	Width	רוחב

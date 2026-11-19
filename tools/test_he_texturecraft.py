@@ -15,10 +15,15 @@ class HebrewTextureCraftTests(unittest.TestCase):
         cls.app, cls.parse_errors=sync_app.parse((ROOT/'locales/he/texturecraft.tsv').read_text('utf-8'))
         cls.common, cls.common_errors=sync_app.parse((ROOT/'locales/he/common.tsv').read_text('utf-8'))
         cls.source, cls.source_errors=sync_app.parse((ROOT/'locales/ar/texturecraft.tsv').read_text('utf-8'))
+        cls.additional_source_keys=set()
+        for language in ('de','es','fr','ja','ko'):
+            source, errors=sync_app.parse((ROOT/f'locales/{language}/texturecraft.tsv').read_text('utf-8'))
+            assert not errors, (language, errors)
+            cls.additional_source_keys.update(source)
 
     def test_hebrew_app_catalog_has_931_distinct_source_rows(self):
         self.assertFalse(self.parse_errors)
-        self.assertEqual(len(self.app),931)
+        self.assertEqual(len(self.app),943)
         self.assertTrue(all(c=='' for c,s in self.app))
         self.assertTrue(all(s and v for (c,s),v in self.app.items()))
 
@@ -87,11 +92,38 @@ class HebrewTextureCraftTests(unittest.TestCase):
         self.assertFalse(self.common_errors)
         self.assertFalse(self.source_errors)
         for key,value in self.app.items():
-            self.assertIn(key,self.source)
+            self.assertTrue(key in self.source or key in self.additional_source_keys, key)
             self.assertNotIn(key,self.common)
             self.assertIsNone(sync_app.text_problem(*key,value))
             self.assertEqual(unicodedata.normalize('NFC',value),value)
             self.assertFalse(any(c in value for c in '\u200e\u200f\u202a\u202b\u202c\u202d\u202e\u2066\u2067\u2068\u2069'))
+
+    def test_latest_source_backed_common_ui_labels(self):
+        # These live English labels occur in the official locale source columns,
+        # and were absent from both Hebrew catalogs at the previous branch HEAD.
+        expected = {
+            'Black': 'שחור',
+            'Details': 'פרטים',
+            'Dismiss': 'סגירה',
+            'Distance': 'מרחק',
+            'Divide': 'חלוקה',
+            'Edit': 'עריכה',
+            'Height': 'גובה',
+            'Radius': 'רדיוס',
+            'Restore': 'שחזור',
+            'Settings': 'הגדרות',
+            'Subtract': 'חיסור',
+            'Width': 'רוחב',
+        }
+        locale=resolved(ROOT,'he-IL')
+        for english,hebrew in expected.items():
+            with self.subTest(english=english):
+                key=('',english)
+                self.assertIn(key,self.additional_source_keys)
+                self.assertNotIn(key,self.common)
+                self.assertEqual(self.app[key],hebrew)
+                self.assertEqual(locale[key],hebrew)
+                self.assertIsNone(sync_app.text_problem('',english,hebrew))
 
     def test_previous_nine_curated_values_preserved(self):
         preserved={
@@ -134,7 +166,7 @@ class HebrewTextureCraftTests(unittest.TestCase):
         for english,hebrew in samples.items():
             self.assertEqual(locale[('',english)],hebrew,english)
             self.assertIsNone(sync_app.text_problem('',english,hebrew))
-        self.assertEqual(len(self.app),931)
+        self.assertEqual(len(self.app),943)
 
 
     def test_round3_save_open_prompts_and_paths(self):
