@@ -4532,3 +4532,10 @@ cameraRaw	Texture	מרקם
 	Thaw Mask	הפשרת מסכה
 	Twirl Clockwise	סחרור בכיוון השעון
 	Twirl Counterclockwise	סחרור נגד כיוון השעון
+
+# PhotoCraft Hebrew smart-SVG overwrite safety, crop help, raw mosaic and MIP UI — 19 Nov 2026
+smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded source; format-specific features may change.	תוכן AI/PDF/EPS ייערך כקובץ SVG. השמירה תחליף את המקור המוטמע; ייתכן שתכונות ייחודיות לפורמט ישתנו.
+	Drag a crop box · drag inside to move · edges resize ({ratio} ratio, {centre} center) · Space moves while drawing · arrows nudge · X swaps orientation · {commit} commits · Esc cancels	גררו ליצירת מסגרת חיתוך · גררו בתוכה להזזה · הקצוות משנים גודל (יחס {ratio}, מרכז {centre}) · רווח מזיז במהלך השרטוט · החצים מזיזים בצעדים קטנים · X מחליף כיוון · {commit} מאשר · Esc מבטל
+	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	כך משוחזרים הצבעים מפסיפס מסנני הצבע של המצלמה. השיטה מוחלת בפתיחת הקובץ; התצוגה המקדימה מציגה את השיטה שבה נפתח.
+	{name} ({width} × {height})	{name} ({width} × {height})
+@plural	{n} mip level|{n} mip levels	{n} רמת MIP|{n} רמות MIP|{n} רמות MIP
