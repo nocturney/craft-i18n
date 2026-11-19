@@ -3528,3 +3528,13 @@ calendar weekday	We	ד׳
 	Trim marks	סימני חיתוך
 	The same printer is also available over the network.	אותה מדפסת זמינה גם דרך הרשת.
 	The same printer is also available over USB.	אותה מדפסת זמינה גם בחיבור USB.
+	Accessibility Checker rules	כללי בודק הנגישות
+	Page {p}: {n} artifact inside tagged content	עמוד {p}: {n} ארטיפקט בתוך תוכן מתויג
+	Page {p}: {n} artifacts inside tagged content	עמוד {p}: {n} ארטיפקטים בתוך תוכן מתויג
+	Page {p}: {n} tagged content item inside an artifact	עמוד {p}: {n} פריט תוכן מתויג בתוך ארטיפקט
+	Page {p}: {n} tagged content items inside an artifact	עמוד {p}: {n} פריטי תוכן מתויגים בתוך ארטיפקט
+	Printer's mark annotation on page {p} is in the structure tree	ביאור סימן דפוס בעמוד {p} נכלל בעץ המבנה
+	Runs the Accessibility Checker's rules	מפעיל את כללי בודק הנגישות
+	The document has no structure tree: it isn't tagged	למסמך אין עץ מבנה: הוא אינו מתויג
+	The document isn't marked as tagged (MarkInfo /Marked true)	המסמך אינו מסומן כמתויג (MarkInfo /Marked true)
+	This check needs the Accessibility Checker, which isn't available here	בדיקה זו מחייבת את בודק הנגישות, שאינו זמין כאן
