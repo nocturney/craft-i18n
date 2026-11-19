@@ -3271,3 +3271,32 @@ calendar weekday	We	ד׳
 	Signing… Confirm the signature on your other device.	מתבצעת חתימה… יש לאשר את החתימה בהתקן האחר.
 	The module's tokens hold no digital ID PdfCraft can sign with.	האסימונים במודול אינם מכילים מזהה דיגיטלי ש־PdfCraft יכול להשתמש בו לחתימה.
 	The key is on the device, which signs once it has its PIN.	המפתח נמצא בהתקן, שיבצע את החתימה לאחר הזנת קוד ה־PIN.
+	Copy a text box or an image first	יש להעתיק תחילה תיבת טקסט או תמונה
+	Delete object	מחיקת אובייקט
+	Delete objects	מחיקת אובייקטים
+	Distribute horizontally	פיזור אופקי
+	Distribute objects	פיזור אובייקטים
+	Distribute vertically	פיזור אנכי
+	Drag a point to reshape the line. Delete removes it.	גרור נקודה כדי לשנות את צורת הקו. Delete מסיר אותה.
+	Drag to move	גרור כדי להזיז
+	Drag to rotate · Shift: 15° steps · Tab while dragging: quarter turns	גרור כדי לסובב · Shift: מרווחים של 15° · Tab בזמן הגרירה: רבעי סיבוב
+	Drag to rotate. Hold Shift for 15° steps; Esc cancels.	גרור כדי לסובב. החזק Shift לסיבוב במרווחים של 15°; Esc לביטול.
+	Edit Content	עריכת תוכן
+	Edit mode	מצב עריכה
+	Group select	בחירה קבוצתית
+	Hand tool	כלי היד
+	Resize object	שינוי גודל אובייקט
+	Rotate object	סיבוב אובייקט
+	Scale object	שינוי קנה מידה של אובייקט
+	Select a text box or an image first	יש לבחור תחילה תיבת טקסט או תמונה
+	Select text, a text box or an image first	יש לבחור תחילה טקסט, תיבת טקסט או תמונה
+	Snap targets	יעדי הצמדה
+	Snap to drawing: off	הצמדה לציור: כבויה
+	Snap to drawing: on	הצמדה לציור: פעילה
+	Snap to points and lines (Alt skips it)	הצמדה לנקודות ולקווים (Alt משבית זמנית)
+	The objects are already aligned.	האובייקטים כבר מיושרים.
+	These objects could not be aligned.	לא ניתן ליישר את האובייקטים האלה.
+	This point could not be moved. Try a smaller move.	לא ניתן להזיז את הנקודה. נסה להזיז אותה מרחק קטן יותר.
+	Ungroup artwork	פירוק קבוצה של רכיבי גרפיקה
+	Shift drags freely	Shift מאפשר גרירה חופשית
+	Tab: the next target under the pointer	Tab: מעבר ליעד הבא שמתחת למצביע.
