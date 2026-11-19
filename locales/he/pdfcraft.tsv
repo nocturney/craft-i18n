@@ -3568,3 +3568,12 @@ calendar weekday	We	ד׳
 	Undo ({key})	ביטול פעולה ({key})
 	Redo ({key})	ביצוע חוזר ({key})
 	{key} was taken from “{other}”, which now has no shortcut.	קיצור הדרך {key} הועבר מ־״{other}״, שכעת אין לו קיצור דרך.
+	Card driver (PKCS #11)	מנהל התקן של הכרטיס (PKCS #11)
+	Card PIN	קוד PIN של הכרטיס
+	Challenge: {challenge}	אתגר: {challenge}
+	Choose the module's library file.	בחרו את קובץ הספרייה של המודול.
+	Device library (PKCS #11)	ספריית ההתקן (PKCS #11)
+	Enter the device's PIN.	הזינו את קוד ה־PIN של ההתקן.
+	Insert the USB token or smart card, then refresh to list its digital IDs.	הכניסו את אסימון ה־USB או הכרטיס החכם, ולאחר מכן רעננו כדי להציג את המזהים הדיגיטליים שלו.
+	Include revocation information when signing (LTV)	לכלול מידע על ביטול תוקף בעת חתימה (LTV)
+	Code sent	הקוד נשלח
