@@ -3432,3 +3432,19 @@ calendar weekday	We	ד׳
 	That length can't be right for this line: check the unit.	האורך הזה אינו מתאים לקו; יש לבדוק את יחידת המידה.
 	The document changed while its margins were measured; nothing was cropped	המסמך השתנה במהלך מדידת השוליים; לא בוצע חיתוך.
 	These measurements differ by more than 2%: check them.	המדידות שונות זו מזו ביותר מ־2%; יש לבדוק אותן.
+	A document timestamp covers the whole file and is no one's signature, so it can't be removed on its own.	חותמת זמן של מסמך חלה על הקובץ כולו ואינה חתימה של אדם מסוים, ולכן אי אפשר להסיר אותה בנפרד.
+	Couldn't encrypt: {e}	לא ניתן להצפין: {e}
+	Only certificates with RSA keys can be recipients.	ניתן לבחור כנמענים רק תעודות המכילות מפתחות RSA.
+	Opened from a CAdES signature envelope — read-only.	נפתח מתוך מעטפת חתימה מסוג CAdES — לקריאה בלבד.
+	Opened from a detached CAdES signature — read-only.	נפתח מתוך חתימת CAdES מנותקת — לקריאה בלבד.
+	Remove "{name}" from this list? The certificate stays with the signing service.	להסיר את „{name}” מהרשימה? התעודה תישאר בשירות החתימה.
+	Signature cleanup stopped unexpectedly.	ניקוי החתימות הופסק באופן בלתי צפוי.
+	Signature locked into the page.	החתימה קובעה בעמוד.
+	Signatures and seals are not carried over or checked.	חתימות וחותמות אינן מועברות ואינן נבדקות.
+	Signed by {signer} on {time}; the content does not match what was signed; the signer's trust was not checked.	נחתם בידי {signer} בתאריך {time}; התוכן אינו תואם למה שנחתם; מהימנות החותם לא נבדקה.
+	Signed by {signer} on {time}; the content matches what was signed; the signer's trust was not checked.	נחתם בידי {signer} בתאריך {time}; התוכן תואם למה שנחתם; מהימנות החותם לא נבדקה.
+	Signed by {signer}; the content does not match what was signed; the signer's trust was not checked.	נחתם בידי {signer}; התוכן אינו תואם למה שנחתם; מהימנות החותם לא נבדקה.
+	Signed by {signer}; the content matches what was signed; the signer's trust was not checked.	נחתם בידי {signer}; התוכן תואם למה שנחתם; מהימנות החותם לא נבדקה.
+	the certificate expired on {date}	התעודה פגה בתאריך {date}
+	{names} certifies this document, and removing a signature is not a change its certification permits.	המסמך מאושר בידי {names}, והסרת חתימה אינה שינוי שהאישור מתיר.
+	{signers} signers; details of the first are shown	{signers} חותמים; מוצגים פרטי החותם הראשון
