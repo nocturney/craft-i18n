@@ -3555,3 +3555,16 @@ calendar weekday	We	ד׳
 	Speed:	מהירות:
 	Test voice	בדיקת קול
 	Same as interface	כמו שפת הממשק
+	Drag a guide to move it. Drag it back onto a ruler, or off the page, to remove it.	גררו קו עזר כדי להזיז אותו. להסרתו, גררו אותו בחזרה לסרגל או מחוץ לעמוד.
+	For the rulers, the grid, page sizes and margins. Clicking the corner between the rulers steps to the next unit.	משמש לסרגלים, לרשת, למידות העמוד ולשוליים. לחיצה על הפינה שבין הסרגלים עוברת ליחידת המידה הבאה.
+	Guides with a colour or thickness of their own (right-click a guide, or set it in a guide-set file) keep it.	קווי עזר שהוגדרו להם צבע או עובי משלהם (בלחיצה ימנית על קו עזר או בקובץ של ערכת קווי עזר) שומרים על ההגדרה.
+	No guide set has the shortcut {n}	לא הוקצתה ערכת קווי עזר לקיצור הדרך {n}
+	No saved sets yet. Right-click a ruler ▸ Save guides as a set…, or put a set file in the folder.	עדיין אין ערכות שמורות. לחצו לחיצה ימנית על סרגל ובחרו ״שמירת קווי עזר כערכה…״, או הוסיפו קובץ ערכה לתיקייה.
+	Page background: {mode} (click to cycle, right-click for tint settings)	רקע העמוד: {mode} (לחיצה למעבר בין מצבים, לחיצה ימנית להגדרות גוון)
+	Eye strain background: {mode} (click to cycle, right-click for tint settings)	רקע להפחתת מאמץ העיניים: {mode} (לחיצה למעבר בין מצבים, לחיצה ימנית להגדרות גוון)
+	View ▸ Grid ({grid}) draws a grid over the pages; View ▸ Snap to grid ({snap}) makes a dragged guide snap to it.	תצוגה ▸ רשת ({grid}) מציגה רשת מעל העמודים; תצוגה ▸ הצמדה לרשת ({snap}) מצמידה אליה קווי עזר בעת גרירה.
+	Guide sets can't be saved in the web version	אי אפשר לשמור ערכות קווי עזר בגרסת האינטרנט
+	Guide set “{name}” hidden	ערכת קווי העזר ״{name}״ הוסתרה
+	Undo ({key})	ביטול פעולה ({key})
+	Redo ({key})	ביצוע חוזר ({key})
+	{key} was taken from “{other}”, which now has no shortcut.	קיצור הדרך {key} הועבר מ־״{other}״, שכעת אין לו קיצור דרך.
