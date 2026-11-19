@@ -2906,3 +2906,28 @@ calendar weekday	We	ד׳
 	Confidence weighted	משוקלל לפי רמת ודאות
 	Corrected text (Enter commits)	טקסט מתוקן (Enter שומר את השינוי)
 	Couldn't be read: {reason}	לא ניתן לקרוא: {reason}
+	+ Page {p}	+ עמוד {p}
+	Page {p}	עמוד {p}
+	Click where the copied comments go; Escape lets them go	לחצו במיקום הרצוי להערות שהועתקו; Esc לביטול
+	Close comment pop-up	סגירת חלונית ההערה
+	Comments and form fields	הערות ושדות טופס
+	Comments to send	הערות לשליחה
+	Comments: {n}	הערות: {n}
+	Copy comments first	העתקת ההערות תחילה
+	Copy the pages with a match as a list such as 1-3, 7	העתקת מספרי העמודים עם התאמות כרשימה, למשל 1-3, 7
+	Current document	המסמך הנוכחי
+	Custom page…	עמוד מותאם אישית…
+	Custom selection	בחירה מותאמת אישית
+	Delete the selection	מחיקת הבחירה
+	Deleted page	עמוד שנמחק
+	First page	העמוד הראשון
+	Last page	העמוד האחרון
+	Mark this page as reviewed (Ctrl+T)	סימון עמוד זה כנבדק (Ctrl+T)
+	Move comment pop-up	הזזת חלונית ההערה
+	Moved page	עמוד שהועבר
+	Open comment pop-up	פתיחת חלונית ההערה
+	Outline view	תצוגת מתאר
+	Page verified	העמוד אומת
+	Invalid page range	טווח עמודים לא תקין
+	Organize pages plan	תוכנית לסידור עמודים
+	Inserted page	עמוד שנוסף
