@@ -3538,3 +3538,20 @@ calendar weekday	We	ד׳
 	The document has no structure tree: it isn't tagged	למסמך אין עץ מבנה: הוא אינו מתויג
 	The document isn't marked as tagged (MarkInfo /Marked true)	המסמך אינו מסומן כמתויג (MarkInfo /Marked true)
 	This check needs the Accessibility Checker, which isn't available here	בדיקה זו מחייבת את בודק הנגישות, שאינו זמין כאן
+	Pause / resume reading	השהיה או חידוש ההקראה
+	Pause reading	השהה את ההקראה
+	Paused	מושהה
+	Paused (page {page})	ההקראה מושהית (עמוד {page})
+	Preparing read-aloud text…	מכין טקסט להקראה בקול…
+	Read Out Loud	הקראה בקול
+	Read out loud	הקרא בקול
+	Read Out Loud ({key})	הקראה בקול ({key})
+	Read Out Loud ready	ההקראה בקול מוכנה
+	Read out loud requires Windows, macOS or Linux.	הקראה בקול זמינה ב־Windows, ב־macOS וב־Linux בלבד.
+	Reading options…	אפשרויות הקראה…
+	Resume reading	המשך את ההקראה
+	Stop reading	הפסק את ההקראה
+	Stopped before the end.	ההקראה הופסקה לפני הסיום.
+	Speed:	מהירות:
+	Test voice	בדיקת קול
+	Same as interface	כמו שפת הממשק
