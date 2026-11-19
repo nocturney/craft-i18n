@@ -7,7 +7,7 @@
 #   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
 #   Lines starting with # and blank lines are ignored. A missing entry shows in English.
 #
-# Hebrew draft: 914 unique app rows; additions are source-checked against English keys.
+# Hebrew draft: 931 unique app rows; additions are source-checked against English keys.
 # Two original seed strings resolve from common.tsv and are not duplicated here.
 # Original 9 locally reviewed wording preserved; native-speaker and maintainer review pending.
 # Clean room: every entry was written from the plain meaning of the English text in ordinary
