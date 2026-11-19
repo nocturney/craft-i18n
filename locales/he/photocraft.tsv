@@ -4571,3 +4571,18 @@ smartSvg	Updates wait while another document or an editing dialog is active.	ה�
 	Working Cmyk	CMYK לעבודה
 	Working Gray	גווני אפור לעבודה
 	Working Rgb	RGB לעבודה
+shape	Appearance	מראה
+	Blend Text Gamma	גאמה של מיזוג טקסט
+cameraRaw	Curve	עקומה
+cameraRaw	Dehaze	הסרת אובך
+cameraRaw	Detail	פרטים
+cameraRaw	Radius	רדיוס
+cameraRaw	Size	גודל
+	Drag a crop box · drag inside to move · edges resize ({ratio} ratio, {centre} centre) · Space moves while drawing · {commit} commits · Esc cancels	גררו ליצירת מסגרת חיתוך · גררו בתוכה להזזה · גררו את הקצוות לשינוי גודל (יחס {ratio}, מרכז {centre}) · מקש רווח מזיז בזמן הציור · {commit} מאשר · Esc מבטל
+	Drag: draw freehand · Release on the start point: close	גרירה: ציור חופשי · שחרור בנקודת ההתחלה: סגירת הצורה
+layers	Fill	מילוי
+layers	Fill:	מילוי:
+colorRange	Invert	היפוך
+	Mask None	ללא מסכה
+	Pick Color From Image	דגימת צבע מהתמונה
+document	Orientation	כיוון
