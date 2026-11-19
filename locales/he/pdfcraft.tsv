@@ -3252,3 +3252,22 @@ calendar weekday	We	ד׳
 	Visual signature (Fill & Sign, not digital)	חתימה חזותית (מילוי וחתימה, לא חתימה דיגיטלית)
 	You can keep up to {n} sets of initials. Remove one to add another.	ניתן לשמור עד {n} קבוצות של ראשי תיבות. כדי להוסיף קבוצה נוספת יש להסיר קבוצה קיימת.
 	{chars} can't be written into the PDF yet: Fill & Sign text is Western European or Korean only. Pick a numeric format such as dd.mm.yyyy.	עדיין לא ניתן לכתוב את התווים {chars} בקובץ PDF: טקסט בכלי מילוי וחתימה תומך רק בתווים ממערב אירופה או בקוריאנית. יש לבחור תבנית מספרית, למשל dd.mm.yyyy.
+	the signing service is unreachable ({reason})	שירות החתימה אינו זמין ({reason})
+	the signing service refused to list the certificates	שירות החתימה סירב להציג את האישורים
+	the signing service refused to send the OTP	שירות החתימה סירב לשלוח קוד חד־פעמי
+	the signing service refused to sign	שירות החתימה סירב לבצע את החתימה
+	the signing service rejected the OTP (it may have expired)	שירות החתימה דחה את הקוד החד־פעמי (ייתכן שתוקפו פג)
+	the signing service rejected the PIN	שירות החתימה דחה את קוד ה־PIN
+	the signing service rejected the PIN or the OTP (the OTP may have expired)	שירות החתימה דחה את קוד ה־PIN או את הקוד החד־פעמי (ייתכן שתוקפו של הקוד החד־פעמי פג)
+	the signing service rejected the user name or password	שירות החתימה דחה את שם המשתמש או את הסיסמה
+	The session with {provider} has ended. Sign in again from Configure a Digital ID.	ההפעלה מול {provider} הסתיימה. יש להתחבר מחדש דרך ״הגדרת מזהה דיגיטלי״.
+	The signing service lists no certificate for this account.	שירות החתימה אינו מציג אישור עבור חשבון זה.
+	The device's digital ID isn't available any more; start signing again to list it.	המזהה הדיגיטלי של ההתקן אינו זמין עוד; יש להתחיל מחדש את תהליך החתימה כדי להציג אותו.
+	No certificate was found with this provider.	לא נמצא אישור אצל ספק זה.
+	No signing certificate was found on a card. Is the card in the reader?	לא נמצא אישור חתימה בכרטיס. האם הכרטיס נמצא בקורא?
+	No signing certificate was found on this device. Is it connected?	לא נמצא אישור חתימה בהתקן זה. האם הוא מחובר?
+	The document wasn't signed: {e}	המסמך לא נחתם: {e}
+	The document changed while it was being signed, so the signature wasn't saved.	המסמך השתנה במהלך החתימה ולכן החתימה לא נשמרה.
+	Signing… Confirm the signature on your other device.	מתבצעת חתימה… יש לאשר את החתימה בהתקן האחר.
+	The module's tokens hold no digital ID PdfCraft can sign with.	האסימונים במודול אינם מכילים מזהה דיגיטלי ש־PdfCraft יכול להשתמש בו לחתימה.
+	The key is on the device, which signs once it has its PIN.	המפתח נמצא בהתקן, שיבצע את החתימה לאחר הזנת קוד ה־PIN.
