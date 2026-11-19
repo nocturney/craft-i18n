@@ -482,6 +482,7 @@ certificate	Basic constraints	Restrições básicas
 	Binding:	Encadernação:
 	Bitmap images	Imagens bitmap
 	Black & White Document	Documento em preto e branco
+	Black and white (binarize)	Preto e branco (binarizar)
 	Black on white	Preto no branco
 	Blank page	Página em branco
 	Bleed	Sangria
@@ -515,6 +516,7 @@ certificate	Basic constraints	Restrições básicas
 	Bring to front	Para a frente
 	Bring your own model (off by default)	Traga seu próprio modelo (desativado por padrão)
 	Browser's print dialog	Caixa de diálogo de impressão do navegador
+	Built-in	Integrado
 	Bulleted list	Lista com marcadores
 	Butt	Topo reto
 	Button	Botão
@@ -752,6 +754,7 @@ certificate	Basic constraints	Restrições básicas
 	Column {n}	Coluna {n}
 	Comb of	Caixas para
 	Comb of characters	Caixas de caracteres
+	Combine engines	Combinar mecanismos
 	Combine files	Combinar arquivos
 	Combine files in PdfCraft…	Combinar arquivos no PdfCraft…
 	Combine files…	Combinar arquivos…
@@ -1288,6 +1291,7 @@ comment menu	Edit	Editar
 key	End	End
 	End entity	Entidade final
 	Endpoints	Pontos finais
+	Engine	Mecanismo
 	ENGINE · STRATEGY	MECANISMO · ESTRATÉGIA
 	English	Inglês
 	Enhance	Aprimorar
@@ -2881,6 +2885,7 @@ certificate	Public key	Chave pública
 	Remove printer marks	Remover marcas de impressão
 	Remove redaction marks	Remover marcas de ocultação
 	Remove saved {what}	Remover item salvo: {what}
+	Remove scan speckle	Remover sujeira da digitalização
 	Remove security	Remover segurança
 	Remove security?	Remover a segurança?
 	Remove Signature	Remover assinatura
@@ -3426,6 +3431,7 @@ key	Shift	Shift
 	Single page	Página única
 	Single Page Continuous	Página única contínua
 	Single word or phrase	Palavra ou frase única
+	Skip	Pular
 	Skip files that already have text	Pular arquivos que já têm texto
 	Skip pages that already have text	Pular páginas que já têm texto
 	Skip Rule	Ignorar regra
@@ -3518,8 +3524,10 @@ action wizard	Start	Iniciar
 	Stopped: too many files took too long to read.	Stopped: too many files took too long to read.
 	Store JPEG images as JPEG XL (smaller, can be undone; needs a reader that supports JPEG XL)	Armazenar imagens JPEG como JPEG XL (menores, reversível; requer um leitor com suporte a JPEG XL)
 	Straighten a page that is curved, folded or photographed at an angle, so its lines of text run straight	Endireita uma página curvada, dobrada ou fotografada em ângulo para que as linhas de texto fiquem retas
+	Straighten pages scanned sideways or upside down	Endireitar páginas digitalizadas de lado ou de cabeça para baixo
 	Straighten scanned page	Endireitar página digitalizada
 	Straighten skewed scans	Endireitar digitalizações inclinadas
+	Straighten skewed text lines	Endireitar linhas de texto inclinadas
 	Straighten the page	Endireitar a página
 	Straightens skewed text lines before reading	Endireita linhas de texto tortas antes de ler
 	Strength: {s}	Força: {s}
@@ -3590,6 +3598,7 @@ certificate	Subject	Titular
 	Take a snapshot	Capturar instantâneo
 	Take this paper size off the list	Tirar este tamanho de papel da lista
 	Task	Tarefa
+	Tesseract	Tesseract
 	Test voice	Testar voz
 	Text (plain)	Texto (simples)
 	Text alignment:	Alinhamento do texto:
