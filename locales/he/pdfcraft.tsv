@@ -3491,3 +3491,19 @@ calendar weekday	We	ד׳
 	The shared folder:	התיקייה המשותפת:
 	Saved in the shared folder	נשמר בתיקייה המשותפת
 	A link or special file, which isn't followed	קישור או קובץ מיוחד שהמערכת אינה עוקבת אחריו
+	Convert mode	מצב המרה
+	Convert to	המרה אל
+	Converted to {level} ({n} changes)	הומר ל־{level} ({n} שינויים)
+	Converted {name}. Approximated: {notes}	הקובץ {name} הומר. רכיבים שהומרו בקירוב: {notes}
+	Converting {name}…	ממיר את {name}…
+	Couldn't extract the original PDF: {e}	לא ניתן לחלץ את קובץ ה־PDF המקורי: {e}
+	Nothing on those pages needed converting	לא נמצא בעמודים האלה תוכן שדורש המרה
+	OFD (early alpha): converted to PDF. Compare it with the original.	OFD (גרסת אלפא מוקדמת): הומר ל־PDF. יש להשוות למסמך המקורי.
+	OFD (early alpha): converted to PDF. Objects not shown: {n}.	OFD (גרסת אלפא מוקדמת): הומר ל־PDF. אובייקטים שלא הוצגו: {n}.
+	OFD documents	מסמכי OFD
+	Open OFD (early alpha)…	פתיחת קובץ OFD (גרסת אלפא מוקדמת)…
+	Reading the raw document…	קורא את המסמך הגולמי…
+	Restyle raw document	עיצוב מחדש של המסמך הגולמי
+	What you want to end up with (order, extract, split, combine)	התוצאה הרצויה (סידור, חילוץ, פיצול או איחוד)
+	Word, PowerPoint and Excel (converted to PDF)	Word, PowerPoint ו־Excel (מומרים ל־PDF)
+	The document couldn't be prepared	לא ניתן היה להכין את המסמך
