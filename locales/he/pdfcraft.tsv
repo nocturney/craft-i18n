@@ -3324,3 +3324,20 @@ calendar weekday	We	ד׳
 	Shift+F8: the previous word to review	Shift+F8: מעבר למילה הקודמת לבדיקה
 	{n} word(s) to review	{n} מילים לבדיקה
 	The preview could not be shown.	לא ניתן היה להציג את התצוגה המקדימה.
+	Created Scan.pdf	נוצר הקובץ Scan.pdf
+	Created {n} scanned files	נוצרו {n} קבצים סרוקים
+	Drag on the preview to choose a region. An empty selection scans the whole area.	גררו בתצוגה המקדימה כדי לבחור אזור. אם לא נבחר אזור, כל המשטח ייסרק.
+	Fronts scanned: {n}. Flip the sheet on the bed, then choose Scan reverse sides.	נסרקו {n} צדדים קדמיים. הפכו את הדף על משטח הסריקה ובחרו ״סריקת הצדדים האחוריים״.
+	Fronts scanned: {n}. Flip the stack so the last sheet is on top, reload it, then choose Scan reverse sides.	נסרקו {n} צדדים קדמיים. הפכו את ערמת הדפים כך שהדף האחרון יהיה למעלה, טענו אותה מחדש ובחרו ״סריקת הצדדים האחוריים״.
+	Load more sheets, then choose Continue; or choose Finish to keep what was scanned.	הכניסו דפים נוספים ובחרו ״המשך״, או בחרו ״סיום״ כדי לשמור את מה שכבר נסרק.
+	Look at the scanner for a message or an open door or cover, fix what it shows, then choose Continue.	בדקו אם מוצגת הודעה בסורק או אם דלת או מכסה פתוחים, טפלו בבעיה ובחרו ״המשך״.
+	Look at the scanner for a message or an open door or cover, fix what it shows, then choose Try again.	בדקו אם מוצגת הודעה בסורק או אם דלת או מכסה פתוחים, טפלו בבעיה ובחרו ״נסו שוב״.
+	No pages were scanned.	לא נסרקו עמודים.
+	No scanner found	לא נמצא סורק
+	No scanner is connected.	אין סורק מחובר.
+	No scanners were found. Check that the scanner is on and connected, or enter its network address.	לא נמצאו סורקים. ודאו שהסורק מופעל ומחובר, או הזינו את כתובת הרשת שלו.
+	The scanner has a paper jam.	נתקע נייר בסורק.
+	The scanner is busy, or the feeder has no paper.	הסורק עסוק, או שאין נייר במזין הדפים.
+	The scanner reported a paper problem (a jam or several sheets fed together).	הסורק דיווח על בעיית נייר (תקיעת נייר או הזנה של כמה דפים יחד).
+	Refresh lists scanners. It does not feed paper.	הפעולה ״רענון״ מעדכנת את רשימת הסורקים ואינה מזינה נייר.
+	The feeder ran out of paper.	נגמר הנייר במזין הדפים.
