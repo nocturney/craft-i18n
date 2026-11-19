@@ -3016,7 +3016,7 @@ calendar weekday	We	ד׳
 	Convert colours	המרת צבעים
 	Convert colours…	המרת צבעים…
 	Converted {c} colours and {i} pictures on {p} pages	הומרו {c} צבעים ו־{i} תמונות ב־{p} עמודים
-	Couldn't read the ICC profile {name}: {e}	לא ניתן לקרוא את פרופיל ICC ‏{name}: ‏{e}
+	Couldn't read the ICC profile {name}: {e}	לא ניתן לקרוא את פרופיל ICC {name}: {e}
 	ICC profile: {name}	פרופיל ICC: {name}
 	Line colour	צבע קו
 	No usable CMYK output intent: RGB and CIE-based colours separate by the ISO 32000 device formulas.	לא נמצא פרופיל יעד פלט CMYK שמיש; צבעי RGB וצבעים מבוססי CIE מופרדים לפי נוסחאות ההתקן בתקן ISO 32000.
