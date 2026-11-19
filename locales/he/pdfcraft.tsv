@@ -3380,3 +3380,22 @@ calendar weekday	We	ד׳
 	Outline over page	מתאר מעל העמוד
 	Show or hide toolbars and panels	הצגה או הסתרה של סרגלי כלים וחלוניות
 	This document hides the toolbars and panels. Press {key} to show them.	מסמך זה מסתיר את סרגלי הכלים והחלוניות. יש ללחוץ על {key} כדי להציג אותם.
+	Available version: {v}	גרסה זמינה: {v}
+	Download package…	הורדת חבילת התקנה…
+	Download size: {size}	גודל ההורדה: {size}
+	Downloading… {pct}% — {note}	בהורדה… {pct}% — {note}
+	Downloads open in your browser. Installation is manual; nothing is installed automatically.	ההורדות נפתחות בדפדפן. ההתקנה ידנית; שום דבר אינו מותקן באופן אוטומטי.
+	Flatpak manages this installation. Check for updates in your system software manager or with flatpak update.	ההתקנה הזו מנוהלת בידי Flatpak. יש לבדוק עדכונים במנהל התוכנות של המערכת או באמצעות flatpak update.
+	Installation type is unknown or this is a development build. Choose a package on the official release page.	סוג ההתקנה אינו ידוע, או שזו גרסת פיתוח. יש לבחור חבילת התקנה בדף הגרסאות הרשמי.
+	Installed version: {v}	גרסה מותקנת: {v}
+	No compatible package is available for this installation.	לא זמינה חבילת התקנה תואמת להתקנה זו.
+	No release notes were provided.	לא סופקו הערות לגרסה.
+	Package: {name}	חבילה: {name}
+	Release notes	הערות לגרסה
+	The release has ambiguous packages. Choose a package on the official release page.	לגרסה זו יש כמה חבילות שלא ניתן לזהות ביניהן התאמה חד־משמעית. יש לבחור חבילה בדף הגרסאות הרשמי.
+	The release is not a published stable update. Try again later.	גרסה זו אינה עדכון יציב שפורסם. יש לנסות שוב מאוחר יותר.
+	This installation is owned by a Debian package. Use your system software manager to update PdfCraft.	התקנה זו מנוהלת באמצעות חבילת Debian. יש לעדכן את PdfCraft דרך מנהל התוכנות של המערכת.
+	This installation is owned by an RPM package. Use your system software manager to update PdfCraft.	התקנה זו מנוהלת באמצעות חבילת RPM. יש לעדכן את PdfCraft דרך מנהל התוכנות של המערכת.
+	Use your system software manager to update PdfCraft.	יש לעדכן את PdfCraft דרך מנהל התוכנות של המערכת.
+	View release page…	פתיחת דף הגרסה…
+	You choose where the new version is saved. Continue?	אפשר לבחור היכן לשמור את הגרסה החדשה. להמשיך?
