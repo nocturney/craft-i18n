@@ -3205,3 +3205,24 @@ calendar weekday	We	ד׳
 	Smaller files for screens and email. Images above 225 ppi are reduced to 150 ppi, JPEG quality 60; line art may lose detail.	קבצים קטנים יותר לצפייה במסכים ולשליחה בדוא״ל. תמונות ברזולוציה שמעל 225 ppi יוקטנו ל־150 ppi באיכות JPEG של 60; פרטים דקים באיורים קוויים עלולים ללכת לאיבוד.
 	The screen's own pixels per inch. Calibrate with a ruler so that Actual size (100%) shows pages at their real size.	צפיפות הפיקסלים בפועל של המסך, בפיקסלים לאינץ׳. כיילו בעזרת סרגל כדי שהתצוגה 'גודל בפועל' (100%) תציג את הדפים בגודלם האמיתי.
 	The text reflows to the reader's screen and font size, in chapters, with the bookmarks as the contents.	הטקסט מסתדר מחדש בהתאם למסך ולגודל הגופן של הקורא, בחלוקה לפרקים, כשהסימניות משמשות כתוכן העניינים.
+	Printed through the system print dialog	הודפס באמצעות חלון ההדפסה של המערכת
+	Printed with errors	ההדפסה הסתיימה עם שגיאות
+	Printed with warnings	ההדפסה הסתיימה עם אזהרות
+	Sent. The printer can't say whether it printed.	נשלח. המדפסת אינה יכולה לאשר אם ההדפסה בוצעה.
+	Still printing; the job continues on the printer	ההדפסה עדיין מתבצעת; העבודה נמשכת במדפסת
+	The driver reports a paper jam.	מנהל ההתקן מדווח על נייר תקוע.
+	The print job stopped unexpectedly	עבודת ההדפסה הופסקה באופן בלתי צפוי
+	The printer accepts none of the formats this document can be sent in	המדפסת אינה תומכת באף אחד מהפורמטים הזמינים לשליחת מסמך זה
+	The printer address was refused	הגישה לכתובת המדפסת נדחתה
+	The printer doesn't support this setting	המדפסת אינה תומכת בהגדרה זו
+	The printer is printing it	המדפסת מדפיסה את המסמך
+	The printer may have received the document. Check the printer before sending again.	ייתכן שהמסמך התקבל במדפסת. יש לבדוק את המדפסת לפני שליחה חוזרת.
+	The printer no longer lists the job; it most likely finished	עבודת ההדפסה כבר אינה מופיעה במדפסת; סביר שהסתיימה
+	The printer paused the job; it needs attention	המדפסת השהתה את העבודה ונדרשת התערבות
+	The printer refused the request	המדפסת דחתה את הבקשה
+	The printer stopped the job	המדפסת עצרה את עבודת ההדפסה
+	The printer's reply couldn't be understood	לא ניתן לפענח את תגובת המדפסת
+	Sheets printed: {done} of {total}	גיליונות שהודפסו: {done} מתוך {total}
+	Sheets printed: {n}	גיליונות שהודפסו: {n}
+	System print dialog…	חלון ההדפסה של המערכת…
+	Waiting for the system print dialog…	ממתין לפתיחת חלון ההדפסה של המערכת…
