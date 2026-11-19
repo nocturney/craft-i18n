@@ -3448,3 +3448,12 @@ calendar weekday	We	ד׳
 	the certificate expired on {date}	התעודה פגה בתאריך {date}
 	{names} certifies this document, and removing a signature is not a change its certification permits.	המסמך מאושר בידי {names}, והסרת חתימה אינה שינוי שהאישור מתיר.
 	{signers} signers; details of the first are shown	{signers} חותמים; מוצגים פרטי החותם הראשון
+	Can't save as {level}; nothing was changed:	לא ניתן לשמור בתור {level}; לא בוצעו שינויים:
+	Remove and Save As…	הסרה ושמירה בשם…
+	Save as image	שמירה כתמונה
+	Save as image…	שמירה כתמונה…
+	Save As optimizes for Fast Web View	שמירה בשם ממטבת את הקובץ להצגה מהירה באינטרנט
+	Save as template	שמירה כתבנית
+	Save as to cloud	שמירה בשם בענן
+	Save as to cloud…	שמירה בשם בענן…
+	Save As writes a linearized file whose first page shows before the rest has downloaded. Save adds changes to the end of the file, which turns Fast Web View off.	שמירה בשם יוצרת קובץ לינארי שהעמוד הראשון בו מוצג לפני שהורדת יתר הקובץ מסתיימת. שמירה רגילה מוסיפה שינויים לסוף הקובץ, וכך מבטלת את אפשרות ההצגה המהירה באינטרנט.
