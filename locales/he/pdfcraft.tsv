@@ -3102,3 +3102,30 @@ calendar weekday	We	ד׳
 	The redaction does not fit page {page}; no pages were marked.	ההשחרה אינה מתאימה לעמוד {page}; לא סומנו עמודים.
 	The selected redaction is unavailable or invalid.	ההשחרה שנבחרה אינה זמינה או אינה תקינה.
 	This cannot be undone: applying redactions clears the undo history.	לא ניתן לבטל פעולה זו: החלת ההשחרות מוחקת את היסטוריית הביטול.
+	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	חתימה שהוצבה נשארת הערה עד שמקבעים אותה: כל מי שמשתמש בעורך PDF יכול להזיז או להסיר אותה. הקיבוע הופך את הטקסט, הסימונים והחתימות שהוספתם באמצעות 'מילוי וחתימה' לחלק מתוכן העמוד.
+	Certification signature (level {p})	חתימת אישור (רמה {p})
+	Choose a signature that can be removed.	בחרו חתימה שניתן להסיר.
+	Choose another file: the original is kept as it is, and the version without the signature is saved next to it.	בחרו קובץ אחר: הקובץ המקורי יישאר ללא שינוי, והגרסה ללא החתימה תישמר לצדו.
+	Keep an empty signature field to sign again	השאירו שדה חתימה ריק כדי לאפשר חתימה מחדש
+	Keep only how the signatures look, as page content (a name or date they show stays visible)	השאירו רק את המראה של החתימות כתוכן העמוד (השם או התאריך שמוצגים בהן יישארו גלויים)
+	Lock your signature into the page?	לקבע את החתימה כחלק מהעמוד?
+	None of these signatures can be removed.	לא ניתן להסיר אף אחת מהחתימות האלה.
+	Other signatures remain, so the copy is saved as an update of the signed file: the removed signature stays in its earlier revision, where it can be recovered.	נותרו חתימות נוספות, לכן העותק נשמר כעדכון של הקובץ החתום: החתימה שהוסרה נשארת בגרסה קודמת של הקובץ, ואפשר לשחזר אותה.
+	Other signatures remain, so the removed one is still in the file's earlier revision; check the remaining signatures again.	נותרו חתימות נוספות, לכן החתימה שהוסרה עדיין קיימת בגרסה קודמת של הקובץ; יש לבדוק מחדש את שאר החתימות.
+	Remove the digital signatures: their fields, how they look on the page and their validation data	הסירו את החתימות הדיגיטליות: השדות שלהן, המראה שלהן בעמוד ונתוני האימות שלהן
+	Remove the signature {name}	הסירו את החתימה {name}
+	Removed the signature {field} and kept its empty field	החתימה {field} הוסרה, ושדה החתימה הריק נשמר
+	Removed the signature {field} with its field	החתימה {field} הוסרה יחד עם השדה שלה
+	Removed the visual signature on page {p}	החתימה החזותית בעמוד {p} הוסרה
+	Removing this signature changes the document and invalidates this signature in the version that results. It can affect the other signatures and certifications. The original file is kept as it is.	הסרת החתימה משנה את המסמך ומבטלת את תוקף החתימה בגרסה שתיווצר. היא עשויה להשפיע גם על חתימות ואישורים אחרים. הקובץ המקורי נשמר ללא שינוי.
+	Removing this signature changes the document and invalidates this signature in the version that results. The original file is kept as it is.	הסרת החתימה משנה את המסמך ומבטלת את תוקף החתימה בגרסה שתיווצר. הקובץ המקורי נשמר ללא שינוי.
+	Signed after this signature, so what they signed includes it: {names}.	החתימות האלה נוספו אחרי חתימה זו, ולכן התוכן שנחתם על ידן כולל אותה: {names}.
+	The fields this signature locked ({names}) can be changed again.	כעת ניתן לשנות שוב את השדות שננעלו באמצעות חתימה זו ({names}).
+	The new file has no signature left and no earlier revision holding it.	בקובץ החדש לא נותרו חתימות או גרסאות קודמות שמכילות את החתימה.
+	The other signatures ({names}) will report that the document changed after they signed. Check them again: nothing says they stay valid.	החתימות האחרות ({names}) יציינו שהמסמך השתנה לאחר החתימה. יש לבדוק אותן מחדש: אין הבטחה שיישארו תקפות.
+	The selection changed. Select the signature again.	הבחירה השתנתה. בחרו שוב את החתימה.
+	The signature was not removed: {e}	החתימה לא הוסרה: {e}
+	This document has no signature that can be removed.	במסמך הזה אין חתימה שניתן להסיר.
+	This document is digitally signed. Sanitizing rewrites the whole file, which invalidates the signatures, so it can only go ahead without them.	המסמך הזה חתום דיגיטלית. ניקוי המסמך כותב מחדש את הקובץ כולו ומבטל את תוקף החתימות, ולכן אפשר להמשיך רק בלעדיהן.
+	This document is signed. A change adds a new version: the signatures stay valid for the version they signed, and viewers will show that the document was changed after signing.	המסמך הזה חתום. שינוי ייצור גרסה חדשה: החתימות יישארו תקפות לגרסה שעליה חתמו, ותוכנות הצפייה יציינו שהמסמך השתנה לאחר החתימה.
+	This is a picture of a signature, not a digital signature: only the mark on the page goes. The original file is kept as it is.	זוהי תמונה של חתימה, ולא חתימה דיגיטלית: רק הסימן המוצג בעמוד יוסר. הקובץ המקורי יישאר ללא שינוי.
