@@ -3066,3 +3066,29 @@ calendar weekday	We	ד׳
 	Paste field	הדבק שדה
 	Paste fields	הדבק שדות
 	Preparing form detection…	מכין את זיהוי שדות הטופס…
+	Find a command	חיפוש פקודה
+	Find text in the toolbar	חיפוש טקסט בסרגל הכלים
+	Matches: {matches}. Files with matches: {files}. PDFs read to the end: {searched} of {found}.	התאמות: {matches}. קבצים עם התאמות: {files}. קובצי PDF שנקראו עד סופם: {searched} מתוך {found}.
+	No matches to replace	לא נמצאו התאמות להחלפה
+	Not replaced: {why}	לא בוצעה החלפה: {why}
+	Nothing replaced	לא הוחלף דבר
+	Open tabs and edits update the search automatically.	פתיחת כרטיסיות ועריכות מעדכנות את החיפוש באופן אוטומטי.
+	Pages whose text couldn't be read: {n}. A match on them isn't listed.	עמודים שלא ניתן היה לקרוא את הטקסט שלהם: {n}. התאמות בהם אינן מוצגות.
+	Replace ({key})	החלפה ({key})
+	Replace all	החלפת הכול
+	Replace with	החלפה בטקסט הבא
+	Replaced {n} on {pages}	בוצעו {n} החלפות ב־{pages}
+	Replace…	החלפה…
+	Search a folder	חיפוש בתיקייה
+	Search a folder…	חיפוש בתיקייה…
+	Search complete.	החיפוש הושלם.
+	Search panel	חלונית החיפוש
+	Searching a folder needs the desktop app	כדי לחפש בתיקייה יש להשתמש ביישום שולחן העבודה
+	Searching…	מתבצע חיפוש…
+	Selecting a result applies this query to the destination’s Find.	בחירת תוצאה מחילה את שאילתת החיפוש גם בחלונית החיפוש של היעד.
+	Show in Finder	הצגה ב־Finder
+	Showing the first 2,000 results — more matches may exist.	מוצגות 2,000 התוצאות הראשונות — ייתכן שיש התאמות נוספות.
+	Stopped at {limit} matches.	החיפוש נעצר לאחר {limit} התאמות.
+	The search stopped unexpectedly.	החיפוש הופסק באופן בלתי צפוי.
+	This folder is too large or too deep to search all of it.	התיקייה גדולה מדי או מכילה רמות משנה רבות מדי לחיפוש מלא.
+	{n} pages could not be searched; results are incomplete.	לא ניתן היה לבצע חיפוש ב־{n} עמודים; התוצאות אינן מלאות.
