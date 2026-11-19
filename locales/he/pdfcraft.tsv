@@ -3457,3 +3457,23 @@ calendar weekday	We	ד׳
 	Save as to cloud	שמירה בשם בענן
 	Save as to cloud…	שמירה בשם בענן…
 	Save As writes a linearized file whose first page shows before the rest has downloaded. Save adds changes to the end of the file, which turns Fast Web View off.	שמירה בשם יוצרת קובץ לינארי שהעמוד הראשון בו מוצג לפני שהורדת יתר הקובץ מסתיימת. שמירה רגילה מוסיפה שינויים לסוף הקובץ, וכך מבטלת את אפשרות ההצגה המהירה באינטרנט.
+	Close other tabs	סגירת הכרטיסיות האחרות
+	Close tabs to the right	סגירת הכרטיסיות שמימין
+	Duplicate Tab	שכפול כרטיסייה
+	Collapse {folder}	כיווץ התיקייה {folder}
+	Expand {folder}	הרחבת התיקייה {folder}
+	Couldn't rename {name}: {e}	לא ניתן לשנות את השם של {name}: {e}
+	Delete file	מחיקת קובץ
+	Hide template {name}	הסתרת התבנית {name}
+	From template	מתבנית
+	Hide controls	הסתרת הפקדים
+	Do not ask again	לא לשאול שוב
+	Don't ask again	לא לשאול שוב
+	Enter page numbers or ranges, such as 1, 3-5. Leave blank for all pages.	יש להזין מספרי עמודים או טווחים, למשל 1, 3-5. כדי לכלול את כל העמודים, יש להשאיר את השדה ריק.
+	Could not copy the selection because text could not be read on every page	לא ניתן להעתיק את הבחירה משום שלא ניתן היה לקרוא את הטקסט בכל העמודים
+	Could not mark the selection because text could not be read on every page	לא ניתן לסמן את הבחירה משום שלא ניתן היה לקרוא את הטקסט בכל העמודים
+	Create PDF	יצירת PDF
+	Custom size	גודל מותאם אישית
+	A folder is asked for when a multiple-file run starts	בעת התחלת פעולה על כמה קבצים תתבקשו לבחור תיקייה
+	Hide PdfCraft	הסתרת PdfCraft
+	Converted from an EPUB book. Details lists how it was laid out and what was left out.	הקובץ הומר מספר EPUB. בפרטים מוצג כיצד סודר התוכן ומה הושמט.
