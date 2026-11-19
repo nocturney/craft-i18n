@@ -3044,3 +3044,25 @@ calendar weekday	We	ד׳
 	Accepted by {printer}	התקבל במדפסת {printer}
 	Waiting in the printer's queue	ממתין בתור ההדפסה
 	Not confirmed by the printer	לא התקבל אישור מהמדפסת
+	Automatic AcroForm scripts are disabled until safe execution isolation is available; saved field values were preserved. Explicit button and console scripts are still available.	סקריפטים אוטומטיים של AcroForm מושבתים עד שתהיה סביבת הרצה מבודדת ובטוחה; ערכי השדות השמורים נשמרו. סקריפטים של לחצנים והמסוף עדיין זמינים להפעלה מפורשת.
+	Couldn't send the form: {error}	לא ניתן לשלוח את הטופס: {error}
+	Discard all form submission, import and reset actions	בטל את כל פעולות השליחה, הייבוא והאיפוס של הטופס
+	Download 121 MB to find text fields, checkboxes and signature areas automatically.	יש להוריד 121 MB כדי לזהות אוטומטית שדות טקסט, תיבות סימון ואזורי חתימה.
+	Downloading form detection…	מוריד את רכיב זיהוי שדות הטופס…
+	Duplicate pages with new field names	שכפל עמודים עם שמות שדות חדשים
+	Duplicate pages — 1 field renamed	שכפול עמודים — שם של שדה אחד שונה
+	Duplicate pages — fields renamed	שכפול עמודים — שמות השדות שונו
+	Field: {field}	שדה: {field}
+	Find form fields	זהה שדות טופס
+	Finding fields… page {d} of {t}	מזהה שדות… עמוד {d} מתוך {t}
+	Form field advice	המלצות לשדות הטופס
+	Form field detection is already running	זיהוי שדות הטופס כבר פועל
+	Form sent to {url} (HTTP {status}).	הטופס נשלח אל {url} (HTTP {status}).
+	Form submission is not available in the browser.	שליחת טפסים אינה זמינה בדפדפן.
+	Form values to send: {count}	ערכי שדות לשליחה: {count}
+	New fields of this type will look like this one	שדות חדשים מסוג זה ייראו כמו שדה זה
+	Only send if you trust this document and destination. GET puts form values in the URL.	יש לשלוח רק אם המסמך והיעד מהימנים. בבקשת GET ערכי הטופס נכללים בכתובת ה־URL.
+	Only send if you trust this document and destination. The form values leave this computer.	יש לשלוח רק אם המסמך והיעד מהימנים. ערכי הטופס יישלחו מחוץ למחשב זה.
+	Paste field	הדבק שדה
+	Paste fields	הדבק שדות
+	Preparing form detection…	מכין את זיהוי שדות הטופס…
