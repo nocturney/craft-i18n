@@ -2954,3 +2954,30 @@ calendar weekday	We	ד׳
 	Exported {name}	בוצע ייצוא של {name}
 	Each page on its own sheet, named Page 1, Page 2…	כל עמוד בגיליון נפרד, בשם עמוד 1, עמוד 2…
 	Each page as it looks, its text kept searchable. For documents whose layout matters.	כל עמוד נשמר כפי שהוא נראה, והטקסט נשאר ניתן לחיפוש. למסמכים שבהם הפריסה חשובה.
+	CAdES signature (.p7m, .p7s)	חתימת CAdES (.p7m, .p7s)
+	CAdES signature envelope	מעטפת חתימה מסוג CAdES
+	Detached signature file	קובץ חתימה נפרדת
+	Digital ID required	נדרש מזהה דיגיטלי
+	Does not match what was signed	אינו תואם לתוכן שנחתם
+	Matches what was signed	תואם לתוכן שנחתם
+	Encrypt for recipient	הצפנה עבור נמען
+	Encrypt for recipients	הצפנה עבור נמענים
+	Encrypt with Certificate	הצפנה באמצעות אישור דיגיטלי
+	Encrypt with certificate…	הצפנה באמצעות אישור דיגיטלי…
+	Find certificates	איתור אישורים דיגיטליים
+	Looking for certificates…	מתבצע חיפוש אחר אישורים דיגיטליים…
+	Forms and signing	טפסים וחתימות
+	Remote signature (OTP)	חתימה מרחוק (סיסמה חד־פעמית)
+	Remote signing isn't available in this build	חתימה מרחוק אינה זמינה בגרסה זו
+	Remove Signature	הסרת חתימה
+	Remove signature	הסרת חתימה
+	Remove signature…	הסרת חתימה…
+	Sign & Certify	חתימה ואישור
+	Signature invalid	החתימה אינה תקפה
+	Signature valid	החתימה תקפה
+	Signers	חותמים
+	Signing…	החתימה מתבצעת…
+	Token PIN	קוד PIN של התקן האימות
+	unknown signer	חותם לא ידוע
+	Signature added. Others can move it until it's locked.	החתימה נוספה. ניתן להזיז אותה עד לנעילתה.
+	Signing was cancelled; nothing was saved.	פעולת החתימה בוטלה; דבר לא נשמר.
