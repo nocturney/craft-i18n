@@ -3477,3 +3477,17 @@ calendar weekday	We	ד׳
 	A folder is asked for when a multiple-file run starts	בעת התחלת פעולה על כמה קבצים תתבקשו לבחור תיקייה
 	Hide PdfCraft	הסתרת PdfCraft
 	Converted from an EPUB book. Details lists how it was laid out and what was left out.	הקובץ הומר מספר EPUB. בפרטים מוצג כיצד סודר התוכן ומה הושמט.
+	Explorer selection is limited to {count} files.	אפשר לבחור בסייר הקבצים עד {count} קבצים.
+	Several files have the same name, so their results would overwrite each other; nothing was written: {list}	לכמה קבצים יש אותו שם, ולכן התוצאות עלולות לדרוס זו את זו. לא נשמר דבר: {list}
+	Stopped: too many files took too long to read.	הפעולה הופסקה: קריאת מספר רב מדי של קבצים נמשכה זמן רב מדי.
+	The originals are not changed. A file of the same name in the output folder is kept, and the new one gets a number.	קובצי המקור אינם משתנים. קובץ קיים בעל אותו שם בתיקיית הפלט יישמר, ולקובץ החדש יתווסף מספר.
+	The output folder already holds files of these names; nothing was written: {list}	בתיקיית הפלט כבר קיימים קבצים בשמות האלה. לא נשמר דבר: {list}
+	The output folder can't be one of the folders being read, or contain one.	תיקיית הפלט אינה יכולה להיות אחת מתיקיות המקור או להכיל אחת מהן.
+	No PDF files were found.	לא נמצאו קובצי PDF.
+	Output folder	תיקיית פלט
+	Listing the folder…	קורא את תוכן התיקייה…
+	The check was cancelled.	הבדיקה בוטלה.
+	The job was canceled	המשימה בוטלה
+	The shared folder:	התיקייה המשותפת:
+	Saved in the shared folder	נשמר בתיקייה המשותפת
+	A link or special file, which isn't followed	קישור או קובץ מיוחד שהמערכת אינה עוקבת אחריו
