@@ -3149,3 +3149,29 @@ calendar weekday	We	ד׳
 	Re-OCR this region	זיהוי טקסט מחדש באזור הזה
 	Text recognition cancelled. {summary}	זיהוי הטקסט בוטל. {summary}
 	Wait for text recognition to finish before changing add-ons	יש להמתין להשלמת זיהוי הטקסט לפני שינוי תוספים.
+	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	מודל מקומי אינו מודל ענן מתקדם: הוא עלול לטעות, ויצירת תשובה ארוכה באמצעות המעבד (CPU) עלולה להימשך זמן רב. בדקו מידע חשוב והתחשבו בגודל המודל ביחס ליכולות המחשב לפני ההורדה.
+	AI chat isn't available in the web build; use the desktop app or CLI.	צ׳אט בינה מלאכותית אינו זמין בגרסת הדפדפן; השתמשו ביישום לשולחן העבודה או בממשק שורת הפקודה (CLI).
+	Ask	שאל
+	Ask Agent	שאל את הסוכן
+	Ask AI about this document	שאל את הבינה המלאכותית על מסמך זה
+	Ask AI to change the formatting	בקש מהבינה המלאכותית לשנות את העיצוב
+	Ask anything	אפשר לשאול כל דבר
+	Ask in any language	אפשר לשאול בכל שפה
+	Assistant	עוזר
+	Craft AI runs a local Gemma model on this machine. Nothing you write here leaves it: no account, no cloud service, no telemetry — the panel talks to a model runtime on 127.0.0.1.	Craft AI מפעיל במחשב הזה מודל Gemma מקומי. שום דבר שתכתבו כאן לא יוצא מהמחשב: אין צורך בחשבון, אין שירות ענן ואין טלמטריה — החלונית מתקשרת עם סביבת המודל בכתובת 127.0.0.1.
+	Craft AI runs in the native app — it needs a local model runtime.	Craft AI פועל ביישום המקומי ודורש סביבת הרצה של מודל מקומי.
+	Craft AI talks to a model runtime on this machine — Ollama, LM Studio or llama.cpp's server — and never to a cloud service. Start one, then Refresh.	Craft AI מתקשר עם סביבת הרצה של מודל במחשב הזה — Ollama, LM Studio או השרת של llama.cpp — ולא עם שירות ענן. הפעילו אחד מהם ואז בחרו ברענון.
+	Download with Ollama	הורד באמצעות Ollama
+	Local and private	מקומי ופרטי
+	Looking for a local model runtime…	מחפש סביבת הרצה של מודל מקומי…
+	Model:	מודל:
+	No local model runtime found.	לא נמצאה סביבת הרצה של מודל מקומי.
+	No model installed yet — see the Models tab.	עדיין לא הותקן מודל — עיינו בכרטיסייה ״מודלים״.
+	One download serves every ArtCraft app: the model lands in a shared folder all of them read.	הורדה אחת משמשת את כל יישומי ArtCraft: המודל נשמר בתיקייה משותפת שכולם קוראים ממנה.
+	Save model file	שמור קובץ מודל
+	Summarize with AI	סכם באמצעות בינה מלאכותית
+	The answer proposes formatting changes.	התשובה מציעה שינויי עיצוב.
+	The answer stopped unexpectedly.	יצירת התשובה הופסקה באופן בלתי צפוי.
+	the request stopped without an answer	הבקשה הופסקה בלי שהתקבלה תשובה
+	Thinking… {s}s	חושב… {s} שניות
+	Translate with AI	תרגם באמצעות בינה מלאכותית
