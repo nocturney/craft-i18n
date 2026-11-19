@@ -3300,3 +3300,15 @@ calendar weekday	We	ד׳
 	Ungroup artwork	פירוק קבוצה של רכיבי גרפיקה
 	Shift drags freely	Shift מאפשר גרירה חופשית
 	Tab: the next target under the pointer	Tab: מעבר ליעד הבא שמתחת למצביע.
+	Show form field reminder	הצגת תזכורת לשדות טופס
+	Submit a form with GET	שליחת טופס באמצעות GET
+	Submit FDF data	שליחת נתוני FDF
+	Submit PDF document	שליחת מסמך PDF
+	Submit XFDF data	שליחת נתוני XFDF
+	The form's purpose and its fields (names, types, tab order)	מטרת הטופס והשדות שלו (שמות, סוגים וסדר מעבר באמצעות Tab)
+	The signature {names} locks this field.	החתימה {names} נועלת שדה זה.
+	This document does not allow adding form fields	מסמך זה אינו מאפשר הוספת שדות טופס
+	This form's submission format or field selection is not supported yet.	תבנית שליחת הטופס או בחירת השדות שלו עדיין אינן נתמכות.
+	Transfer format: {format}.	תבנית העברה: {format}.
+	It is certified: filling in forms and signing are allowed; other changes invalidate the certification.	המסמך מאושר: מותר למלא טפסים ולחתום עליו; שינויים אחרים יבטלו את האישור.
+	It is certified: filling in forms, signing and commenting are allowed; other changes invalidate the certification.	המסמך מאושר: מותר למלא טפסים, לחתום עליו ולהוסיף הערות; שינויים אחרים יבטלו את האישור.
