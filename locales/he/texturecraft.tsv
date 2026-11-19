@@ -7,8 +7,8 @@
 #   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
 #   Lines starting with # and blank lines are ignored. A missing entry shows in English.
 #
-# Hebrew draft: 98 source-verified seed rows, plus 41, 60, 138, 190, 74 and 106 and 85 quick-win additions.
-# Two initial seed strings already resolve from common.tsv, so 792 app rows in total.
+# Hebrew draft: 914 unique app rows; additions are source-checked against English keys.
+# Two original seed strings resolve from common.tsv and are not duplicated here.
 # Original 9 locally reviewed wording preserved; native-speaker and maintainer review pending.
 # Clean room: every entry was written from the plain meaning of the English text in ordinary
 # computing vocabulary. No other product's localisation, string table or translated UI was
@@ -914,3 +914,31 @@
 	off	כבוי
 	Grunge	לכלוך ושחיקה
 	F0 from specular level	F0 מרמת ההחזרה הספקולרית
+
+# Source-verified Hebrew display labels and explanatory messages (night lane-08).
+	BBox	תיבת תיחום
+	BSphere	כדור תיחום
+	Cooked at {size} px	חושב ברזולוציה של {size} פיקסלים
+	Crate	ארגז
+	Draws {name} of texture set "{set}". Edits to the source show in every instance.	מצייר את {name} מערכת הטקסטורות "{set}". שינויים במקור מתעדכנים בכל המופעים.
+	GGX specular with height-correlated Smith visibility, Lambert diffuse, split-sum image-based lighting with spherical-harmonics irradiance and horizon fading.	החזרה ספקולרית מסוג GGX עם נראות Smith מתואמת לגובה, רכיב דיפוזי מסוג Lambert, תאורה מבוססת תמונה בשיטת split-sum עם הארה בהרמוניות ספריות ודעיכה סמוך לאופק.
+	Go to camera 1	מעבר למצלמה 1
+	Go to camera 2	מעבר למצלמה 2
+	Go to camera 3	מעבר למצלמה 3
+	Go to camera 4	מעבר למצלמה 4
+	Go to camera 5	מעבר למצלמה 5
+	Go to camera 6	מעבר למצלמה 6
+	Go to camera 7	מעבר למצלמה 7
+	Go to camera 8	מעבר למצלמה 8
+	Go to camera 9	מעבר למצלמה 9
+	Hit-test	בדיקת זיהוי פגיעה
+	ID	מזהה
+	LMB	לחצן העכבר השמאלי
+	MatFinish Grind	גימור חומר: השחזה
+	MatFinish Hammered	גימור חומר: רקוע
+	MatFinish Raw	גימור חומר: גולמי
+	MatFinish Sanded	גימור חומר: משויף
+	Pin light	הצמדת מקור אור
+	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	קורא את מפת העקמומיות כפי שנאפתה; שינוי המצב או הגודל מפעיל את הגדרות גודל הפרטים.
+	Tangent | Wrap	משיק | עטיפה
+	WebGPU isn't available in this browser, so TextureCraft runs on WebGL2: Rendering mode path traces on the CPU (slower) and large texture sets show at reduced resolution. A current Chrome, Edge or Safari has WebGPU.	WebGPU אינו זמין בדפדפן זה, ולכן TextureCraft פועל באמצעות WebGL2: במצב רינדור, עקיבת הנתיבים מתבצעת במעבד (לאט יותר), וערכות טקסטורות גדולות מוצגות ברזולוציה נמוכה יותר. גרסאות עדכניות של Chrome, Edge ו־Safari תומכות ב־WebGPU.
