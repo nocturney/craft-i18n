@@ -2931,3 +2931,26 @@ calendar weekday	We	ד׳
 	Invalid page range	טווח עמודים לא תקין
 	Organize pages plan	תוכנית לסידור עמודים
 	Inserted page	עמוד שנוסף
+	Export & Convert	ייצוא והמרה
+	Export to EPUB	ייצוא ל־EPUB
+	Export to Excel	ייצוא ל־Excel
+	Export to Markdown…	ייצוא ל־Markdown…
+	Export to PostScript…	ייצוא ל־PostScript…
+	Export XMP metadata	ייצוא מטא־נתוני XMP
+	Delete XMP metadata	מחיקת מטא־נתוני XMP
+	Extract the original PDF…	חילוץ קובץ ה־PDF המקורי…
+	Combine files in PdfCraft…	שילוב קבצים ב־PdfCraft…
+	Compressing combined PDF…	דחיסת קובץ ה־PDF המשולב…
+	Fast Web View	תצוגת אינטרנט מהירה
+	Fixed layout	פריסה קבועה
+	One sheet for the whole document	גיליון אחד לכל המסמך
+	One sheet per page	גיליון אחד לכל עמוד
+	Generate styled PDF	יצירת PDF מעוצב
+	PDF/A and standards advice	הנחיות בנושא PDF/A ותקנים
+	Office documents	מסמכי Office
+	Password & Security	סיסמה ואבטחה
+	PDF attachments	קבצים מצורפים ל־PDF
+	PDF, images, text and Office documents	PDF, תמונות, טקסט ומסמכי Office
+	Exported {name}	בוצע ייצוא של {name}
+	Each page on its own sheet, named Page 1, Page 2…	כל עמוד בגיליון נפרד, בשם עמוד 1, עמוד 2…
+	Each page as it looks, its text kept searchable. For documents whose layout matters.	כל עמוד נשמר כפי שהוא נראה, והטקסט נשאר ניתן לחיפוש. למסמכים שבהם הפריסה חשובה.
