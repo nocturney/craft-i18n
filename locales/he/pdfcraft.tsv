@@ -3012,3 +3012,35 @@ calendar weekday	We	ד׳
 	Mirror the page	שיקוף העמוד
 	Images on dark pages	תמונות בעמודים כהים
 	Choose PdfCraft for .pdf files in Windows Settings.	יש לבחור ב-PdfCraft לפתיחת קובצי .pdf בהגדרות Windows.
+	By the standard device formulas; profiles are not applied.	לפי נוסחאות ההתקן התקניות; פרופילי צבע אינם מוחלים.
+	Convert colours	המרת צבעים
+	Convert colours…	המרת צבעים…
+	Converted {c} colours and {i} pictures on {p} pages	הומרו {c} צבעים ו־{i} תמונות ב־{p} עמודים
+	Couldn't read the ICC profile {name}: {e}	לא ניתן לקרוא את פרופיל ICC ‏{name}: ‏{e}
+	ICC profile: {name}	פרופיל ICC: {name}
+	Line colour	צבע קו
+	No usable CMYK output intent: RGB and CIE-based colours separate by the ISO 32000 device formulas.	לא נמצא פרופיל יעד פלט CMYK שמיש; צבעי RGB וצבעים מבוססי CIE מופרדים לפי נוסחאות ההתקן בתקן ISO 32000.
+	None: sRGB for RGB and gray documents	ללא פרופיל: sRGB למסמכי RGB וגווני אפור
+	Output intent profile:	פרופיל יעד פלט:
+	Paper & Ink	נייר ודיו
+	printer marks	סימני דפוס
+	Printer marks added	נוספו סימני דפוס
+	Recolour images	שינוי צבעי תמונות
+	Simulation: {profile}	הדמיה: {profile}
+	Stroke colour	צבע קו מתאר
+	Text rendering	עיבוד תצוגת טקסט
+	Default paper size	גודל נייר כברירת מחדל
+	Make default paper size	הגדרה כגודל הנייר כברירת מחדל
+	Paper size	גודל נייר
+	Remember this paper for {printer}	זכור את גודל הנייר הזה עבור {printer}
+	Take this paper size off the list	הסר את גודל הנייר הזה מהרשימה
+	Printer orientation:	כיוון ההדפסה:
+	Printer status: {state}	מצב המדפסת: {state}
+	Query printer	בירור יכולות המדפסת
+	Query the printer first to see what it supports.	יש לברר תחילה באילו אפשרויות המדפסת תומכת.
+	Network printer (WS-Print)	מדפסת רשת (WS-Print)
+	Printer address:	כתובת המדפסת:
+	Held by the printer	מוחזק בתור המדפסת
+	Accepted by {printer}	התקבל במדפסת {printer}
+	Waiting in the printer's queue	ממתין בתור ההדפסה
+	Not confirmed by the printer	לא התקבל אישור מהמדפסת
