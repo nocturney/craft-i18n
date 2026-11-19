@@ -4508,3 +4508,27 @@ navigator	Zoom	תקריב
 	The fastest and the softest, with color fringing on fine detail.	השיטה המהירה והרכה ביותר, אך עם שוליים צבעוניים בפרטים עדינים.
 	Working CMY Plates	לוחות הפרדת CMY פעילים
 	{label} is writing the file and can no longer be canceled	{label} כותב את הקובץ ולא ניתן עוד לבטל את הפעולה
+
+# PhotoCraft Hebrew Camera Raw and Liquify UI controls — 19 Nov 2026
+cameraRaw	Balance	איזון
+cameraRaw	Clarity	חדות מקומית
+cameraRaw	Color Mixer	מערבל צבעים
+cameraRaw	Contrast	ניגודיות
+cameraRaw	Effects	אפקטים
+cameraRaw	Exposure	חשיפה
+cameraRaw	Feather	ריכוך שוליים
+cameraRaw	Highlights	אזורים בהירים
+cameraRaw	Midpoint	נקודת אמצע
+cameraRaw	Midtones	גווני ביניים
+cameraRaw	Roundness	עגילות
+cameraRaw	Saturation	רוויה
+cameraRaw	Shadows	אזורים כהים
+cameraRaw	Texture	מרקם
+	Forward Warp	עיוות קדימה
+	Freeze Mask	הקפאת מסכה
+	Freeze Lasso	הקפאה באמצעות לאסו
+	Push Left	דחיפה שמאלה
+	Reconstruct All	שחזור כל העיוותים
+	Thaw Mask	הפשרת מסכה
+	Twirl Clockwise	סחרור בכיוון השעון
+	Twirl Counterclockwise	סחרור נגד כיוון השעון
