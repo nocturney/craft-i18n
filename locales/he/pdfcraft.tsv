@@ -3368,3 +3368,15 @@ calendar weekday	We	ד׳
 	Skip files that already have text	דלג על קבצים שכבר מכילים טקסט
 	Skip pages that already have text	דלג על עמודים שכבר מכילים טקסט
 	Reads pages and files even where the skip options would leave them alone	מפענח עמודים וקבצים גם אם אפשרויות הדילוג היו משאירות אותם ללא שינוי
+	Replace XMP metadata	החלפת מטא־נתונים מסוג XMP
+	Saved {name} and verified it: it conforms to {level}.	הקובץ {name} נשמר ואומת: הוא עומד בדרישות {level}.
+	Show validation marks over signed signatures	הצגת סימוני אימות על גבי חתימות דיגיטליות
+	This document has no XMP metadata.	למסמך זה אין מטא־נתונים מסוג XMP.
+	Verify PDF/UA	בדיקת תאימות ל־PDF/UA
+	Verify PDF/X	בדיקת תאימות ל־PDF/X
+	XMP metadata	מטא־נתונים מסוג XMP
+	In tab order	לפי סדר המעבר באמצעות Tab
+	Layers panel	חלונית השכבות
+	Outline over page	מתאר מעל העמוד
+	Show or hide toolbars and panels	הצגה או הסתרה של סרגלי כלים וחלוניות
+	This document hides the toolbars and panels. Press {key} to show them.	מסמך זה מסתיר את סרגלי הכלים והחלוניות. יש ללחוץ על {key} כדי להציג אותם.
