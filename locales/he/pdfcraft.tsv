@@ -3407,3 +3407,18 @@ calendar weekday	We	ד׳
 	No plugins installed. A plugin is a single .wasm file; install one above.	לא הותקנו תוספים. כל תוסף הוא קובץ .wasm יחיד; אפשר להתקין אותו באזור שמעל.
 	Plugins	תוספים
 	Refresh plugins	רענון תוספים
+	Right-to-left page order	סדר העמודים מימין לשמאל
+	Right-to-left page order in two-page view	סדר העמודים מימין לשמאל בתצוגת שני עמודים
+	Keys of the document view	מקשי הקיצור של תצוגת המסמך
+	Read this page only	הקראת העמוד הזה בלבד
+	Read to end of document	הקראה עד סוף המסמך
+	Pan & zoom	הזזה ושינוי תקריב
+	Show the current page number over the document	הצגת מספר העמוד הנוכחי על גבי המסמך
+	Scroll the page	גלילת העמוד
+	Zoom (Z)	תקריב (Z)
+	Return to document	חזרה למסמך
+	Opening documents	פתיחת מסמכים
+	Source page	עמוד המקור
+	Select at least one other page.	יש לבחור לפחות עמוד נוסף.
+	Select text on one page to use this action	כדי להשתמש בפעולה זו, יש לבחור טקסט בעמוד אחד
+	Show on other pages too	הצגה גם בעמודים אחרים
