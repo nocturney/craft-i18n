@@ -3226,3 +3226,15 @@ calendar weekday	We	ד׳
 	Sheets printed: {n}	גיליונות שהודפסו: {n}
 	System print dialog…	חלון ההדפסה של המערכת…
 	Waiting for the system print dialog…	ממתין לפתיחת חלון ההדפסה של המערכת…
+	Only send if you trust this document and destination. The entire PDF leaves this computer.	שלחו רק אם אתם סומכים על המסמך ועל יעד השליחה. קובץ ה-PDF כולו יועבר מהמחשב הזה.
+	The API key would be sent unencrypted to this address. Use https:// unless the server is on a network you trust.	מפתח ה-API יישלח לכתובת זו ללא הצפנה. השתמשו ב-https://, אלא אם השרת נמצא ברשת שאתם סומכים עליה.
+	Tokens and smart cards sign through a PKCS #11 module. Only add modules you trust: a module runs its own code.	אסימוני אבטחה וכרטיסים חכמים חותמים באמצעות מודול PKCS #11. הוסיפו רק מודולים שאתם סומכים עליהם: כל מודול מפעיל קוד משלו.
+	The extracted pages aren't protected: the original's security settings don't carry over.	העמודים שחולצו אינם מוגנים: הגדרות האבטחה של המסמך המקורי אינן מועברות אליהם.
+	The split files aren't protected: the original's security settings don't carry over.	הקבצים שנוצרו מפיצול אינם מוגנים: הגדרות האבטחה של המסמך המקורי אינן מועברות אליהם.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	בעת השמירה נבדק רק שניתן לפתוח מחדש קובץ המוגן בסיסמה; הבתים בקובץ אינם נסרקים שוב לאיתור הטקסט שהוסר.
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript מושבת (העדפות ← JavaScript).
+	JavaScript is turned off by your administrator.	JavaScript הושבת על ידי מנהל המערכת.
+	The passwords and the restrictions are removed when you save.	הסיסמאות וההגבלות יוסרו בעת השמירה.
+	The restrictions apply to recipients without “All permissions”. It's applied when you save.	ההגבלות חלות על נמענים שאין להם ״כל ההרשאות״. הן יוחלו בעת השמירה.
+	Only the recipients can open the document, each with the private key of their own certificate.	רק הנמענים יוכלו לפתוח את המסמך, כל אחד באמצעות המפתח הפרטי של האישור שלו.
+	Signing then goes online: the timestamp server receives a hash of the signature, and the certificate authorities are asked whether the certificates are revoked. With both, signatures are PAdES B-LTA.	לאחר מכן החתימה ממשיכה באופן מקוון: שרת חותמות הזמן מקבל ערך גיבוב של החתימה, ורשויות האישורים מתבקשות לבדוק אם האישורים בוטלו. עם שני אלה החתימות עומדות בתקן PAdES B-LTA.
