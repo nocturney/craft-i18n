@@ -3092,3 +3092,13 @@ calendar weekday	We	ד׳
 	The search stopped unexpectedly.	החיפוש הופסק באופן בלתי צפוי.
 	This folder is too large or too deep to search all of it.	התיקייה גדולה מדי או מכילה רמות משנה רבות מדי לחיפוש מלא.
 	{n} pages could not be searched; results are incomplete.	לא ניתן היה לבצע חיפוש ב־{n} עמודים; התוצאות אינן מלאות.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	החלת הפעולה מנקה גם את המסמך: סימניות, יעדים בעלי שם, קבצים מצורפים, פרטי המסמך, מטא־נתונים ונתוני טפסי XFA יימחקו, ושכבות מוסתרות יינעלו במצב מוסתר לצמיתות.
+	I understand that the redacted content is removed for good	ידוע לי שהתוכן המושחר יוסר לצמיתות
+	Marks do not remove content. Select Redact all, then save.	סימונים אינם מסירים תוכן. יש לבחור בהחלת ההשחרות על הכול ולאחר מכן לשמור.
+	Redaction checklist	רשימת בדיקה להשחרת מידע
+	Review the marks before applying redactions.	יש לבדוק את הסימונים לפני החלת ההשחרות.
+	Sanitize document and flatten signatures	ניקוי המסמך ושיטוח חתימות
+	Sanitize document and remove signatures	ניקוי המסמך והסרת חתימות
+	The redaction does not fit page {page}; no pages were marked.	ההשחרה אינה מתאימה לעמוד {page}; לא סומנו עמודים.
+	The selected redaction is unavailable or invalid.	ההשחרה שנבחרה אינה זמינה או אינה תקינה.
+	This cannot be undone: applying redactions clears the undo history.	לא ניתן לבטל פעולה זו: החלת ההשחרות מוחקת את היסטוריית הביטול.
