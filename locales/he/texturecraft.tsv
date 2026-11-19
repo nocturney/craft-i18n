@@ -73,6 +73,7 @@
 	Enter a finite number	הזן מספר סופי
 	Environment: {name}	סביבה: {name}
 	Environments	סביבות
+	Exclusion	החרגה
 	Expand or collapse the folder	הרחב או כווץ את התיקייה
 	File ID	מזהה קובץ
 	File name without extension; variables insert names	שם קובץ ללא סיומת; משתנים משלבים שמות
@@ -82,6 +83,7 @@
 	Focus: show only the active texture set	מיקוד: הצג רק את ערכת הטקסטורות הפעילה
 	Folders	תיקיות
 	Follow Newest Map	עקוב אחר המפה החדשה ביותר
+	Full	מלא
 	Gamma	גמא
 	General properties	מאפיינים כלליים
 	Geometry mask	מסכת גאומטריה
@@ -89,6 +91,7 @@
 	Gradient Map	מפת מעבר צבע
 	Hardness	קשיחות
 	HDR environments	סביבות HDR
+	High	גבוה
 	High Poly Scene	סצנת רשת עתירת מצולעים
 	High poly: {name}	רשת עתירת מצולעים: {name}
 	Highlights	אזורים בהירים
@@ -106,6 +109,7 @@
 	Keyboard	מקלדת
 	Layer memory: {mb} MB	זיכרון שכבה: {mb} MB
 	Lens size: how quickly things blur away from the focus distance	גודל העדשה: קצב הטשטוש עם ההתרחקות ממרחק המיקוד
+	Level	רמה
 	Levels	רמות
 	Light / direction	אור / כיוון
 	Light azimuth (degrees)	אזימוט האור (מעלות)
@@ -114,6 +118,8 @@
 	Lightness	בהירות הצבע
 	Load UI Layout	טעינת פריסת הממשק
 	Loaded UI layout {path}	פריסת הממשק נטענה מ־{path}
+	Low	נמוך
+	Luminosity	בהיקות
 	Mask	מסכה
 	Mask effects	אפקטים של המסכה
 	Mask value (gray)	ערך המסכה (אפור)
@@ -123,7 +129,12 @@
 	Max RAM while saving	זיכרון RAM מרבי בזמן שמירה
 	Max Rear Distance	מרחק אחורי מרבי
 	Mesh Normals Based	מבוסס על נורמלים של הרשת
+	Method	שיטה
+	Midtones	גווני ביניים
 	Min Occluder Distance	מרחק חוסם מזערי
+	Mode	מצב
+	Multiply	הכפלה
+	Never	לעולם לא
 	New project	פרויקט חדש
 	No font on this system can show this language	אין במערכת גופן שיכול להציג את השפה הזו
 	no GPU	אין GPU
@@ -137,6 +148,7 @@
 	Normal map detail	פרטים במפת נורמל
 	Normal map inverse detail	פרטים הפוכים במפת נורמל
 	Normal OpenGL	מפת נורמל OpenGL
+	Offset	היסט
 	Only Same Mesh Name	רק רשתות בעלות אותו שם
 	Orthographic	אורתוגרפי
 	Output directory	תיקיית פלט
@@ -159,6 +171,7 @@
 	Press a key...	הקש על מקש...
 	Project	פרויקט
 	Quit	יציאה
+	Random	אקראי
 	Re-cook	חשב מחדש
 	Relative to Low Mesh	ביחס לרשת דלת מצולעים
 	Remove Cage	הסרת כלוב
@@ -170,8 +183,10 @@
 	Sampling Radius	רדיוס דגימה
 	Saturation	רוויה
 	Saving UI layouts to files is available in the desktop app	שמירת פריסות ממשק לקבצים זמינה ביישום למחשב
+	Screen	מסך
 	Seams Intensity	עוצמת התפרים
 	Search commands or keys	חיפוש פקודות או קיצורי מקלדת
+	Shadows	צללים
 	Sharpen	חידוד
 	Show at startup	הצג בעת ההפעלה
 	Show for Selected Texture Set Only	הצג רק עבור ערכת הטקסטורות שנבחרה
@@ -200,8 +215,10 @@
 	UI layout	פריסת ממשק
 	UI layout: {error}	פריסת הממשק: {error}
 	UI layouts	פריסות ממשק
+	Uniform	אחיד
 	UV tile {tile} resolution	רזולוציית אריח UV {tile}
 	Version: {version} ({gpu})	גרסה: {version} ({gpu})
+	Violet	סגול
 	Warp	עיוות מרחבי
 	World Space Normal	נורמל במרחב העולם
 	{action} (undone)	בוטל: {action}

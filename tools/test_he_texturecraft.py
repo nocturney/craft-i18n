@@ -16,9 +16,9 @@ class HebrewTextureCraftTests(unittest.TestCase):
         cls.common, cls.common_errors=sync_app.parse((ROOT/'locales/he/common.tsv').read_text('utf-8'))
         cls.source, cls.source_errors=sync_app.parse((ROOT/'locales/ar/texturecraft.tsv').read_text('utf-8'))
 
-    def test_hebrew_app_catalog_has_914_distinct_source_rows(self):
+    def test_hebrew_app_catalog_has_931_distinct_source_rows(self):
         self.assertFalse(self.parse_errors)
-        self.assertEqual(len(self.app),914)
+        self.assertEqual(len(self.app),931)
         self.assertTrue(all(c=='' for c,s in self.app))
         self.assertTrue(all(s and v for (c,s),v in self.app.items()))
 
@@ -134,7 +134,7 @@ class HebrewTextureCraftTests(unittest.TestCase):
         for english,hebrew in samples.items():
             self.assertEqual(locale[('',english)],hebrew,english)
             self.assertIsNone(sync_app.text_problem('',english,hebrew))
-        self.assertEqual(len(self.app),914)
+        self.assertEqual(len(self.app),931)
 
 
     def test_round3_save_open_prompts_and_paths(self):
@@ -384,6 +384,35 @@ class HebrewTextureCraftTests(unittest.TestCase):
             self.assertEqual(self.app[('',english)],hebrew)
             self.assertEqual(locale[('',english)],hebrew)
             self.assertIsNone(sync_app.text_problem('',english,hebrew))
+
+
+    def test_round11_new_visible_blend_and_controls(self):
+        locale=resolved(ROOT,"he-IL")
+        examples={
+            'Exclusion': 'החרגה',
+            'Full': 'מלא',
+            'High': 'גבוה',
+            'Level': 'רמה',
+            'Low': 'נמוך',
+            'Luminosity': 'בהיקות',
+            'Method': 'שיטה',
+            'Midtones': 'גווני ביניים',
+            'Mode': 'מצב',
+            'Multiply': 'הכפלה',
+            'Never': 'לעולם לא',
+            'Offset': 'היסט',
+            'Random': 'אקראי',
+            'Screen': 'מסך',
+            'Shadows': 'צללים',
+            'Uniform': 'אחיד',
+            'Violet': 'סגול',
+        }
+        for english,hebrew in examples.items():
+            self.assertIn(("",english),self.source)
+            self.assertNotIn(("",english),self.common)
+            self.assertEqual(self.app[("",english)],hebrew)
+            self.assertEqual(locale[("",english)],hebrew)
+            self.assertIsNone(sync_app.text_problem("",english,hebrew))
 
 if __name__=='__main__':
     unittest.main()
