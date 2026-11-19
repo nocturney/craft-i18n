@@ -3175,3 +3175,23 @@ calendar weekday	We	ד׳
 	the request stopped without an answer	הבקשה הופסקה בלי שהתקבלה תשובה
 	Thinking… {s}s	חושב… {s} שניות
 	Translate with AI	תרגם באמצעות בינה מלאכותית
+	How Edit text reads old fonts that don't say which letters they draw. Auto-detect recognises Hebrew fonts laid out for ISO 8859-8 or Windows-1255.	האופן שבו עריכת טקסט מפרשת גופנים ישנים שאינם מציינים אילו תווים הם מציגים. הזיהוי האוטומטי מזהה גופנים עבריים הממופים לפי ISO 8859-8 או Windows-1255.
+	Interface font	גופן הממשק
+	Font file	קובץ גופן
+	Language and spelling	שפה ואיות
+	Spelling language	שפת בדיקת האיות
+	Reading Preferences	העדפות קריאה
+	Reading preferences…	טוען העדפות קריאה…
+	Shortcut	קיצור מקשים
+	Reset all shortcuts	איפוס כל קיצורי המקשים
+	Alt combinations can't be shortcuts. Try Ctrl or Shift.	אי אפשר להגדיר צירופי Alt כקיצורי מקשים. נסו Ctrl או Shift.
+	Press the new keys (Esc cancels)	לחצו על צירוף המקשים החדש (Esc לביטול)
+	A setting isn't valid	אחת ההגדרות אינה תקינה
+	No tools are shown. Choose them in Preferences.	לא מוצגים כלים. בחרו אותם בהעדפות.
+	Hidden tools stay available from the menus, the mode tabs and keyboard shortcuts.	כלים מוסתרים נשארים זמינים בתפריטים, בכרטיסיות המצבים ובקיצורי המקשים.
+	Save Settings	שמירת הגדרות
+	Saved Settings	ההגדרות נשמרו
+	Delete Settings	מחיקת הגדרות
+	Open default app settings	פתיחת הגדרות אפליקציות ברירת המחדל
+	Couldn't open Windows default app settings: {error}	לא ניתן לפתוח את הגדרות אפליקציות ברירת המחדל של Windows: {error}
+	Applies the next time PdfCraft starts. Choose OpenGL if the window flickers on a display with G-SYNC, FreeSync or another variable refresh rate.	השינוי יחול בהפעלה הבאה של PdfCraft. בחרו ב־OpenGL אם החלון מהבהב בצג עם G-SYNC, FreeSync או קצב רענון משתנה אחר.
