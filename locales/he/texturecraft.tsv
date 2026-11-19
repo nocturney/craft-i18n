@@ -920,7 +920,7 @@
 	BSphere	כדור תיחום
 	Cooked at {size} px	חושב ברזולוציה של {size} פיקסלים
 	Crate	ארגז
-	Draws {name} of texture set "{set}". Edits to the source show in every instance.	מצייר את {name} מערכת הטקסטורות "{set}". שינויים במקור מתעדכנים בכל המופעים.
+	Draws {name} of texture set "{set}". Edits to the source show in every instance.	מצייר את {name} מתוך ערכת הטקסטורות "{set}". שינויים במקור מופיעים בכל המופעים.
 	GGX specular with height-correlated Smith visibility, Lambert diffuse, split-sum image-based lighting with spherical-harmonics irradiance and horizon fading.	החזרה ספקולרית מסוג GGX עם נראות Smith מתואמת לגובה, רכיב דיפוזי מסוג Lambert, תאורה מבוססת תמונה בשיטת split-sum עם הארה בהרמוניות ספריות ודעיכה סמוך לאופק.
 	Go to camera 1	מעבר למצלמה 1
 	Go to camera 2	מעבר למצלמה 2
