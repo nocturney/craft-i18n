@@ -4552,3 +4552,22 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	Numbers	מספרים
 	Pucker	כיווץ
 	Save Path	שמור נתיב
+smartSvg	Choose executable…	בחר קובץ הפעלה…
+smartSvg	Choose the application used to edit this SVG:	בחר את היישום שישמש לעריכת קובץ SVG זה:
+smartSvg	Edit SVG Smart Object	עריכת אובייקט חכם של SVG
+smartSvg	Other application	יישום אחר
+smartSvg	PhotoCraft (internal editor)	PhotoCraft (עורך פנימי)
+smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in PhotoCraft.	יש לשמור בקובץ ה־SVG שנפתח. כל שמירה יוצרת שלב ביטול אחד ב־PhotoCraft.
+smartSvg	Stop syncing this Smart Object	הפסק את סנכרון האובייקט החכם הזה
+smartSvg	SVG editor opened. Save the SVG to update this Smart Object.	עורך ה־SVG נפתח. יש לשמור את קובץ ה־SVG כדי לעדכן את האובייקט החכם הזה.
+smartSvg	Updates wait while another document or an editing dialog is active.	העדכונים ימתינו כל עוד מסמך אחר או תיבת דו־שיח לעריכה פעילים.
+	Ask On Mismatch	שאל בעת אי־התאמה
+	Ask On Missing	שאל כאשר פרופיל חסר
+	Ask On Paste	שאל בעת הדבקה
+	Monitor Profile	פרופיל הצג
+	Policy Cmyk	מדיניות CMYK
+	Policy Gray	מדיניות גווני אפור
+	Policy Rgb	מדיניות RGB
+	Working Cmyk	CMYK לעבודה
+	Working Gray	גווני אפור לעבודה
+	Working Rgb	RGB לעבודה
