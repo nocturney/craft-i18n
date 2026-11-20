@@ -21,9 +21,9 @@ class HebrewTextureCraftTests(unittest.TestCase):
             assert not errors, (language, errors)
             cls.additional_source_keys.update(source)
 
-    def test_hebrew_app_catalog_has_931_distinct_source_rows(self):
+    def test_hebrew_app_catalog_includes_pbr_short_label_batch(self):
         self.assertFalse(self.parse_errors)
-        self.assertEqual(len(self.app),943)
+        self.assertGreaterEqual(len(self.app),958)
         self.assertTrue(all(c=='' for c,s in self.app))
         self.assertTrue(all(s and v for (c,s),v in self.app.items()))
 
@@ -125,6 +125,35 @@ class HebrewTextureCraftTests(unittest.TestCase):
                 self.assertEqual(locale[key],hebrew)
                 self.assertIsNone(sync_app.text_problem('',english,hebrew))
 
+    def test_new_pbr_short_labels_are_source_grounded_and_resolve(self):
+        # The 15 newly added channel abbreviations are separate from long-form
+        # labels and must stay resolvable after future catalog growth.
+        expected = {
+            'aniso': 'אניזוטרופיה',
+            'aniso angle': 'זווית אניזוטרופיה',
+            'ao': 'חסימת אור סביבתית',
+            'coat': 'ציפוי',
+            'coat nrm': 'נורמל ציפוי',
+            'emiss': 'פליטה',
+            'gloss': 'ברק',
+            'height': 'גובה',
+            'metal': 'מתכתיות',
+            'nrm': 'נורמל',
+            'op': 'אטימות',
+            'rough': 'חספוס',
+            'sheen': 'ברק משי',
+            'spec': 'ספקולרי',
+            'transm': 'העברת אור',
+        }
+        locale = resolved(ROOT,'he-IL')
+        for english, hebrew in expected.items():
+            with self.subTest(english=english):
+                key = ('', english)
+                self.assertIn(key, self.additional_source_keys)
+                self.assertEqual(self.app[key], hebrew)
+                self.assertEqual(locale[key], hebrew)
+                self.assertIsNone(sync_app.text_problem('', english, hebrew))
+
     def test_previous_nine_curated_values_preserved(self):
         preserved={
             'Alphas':'תבניות אלפא',
@@ -166,7 +195,7 @@ class HebrewTextureCraftTests(unittest.TestCase):
         for english,hebrew in samples.items():
             self.assertEqual(locale[('',english)],hebrew,english)
             self.assertIsNone(sync_app.text_problem('',english,hebrew))
-        self.assertEqual(len(self.app),943)
+        self.assertGreaterEqual(len(self.app),958)
 
 
     def test_round3_save_open_prompts_and_paths(self):
