@@ -3577,3 +3577,85 @@ calendar weekday	We	ד׳
 	Insert the USB token or smart card, then refresh to list its digital IDs.	הכניסו את אסימון ה־USB או הכרטיס החכם, ולאחר מכן רעננו כדי להציג את המזהים הדיגיטליים שלו.
 	Include revocation information when signing (LTV)	לכלול מידע על ביטול תוקף בעת חתימה (LTV)
 	Code sent	הקוד נשלח
+	Run OCR	הפעל זיהוי טקסט (OCR)
+	Scan and text recognition	סריקה וזיהוי טקסט
+	Scan correction	תיקון סריקה
+	Scan interrupted	הסריקה נקטעה
+	Scan next page	סרוק את העמוד הבא
+	Scan processing cancelled	עיבוד הסריקה בוטל
+	Scan reverse side now (1 front)	סרוק כעת את הצד האחורי (צד קדמי אחד)
+	Scan reverse sides	סריקת הצדדים האחוריים
+	Scan reverse sides now ({n} fronts)	סרוק כעת את הצדדים האחוריים ({n} צדדים קדמיים)
+	Scan the front, flip the sheet on the bed, then scan the reverse side.	סרוק את הצד הקדמי, הפוך את הדף על משטח הסריקה ואז סרוק את הצד האחורי.
+	Scan the fronts before the reverse sides.	סרוק תחילה את הצדדים הקדמיים ורק אחר כך את האחוריים.
+	Scan the fronts, flip the stack (last sheet on top), then scan the reverse sides. Pages are interleaved front, back, …	סרוק את הצדדים הקדמיים, הפוך את ערימת הדפים (כשהדף האחרון למעלה), ואז סרוק את הצדדים האחוריים. העמודים ישולבו לסירוגין: קדמי, אחורי, …
+	Scan the missing reverse sides, then choose Finish.	סרוק את הצדדים האחוריים החסרים, ואז בחר 'סיום'.
+	scanned text	טקסט סרוק
+	Scanned text detected	זוהה טקסט סרוק
+	Scanner	סורק
+	Scanner settings	הגדרות סורק
+	Scanner's full area	שטח הסריקה המלא של הסורק
+	Scanning front {n} of {t}…	סורק צד קדמי {n} מתוך {t}…
+	Scanning front {n}…	סורק צד קדמי {n}…
+	Scanning needs Windows (WIA) in this version.	בגרסה זו, סריקה מחייבת Windows עם WIA.
+	Scanning page {n} of {t}…	סורק עמוד {n} מתוך {t}…
+	Scanning page {n}…	סורק עמוד {n}…
+	Scanning reverse side {n} of {t}…	סורק צד אחורי {n} מתוך {t}…
+	Scanning reverse side {n}…	סורק צד אחורי {n}…
+	Scanning was stopped	הסריקה הופסקה
+	Scanning…	סורק…
+	Straighten scanned page	יישור עמוד סרוק
+	Straighten skewed scans	יישור סריקות נטויות
+	Switch the scanner off and on again, wait until it is ready, then choose Continue.	כבה והפעל מחדש את הסורק, המתן עד שיהיה מוכן ואז בחר 'המשך'.
+	Switch the scanner off and on again, wait until it is ready, then choose Try again.	כבה והפעל מחדש את הסורק, המתן עד שיהיה מוכן ואז בחר 'נסה שוב'.
+	That isn't a scanner address	זו אינה כתובת סורק תקינה
+	The bed scans one page at a time. Scan one front, flip it, then scan its reverse side.	משטח הסריקה סורק עמוד אחד בכל פעם. סרוק צד קדמי, הפוך את הדף ואז סרוק את הצד האחורי.
+	The fronts already scanned are kept for the reverse-side pass.	הצדדים הקדמיים שכבר נסרקו יישמרו לשלב סריקת הצדדים האחוריים.
+	The pages already scanned were kept in the document.	העמודים שכבר נסרקו נשמרו במסמך.
+	The reverse sides already scanned are kept.	הצדדים האחוריים שכבר נסרקו נשמרו.
+	The scan could not be started.	לא ניתן היה להתחיל בסריקה.
+	The scan produced no pages.	הסריקה לא הפיקה עמודים.
+	The scan was cancelled at the scanner.	הסריקה בוטלה בסורק.
+	The scan was interrupted.	הסריקה נקטעה.
+	The scanner is busy.	הסורק עסוק.
+	The scanner is offline or needs attention.	הסורק אינו מחובר או דורש טיפול.
+	The scanner list could not be refreshed.	לא ניתן היה לרענן את רשימת הסורקים.
+	The scanner needs attention.	הסורק דורש טיפול.
+	The scanner reported a lamp or device error.	הסורק דיווח על תקלה במנורה או בהתקן.
+	Wait for the scanner to finish, or close any other program using it, then choose Continue.	המתן לסיום פעולת הסורק, או סגור תוכנות אחרות המשתמשות בו, ואז בחר 'המשך'.
+	Wait for the scanner to finish, or close any other program using it, then choose Try again.	המתן לסיום פעולת הסורק, או סגור תוכנות אחרות המשתמשות בו, ואז בחר 'נסה שוב'.
+	{n} of {m} pages were scanned.	נסרקו {n} מתוך {m} עמודים.
+	{n} pages scanned	{n} עמודים נסרקו
+	{n} pages were scanned.	נסרקו {n} עמודים.
+	A 3×3 median filter against scan speckle	מסנן חציון 3×3 להפחתת נקודות רעש בסריקה
+	Region in inches. Leave the width or the height at zero to scan the whole area.	אזור באינצ'ים. השאר את הרוחב או הגובה על אפס כדי לסרוק את כל השטח.
+	Preview uses the bed. Switch the source to Bed, or scan without a preview.	התצוגה המקדימה משתמשת במשטח הסריקה. בחר במשטח כמקור, או סרוק ללא תצוגה מקדימה.
+	Download historical OCR add-on (13 MB)	הורדת תוסף OCR למסמכים היסטוריים (13 MB)
+	Historical OCR add-on installed	תוסף OCR למסמכים היסטוריים מותקן
+	Preparing OCR add-on…	מכין תוסף OCR…
+	Downloading the text recognition models…	מוריד את מודלי זיהוי הטקסט…
+	Couldn't download the text recognition models: {e}	לא ניתן להוריד את מודלי זיהוי הטקסט: {e}
+	Checking Hungarian OCR installation…	בודק את התקנת OCR להונגרית…
+	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	OCR להונגרית מחייב את יישום שולחן העבודה עם Tesseract 5 ומודל השפה hun. לאחר ההתקנה, הפעל מחדש את PdfCraft.
+	Fraktur and Kurrent use an optional 13 MB add-on. After download, recognition works offline.	לזיהוי כתב Fraktur ו־Kurrent נדרש תוסף אופציונלי בנפח 13 MB. לאחר הורדתו, הזיהוי פועל גם ללא חיבור לאינטרנט.
+	Historical handwriting (Kurrent)	כתב יד היסטורי (Kurrent)
+	Historical print (Fraktur)	דפוס היסטורי (Fraktur)
+	Historical spelling is preserved. Handwriting, abbreviations and complex layouts need checking.	האיות ההיסטורי נשמר. יש לבדוק כתב יד, קיצורים ועימודים מורכבים.
+	Historical OCR add-ons require the desktop app.	תוספי OCR למסמכים היסטוריים מחייבים את יישום שולחן העבודה.
+	Handwriting requires upright horizontal lines in one text column. Columns, tables and marginal notes are not supported.	זיהוי כתב יד מחייב שורות אופקיות ישרות בעמודת טקסט אחת. אין תמיכה בריבוי עמודות, טבלאות או הערות שוליים.
+	the tesseract engine is not available in the web build	מנוע Tesseract אינו זמין בגרסת האינטרנט
+	the tesseract program was not found (install it, or add it to the PATH)	תוכנת Tesseract לא נמצאה (יש להתקין אותה או להוסיף אותה למשתנה PATH)
+	The tesseract program, run as an external process	תוכנת Tesseract, המופעלת כתהליך חיצוני
+	still checking whether the tesseract program can run; try again in a moment	עדיין נבדק אם ניתן להפעיל את Tesseract; נסה שוב בעוד רגע
+	Text direction	כיוון הטקסט
+	Left-to-right text	טקסט משמאל לימין
+	Right-to-left text	טקסט מימין לשמאל
+	There is no selectable text on this page. If it is a scan or a picture of text, recognize its text to select it.	אין בעמוד הזה טקסט שניתן לבחור. אם זו סריקה או תמונת טקסט, יש לזהות את הטקסט כדי לאפשר בחירה.
+	In multiple files: a file with any text is its own skipped bucket, and nothing is written for it	בעיבוד מספר קבצים: קובץ שמכיל טקסט כלשהו יידלג בנפרד ולא ייכתב אליו דבר.
+	Pages with renderable text are left alone and reported as skipped	עמודים המכילים טקסט שניתן להציג יישארו ללא שינוי וידווחו כמדולגים.
+	Writes a new document of visible text; the scan is not changed	יוצר מסמך חדש של טקסט גלוי; הסריקה המקורית אינה משתנה.
+	Text only, keep images	טקסט בלבד, שמירת תמונות
+	Searchable Image	תמונה הניתנת לחיפוש
+	not editable text	לא טקסט שניתן לעריכה
+	PDF and text	PDF וטקסט
+	Text and added items can't be deleted with this selection.	לא ניתן למחוק טקסט ופריטים שנוספו באמצעות הבחירה הזאת.
