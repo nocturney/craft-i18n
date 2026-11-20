@@ -3659,3 +3659,19 @@ calendar weekday	We	ד׳
 	not editable text	לא טקסט שניתן לעריכה
 	PDF and text	PDF וטקסט
 	Text and added items can't be deleted with this selection.	לא ניתן למחוק טקסט ופריטים שנוספו באמצעות הבחירה הזאת.
+	Balanced and Compact reduce image quality to make a smaller file. Text and forms stay editable.	המצבים מאוזן וקומפקטי מפחיתים את איכות התמונות כדי להקטין את הקובץ. הטקסט והטפסים נשארים ניתנים לעריכה.
+	Compact Home (tools and recent files only)	מסך בית מצומצם (כלים וקבצים אחרונים בלבד)
+	Download and detect	הורדה וזיהוי
+	Integrity	שלמות
+	It is certified with no changes allowed: any change invalidates the certification.	המסמך מאושר ללא הרשאה לשינויים: כל שינוי יבטל את תוקף האישור.
+	Most recently used first	לפי השימוש האחרון, מהחדש לישן
+	Only IP addresses on this network are accepted (private, link-local or loopback), not host names.	מתקבלות רק כתובות IP ברשת זו (פרטיות, מקומיות לקישור או כתובות לולאה מקומית), ולא שמות מארחים.
+	Secured	מאובטח
+	Show the formatting toolbar when editing text	הצגת סרגל כלי העיצוב בעת עריכת טקסט
+	Signed and saved to {path}, without some revocation information: {problems}	נחתם ונשמר בנתיב {path}, ללא חלק ממידע ביטול התוקף: {problems}
+	The searchable copies are written here under the source names	העותקים הניתנים לחיפוש נשמרים כאן בשמות קובצי המקור
+	This is a one-time download from GitHub. Afterward, form detection works offline. Your PDFs stay on this device.	זוהי הורדה חד־פעמית מ־GitHub. לאחר מכן זיהוי הטפסים פועל גם ללא חיבור לאינטרנט. קובצי ה־PDF נשארים במכשיר זה.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	חותמות זמן ומידע על ביטול תוקף מחייבים את יישום שולחן העבודה. כדי לחתום כאן, יש להשבית אותם בהעדפות ▸ חתימות.
+	Use a Digital ID from a device (smart card, USB token or cloud certificate)	שימוש בזהות דיגיטלית מהתקן (כרטיס חכם, אסימון USB או אישור בענן)
+	“{name}” is encrypted for specific people. Choose your digital ID and enter its password to open it.	הקובץ ״{name}״ מוצפן עבור אנשים מסוימים. יש לבחור את הזהות הדיגיטלית ולהזין את הסיסמה שלה כדי לפתוח אותו.
+	A signature that is part of a page's content, like a scanned page, is not a field or an annotation, so it can't be removed on its own, and PdfCraft doesn't erase parts of a page to hide it. To take it out, redact that area (Redact), or delete the picture with Edit PDF when the signature is an image of its own.	חתימה שהיא חלק מתוכן העמוד, למשל בעמוד סרוק, אינה שדה או הערה ולכן אי אפשר להסיר אותה בנפרד. PdfCraft אינו מוחק חלקים מהעמוד כדי להסתיר אותם. להסרת החתימה יש להשחיר את האזור (Redact), או למחוק את התמונה באמצעות עריכת PDF אם החתימה היא תמונה נפרדת.
