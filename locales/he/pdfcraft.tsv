@@ -3675,3 +3675,14 @@ calendar weekday	We	ד׳
 	Use a Digital ID from a device (smart card, USB token or cloud certificate)	שימוש בזהות דיגיטלית מהתקן (כרטיס חכם, אסימון USB או אישור בענן)
 	“{name}” is encrypted for specific people. Choose your digital ID and enter its password to open it.	הקובץ ״{name}״ מוצפן עבור אנשים מסוימים. יש לבחור את הזהות הדיגיטלית ולהזין את הסיסמה שלה כדי לפתוח אותו.
 	A signature that is part of a page's content, like a scanned page, is not a field or an annotation, so it can't be removed on its own, and PdfCraft doesn't erase parts of a page to hide it. To take it out, redact that area (Redact), or delete the picture with Edit PDF when the signature is an image of its own.	חתימה שהיא חלק מתוכן העמוד, למשל בעמוד סרוק, אינה שדה או הערה ולכן אי אפשר להסיר אותה בנפרד. PdfCraft אינו מוחק חלקים מהעמוד כדי להסתיר אותם. להסרת החתימה יש להשחיר את האזור (Redact), או למחוק את התמונה באמצעות עריכת PDF אם החתימה היא תמונה נפרדת.
+	This document has unsaved changes. They are saved first, then the file is renamed.	במסמך הזה יש שינויים שלא נשמרו. הם יישמרו תחילה, ואז שם הקובץ ישונה.
+	Unsaved changes to this document are saved in the new file too.	שינויים שלא נשמרו במסמך הזה יישמרו גם בקובץ החדש.
+	{what}. Saved {file}, checked to reopen with every page. {history}	{what}. הקובץ {file} נשמר ונבדק שאפשר לפתוח אותו מחדש עם כל העמודים. {history}
+	Explorer selection exceeds the {size} MiB memory limit.	הבחירה בסייר חורגת ממגבלת הזיכרון של {size} MiB.
+	Page {page} holds more content than PdfCraft can read: part of it isn't drawn, and only part of its text can be found or copied.	עמוד {page} מכיל יותר תוכן מכפי ש־PdfCraft מסוגל לקרוא: חלק ממנו אינו מוצג, ורק חלק מהטקסט שלו ניתן לחיפוש או להעתקה.
+	{n} pages hold more content than PdfCraft can read, page {page} first: parts of them aren't drawn, and only part of their text can be found or copied.	{n} עמודים מכילים יותר תוכן מכפי ש־PdfCraft מסוגל לקרוא, והראשון הוא עמוד {page}: חלקים מהם אינם מוצגים, ורק חלק מהטקסט שלהם ניתן לחיפוש או להעתקה.
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	נבדק בעת ההחלה: אזור אחד נמצא נקי מהטקסט שהוסר. החיפוש אינו כולל טקסט הקיים רק כפיקסלים של תמונה.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	נבדק בעת ההחלה: נמצאו {n} אזורים נקיים מהטקסט שהוסר. החיפוש אינו כולל טקסט הקיים רק כפיקסלים של תמונה.
+	The copy to attach couldn't be written: {e}	לא ניתן היה לשמור את העותק לצירוף: {e}
+	Text extends outside the frame.	הטקסט חורג מגבולות המסגרת.
+	The raw text was truncated to what fits.	הטקסט הגולמי נקטע כדי להתאים לשטח הזמין.
