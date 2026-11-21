@@ -3686,3 +3686,18 @@ calendar weekday	We	ד׳
 	The copy to attach couldn't be written: {e}	לא ניתן היה לשמור את העותק לצירוף: {e}
 	Text extends outside the frame.	הטקסט חורג מגבולות המסגרת.
 	The raw text was truncated to what fits.	הטקסט הגולמי נקטע כדי להתאים לשטח הזמין.
+	None of the recipients is one of your digital IDs: you won't be able to open the saved document.	אף אחד מהנמענים אינו אחד ממזהי הזהות הדיגיטלית שלך: לא תהיה לך אפשרות לפתוח את המסמך לאחר שמירתו.
+	None of your digital IDs can open this document.	אף אחד ממזהי הזהות הדיגיטלית שלך אינו יכול לפתוח את המסמך הזה.
+	Future placements use this size. Existing signatures are unchanged.	הצבות עתידיות ישתמשו בגודל הזה. חתימות קיימות לא ישתנו.
+	Otherwise, ask on the first save after a signature is placed	אחרת, יש לשאול בשמירה הראשונה לאחר הוספת חתימה
+	Remove security?	להסיר את האבטחה?
+	Save a signature first	יש לשמור תחילה חתימה
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	יש לשמור את התוצאה בשם חדש: השמירה כותבת מחדש את הקובץ כולו, כך שלא יישאר בו זכר לתוכן שהוסר, והקובץ המקורי יישאר ללא שינוי.
+	Save this document to a folder first	יש לשמור תחילה את המסמך הזה בתיקייה
+	The document will no longer be certified.	המסמך לא יהיה עוד מאושר.
+	This document can't be changed: {names}	אי אפשר לשנות את המסמך הזה: {names}
+	This document is not inside a CAdES envelope	המסמך הזה אינו נמצא במעטפת CAdES
+	You can keep up to {n} signatures. Remove one to add another.	אפשר לשמור עד {n} חתימות. כדי להוסיף חתימה נוספת, יש להסיר חתימה קיימת.
+	{names} certifies this document without allowing comments, and will report this change.	המסמך מאושר על ידי {names} ללא הרשאה להוספת הערות, והשינוי הזה ידווח.
+	The document has more objects than one check covers; the rest was not checked.	המסמך מכיל יותר אובייקטים מכפי שבדיקה אחת יכולה לכסות; יתר האובייקטים לא נבדקו.
+	The selected area is no longer on a page of this document.	האזור שנבחר כבר אינו נמצא באחד מעמודי המסמך הזה.
