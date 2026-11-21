@@ -3701,3 +3701,31 @@ calendar weekday	We	ד׳
 	{names} certifies this document without allowing comments, and will report this change.	המסמך מאושר על ידי {names} ללא הרשאה להוספת הערות, והשינוי הזה ידווח.
 	The document has more objects than one check covers; the rest was not checked.	המסמך מכיל יותר אובייקטים מכפי שבדיקה אחת יכולה לכסות; יתר האובייקטים לא נבדקו.
 	The selected area is no longer on a page of this document.	האזור שנבחר כבר אינו נמצא באחד מעמודי המסמך הזה.
+	Retry	נסה שוב
+	Task	משימה
+	Format Studio	סטודיו לעיצוב
+	Format Studio…	סטודיו לעיצוב…
+	Signature {n}	חתימה {n}
+	this signature can't be removed on its own	לא ניתן להסיר את החתימה הזאת בנפרד
+	Copyright info URL	כתובת מידע על זכויות יוצרים
+	Copyright notice	הודעת זכויות יוצרים
+	Copyright status	מצב זכויות יוצרים
+	Editable text	טקסט ניתן לעריכה
+	Keep editable	שמור על אפשרות העריכה
+	Larger text	טקסט גדול יותר
+	Legacy text encoding	קידוד טקסט ישן
+	Name a text watermark to save it	כדי לשמור סימן מים טקסטואלי, יש לתת לו שם
+	Paste Image	הדבק תמונה
+	Restyle text	שנה את סגנון הטקסט
+	Same as text	כמו הטקסט
+	Smaller text	טקסט קטן יותר
+	Text style	סגנון טקסט
+	Higher image quality trades off against smaller file size. A copy is saved only if it is smaller.	איכות תמונה גבוהה יותר עשויה להגדיל את הקובץ. עותק יישמר רק אם הוא קטן יותר.
+	A table that runs across pages stays together; the pages follow one another down the sheet.	טבלה המתפרסת על פני עמודים נשארת יחד; העמודים מופיעים בזה אחר זה לאורך הגיליון.
+	Tables become cells; numbers, amounts, percentages and dates become values Excel can compute with, shown as on the page.	טבלאות הופכות לתאים; מספרים, סכומים, אחוזים ותאריכים הופכים לערכים ש-Excel יכול לחשב, כפי שהם מוצגים בעמוד.
+	This page has an opaque background of its own, so the background is blended with its content.	לעמוד זה יש רקע אטום משלו, ולכן הרקע ממוזג עם תוכן העמוד.
+	This page has an opaque background of its own, which hides anything behind it. Choose Blend with page content.	לעמוד זה יש רקע אטום משלו שמסתיר את מה שמאחוריו. בחר 'מיזוג עם תוכן העמוד'.
+	This page has an opaque background of its own, which hides the image behind it.	לעמוד זה יש רקע אטום משלו שמסתיר את התמונה שמאחוריו.
+	Multiplies the background with the page: white areas show it and text stays dark.	משלב את הרקע עם העמוד בשיטת הכפלה: אזורים לבנים מציגים אותו והטקסט נשאר כהה.
+	Settings this source offers. Leave a control alone to keep the driver’s value.	ההגדרות שמקור זה מציע. השאר פקד ללא שינוי כדי לשמור על הערך של מנהל ההתקן.
+	This file can't be used as the logo: its path isn't valid UTF-8, so it couldn't be saved with the settings.	לא ניתן להשתמש בקובץ הזה כלוגו: הנתיב שלו אינו UTF-8 תקין, ולכן לא ניתן לשמור אותו בהגדרות.
