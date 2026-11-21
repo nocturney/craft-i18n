@@ -28,7 +28,7 @@
 #	Accented Edges	
 	Accessibility	נגישות
 #	Accurate	
-#	Actions	
+	Actions	פעולות
 #	Activate Panel	
 #	Active	
 #	Actual Size	
@@ -64,7 +64,7 @@
 #	Always	
 #	Amount	
 #	Amount:	
-#	Angle	
+	Angle	זווית
 #	Angle:	
 #	Angular	
 	Animation	הנפשה
@@ -72,7 +72,7 @@
 #	Anti-Alias	
 #	Anti-alias	
 #	Any	
-#	Appearance	
+	Appearance	מראה
 #theme	Appearance	
 #	Appearance Settings…	
 #	Application	
@@ -114,7 +114,7 @@
 	Bar	פס
 #	Baseline	
 #	Baseline Shift	
-#	Basic	
+	Basic	בסיסי
 #	Basic Latin	
 #	Batch	
 #	Batch…	
@@ -184,8 +184,8 @@
 	Character	תו
 #	Character Styles	
 	Characters	תווים
-#	Check for Updates	
-#	Check for updates	
+	Check for Updates	בדיקה אם יש עדכונים
+	Check for updates	בדיקה אם יש עדכונים
 #	Check Spelling…	
 #	Checkerboard	
 #	Choose…	
@@ -203,7 +203,7 @@
 #	Clone	
 	Close	סגירה
 #	Close (Esc)	
-#	Close All	
+	Close All	סגירת הכול
 #	Close Panel	
 #	Cmd	
 #	CMYK Color	
@@ -247,7 +247,7 @@
 #	Compression	
 #	Cone	
 	Contains	מכיל
-#	Continue	
+	Continue	המשך
 #	Contrast	
 	Contributors	תורמים
 	Convert	המרה
@@ -296,7 +296,7 @@
 	Dashed	מקווקו
 	Data	נתונים
 #	Data Sets	
-#	Date	
+	Date	תאריך
 	Date and Time	תאריך ושעה
 #	Date Created	
 	Date format	תבנית תאריך
@@ -316,13 +316,13 @@
 #	Depth	
 #	Desaturate	
 	Descending	בסדר יורד
-#	Description	
+	Description	תיאור
 	Description:	תיאור:
 #	Deselect	
 #	Deselect All	
 #	Destination	
 #	Destination:	
-#	Details	
+	Details	פרטים
 	Diagonal	אלכסוני
 #	Diameter	
 #	Diameter:	
@@ -352,18 +352,18 @@
 	Document Title	כותרת המסמך
 	Documents	מסמכים
 	Don't Save	לא לשמור
-#	Done	
+	Done	סיום
 	Dot	נקודה
 	Dots	נקודות
 	Dotted	מנוקד
 #	Double-click	
 	Down	למטה
-#	Download	
+	Download	הורדה
 	Draft	טיוטה
 	Draw	ציור
 #	Drop Shadow	
 #	Drop Shadow…	
-#	Duplicate	
+	Duplicate	שכפול
 #	Duplicate Layer	
 #	Duplicate…	
 #	Duplication	
@@ -378,7 +378,7 @@
 #	Edge Simplicity	
 #	Edge Thickness	
 #	Edge Width	
-#	Edit	
+	Edit	עריכה
 #	Edit Contents	
 #	Edit Original	
 #	Edit Toolbar	
@@ -406,13 +406,13 @@
 #	Erase	
 	Eraser	מחק
 #	Eraser Tool	
-#	Error	
+	Error	שגיאה
 #	Even Fields	
 	Even pages only	עמודים זוגיים בלבד
 #	Exact	
 	Example: {sample}	דוגמה: {sample}
 #	Exclusion	
-#	Exit	
+	Exit	יציאה
 	Expand	הרחבה
 	Export	ייצוא
 #	Export As	
@@ -443,10 +443,10 @@
 #	File Name	
 #	File Size	
 #@id	file.close	
-#	Files	
+	Files	קבצים
 	Fill	מילוי
 #	Fill:	
-#	Filter	
+	Filter	סינון
 	Find	חיפוש
 	Find and Replace	חיפוש והחלפה
 	Find Next	חיפוש הבא
@@ -534,13 +534,13 @@
 #	Hard Mix	
 	Headings	כותרות
 	Heart	לב
-#	Height	
+	Height	גובה
 	Height:	גובה:
 	Help	עזרה
 #	Hexagon	
 	Hidden	מוסתר
 	Hidden text	טקסט מוסתר
-#	Hide	
+	Hide	הסתרה
 #	Hide All	
 #	Hide Grid	
 #	Hide Others	
@@ -552,7 +552,7 @@
 #	Highlights	
 	Hindi	הינדי
 #	Histogram	
-#	History	
+	History	היסטוריה
 	Hollow	חלול
 	Home	בית
 	Horizontal	אופקי
@@ -568,7 +568,7 @@
 #	Image	
 #	Image Size	
 #	Images	
-#	Import	
+	Import	ייבוא
 	Import…	ייבוא…
 	Inches	אינצ'ים
 	Increase Font Size	הגדלת גודל גופן
@@ -638,7 +638,7 @@
 #	Length	
 #	Length:	
 #	Lens Flare	
-#	Less	
+	Less	פחות
 	Letter	מכתב
 #	Level	
 	Level 1	רמה 1
@@ -680,7 +680,7 @@
 #	List view	
 	Location	מיקום
 #	Location:	
-#	Lock	
+	Lock	נעילה
 #	Lock Guides	
 #	Lock Slices	
 #	Locked	
@@ -735,11 +735,11 @@
 #	Monitor RGB	
 #	Mono	
 #	Monochrome	
-#	More	
+	More	עוד
 #	Mosaic	
 #	Mosaic Tiles	
 #	Motion	
-#	Move	
+	Move	העברה
 	Move Down	הזזה למטה
 #	Move Panel	
 	Move Up	הזזה למעלה
@@ -802,13 +802,13 @@
 	Omit	השמטה
 	On	מופעל
 #	Only Web Colors	
-#	Opacity	
+	Opacity	אטימות
 #	Opacity:	
 	Open	פתיחה
 #	Open link	
 #	Open Recent	
 #	OpenType	
-#	Open…	
+	Open…	פתיחה…
 #	Optimized	
 	Options	אפשרויות
 	Options…	אפשרויות…
@@ -885,7 +885,7 @@
 #	Posterization	
 #	Posterize	
 #	Preferences	
-#	Preferences…	
+	Preferences…	העדפות…
 #	Prefix	
 #	Preserve	
 #	Preserve Luminosity	
@@ -905,7 +905,7 @@
 	Printer	מדפסת
 #	Printer:	
 	Printing	הדפסה
-#	Print…	
+	Print…	הדפסה…
 #	Profile	
 #	Progressive	
 #	Proof Setup	
@@ -950,7 +950,7 @@
 #	Relative Colorimetric	
 	Relaxed	מרווח
 #	Relief	
-#	Reload	
+	Reload	טעינה מחדש
 	Remove	הסרה
 	Remove Background	הסרת רקע
 #	Remove from favorites	
@@ -972,7 +972,7 @@
 #	Resize panels	
 #	Resolution	
 #	Resolution:	
-#	Restore	
+	Restore	שחזור
 	Result	תוצאה
 #	Resume	
 #	Reveal in Finder	
@@ -1008,7 +1008,7 @@
 #	Save as PDF	
 	Save as Template	שמירה כתבנית
 #	Save as Template…	
-#	Save As…	
+	Save As…	שמירה בשם…
 #	Save Preset…	
 #	Save Selection	
 #	Save Selection…	
@@ -1041,7 +1041,7 @@
 	Set	קביעה
 	Set as Default	הגדרה כברירת מחדל
 #	Set:	
-#	Settings	
+	Settings	הגדרות
 #	Settings:	
 	Settings…	הגדרות…
 	Shadow	צל
@@ -1121,7 +1121,7 @@
 	Star	כוכב
 	Start at:	התחלה ב:
 	Statistics	סטטיסטיקה
-#	Status	
+	Status	מצב
 	Status Bar	שורת המצב
 #	Stippled	
 	Stop	עצירה
@@ -1218,7 +1218,7 @@
 	Union	איחוד
 #	Units	
 #	Unknown	
-#	Unlock	
+	Unlock	ביטול נעילה
 #	Unsaved changes	
 #	Unsharp Mask	
 #	Untitled	
@@ -1247,7 +1247,7 @@
 #	Vivid Light	
 	Voice	קול
 	W:	ר:
-#	Warning	
+	Warning	אזהרה
 #	Warnings	
 #	Warp	
 	Watermark	סימן מים
@@ -1261,7 +1261,7 @@
 #	White Intensity	
 #	White Is High	
 #	Whites	
-#	Width	
+	Width	רוחב
 #	Width and Height	
 	Width:	רוחב:
 	Window	חלון
