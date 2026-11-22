@@ -378,3 +378,13 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## Hebrew PhotoCraft: mode conversion, adjustment, measurement and Actions dialogs (November 2026)
+
+Nine additional Hebrew interface strings for PhotoCraft were translated from the exact English
+`tl!` strings in the official `storytold/photocraft` source: mode-conversion source/target
+sections, a missing adjustment target, measurement data-point headings and missing-document
+feedback, and Actions set/stop dialog controls. These are original clean-room Hebrew
+translations drafted with ChatGPT assistance from the English meaning and UI context;
+no other product's translation table was copied. Native Hebrew-speaker review, RTL rendering
+in the installed app, maintainer review, and upstream inclusion are still pending.
