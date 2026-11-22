@@ -378,3 +378,17 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft: Hebrew artboard export, batch and document dialogs (2026-11-22)
+
+Adds 37 Hebrew translations for new-to-Hebrew source-backed UI labels in
+`storytold/photocraft` `crates/ui-egui/src/menus/view_cmds/dialogs.rs`.
+They cover document/artboard export, file formats, batch folders,
+layer selection, resampling and image-processing choices. The translations
+are AI-assisted clean-room original Hebrew based on the exact English UI
+source and existing catalog terminology. Compared against the official
+Hebrew PhotoCraft/common catalogs and the still-open Hebrew PhotoCraft PR
+branch catalogs (#219, #268, #370, #371, #373-#376, #387, #390, #392)
+to avoid duplicate source keys. Native speaker, UI/RTL and installed
+application verification are still outstanding. Only the Hebrew PhotoCraft
+catalog and this attribution file were changed.
