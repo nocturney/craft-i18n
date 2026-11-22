@@ -378,3 +378,10 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+
+## Hebrew WordCraft table and document-property controls (2026-11-22)
+Six original clean-room Hebrew strings for active WordCraft `dialogs/forms.rs` controls:
+Custom Properties, Preferred width, Indent from left, Table direction,
+Row height is and Vertical alignment (source commit 33d874c1f5b3e60dfc27bbf9a4c519ab38e8d701).
+AI-assisted translation; independent native-speaker/RTL UI review is pending.
