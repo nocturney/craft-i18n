@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft: Hebrew Retouch, Count and Image Stack controls (2026-11-22)
+
+@nocturney contributed 16 new Hebrew (`he`) UI entries to `locales/he/photocraft.tsv`, covering the Retouch options bar (healing/remix), Count tool group controls and Image Stack dialogs. The wording was AI-assisted with ChatGPT and checked against active `tl!` source text in `storytold/photocraft` (`tools/retouch_ui/bar/heal.rs`, `tools/analysis/bars.rs`, `dialogs/stack_dialog.rs`) and existing Hebrew terminology. No independent native-speaker review or running UI/RTL verification is claimed. No third-party product localisation was copied.
