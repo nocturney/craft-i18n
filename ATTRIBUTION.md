@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft: Hebrew Note tool deletion confirmations (2026-11-22)
+
+Six original Hebrew translations for PhotoCraft note deletion confirmation and stale-document safety messages. English source: storytold/photocraft crates/ui-egui/src/tools/analysis/note_alerts.rs at c05c4c5fdfb8995de773773c623b07646e66eb32. Exact tl! labels were checked against official Hebrew PhotoCraft/shared catalogs and other open Hebrew PhotoCraft contributions. The translation is clean-room AI-assisted and has not been independently native-speaker reviewed, visually RTL tested, or installed in the app.

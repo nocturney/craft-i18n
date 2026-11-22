@@ -4418,3 +4418,9 @@ navigator	Zoom	תקריב
 	Connectivity	קישוריות
 	Disc	סביבה מעגלית
 	Each	כל אחד
+	Are you sure you want to delete all notes?	האם למחוק את כל ההערות?
+	Delete Note	מחיקת הערה
+	Delete this note?	האם למחוק הערה זו?
+	Note deleted, but the preference could not be saved: {error}	ההערה נמחקה, אך לא ניתן היה לשמור את ההעדפה: {error}
+	The document changed. Please choose Clear All again.	המסמך השתנה. יש לבחור שוב באפשרות ״נקה הכול״.
+	The document or its notes changed. Please delete the note again.	המסמך או ההערות שבו השתנו. יש לנסות למחוק את ההערה שוב.
