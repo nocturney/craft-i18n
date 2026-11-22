@@ -378,3 +378,19 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft Hebrew: browser low-memory warning (2026-11-22)
+
+Three original Hebrew translations were added for the low-memory warning shown in the
+PhotoCraft web interface. English source: `storytold/photocraft`
+`crates/ui-egui/src/memory_warning.rs` (`TITLE` and `post` notice lines).
+The `Notice::text` display path in `crates/ui-egui/src/notices.rs` translates
+these English notice strings at render time. The labels for Edit, Purge and All
+were checked against the existing Hebrew PhotoCraft/common catalog terminology.
+
+Wording is AI-assisted clean-room translation of the English source, with no
+copied third-party localization. The three keys were absent from the official
+Hebrew PhotoCraft/common catalogs; selected open PhotoCraft Hebrew proposals
+(#219, #268, #375, #376, #387, #390) were checked for overlap.
+Independent native-speaker review, browser memory-state visual QA, upstream
+merge and installed-release acceptance remain pending.
