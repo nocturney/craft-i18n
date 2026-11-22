@@ -378,3 +378,8 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+
+## Hebrew WordCraft simple-dialog inputs and field-code feedback (2026-11-22)
+
+Five original clean-room Hebrew translations for active WordCraft `crates/ui-egui/src/dialogs/simple_forms.rs` UI strings: table-insertion column/row counts, field-code label/title and the cell-margin missing-table notice. Source file blob `dd746799d24af1a521aaae8686bd3b07b26541ea`. Translation was AI-assisted from the English literals and existing Hebrew office terminology; independent native-speaker and installed WordCraft RTL UI review are not yet recorded. No external localized strings were copied.
