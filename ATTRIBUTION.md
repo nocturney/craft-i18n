@@ -378,3 +378,13 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft: Hebrew lens correction dialog controls (2026-11-22)
+
+Adds eight original Hebrew interface translations for the Lens Correction dialog in
+`storytold/photocraft` `crates/ui-egui/src/dialogs/lens_batch_ui.rs`.
+English sources are literal `tl!` UI keys, checked against the official Hebrew
+PhotoCraft and shared catalogs and against already proposed Hebrew translation
+keys. The work is clean-room AI-assisted Hebrew, with established PhotoCraft
+terminology consulted for vignette and technical lens settings. No independent
+native speaker review, running Hebrew RTL UI check, or app installation is claimed.
