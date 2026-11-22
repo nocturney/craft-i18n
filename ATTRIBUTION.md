@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## Hebrew PhotoCraft: Rotate Canvas dialog (2026-11-22)
+
+Two original Hebrew strings for the Rotate Canvas dialog and its counter-clockwise option. Contributed by @nocturney with ChatGPT (OpenAI), AI-assisted, written clean-room from the English in storytold/photocraft dialogs/rotate_canvas_ui.rs. Not independently reviewed by a native Hebrew speaker or verified in the running RTL UI.
