@@ -371,9 +371,11 @@ numerals	Arabic	ערביות
 	Characters (with spaces)	תווים (כולל רווחים)
 	Characters per line:	תווים בשורה:
 	Chart	תרשים
+	Chart data	נתוני תרשים
 	Chart Design	עיצוב תרשים
 	Chart Layouts	פריסות תרשים
 	Chart Title	כותרת תרשים
+	Chart types	סוגי תרשימים
 	charts and diagrams can't be moved or resized yet	עדיין אי אפשר להזיז תרשימים ודיאגרמות או לשנות את גודלם
 	Check	בדיקה
 	Check Accessibility	בדיקת נגישות
@@ -2090,6 +2092,7 @@ template	Letter	מכתב
 	Studio cover	כריכת סטודיו
 	Studio handbook (sample)	מדריך הסטודיו (דוגמה)
 	Style based on:	סגנון מבוסס על:
+	Style Color	צבע הסגנון
 	Style Inspector	בודק הסגנונות
 	Style name:	שם הסגנון:
 	Style Set	ערכת סגנונות

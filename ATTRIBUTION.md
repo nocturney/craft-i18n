@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## WordCraft Hebrew chart and diagram controls (2026-11-22)
+
+Added three original Hebrew labels in `locales/he/wordcraft.tsv`: `Chart types`, `Chart data`, and `Style Color`. Based on their English meanings and active `tl!` call sites in official WordCraft `crates/ui-egui/src/dialogs/dialogs_chart.rs` (blob `83019b21ea80220abe9539a4db2217a3918bdec0`) and `dialogs_smart_art.rs` (blob `ba018f06fcec120d5d945b63fef3f290ca8d6253`). Written by contributor @nocturney with AI assistance using clean-room, ordinary Hebrew computing vocabulary; no third-party translated string table was consulted. Independent Hebrew-speaker review and live right-to-left UI verification remain outstanding.
