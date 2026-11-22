@@ -378,3 +378,13 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## Hebrew — WordCraft print preview (2026-11-22)
+
+Four Hebrew translations for the existing WordCraft Print preview sheet navigation,
+sheet count and rendering-failure UI, based on literal source strings in
+`storytold/wordcraft` `crates/ui-egui/src/print_page/preview.rs`.
+These are original clean-room, AI-assisted Hebrew translations from the English
+meaning; existing Hebrew Craft terminology was consulted. No native-speaker
+review, native/RTL visual test or installed-app acceptance has been performed.
+Proposed under the official `storytold/craft-i18n` repository; no merge implied.
