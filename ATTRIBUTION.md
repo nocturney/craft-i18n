@@ -306,3 +306,15 @@ in the source PR. PhotoCraft #12851 (@rmsff) rekeys the fill-rasterization promp
 in 22 catalogs, preserving the existing translations and their credits above.
 Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 `tools/sync_app.py`; no translations were newly authored in this top-up.
+
+## WordCraft Hebrew: paragraph spacing fields and citation provider controls (2026-11-22)
+
+Four additional WordCraft ribbon UI strings from the current English sources in
+`crates/ui-egui/src/ribbon/layout.rs` (Before, After) and
+`crates/ui-egui/src/ribbon/references.rs` (Provider, Citation Provider).
+Original clean-room Hebrew wording was drafted with ChatGPT (OpenAI) using the
+English meanings and inspected in their actual UI contexts. No other product's
+translation assets were copied. Exact-key presence, uniqueness and placeholders
+were checked against the existing Hebrew WordCraft and common catalogs.
+Independent native-speaker review, hosted Rust CI and live WordCraft RTL UI
+verification have not been completed. This is a translation source proposal only.
