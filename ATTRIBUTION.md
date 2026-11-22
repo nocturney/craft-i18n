@@ -378,3 +378,14 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft Hebrew: save status and batch interruption prompt (2026-11-22)
+
+Two original Hebrew UI strings added to `locales/he/photocraft.tsv` by @nocturney
+with ChatGPT (OpenAI) AI assistance. Both keys are used in the live English
+PhotoCraft source at `crates/ui-egui/src/jobs_ui.rs`: the Save-job progress
+label and the batch-run interruption question. Wording was drafted clean-room
+from the English meanings, without copying another product's localization.
+Existing Hebrew app/shared catalogs and relevant open PR patches were checked
+for exact-key overlap. An independent native-speaker review and a running
+PhotoCraft RTL/visual check have not been performed.
