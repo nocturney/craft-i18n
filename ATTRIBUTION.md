@@ -378,3 +378,15 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft Hebrew: file-drop and open errors (2026-11-22)
+
+Two original Hebrew UI error messages added to `locales/he/photocraft.tsv`
+by @nocturney with ChatGPT (OpenAI) AI assistance. Exact English keys
+are used in `storytold/photocraft` at `crates/ui-egui/src/file_open.rs`:
+a directory dropped as a file, and unreadable dropped file bytes.
+Wording was written clean-room from the English meaning without copying
+a third-party product's translation. The official Hebrew app/shared
+catalogs and current relevant open Hebrew PhotoCraft patches were
+checked for these exact keys. Independent native-speaker review and
+running PhotoCraft Hebrew/RTL UI verification are still pending.
