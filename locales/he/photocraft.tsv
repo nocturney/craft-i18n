@@ -4418,3 +4418,10 @@ navigator	Zoom	תקריב
 	Connectivity	קישוריות
 	Disc	סביבה מעגלית
 	Each	כל אחד
+
+# PhotoCraft duplicate-layer UI: original Hebrew from official duplicate_layer_ui.rs.
+	no destination document	לא נבחר מסמך יעד
+	The destination document is no longer open. Choose another one.	מסמך היעד כבר אינו פתוח. יש לבחור מסמך אחר.
+	Duplicate Group	שכפול קבוצה
+	As:	בשם:
+	The document or selected layers changed. Choose Duplicate Layer again.	המסמך או השכבות שנבחרו השתנו. יש להפעיל שוב את הפקודה ״שכפול שכבה״.
