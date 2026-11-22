@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## WordCraft Hebrew keyboard shortcut and date/time format feedback (2026-11-22)
+
+Added two original Hebrew UI translations in `locales/he/wordcraft.tsv`: `Use a key combination with Ctrl, Alt or a function key.` and `Default format saved.`. Based on the active English `tl!` calls in the official WordCraft source, `crates/ui-egui/src/dialogs/customize_keyboard.rs` and `crates/ui-egui/src/dialogs/dialogs_insert/date_time.rs`, respectively. Drafted by @nocturney with AI assistance using clean-room computing terminology; no third-party translations were copied. Independent Hebrew-speaker review and native RTL UI verification remain pending.
