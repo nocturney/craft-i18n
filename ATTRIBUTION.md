@@ -378,3 +378,12 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## Hebrew WordCraft mail-merge controls (2026-11-22)
+
+Eight original Hebrew UI translations were added from the plain English meanings and
+call sites of the official WordCraft sources `crates/ui-egui/src/dialogs/merge_dialogs.rs`
+and `crates/ui-egui/src/dialogs/mailings.rs`: spreadsheet sheets, recipient records,
+address components, recipient search/filtering and sort direction. AI-assisted
+translation; not yet reviewed by an independent native Hebrew speaker or tested in
+the installed WordCraft UI. No third-party localization strings were used.
