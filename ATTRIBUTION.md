@@ -381,7 +381,11 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 
 
 ## Hebrew WordCraft table and document-property controls (2026-11-22)
-Six original clean-room Hebrew strings for active WordCraft `dialogs/forms.rs` controls:
-Custom Properties, Preferred width, Indent from left, Table direction,
-Row height is and Vertical alignment (source commit 33d874c1f5b3e60dfc27bbf9a4c519ab38e8d701).
-AI-assisted translation; independent native-speaker/RTL UI review is pending.
+Eight original clean-room Hebrew strings for active WordCraft document-property controls:
+six existing strings from `dialogs/forms.rs` (Custom Properties, Preferred width,
+Indent from left, Table direction, Row height is, Vertical alignment; source
+commit 33d874c1f5b3e60dfc27bbf9a4c519ab38e8d701), plus two active
+`backstage/pages.rs` strings for the Advanced Properties action and tooltip
+(source commit c369c3a20befef8742f8913128cacd79002435d6).
+AI-assisted Hebrew translation from the original English source text;
+independent native-speaker/RTL UI review is pending.
