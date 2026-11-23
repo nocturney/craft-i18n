@@ -356,12 +356,15 @@ equals Chart ("Diagram") by choice, confirmed by @FredApps, a native speaker, in
 craft-i18n#211. In `da` and `hu` it still equals Chart, pending a native speaker's choice.
 ## WordCraft: Hebrew language packs and AutoCorrect strings (2026-11-21)
 
-23 original Hebrew translations for WordCraft's language-pack installation,
+28 original Hebrew translations for WordCraft's language-pack installation,
 window status, changed-selection feedback and AutoCorrect controls.
+Five additional AutoCorrect form labels come directly from active `tl!(...)`
+UI callsites in `storytold/wordcraft/crates/ui-egui/src/dialogs/dialogs_review.rs`
+(source blob `6f20af25ad51579cd4e3c63ee5a59e70176e5eb9`).
 Contributed by @nocturney with AI assistance; independent native-speaker
 proofreading and live UI review have not been recorded. English source/context
-keys were checked against this repository's French catalog and do not overlap
-the extant Hebrew catalog or the open additions in #219, #300 and #317.
+keys were checked against the official English callsites and catalog,
+without overlapping the extant Hebrew catalog or relevant open Hebrew proposals.
 
 ## PhotoCraft: Rotate View Left and Right from photocraft#4931
 
