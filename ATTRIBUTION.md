@@ -378,3 +378,13 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PdfCraft: Hebrew link properties controls
+
+@nocturney contributed six Hebrew (`he`) rows for the PdfCraft link properties and
+appearance controls (`Action`, `Selected link`, `Link Type`, `Highlight Style`,
+`Line Thickness`, and `Line Style`) from the active `link_ui.rs` English source.
+Translations were drafted with OpenAI ChatGPT (GPT-6) from the plain English UI
+meaning and the established vocabulary in the existing Hebrew catalog, without
+copying another application's translations. No native-speaker review or
+installed-app visual RTL check has been recorded.
