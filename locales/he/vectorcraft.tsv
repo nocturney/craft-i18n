@@ -10,25 +10,74 @@
 # Clean room: every entry was written from the plain meaning of the English text in ordinary
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
-
 	Add Anchor Point	הוסף נקודת עיגון
 	Add Anchor Point Tool	כלי להוספת נקודת עיגון
+	Add Guides	הוסף קווי עזר
+	Add Mesh Line	הוסף קו לרשת
+	Add New Fill	הוסף מילוי חדש
+	Add New Stroke	הוסף קו מתאר חדש
+	Add to Selection	הוסף לבחירה
 	Align Stroke to Center	יישור קו המתאר למרכז
 	Align Stroke to Inside	יישור קו המתאר לפנים
 	Align Stroke to Outside	יישור קו המתאר לחוץ
 	Align to Artboard	יישור למשטח העבודה
+	Align to Key Object	יישר לאובייקט המפתח
+	Align to Page	יישר לעמוד
+	Align to Path	יישר לנתיב
+	Alignment Guides	קווי עזר ליישור
+	All on Active Artboard	הכול במשטח העבודה הפעיל
+	All on Same Layers	הכול באותן שכבות
+	All Text Objects	כל אובייקטי הטקסט
 	Anchor Point	נקודת עיגון
+	Anchor Point Tool	כלי נקודת עיגון
 	Anchor Points	נקודות עיגון
+	Anchors	נקודות עיגון
+	Apply Brush	החל מברשת
+	Apply Last Color	החל את הצבע האחרון
+	Apply Last Gradient	החל את מעבר הצבע האחרון
+	Artboard {number}	משטח עבודה {number}
 	Artboard Options	אפשרויות משטח העבודה
 	Artboard Tool	כלי משטח העבודה
+	Artboards: {n}	משטחי עבודה: {n}
+	Asset Export	ייצוא נכסים
+	Asset Export Settings	הגדרות ייצוא נכסים
+	Background Color:	צבע רקע:
 	Blend Tool	כלי מיזוג
+	Blob Brush	מברשת כתם
+	Blob Brush Tool	כלי מברשת כתם
 	Break Link to Symbol	נתק קישור לסמל
 	Brush Libraries	ספריות מברשות
+	Brush Options…	אפשרויות מברשת…
+	By Artboard or Item	לפי משטח עבודה או פריט
+	By Layer	לפי שכבה
+	By Object	לפי אובייקט
+	Calligraphic Brush Options	אפשרויות מברשת קליגרפית
+	Cancel Export	בטל ייצוא
+	Canvas Color	צבע משטח העבודה
 	Center on Artboard	מרכז במשטח העבודה
+	Change to Artboard Rulers	עבור לסרגלי משטח עבודה
 	Clip to Artboard	חתוך לגבולות משטח העבודה
+	Clipping Masks	מסכות חיתוך
+	Close Gaps With Paths	סגור פערים באמצעות נתיבים
 	Close Path	סגור נתיב
+	Close paths when ends are within:	סגור נתיבים כאשר הקצוות במרחק:
+	Color Guide	מדריך צבעים
+	Color Guide Options	אפשרויות מדריך צבעים
+	Color Guide Options…	אפשרויות מדריך צבעים…
+	Color Library	ספריית צבעים
+	Color Library…	ספריית צבעים…
+	Color Picker…	בורר צבעים…
+	Color Scheme	ערכת צבעים
+	Color Theme	ערכת צבעי נושא
 	Compound Path	נתיב מורכב
+	Convert All Strokes to Outlines	המר את כל קווי המתאר לצורות
+	Convert All Text to Outlines	המר את כל הטקסט לקווי מתאר
 	Convert Anchor Point	המר נקודת עיגון
+	Convert Anchor Points	המר נקודות עיגון
+	Convert Document Color Mode	המר מצב צבע של המסמך
+	Convert Selected Anchor Points to Corner	המר נקודות עיגון נבחרות לפינות
+	Convert Selected Anchor Points to Smooth	המר נקודות עיגון נבחרות לעקומות חלקות
+	Convert to Artboards	המר למשטחי עבודה
 	Create New Layer	צור שכבה חדשה
 	Create Path	צור נתיב
 	Cut Path	חתוך נתיב
