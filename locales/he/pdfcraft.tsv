@@ -2721,3 +2721,12 @@ calendar weekday	We	ד׳
 	This document's script is asking	הסקריפט של מסמך זה שואל
 	Document: {name}	מסמך: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	בקשה זו מגיעה מהמסמך, לא מ-PdfCraft. הזינו סיסמה רק אם אתם סומכים על מסמך זה.
+	Border colour	צבע המסגרת
+	Border opacity	אטימות המסגרת
+	Changes here apply to all {n} selected comments	השינויים כאן יחולו על כל {n} ההערות שנבחרו
+	Fill opacity	אטימות המילוי
+	Line opacity	אטימות הקו
+	Rename “{name}”	שינוי השם של „{name}”
+	Save and Rename	שמירה ושינוי שם
+	Text opacity	אטימות הטקסט
+	This document has unsaved changes. They are saved first, then the file is renamed.	במסמך זה יש שינויים שלא נשמרו. תחילה הם יישמרו, ולאחר מכן ישונה שם הקובץ.
