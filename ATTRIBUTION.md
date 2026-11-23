@@ -378,3 +378,11 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## Hebrew: PhotoCraft Image Processor XML settings controls (2026-11-23)
+
+Eight Hebrew strings for the active Image Processor Load/Save settings file picker and
+XML error paths in `storytold/photocraft` `crates/ui-egui/src/dialogs/image_processor_ui.rs`.
+Translated by @nocturney with ChatGPT assistance from the English UI source and
+existing PhotoCraft terminology; no other product's localization files were copied.
+Independent native-speaker review and installed-app RTL verification have not been recorded.
