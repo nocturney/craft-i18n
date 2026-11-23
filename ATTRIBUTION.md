@@ -378,3 +378,8 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PdfCraft (he): print grid, measurement snapping, link zoom and document properties
+
+- Contributor: @nocturney. Four original Hebrew UI strings drafted with ChatGPT (OpenAI) assistance from active `tl!` call sites in official `storytold/pdfcraft` at source `9b3e6d6f38de906c758d93e8ece45cbf105fd515`: `crates/ui-egui/src/workflows/print_ui/draft.rs`, `tools/measure_ui.rs`, `tools/link_ui.rs`, and `properties_session.rs`.
+- English keys: `Columns and rows must each be 1 to 99.`, `Reading the drawing for snapping…`, `Inherit Zoom`, and `The document changed. Reopen Document Properties to edit the current version.` They were absent from official Hebrew PdfCraft and common catalogs; checked open related proposals for overlap. No third-party translations were copied. Native-speaker review and installed-app RTL verification remain pending.

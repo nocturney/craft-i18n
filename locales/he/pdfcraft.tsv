@@ -2721,3 +2721,7 @@ calendar weekday	We	ד׳
 	This document's script is asking	הסקריפט של מסמך זה שואל
 	Document: {name}	מסמך: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	בקשה זו מגיעה מהמסמך, לא מ-PdfCraft. הזינו סיסמה רק אם אתם סומכים על מסמך זה.
+	Columns and rows must each be 1 to 99.	מספר העמודות ומספר השורות חייבים להיות בין 1 ל־99 כל אחד.
+	Reading the drawing for snapping…	קורא את השרטוט לצורך הצמדה…
+	Inherit Zoom	שימוש ברמת התקריב הקיימת
+	The document changed. Reopen Document Properties to edit the current version.	המסמך השתנה. יש לפתוח מחדש את מאפייני המסמך כדי לערוך את הגרסה הנוכחית.
