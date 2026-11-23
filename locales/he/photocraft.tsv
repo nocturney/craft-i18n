@@ -321,6 +321,7 @@ cameraRaw	Aqua	אקווה
 	Auto Erase	מחיקה אוטומטית
 	Auto Hide	הסתרה אוטומטית
 	Auto Hide Notifications	הסתר התראות אוטומטית
+	Auto Refresh	רענון אוטומטי
 	Auto Scale	קנה מידה אוטומטי
 	Auto show hidden panels	הצג אוטומטית פאנלים מוסתרים
 	Auto show home screen	הצג אוטומטית מסך הבית
@@ -660,6 +661,7 @@ fontWeight	Bold	מודגש
 	Click to pick · Esc to cancel	לחץ לבחירה · Esc לביטול
 	Click to place · Alt-click or drag off-canvas to remove	לחץ להצבה · Alt-לחיצה או גרירה מחוץ לקנבס להסרה
 	Click to refresh histogram with uncached data	לחץ לרענון ההיסטוגרמה עם נתונים לא ממוטמנים
+	Click to refresh object finder.	לחץ כדי לרענן את מאתר האובייקטים.
 	Click to restore the current colour	לחץ לשחזור הצבע הנוכחי
 	Click to sample the foreground colour  ·  {key}-click for background	לחץ כדי לדגום את צבע החזית  ·  {key}-לחיצה לרקע
 	Click to zoom in  ·  {key}-click to zoom out  ·  drag right/left to zoom in/out	לחץ להגדלה  ·  {key}-לחיצה להקטנה  ·  גרור ימינה/שמאלה להגדלה/הקטנה
@@ -2329,6 +2331,7 @@ cameraData	Make	יצרן
 	Manage submitted jobs in the system print queue	נהל עבודות שנשלחו בתור ההדפסה של המערכת
 	Manual	ידני
 	manual	ידני
+	Manual Refresh	רענון ידני
 	Map Document	מפה את המסמך
 	Map Layer	מפה את השכבה
 	Map Path	מפה את הנתיב
@@ -2645,6 +2648,7 @@ layerLabel	No Color	בלי צבע
 	Object Name / Title	שם אובייקט / כותרת
 	Object Selection found nothing there — try a tighter rectangle	בחירת אובייקטים לא מצאה שם כלום — נסה מלבן צפוף יותר
 	Object Selection Tool	כלי בחירת אובייקטים
+	Object Subtract	חיסור אובייקט
 	Ocean Ripple	אדוות אוקיינוס
 	Octagon	מתומן
 	Odd Fields	שדות אי-זוגיים
@@ -3511,6 +3515,7 @@ fontWeight	SemiBold	מודגש-חלקי
 	Set 8	ערכה 8
 	Set 9	ערכה 9
 	Set additional Crop options	הגדר אפשרויות חיתוך נוספות
+	Set additional options	הגדר אפשרויות נוספות
 	Set additional smoothing options	הגדר אפשרויות החלקה נוספות
 	Set as default	הגדר כברירת מחדל
 	Set background color	הגדר צבע רקע
