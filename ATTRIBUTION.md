@@ -378,3 +378,12 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PdfCraft Hebrew: find-and-replace result messages (2026-11-23)
+
+Six Hebrew UI entries for the outcome notifications from the official PdfCraft
+crates/ui-egui/src/tools/replace_ui.rs (source blob 165c69e69a66578cbfbb0ec7627e99f1fb9f84c8).
+Translations were written from the English source meaning with ChatGPT assistance;
+placeholders and the count/reason formatting were retained. Independent Hebrew
+native-speaker review, real right-to-left UI testing, and installation are pending.
+The contributor fork is only the PR head; the target is storytold/craft-i18n.
