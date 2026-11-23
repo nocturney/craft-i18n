@@ -378,3 +378,15 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft: Hebrew vector path alignment and arrangement (2026-11-23)
+
+Three previously untranslated active PhotoCraft labels from
+storytold/photocraft crates/ui-egui/src/tools/vector_ui/path_menus.rs
+(commit 033ed7d34c3d8b079498bd522434f6220563a2e2):
+Path alignment, Distribute:, and Path arrangement.
+Original Hebrew translations by @nocturney, AI-assisted using ChatGPT (OpenAI),
+translated from the English source wording and existing public Hebrew UI terminology.
+No independent native-speaker review or installed PhotoCraft RTL visual check yet.
+The already-proposed Align:, Align To:, and Distribute Spacing: translations
+are deliberately omitted because they exist in open upstream PR #42.
