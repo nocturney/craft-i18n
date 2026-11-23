@@ -465,6 +465,7 @@ numerals	Arabic	ערביות
 	CONFIDENTIAL	חסוי
 	Confirm password:	אישור סיסמה:
 	Connect Shapes	חיבור צורות
+	Connection sites	נקודות חיבור
 	Container Title	כותר המכיל
 	Content Control at Selection	פקד תוכן בבחירה
 	Content Control Properties	מאפייני פקד תוכן
@@ -1452,6 +1453,7 @@ template	Letter	מכתב
 	Numerals:	ספרות:
 	n×n Identity Matrix	מטריצת יחידה n×n
 	n×n Matrix	מטריצה n×n
+	Object frame	מסגרת אובייקט
 	Odd Banded Columns	עמודות מפוספסות אי-זוגיות
 	Odd Banded Rows	שורות מפוספסות אי-זוגיות
 	Odd Page	עמוד אי-זוגי
@@ -1591,6 +1593,7 @@ template	Letter	מכתב
 	Pi Over 2	פאי חלקי 2
 	Pick a custom group (New Group makes one)	יש לבחור קבוצה מותאמת אישית (קבוצה חדשה יוצרת אחת)
 	Pick a field from the list	יש לבחור שדה מהרשימה
+	Picked objects	אובייקטים שנבחרו
 	Picture	תמונה
 	Picture Border	גבול תמונה
 	Picture border	גבול תמונה
@@ -2163,6 +2166,7 @@ numerals	System	לפי המערכת
 	Templates and Add-ins	תבניות ותוספות
 	Templates you save in your templates folder show up here.	תבניות שנשמרות בתיקיית התבניות מופיעות כאן.
 	Text Box	תיבת טקסט
+	Text box frame	מסגרת תיבת טקסט
 	Text boxes	תיבות טקסט
 	text boxes can't go inside a text box	אי אפשר למקם תיבת טקסט בתוך תיבת טקסט
 	Text Direction	כיוון טקסט
@@ -2290,6 +2294,7 @@ preview	Title	כותרת
 	Tue	ג'
 	Turabian	Turabian
 	Turkish	טורקית
+	Turning object	סיבוב אובייקט
 	Two	שניים
 	Two-sided printing	הדפסה דו-צדדית
 	Two-sided: long edge	דו-צדדית: הקצה הארוך
