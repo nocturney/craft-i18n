@@ -378,3 +378,13 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## WordCraft Hebrew: macro guard, gradient stop and picture source (2026-11-23)
+
+Three original Hebrew rows in `locales/he/wordcraft.tsv`: `Stop recording first`,
+`Stop color` and `Picture source`. These are sourced from the active WordCraft
+English UI strings in `dialogs/macros.rs`, `format_shape.rs` and `crop.rs`,
+respectively. Translations were written from English meaning and established
+Hebrew UI terminology, not copied from other products' localization tables.
+AI-assisted draft; no in-app RTL visual test or independent human review is
+claimed.

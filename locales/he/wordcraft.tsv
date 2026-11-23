@@ -1597,6 +1597,7 @@ template	Letter	מכתב
 	Picture Content Control	פקד תוכן תמונה
 	Picture Format	עיצוב תמונה
 	Picture Styles	סגנונות תמונה
+	Picture source	מקור התמונה
 	Picture transparency	שקיפות תמונה
 	Pictures	תמונות
 	Pie	עוגה
@@ -2080,6 +2081,8 @@ template	Letter	מכתב
 	Still there? I can hear you thinking.	עדיין שם? אני שומע אותך חושב.
 	Stop Protection	הפסקת ההגנה
 	Stop Reading	הפסקת הקריאה
+	Stop color	צבע נקודת מעבר
+	Stop recording first	יש להפסיק תחילה את ההקלטה
 	Stopped	נעצר
 	Straight Arrow Connector	מחבר חץ ישר
 	Straight Connector	מחבר ישר
