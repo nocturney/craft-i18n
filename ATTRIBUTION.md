@@ -378,3 +378,14 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## Hebrew: WordCraft template picker (2026-11-24)
+
+@nocturney contributed two original Hebrew strings for WordCraft's template-management
+dialog (`Pick a template on the desktop app` and `Template`) from the active
+English `tl!` call sites in `storytold/wordcraft`
+(`crates/ui-egui/src/dialogs/dialogs_templates.rs`, blob
+`835ca864e58a3d2fc777261675f6d320905f8eec`).
+Written from the English UI meaning with ChatGPT (OpenAI GPT-6) assistance;
+independent native-speaker review and installed-app RTL testing not recorded.
+No third-party localized UI was consulted.
