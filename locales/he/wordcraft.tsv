@@ -42,6 +42,7 @@
 	3×3 Identity Matrix (sparse)	מטריצת יחידה 3×3 (דלילה)
 	<< Less	<< פחות
 	<< Remove	<< הסרה
+	A custom-word dictionary file (.dic or plain text) used in conjunction with the main dictionary. Empty uses custom-dictionary.txt.	קובץ מילון מותאם אישית (.dic או טקסט פשוט) המשמש לצד המילון הראשי. אם השדה ריק, ייעשה שימוש ב־custom-dictionary.txt.
 	a drawing canvas can't be ungrouped	אי אפשר לפרק קבוצה של בד ציור
 	a drawing canvas can't go inside a text box	אי אפשר להכניס בד ציור לתיבת טקסט
 	A file dialog is already open.	חלון בחירת קבצים כבר פתוח.
@@ -304,6 +305,7 @@ numerals	Arabic	ערביות
 	Can't be deleted	לא ניתן למחיקה
 	Can't find a command? Press {key} and type what you want to do.	לא מוצאים פקודה? לוחצים {key} ומקלידים מה רוצים לעשות.
 	can't split at the first row	אי אפשר לפצל בשורה הראשונה
+	Cancellation could not be confirmed here. The printer driver may still be processing the job. If it appears in the system's print queue, cancel it there.	לא ניתן לאשר כאן שההדפסה בוטלה. ייתכן שמנהל ההתקן עדיין מעבד את המשימה. אם היא מופיעה בתור ההדפסה של המערכת, יש לבטל אותה שם.
 	Canvas Member	רכיב בקנבס
 	Capitalize Each Word	אות ראשונה רישית בכל מילה
 	Capitalize first letter of sentences	אות ראשונה רישית במשפטים
@@ -608,6 +610,7 @@ numerals	Context	לפי ההקשר
 	Dictate	הכתבה
 	Dictionaries	מילונים
 	Dictionaries folder:	תיקיית מילונים:
+	Dictionary file:	קובץ מילון:
 	Different First Page	עמוד ראשון שונה
 	Different Odd & Even Pages	עמודים זוגיים ואי-זוגיים שונים
 	Differential	דיפרנציאל
@@ -886,6 +889,7 @@ numerals	Context	לפי ההקשר
 	Gallery	גלריה
 	GB/T 7714	GB/T 7714
 	German (Germany)	גרמנית (גרמניה)
+	Get the Missing Fonts…	קבלת הגופנים החסרים…
 	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
 	Glow Colors	צבעי זוהר
 	Go Back	חזרה
@@ -1132,6 +1136,7 @@ numerals	Hindi	הודיות
 	Label changes with:	התווית משתנה עם:
 	Label:	תווית:
 	Language Preferences…	העדפות שפה…
+	Languages	שפות
 	Large\nOperator	אופרטור\nגדול
 	Largest Only	הגדול ביותר בלבד
 	Lasso Select	בחירה בלאסו
@@ -1280,6 +1285,7 @@ template	Letter	מכתב
 	Mark\nCitation	סימון\nציטוט
 	Mark\nEntry	סימון\nערך
 	Markdown (*.md)	Markdown (*.md)
+	Markdown Source takes up to 2 MB of text	מקור Markdown תומך בטקסט בנפח של עד 2 MB
 	Match case	התאמת רישיות
 	Match Fields	התאמת שדות
 	Match prefix	התאמת תחילית
@@ -1300,6 +1306,7 @@ template	Letter	מכתב
 	Mirror indents	כניסות במראה
 	Mirror margins	שוליים במראה
 	Mirrored	מראה
+	Missing fonts	גופנים חסרים
 	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.
 	MLA	MLA
 	mm	מ"מ
@@ -1421,6 +1428,7 @@ template	Letter	מכתב
 	Not available right now	לא זמין כרגע
 	not editing an equation	לא בעריכת משוואה
 	Not equal to	שונה מ
+	Not installed — shown as	לא מותקן — מוצג באמצעות
 	Not linked: click a text box	לא מקושר: יש ללחוץ על תיבת טקסט
 	Not now	לא עכשיו
 	Not saved	לא נשמר
@@ -1468,6 +1476,7 @@ template	Letter	מכתב
 	Offset: Top Left	היסט: למעלה משמאל
 	Offset: Top Right	היסט: למעלה מימין
 	Old menu keys: Alt, {keys}. Keep typing, or press Esc to cancel.	מקשי התפריט הישנים: Alt, {keys}. אפשר להמשיך להקליד, או ללחוץ Esc לביטול.
+	On X11, the touchpad follows the mouse wheel speed.	ב־X11, מהירות הגלילה של משטח המגע זהה למהירות של גלגלת העכבר.
 	On: the caret glides to its new place when you type or use the arrow keys, and its blink fades. Off: it jumps and blinks on and off.	מופעל: הסמן גולש למקומו החדש בעת הקלדה או שימוש במקשי החצים, והבהוב שלו דועך. כבוי: הסמן קופץ ומהבהב.
 	On: WordCraft opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	מופעל: WordCraft נפתח בקובץ › בית, עם מסמך ריק, התבניות והמסמכים האחרונים שלך. כבוי: נפתח מסמך ריק.
 	One	אחד
@@ -1520,6 +1529,7 @@ template	Letter	מכתב
 	Overbrace	סוגר מסולסל עליון
 	Overtype	החלפה
 	Overtype (typing replaces the characters after the caret)	החלפה (ההקלדה מחליפה את התווים שאחרי הסמן)
+	Own name and code	שם מקורי וקוד שפה
 	Page Background	רקע עמוד
 	Page Border	גבול עמוד
 	Page Borders	גבולות עמוד
@@ -1642,6 +1652,7 @@ template	Letter	מכתב
 	Print\nLayout	פריסת\nהדפסה
 	Printer default	ברירת המחדל של המדפסת
 	Printer discovery failed.	חיפוש המדפסות נכשל.
+	Printing cancelled. Nothing was sent to the printer.	ההדפסה בוטלה. דבר לא נשלח למדפסת.
 	Privacy for this document	פרטיות עבור מסמך זה
 	Privacy Options	אפשרויות פרטיות
 	Privacy Settings	הגדרות פרטיות
@@ -1739,9 +1750,12 @@ template	Letter	מכתב
 	Remove Watermark	הסרת סימן מים
 	No watermark	ללא סימן מים
 	Picture watermark	סימן מים של תמונה
+	Repeated word	מילה חוזרת
+	Status count	ספירה בשורת המצב
 	Text watermark	סימן מים של טקסט
 	Select Picture…	בחירת תמונה…
 	Semitransparent	שקוף למחצה
+	This document has content Markdown can't hold. Changing the text here removes it; one Undo afterwards brings it back.	המסמך מכיל תוכן ש־Markdown אינו יכול לשמר. שינוי הטקסט כאן יסיר את התוכן הזה; פעולת ביטול אחת לאחר מכן תחזיר אותו.
 	Transparency:	שקיפות:
 	Select a picture first.	יש לבחור תמונה תחילה.
 	Rename Document	שינוי שם המסמך

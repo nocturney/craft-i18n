@@ -378,3 +378,13 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## Hebrew WordCraft output and proofing safety notices (2026-11-23)
+
+Fourteen new Hebrew UI strings from the active official WordCraft source
+(storytold/wordcraft commit c369c3a20befef8742f8913128cacd79002435d6):
+`printing.rs`, `md_source.rs`, `chrome/status_bar.rs`, `options.rs`,
+and `language_packs.rs`. This covers cancellation uncertainty, Markdown
+content-loss warnings, missing-font status, dictionary setup and language names.
+Original clean-room AI-assisted Hebrew translation from English UI text; no
+native-speaker, installed-app or RTL visual review has been performed.
