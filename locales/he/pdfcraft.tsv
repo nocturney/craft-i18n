@@ -1629,6 +1629,8 @@ animation effects	On	מופעל
 	PdfCraft works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PdfCraft פועל גם ללא חיבור לרשת. אין איסוף נתוני שימוש, אין צורך בחשבון ואין עיבוד בענן, אלא אם מוסיפים ספק שירות.
 	PdfCraft {c} is up to date.	PdfCraft {c} מעודכן.
 	PdfCraft {v} is available.	גרסת PdfCraft {v} זמינה.
+	PdfCraft's checks found no problems for {level}. This is not a validator result.	הבדיקות של PdfCraft לא מצאו בעיות עבור {level}. זו אינה תוצאה של כלי אימות תקנים.
+	PdfCraft's checks now find no problems for {level}. This is not a validator result. Save to keep the changes.	הבדיקות של PdfCraft אינן מזהות כעת בעיות עבור {level}. זו אינה תוצאה של כלי אימות תקנים. יש לשמור כדי לשמר את השינויים.
 	People may need more time to respond. Check that nothing has a time limit.	ייתכן שמשתמשים זקוקים לזמן נוסף כדי להגיב. יש לוודא שאין מגבלת זמן.
 	Percentage	אחוז
 	Perimeter	היקף
