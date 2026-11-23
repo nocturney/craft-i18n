@@ -4418,3 +4418,18 @@ navigator	Zoom	תקריב
 	Connectivity	קישוריות
 	Disc	סביבה מעגלית
 	Each	כל אחד
+	dodge tool	כלי הבהרה
+	burn tool	כלי הכהיה
+	sponge tool	כלי ספוג
+	blur tool	כלי טשטוש
+	sharpen tool	כלי חידוד
+	smudge tool	כלי מריחה
+	brush tool	כלי מברשת
+	art history brush	מברשת היסטוריה אמנותית
+	gradient tool	כלי מעבר צבע
+	Could not use the {tool} because the target layer is hidden.	לא ניתן להשתמש ב־{tool} משום ששכבת היעד מוסתרת.
+	Could not use the {tool} because the layer is locked.	לא ניתן להשתמש ב־{tool} משום שהשכבה נעולה.
+	Could not use the {tool} because the pixels in a group cannot be edited without merging the group.	לא ניתן להשתמש ב־{tool} משום שאי אפשר לערוך את הפיקסלים בקבוצה בלי למזג אותה.
+	Can't use the tool because the layer is locked.	לא ניתן להשתמש בכלי משום שהשכבה נעולה.
+	Could not use the {tool} because it does not work with Indexed Color images (convert image to RGB Color mode to edit).	לא ניתן להשתמש ב־{tool} בתמונות בצבע מאונדקס. כדי לערוך את התמונה, יש להמיר אותה למצב צבע RGB.
+	Could not use the {tool} because it does not work with Bitmap images (convert image to Grayscale mode to edit).	לא ניתן להשתמש ב־{tool} בתמונות Bitmap. כדי לערוך את התמונה, יש להמיר אותה למצב גווני אפור.
