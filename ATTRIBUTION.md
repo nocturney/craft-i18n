@@ -378,3 +378,11 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft Hebrew: history dialog and brush preset tip (2026-11-23)
+
+Two original, AI-assisted Hebrew UI translations, derived independently from the active English `tl!()` source strings in official PhotoCraft:
+- `crates/ui-egui/src/dialogs/history_options_ui.rs` (source blob `3dc18bf044bb28df8c2eafc03cbe1b5813c1ee4`): `History Options` (history-settings dialog title, distinct from `History Options…`).
+- `crates/ui-egui/src/dialogs/brush_preset_dialog.rs` (source blob `fde37ee0892452eedabbf5fc8f2b2049ff74d614`): `Tip` (brush-tip preview row in the preset dialog).
+
+The Hebrew wording follows existing `he/photocraft.tsv` terminology, including `Brush Tip` and `History Options…`. English keys and any placeholders are preserved; no external proprietary translation tables were copied. Independent native-speaker review, RTL GUI testing, hosted CI, official maintainer merge and host installation remain pending.
