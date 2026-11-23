@@ -901,6 +901,8 @@ cameraRaw	Color Grading	דירוג צבע
 	Couldn't place {name}: {error}	לא ניתן להציב את {name}: {error}
 	Couldn't save preferences: {error}. Retrying…	לא ניתן היה לשמור את ההעדפות: {error}. מנסה שוב…
 	Count	ספירה
+	Count Group Name	שם קבוצת הספירה
+	Count Group Name:	שם קבוצת הספירה:
 	Count Jitter	ריצוד ספירה
 	Count Tool	כלי ספירה
 	Count:	ספירה:
@@ -3939,6 +3941,7 @@ cameraRaw	Temperature	טמפרטורה
 	The canvas is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	הקנבס מוצג כ-sRGB. בחר פרופיל צג בעריכה › הגדרות צבע.
 	The canvas on {display} is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	הקנבס ב-{display} מוצג כ-sRGB. בחר פרופיל צג בעריכה › הגדרות צבע.
 	The current gradient (pick one in Window › Gradients)	מעבר הצבעים הנוכחי (בחר אחד בחלון › מעברי צבעים)
+	The document changed. Open Count Group Name again.	המסמך השתנה. יש לפתוח שוב את החלון "שם קבוצת הספירה".
 	The document does not have an embedded colour profile. Working space: {working}.	למסמך אין פרופיל צבע מוטבע. מרחב עבודה: {working}.
 	The document has an embedded colour profile that does not match the working space.\nEmbedded: {embedded}\nWorking: {working}	למסמך יש פרופיל צבע מוטבע שאינו תואם למרחב העבודה.\nמוטבע: {embedded}\nעבודה: {working}
 	The document is closed	המסמך סגור

@@ -378,3 +378,9 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft (he): Count Group Name dialog
+
+- Contributor: @nocturney; ChatGPT (OpenAI) assisted the clean-room drafting of three Hebrew UI strings from the English literals in `storytold/photocraft` (`crates/ui-egui/src/dialogs/count_group_name_ui.rs`).
+- The new strings cover the dialog title, the form label and the stale-document refusal message. The existing `Count Group` translation is reused for consistency, not duplicated here.
+- No proprietary translation tables were consulted or copied. Independent review in the installed Hebrew UI by a native speaker is not recorded and remains pending.
