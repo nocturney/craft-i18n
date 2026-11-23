@@ -383,6 +383,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Check for accessibility	בדיקת נגישות
 	Check for accessibility…	בדיקת נגישות…
 	Check for updates	בדוק עדכונים
+	Check for updates when PdfCraft starts	בדיקת עדכונים בעת הפעלת PdfCraft
 	Check for updates…	בדיקת עדכונים…
 	Check spelling	בדיקת איות
 	Check that the tags read in the order a sighted reader would. Use the Reading Order tool or the Tags panel to correct it.	יש לוודא שהתגיות נקראות בסדר שבו קורא רואה היה קורא. אפשר לתקן זאת באמצעות כלי סדר הקריאה או חלונית התגיות.
@@ -1133,6 +1134,7 @@ certificate	Intended usage	שימוש מיועד
 	Intersection	נקודת חיתוך
 	Intersections	נקודות חיתוך
 	Invert	היפוך צבעים
+	Invert middle-button drag	היפוך כיוון הגרירה בלחצן האמצעי
 	Invisible Rectangle	מלבן בלתי נראה
 	Irregular tables confuse cell navigation. Give every row the same number of cells (counting spans).	טבלאות לא אחידות מקשות על ניווט בין התאים. יש להגדיר לכל שורה אותו מספר תאים, כולל תאים ממוזגים.
 	is available	זמין
@@ -1499,6 +1501,7 @@ animation effects	On	מופעל
 	Open this web page?	לפתוח את דף האינטרנט הזה?
 	Open to page	פתיחה בעמוד
 	open to see what it will include	פתח כדי לראות מה ייכלל
+	Open web and email addresses written in the page text	פתיחת כתובות אינטרנט ודוא״ל המופיעות בטקסט העמוד
 	Opened with	נפתח באמצעות
 	Opened, but its security settings don't allow combining. Enter the permissions password.	הקובץ נפתח, אך הגדרות האבטחה שלו אינן מאפשרות שילוב. יש להזין את סיסמת ההרשאות.
 	Opening the browser's print dialog…	פותח את חלון ההדפסה של הדפדפן…
@@ -1534,6 +1537,7 @@ animation effects	On	מופעל
 	Other elements alternate text	טקסט חלופי לרכיבים אחרים
 	Other elements that require alternate text	רכיבים אחרים שזקוקים לטקסט חלופי
 	Other options	אפשרויות נוספות
+	Otherwise, ask on the first save after a signature is placed	אחרת, בקש אישור בשמירה הראשונה לאחר הוספת חתימה
 	Outdent	הקטנת כניסה
 	Outline	קו מתאר
 	Outline colour:	צבע קו המתאר:
@@ -1598,6 +1602,7 @@ animation effects	On	מופעל
 	Panel layout could not be restored: {error}	לא ניתן לשחזר את פריסת החלוניות: {error}
 	Panel move was not applied: {error}	העברת החלונית לא בוצעה: {error}
 	Panels	חלוניות
+	Panning or auto-scrolling with the middle (wheel) button moves the page the other way.	הזזת התצוגה או גלילה אוטומטית באמצעות הלחצן האמצעי (גלגלת) יזיזו את העמוד בכיוון ההפוך.
 	Paper:	נייר:
 	Paragraph spacing	מרווח בין פסקאות
 	Part of	חלק מ־
