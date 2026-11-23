@@ -386,6 +386,8 @@ from the official `storytold/pdfcraft` file `crates/ui-egui/src/dialogs/printer_
 (source blob `5331cfa3a5e8640030cee5d206ba8cc697de3ee2`). The English keys occur
 in the active `tl!` UI callsites and were absent from the Hebrew PdfCraft and common
 catalogs at the upstream main base `fd44ae8cbb5b076dc77a12ea6c7ddd7cf8b1c360`.
-Translations are clean-room, written from the English meaning with ChatGPT assistance;
-no other product's localized text was copied. Independent native-speaker proofreading,
-running-application RTL review, and maintainer acceptance remain pending.
+Translations were submitted by @nocturney. The Hebrew wording was drafted with ChatGPT
+as an AI-assisted clean-room translation from the official English UI source; no named human
+translator is claimed for these eleven new rows, and no other product's localized text was
+copied. Independent native-speaker proofreading, running-application RTL review, and
+maintainer acceptance remain pending.
