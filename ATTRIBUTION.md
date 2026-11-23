@@ -378,3 +378,14 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PdfCraft Hebrew: printer marks dialog (2026-11-23)
+
+Eleven original Hebrew interface translations for the print-production printer-marks dialog
+from the official `storytold/pdfcraft` file `crates/ui-egui/src/dialogs/printer_marks_ui.rs`
+(source blob `5331cfa3a5e8640030cee5d206ba8cc697de3ee2`). The English keys occur
+in the active `tl!` UI callsites and were absent from the Hebrew PdfCraft and common
+catalogs at the upstream main base `fd44ae8cbb5b076dc77a12ea6c7ddd7cf8b1c360`.
+Translations are clean-room, written from the English meaning with ChatGPT assistance;
+no other product's localized text was copied. Independent native-speaker proofreading,
+running-application RTL review, and maintainer acceptance remain pending.
