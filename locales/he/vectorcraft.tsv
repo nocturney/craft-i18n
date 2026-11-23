@@ -1,0 +1,53 @@
+# עברית (he) interface catalog for VectorCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	Add Anchor Point	הוסף נקודת עיגון
+	Add Anchor Point Tool	כלי להוספת נקודת עיגון
+	Align Stroke to Center	יישור קו המתאר למרכז
+	Align Stroke to Inside	יישור קו המתאר לפנים
+	Align Stroke to Outside	יישור קו המתאר לחוץ
+	Align to Artboard	יישור למשטח העבודה
+	Anchor Point	נקודת עיגון
+	Anchor Points	נקודות עיגון
+	Artboard Options	אפשרויות משטח העבודה
+	Artboard Tool	כלי משטח העבודה
+	Blend Tool	כלי מיזוג
+	Break Link to Symbol	נתק קישור לסמל
+	Brush Libraries	ספריות מברשות
+	Center on Artboard	מרכז במשטח העבודה
+	Clip to Artboard	חתוך לגבולות משטח העבודה
+	Close Path	סגור נתיב
+	Compound Path	נתיב מורכב
+	Convert Anchor Point	המר נקודת עיגון
+	Create New Layer	צור שכבה חדשה
+	Create Path	צור נתיב
+	Cut Path	חתוך נתיב
+	Delete Anchor Point	מחק נקודת עיגון
+	Delete Artboard	מחק משטח עבודה
+	Direct Selection	בחירה ישירה
+	Draw Inside	צייר בתוך הצורה
+	Duplicate Artboard	שכפל משטח עבודה
+	Edit Gradient	ערוך מעבר צבע
+	Expand Brush Strokes	הרחב משיכות מכחול
+	Export Artboard	ייצא משטח עבודה
+	Export Selection	ייצא את הבחירה
+	Fill and Stroke	מילוי וקו מתאר
+	Fit Artboard in Window	התאם את משטח העבודה לחלון
+	Free Transform Tool	כלי שינוי צורה חופשי
+	Gradient Mesh	רשת מעבר צבע
+	Group Selection	קבץ את הבחירה
+	Outline Stroke	המר קו מתאר לצורה
+	Release Clipping Mask	שחרר מסכת חיתוך
+	Shape Builder	בונה הצורות
+	Stroke Width	רוחב קו המתאר
+	Unite	איחוד

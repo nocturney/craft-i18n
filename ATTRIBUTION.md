@@ -378,3 +378,13 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## Hebrew VectorCraft core editing commands (2026-11-23)
+
+@nocturney contributed 40 original Hebrew translations for VectorCraft's basic artboard,
+anchor-point, path, shape, brush, gradient and export commands in `locales/he/vectorcraft.tsv`.
+The English source keys are from the official VectorCraft catalog in this repository.
+Translations were drafted with AI assistance from the plain English meanings (clean room),
+without copying another product's interface or translations; independent native-speaker
+review and visual RTL testing have not yet been recorded. This is a partial catalog, and
+application wiring/release remains a separate maintainer step.
