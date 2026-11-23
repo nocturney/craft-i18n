@@ -386,5 +386,7 @@ Fourteen new Hebrew UI strings from the active official WordCraft source
 `printing.rs`, `md_source.rs`, `chrome/status_bar.rs`, `options.rs`,
 and `language_packs.rs`. This covers cancellation uncertainty, Markdown
 content-loss warnings, missing-font status, dictionary setup and language names.
-Original clean-room AI-assisted Hebrew translation from English UI text; no
-native-speaker, installed-app or RTL visual review has been performed.
+The Hebrew strings were drafted with ChatGPT assistance from the cited English
+UI source and submitted by contributor @nocturney. No separate individual
+human translator is credited. Native-speaker, installed-app and RTL visual
+review have not been performed.
