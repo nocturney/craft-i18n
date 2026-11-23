@@ -4418,3 +4418,11 @@ navigator	Zoom	תקריב
 	Connectivity	קישוריות
 	Disc	סביבה מעגלית
 	Each	כל אחד
+	Load a settings file from disk	טעינת קובץ הגדרות מהדיסק
+	Save the current dialog settings to disk	שמירת ההגדרות הנוכחיות של תיבת הדו־שיח בדיסק
+	Pick an XML file to load	בחירת קובץ XML לטעינה
+	Pick an XML file to save	בחירת קובץ XML לשמירה
+	XML Files (*.xml)	קובצי XML ‏(*.xml)
+	Could not open the Image Processor settings file.	לא ניתן לפתוח את קובץ ההגדרות של מעבד התמונות.
+	The settings file name is not valid text.	שם קובץ ההגדרות אינו טקסט תקין.
+	Saving Image Processor settings is unavailable.	שמירת הגדרות מעבד התמונות אינה זמינה.
