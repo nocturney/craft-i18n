@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft: Hebrew Variables panel controls (2026-11-23)
+
+@nocturney authored four new Hebrew `he` rows in `locales/he/photocraft.tsv` for active PhotoCraft UI labels `Add Variable`, `Remove Variable`, `Previous Data Set`, and `Next Data Set` (source: `storytold/photocraft`, `crates/ui-egui/src/panels/variables_ui.rs`). The translations were drafted with ChatGPT assistance from the English source strings and existing Hebrew terminology in this catalog. No external product translations were copied. Native-speaker in-app review has not been verified; this contribution is proposed for upstream review.
