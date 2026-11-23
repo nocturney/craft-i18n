@@ -381,8 +381,8 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 
 ## Hebrew VectorCraft core editing commands (2026-11-23)
 
-@nocturney contributed 40 original Hebrew translations for VectorCraft's basic artboard,
-anchor-point, path, shape, brush, gradient and export commands in `locales/he/vectorcraft.tsv`.
+@nocturney contributed 90 original Hebrew translations for VectorCraft's artboard,
+anchor-point, path, alignment, shape, brush, color, gradient, mask and export commands in `locales/he/vectorcraft.tsv`.
 The English source keys are from the official VectorCraft catalog in this repository.
 Translations were drafted with AI assistance from the plain English meanings (clean room),
 without copying another product's interface or translations; independent native-speaker
