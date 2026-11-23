@@ -136,6 +136,7 @@
 	Add to selection  ({key})	הוסף לבחירה  ({key})
 	Add to selection  (⇧)	הוסף לבחירה  (⇧)
 	Add to Swatches	הוסף לדוגמיות
+	Add Variable	הוסף משתנה
 	Add Vector Mask	הוסף מסכת וקטור
 	Add vector mask	הוסף מסכת וקטור
 	Add “copy” to Copied Layers and Groups	הוסף "עותק" לשכבות וקבוצות מועתקות
@@ -2558,6 +2559,7 @@ cameraData	Model	דגם
 	Newspaper	עיתון
 	Next Appearance Mode	מצב המראה הבא
 	Next Brush	המברשת הבאה
+	Next Data Set	ערכת נתונים הבאה
 	Next Document	המסמך הבא
 	Next frame	פריים הבא
 	Next note	הערה הבאה
@@ -2972,6 +2974,7 @@ cameraRaw	Orange	כתום
 	Preview on canvas when reordering layers	תצוגה מקדימה על הקנבס בעת סידור מחדש של שכבות
 	Preview size	גודל תצוגה מקדימה
 	Previous Brush	המברשת הקודמת
+	Previous Data Set	ערכת נתונים קודמת
 	Previous Document	המסמך הקודם
 	Previous frame	פריים קודם
 	Previous note	הערה קודמת
@@ -3171,6 +3174,7 @@ fontWeight	Regular	רגיל
 	Remove stop	הסר נקודת עצירה
 	Remove Tool	הסר כלי
 	Remove variable	הסר משתנה
+	Remove Variable	הסר משתנה
 	Remove Warp Split	הסר פיצול עיוות
 	Remove White Matte	הסר מסגרת לבנה
 	Remove {name} from Recent	הסר את {name} מהרשימה האחרונה
