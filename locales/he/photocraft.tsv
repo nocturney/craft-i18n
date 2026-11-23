@@ -1380,6 +1380,8 @@ cameraData	Date Taken	תאריך צילום
 	Entire Font	כל הגופן
 	Entropy	אנטרופיה
 	Equalize	איזון היסטוגרמה
+	Equalize Entire Image Based On Selected Area	איזון היסטוגרמה של התמונה כולה לפי האזור שנבחר
+	Equalize Selected Area Only	איזון היסטוגרמה של האזור שנבחר בלבד
 	Erase	מחק
 	Erase with Brush or Pencil (hold)	מחק עם מברשת או עיפרון (החזק)
 	Eraser Tool	כלי מחק
