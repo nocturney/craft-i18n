@@ -2721,3 +2721,14 @@ calendar weekday	We	ד׳
 	This document's script is asking	הסקריפט של מסמך זה שואל
 	Document: {name}	מסמך: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	בקשה זו מגיעה מהמסמך, לא מ-PdfCraft. הזינו סיסמה רק אם אתם סומכים על מסמך זה.
+	Marks	סימנים
+	All marks	כל הסימנים
+	Trim marks	סימני חיתוך
+	Bleed marks	סימני גלישה
+	Registration marks	סימני רישום
+	Colour bars	פסי צבע
+	Page information	פרטי העמוד
+	Line weight	עובי הקו
+	Widen the page to make room	הרחב את העמוד כדי לפנות מקום
+	Room on each side	מרווח מכל צד
+	The trim box is kept where it is, so the printed page cuts the same.	תיבת החיתוך נשארת במקומה, כך שמיקום החיתוך של העמוד המודפס אינו משתנה.
