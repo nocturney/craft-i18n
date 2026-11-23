@@ -4418,3 +4418,9 @@ navigator	Zoom	תקריב
 	Connectivity	קישוריות
 	Disc	סביבה מעגלית
 	Each	כל אחד
+
+# PhotoCraft source UI: preference status and filter dialogs (alerts.rs, filter_dialog.rs).
+	The preference could not be saved: {error}	לא ניתן לשמור את ההעדפה: {error}
+	Choose a displacement map	בחירת מפת הזזה
+	Closed document	מסמך סגור
+	Scale Layer Effects	שינוי קנה המידה של אפקטי שכבה

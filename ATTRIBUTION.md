@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft Hebrew: filter dialogs and preference alert (2026-11-23)
+
+Four active PhotoCraft English UI keys from `storytold/photocraft` (`crates/ui-egui/src/dialogs/alerts.rs` and `filter_dialog.rs`) have original Hebrew translations contributed by @nocturney with assistance from ChatGPT (OpenAI). Translated from the source English strings without copying proprietary localization tables; the `{error}` placeholder is preserved. Independent native-speaker review and installed-app RTL review have not been verified. No native release or upstream merge is claimed.
