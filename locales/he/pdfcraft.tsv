@@ -76,6 +76,7 @@
 	Acrobat 5.0 and later (128-bit RC4)	Acrobat 5.0 ואילך (RC4 ‏128 סיביות)
 	Acrobat 7.0 and later (128-bit AES)	Acrobat 7.0 ואילך (AES ‏128 סיביות)
 	Acrobat X and later (256-bit AES)	Acrobat X ואילך (AES ‏256 סיביות)
+	Action	פעולה
 	Action name:	שם הפעולה:
 	Action Wizard	אשף פעולות
 	Action Wizard…	אשף הפעולות…
@@ -1066,6 +1067,7 @@ calendar weekday	Fr	ו׳
 	High resolution	רזולוציה גבוהה
 	Highlight	הדגשה
 	Highlight fields	הדגשת שדות
+	Highlight Style	סגנון הדגשה
 	Highlight Style:	סגנון הדגשה:
 	Highlight text	הדגשת טקסט
 	Home	דף הבית
@@ -1206,12 +1208,15 @@ certificate	Key usage	שימוש במפתח
 	Light theme	ערכת נושא בהירה
 	Limit of	מגבלה של
 	Line ending	קצה קו
+	Line Style	סגנון הקו
 	Line Style:	סגנון הקו:
 	Line thickness	עובי הקו
+	Line Thickness	עובי הקו
 	Line Thickness:	עובי הקו:
 	Link Action	פעולת הקישור
 	Link Appearance	מראה הקישור
 	Link Properties	מאפייני קישור
+	Link Type	סוג הקישור
 	Link Type:	סוג הקישור:
 	Link URL	כתובת URL של קישור
 	links	קישורים
@@ -2007,6 +2012,7 @@ calendar weekday	Sa	ש׳
 	Select tools to display on your Home page for quick access.	בחר את הכלים שיוצגו בדף הבית שלך לגישה מהירה.
 	Select Trigger:	בחירת אירוע מפעיל:
 	Selected image files: {count}	קובצי התמונות שנבחרו: {count}
+	Selected link	הקישור שנבחר
 	Selected pages	העמודים שנבחרו
 	Self-signed	חתימה עצמית
 certificate	Self-signed	חתימה עצמית
