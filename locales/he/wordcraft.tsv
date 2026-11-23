@@ -1744,6 +1744,8 @@ template	Letter	מכתב
 	Semitransparent	שקוף למחצה
 	Transparency:	שקיפות:
 	Select a picture first.	יש לבחור תמונה תחילה.
+	Removed {name} from the recent list	המסמך {name} הוסר מרשימת המסמכים האחרונים
+	Removed {count} documents from the recent list	הוסרו {count} מסמכים מרשימת המסמכים האחרונים
 	Rename Document	שינוי שם המסמך
 	Reopen	פתיחה מחדש
 	Repeat as header row on each page	חזרה כשורת כותרת בכל עמוד

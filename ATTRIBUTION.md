@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## Hebrew WordCraft: Recent list removal status (2026-11-23)
+
+Two original Hebrew translations for the WordCraft recent-document removal and clear-list status messages. The English keys were independently checked against [storytold/wordcraft `app/commands.rs`](https://github.com/storytold/wordcraft/blob/c369c3a20befef8742f8913128cacd79002435d6/crates/ui-egui/src/app/commands.rs). Translations were written clean-room from the English meanings with GPT-6 assistance, without using another product's locale assets. The `{name}` and `{count}` placeholders are unchanged. No native-speaker or RTL UI review has been performed.
