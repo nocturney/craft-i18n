@@ -4418,3 +4418,10 @@ navigator	Zoom	תקריב
 	Connectivity	קישוריות
 	Disc	סביבה מעגלית
 	Each	כל אחד
+	The actions changed. Request Record Again again.	הפעולות השתנו. יש לבחור שוב בפקודה הקלט מחדש.
+	The document changed. Request Record Again again.	המסמך השתנה. יש לבחור שוב בפקודה הקלט מחדש.
+	Confirm or cancel the pending Record Again editor first.	יש לאשר או לבטל תחילה את העריכה הממתינה של הקלט מחדש.
+	The Record Again command changed.	הפקודה הקלט מחדש השתנתה.
+	No recorded step belongs to this editor.	אין שלב מוקלט המשויך לעורך זה.
+	No step is waiting.	אין שלב ממתין.
+	The command permissions changed. Request Record Again again.	הרשאות הפקודה השתנו. יש לבחור שוב בפקודה הקלט מחדש.
