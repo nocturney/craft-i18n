@@ -4418,3 +4418,7 @@ navigator	Zoom	תקריב
 	Connectivity	קישוריות
 	Disc	סביבה מעגלית
 	Each	כל אחד
+
+# PhotoCraft preferences: keyboard shortcut save and Color Picker alerts.
+	The keyboard shortcuts were not saved: {error}	קיצורי המקלדת לא נשמרו: {error}
+	Close the Color Picker first.	יש לסגור תחילה את בוחר הצבעים.
