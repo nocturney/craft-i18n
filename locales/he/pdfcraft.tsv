@@ -2721,3 +2721,14 @@ calendar weekday	We	ד׳
 	This document's script is asking	הסקריפט של מסמך זה שואל
 	Document: {name}	מסמך: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	בקשה זו מגיעה מהמסמך, לא מ-PdfCraft. הזינו סיסמה רק אם אתם סומכים על מסמך זה.
+	Header and footer text	טקסט כותרת עליונה ותחתונה
+	Top margin	שוליים עליונים
+	Bottom margin	שוליים תחתונים
+	Left margin	שוליים שמאליים
+	Right margin	שוליים ימניים
+	Page number format	תבנית מספר עמוד
+	Horizontal offset from centre	היסט אופקי מהמרכז
+	Vertical offset from centre	היסט אנכי מהמרכז
+	Replace it	החלפתו
+	The page can't be previewed	לא ניתן להציג תצוגה מקדימה של העמוד
+	Supported files	קבצים נתמכים
