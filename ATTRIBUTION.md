@@ -383,4 +383,4 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 
 Adds 10 original Hebrew interface translations to locales/he/photocraft.tsv for Contact Sheet II, Create Droplet/Script Events, Package, and Export Paths to File. English source text was verified against storytold/photocraft crates/ui-egui/src/dialogs/file_forms.rs at commit b9c946246213d3db22f82395464f0fc2d494ff7d.
 
-Clean-room Hebrew wording drafted with AI assistance from the English UI meanings; translations from another language were not copied. Independent native-speaker, running-app RTL and maintainer review are still outstanding.
+Clean-room Hebrew wording drafted with ChatGPT (OpenAI) as an AI contributor from the English UI meanings; no separate human translator identity is recorded. The contribution was submitted by @nocturney. Translations from another language were not copied. Independent native-speaker, running-app RTL and maintainer review are still outstanding.
