@@ -2721,3 +2721,6 @@ calendar weekday	We	ד׳
 	This document's script is asking	הסקריפט של מסמך זה שואל
 	Document: {name}	מסמך: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	בקשה זו מגיעה מהמסמך, לא מ-PdfCraft. הזינו סיסמה רק אם אתם סומכים על מסמך זה.
+	Action name	שם הפעולה
+	No free file name for {name}	לא נמצא שם קובץ פנוי עבור {name}
+	Step to add	שלב להוספה
