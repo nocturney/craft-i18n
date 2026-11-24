@@ -4418,3 +4418,8 @@ navigator	Zoom	תקריב
 	Connectivity	קישוריות
 	Disc	סביבה מעגלית
 	Each	כל אחד
+	Data Set:	ערכת נתונים:
+	Select a data set to apply.	יש לבחור ערכת נתונים להחלה.
+	{dpi} pixels/inch	{dpi} פיקסלים/אינץ'
+	Could not use the perspective crop tool because it does not work with Bitmap images (convert image to Grayscale mode to edit).	לא ניתן להשתמש בכלי חיתוך פרספקטיבה משום שאינו תומך בתמונות במצב מפת סיביות (יש להמיר את התמונה למצב גווני אפור כדי לערוך אותה).
+	Could not use the perspective crop tool because the image contains unsupported layers types.	לא ניתן להשתמש בכלי חיתוך פרספקטיבה משום שהתמונה מכילה סוגי שכבות שאינם נתמכים.
