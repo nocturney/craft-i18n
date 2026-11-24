@@ -2913,7 +2913,7 @@ calendar weekday	We	ד׳
 	Comments and form fields	הערות ושדות טופס
 	Comments to send	הערות לשליחה
 	Comments: {n}	הערות: {n}
-	Copy comments first	העתקת ההערות תחילה
+	Copy comments first	יש להעתיק את ההערות תחילה
 	Copy the pages with a match as a list such as 1-3, 7	העתקת מספרי העמודים עם התאמות כרשימה, למשל 1-3, 7
 	Current document	המסמך הנוכחי
 	Custom page…	עמוד מותאם אישית…
@@ -3063,8 +3063,8 @@ calendar weekday	We	ד׳
 	New fields of this type will look like this one	שדות חדשים מסוג זה ייראו כמו שדה זה
 	Only send if you trust this document and destination. GET puts form values in the URL.	יש לשלוח רק אם המסמך והיעד מהימנים. בבקשת GET ערכי הטופס נכללים בכתובת ה־URL.
 	Only send if you trust this document and destination. The form values leave this computer.	יש לשלוח רק אם המסמך והיעד מהימנים. ערכי הטופס יישלחו מחוץ למחשב זה.
-	Paste field	הדבק שדה
-	Paste fields	הדבק שדות
+	Paste field	הדבקת שדה
+	Paste fields	הדבקת שדות
 	Preparing form detection…	מכין את זיהוי שדות הטופס…
 	Find a command	חיפוש פקודה
 	Find text in the toolbar	חיפוש טקסט בסרגל הכלים
@@ -3715,7 +3715,7 @@ calendar weekday	We	ד׳
 	Larger text	טקסט גדול יותר
 	Legacy text encoding	קידוד טקסט ישן
 	Name a text watermark to save it	כדי לשמור סימן מים טקסטואלי, יש לתת לו שם
-	Paste Image	הדבק תמונה
+	Paste Image	הדבקת תמונה
 	Restyle text	שנה את סגנון הטקסט
 	Same as text	כמו הטקסט
 	Smaller text	טקסט קטן יותר
