@@ -2721,3 +2721,5 @@ calendar weekday	We	ד׳
 	This document's script is asking	הסקריפט של מסמך זה שואל
 	Document: {name}	מסמך: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	בקשה זו מגיעה מהמסמך, לא מ-PdfCraft. הזינו סיסמה רק אם אתם סומכים על מסמך זה.
+	The field table could not be added.	לא ניתן היה להוסיף את טבלת השדות.
+	Calculation order links	קישורים של סדר החישוב
