@@ -721,6 +721,7 @@ key	Delete	Delete
 	Double-click	לחיצה כפולה
 	Download	הורדה
 	Downloaded {name}	הורד {name}
+	Downloaded measurements.	המדידות הורדו.
 @plural	Downloaded {n} PDF|Downloaded {n} PDFs	הורד {n} קובץ PDF|הורדו {n} קובצי PDF|הורדו {n} קובצי PDF
 	Downloading attachments on the web arrives with M3.10 ({n} bytes ready)	הורדת קבצים מצורפים בגרסת האינטרנט תגיע באבן הדרך M3.10 ({n} בתים מוכנים)
 	Downsample to	הפחתת רזולוציה עד
@@ -1552,6 +1553,7 @@ animation effects	On	מופעל
 	Page grid	רשת העמודים
 	Page labels	תוויות עמודים
 	Page layout	פריסת עמוד
+	Page length	אורך בדף
 	Page navigation	ניווט בין עמודים
 	Page number	מספר עמוד
 	Page Only	עמוד בלבד
@@ -1572,6 +1574,8 @@ animation effects	On	מופעל
 	Page {n}	עמוד {n}
 	page {n} is out of range (1–{count})	עמוד {n} מחוץ לטווח (1–{count})
 	Page {n} of {total}	עמוד {n} מתוך {total}
+	Page {page}: {reading} {label}	עמוד {page}: {reading} {label}
+	Page {page}: {reason}	עמוד {page}: {reason}
 	Page {pages} changed after the background was added, so its own white backdrop stays off. It looks the same on white paper.	עמוד {pages} השתנה לאחר הוספת הרקע, ולכן הרקע הלבן המקורי שלו נשאר כבוי. על נייר לבן הוא נראה אותו הדבר.
 	Page {pages} paints its own white backdrop, which would hide the background. Replace it	לעמוד {pages} יש רקע לבן משלו, שיסתיר את הרקע. להחליף אותו
 	Page {p} doesn't tab in structure order	סדר המעבר באמצעות Tab בעמוד {p} אינו תואם לסדר המבנה
@@ -1740,6 +1744,7 @@ certificate	Public key	מפתח ציבורי
 	Reads {name}, which calculates later, so it shows an old value.	קורא את {name}, שמחושב מאוחר יותר, ולכן מציג ערך ישן.
 	Reads {name}, which the form doesn't have, so it gets no value there.	הסקריפט קורא את {name}, שאינו קיים בטופס, ולכן הקריאה לא מחזירה ערך.
 	Ready	מוכן
+	Real distance	מרחק במציאות
 	Reason	סיבה
 	Reason: 	סיבה: 
 	Recent colours	צבעים אחרונים
@@ -1947,6 +1952,7 @@ calendar weekday	Sa	ש׳
 	Save these pages as one PDF	שמירת עמודים אלה כקובץ PDF אחד
 	Saved measurements	מדידות שמורות
 	Saved measurements.	המדידות נשמרו.
+	Saved measurements: {n}	מדידות שמורות: {n}
 	Saved the print-ready PDF to {path}	קובץ ה־PDF המוכן להדפסה נשמר ב־{path}
 	Saved {name}	נשמר {name}
 	Saved {place}: {before} → {after} (not smaller){detail}	נשמר {place}: {before} → {after} (לא קטן יותר){detail}
@@ -2496,6 +2502,7 @@ signature pad	Type	הקלדה
 	Unsigned signature field: {name}	שדה חתימה לא חתום: {name}
 	Unspecified	לא צוין
 	Unsupported measurements	מדידות שאינן נתמכות
+	Unsupported measurements: {n}	מדידות שאינן נתמכות: {n}
 	Update	עדכון
 	Update background	עדכון רקע
 	Update background…	עדכון רקע…
