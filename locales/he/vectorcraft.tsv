@@ -727,13 +727,13 @@ swatch	Chocolate	שוקולד
 	Clip to Art	חיתוך לגרפיקה
 	Clip to Artboard	חיתוך למשטח יצירה
 	Clip to Bounding Box	חיתוך לתיבה תוחמת
-	Clipboard as PDF	לוח עריכה כ-PDF
-	Clipboard as PNG	לוח עריכה כ-PNG
-	Clipboard as SVG	לוח עריכה כ-SVG
-	Clipboard as Text	לוח עריכה כטקסט
-	Clipboard Formats	תבניות לוח עריכה
-	Clipboard Handling	טיפול בלוח העריכה
-@msg	clipboard is empty	לוח העריכה ריק
+	Clipboard as PDF	תוכן הלוח כ-PDF
+	Clipboard as PNG	תוכן הלוח כ-PNG
+	Clipboard as SVG	תוכן הלוח כ-SVG
+	Clipboard as Text	תוכן הלוח כטקסט
+	Clipboard Formats	פורמטים של הלוח
+	Clipboard Handling	טיפול בלוח
+@msg	clipboard is empty	הלוח ריק
 	Clipping Masks	מסכות חיתוך
 	Clockwise	עם כיוון השעון
 	Close Gaps With Paths	סגירת מרווחים באמצעות נתיבים
@@ -910,10 +910,10 @@ swatch	Copper	נחושת
 @msg	Corners edits the corners of a path	פינות עורך את הפינות של נתיב
 	Corners…	פינות…
 @msg	could not decode image: {0}	לא ניתן לפענח תמונה: {0}
-	Couldn't copy to the system clipboard: {e}	לא ניתן היה להעתיק ללוח העריכה של המערכת: {e}
-@msg	Couldn't copy to the system clipboard: {e}	לא ניתן היה להעתיק ללוח העריכה של המערכת: {e}
-	Couldn't paste from the clipboard: {e}	לא ניתן היה להדביק מלוח העריכה: {e}
-@msg	Couldn't paste from the clipboard: {e}	לא ניתן היה להדביק מלוח העריכה: {e}
+	Couldn't copy to the system clipboard: {e}	לא ניתן היה להעתיק ללוח של המערכת: {e}
+@msg	Couldn't copy to the system clipboard: {e}	לא ניתן היה להעתיק ללוח של המערכת: {e}
+	Couldn't paste from the clipboard: {e}	לא ניתן היה להדביק מהלוח: {e}
+@msg	Couldn't paste from the clipboard: {e}	לא ניתן היה להדביק מהלוח: {e}
 @msg	Couldn't place {name}: the document it was dropped on was closed	לא ניתן היה למקם את {name}: המסמך שעליו הוא שוחרר נסגר
 @msg	Couldn't place {name}: {e}	לא ניתן היה למקם את {name}: {e}
 @msg	Couldn't read {name}: {e}	לא ניתן היה לקרוא את {name}: {e}
@@ -975,7 +975,7 @@ swatch	Copper	נחושת
 	Curvature Tool	כלי עקמומיות
 	Custom Scale	קנה מידה מותאם אישית
 	Cut Artboard	גזירת משטח יצירה
-	Cut Path	גזירת נתיב
+	Cut Path	חיתוך נתיב
 	Cut Path at Selected Anchor Points	חיתוך נתיב בנקודות העוגן הנבחרות
 	Cutout	מגזרת נייר
 	Cutout…	מגזרת נייר…
@@ -1384,7 +1384,7 @@ swatch	Espresso	אספרסו
 	Expanded Patterns	תבניות מורחבות
 	Expand…	הרחבה…
 	Export All…	ייצוא הכול…
-	Export and Clipboard Transparency Flattener Settings	הגדרות משטח שקיפות לייצוא וללוח העריכה
+	Export and Clipboard Transparency Flattener Settings	הגדרות שיטוח שקיפות לייצוא וללוח
 	Export Artboard	ייצוא משטח יצירה
 	Export As PNG…	ייצוא כ-PNG…
 	Export As SVG…	ייצוא כ-SVG…
@@ -1987,8 +1987,8 @@ mark-style	Japanese	יפנית
 	Legacy (version 7)	מדור קודם (גרסה 7)
 	Legacy .ai Options	אפשרויות .ai מדור קודם
 	Legacy Macintosh RGB (Gamma 1.8)	RGB של Macintosh מדור קודם (גמא 1.8)
-	Legacy vector clipboard	לוח עריכה וקטורי מדור קודם
-	Legacy vector clipboard (no transparency)	לוח עריכה וקטורי מדור קודם (ללא שקיפות)
+	Legacy vector clipboard	לוח וקטורי מדור קודם
+	Legacy vector clipboard (no transparency)	לוח וקטורי מדור קודם (ללא שקיפות)
 	Legends in Wedges	מקרא בתוך פלחים
 	Length X-Axis:	אורך ציר X:
 	Length Y-Axis:	אורך ציר Y:
@@ -2067,14 +2067,14 @@ swatch	Lime	ליים
 	Live Shape	צורה חיה
 	Live Shape Properties	מאפייני צורה חיה
 	Load Color Profile…	טעינת פרופיל צבע…
-	Load EPS into Clipboard	טעינת EPS ללוח העריכה
-	Load Image into Clipboard	טעינת תמונה ללוח העריכה
-	Load Metafile into Clipboard	טעינת Metafile ללוח העריכה
-	Load PDF into Clipboard	טעינת PDF ללוח העריכה
+	Load EPS into Clipboard	טעינת EPS ללוח
+	Load Image into Clipboard	טעינת תמונה ללוח
+	Load Metafile into Clipboard	טעינת Metafile ללוח
+	Load PDF into Clipboard	טעינת PDF ללוח
 	Load Place Cursor	טעינת סמן מיקום
 	Load Profile…	טעינת פרופיל…
-	Load SVG into Clipboard	טעינת SVG ללוח העריכה
-	Load Text into Clipboard	טעינת טקסט ללוח העריכה
+	Load SVG into Clipboard	טעינת SVG ללוח
+	Load Text into Clipboard	טעינת טקסט ללוח
 	Load Texture…	טעינת מרקם…
 	Load Variable Library…	טעינת ספריית משתנים…
 	Loaded Texture	מרקם טעון
@@ -2748,7 +2748,7 @@ imageTrace	Outline	קו מתאר
 	Paste on All Artboards	הדבקה בכל משטחי היצירה
 	Paste Remembers Layers	הדבקה זוכרת שכבות
 @msg	paste unavailable	הדבקה אינה זמינה
-	Paste without Formatting	הדבקת ללא עיצוב
+	Paste without Formatting	הדבקה ללא עיצוב
 	Pasted	הודבק
 	Pastels	צבעי פסטל
 	Patchwork…	טלאים…
