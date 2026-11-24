@@ -2721,3 +2721,9 @@ calendar weekday	We	ד׳
 	This document's script is asking	הסקריפט של מסמך זה שואל
 	Document: {name}	מסמך: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	בקשה זו מגיעה מהמסמך, לא מ-PdfCraft. הזינו סיסמה רק אם אתם סומכים על מסמך זה.
+	Checking Options ({on} of {all} in all categories)	אפשרויות בדיקה ({on} מתוך {all} בכל הקטגוריות)
+	Rules	כללים
+	Accessibility results	תוצאות בדיקת נגישות
+	Figure	איור
+	Tag properties	מאפייני תגית
+	Marked content	תוכן מסומן
