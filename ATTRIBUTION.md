@@ -378,3 +378,18 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PdfCraft: Hebrew measurement calibration and saved-results messages
+
+@nocturney contributed seven Hebrew (`he`) source-backed UI rows for PdfCraft's
+measurement calibration, saved measurements, unsupported-result feedback and CSV
+export notification: `Page length`, `Real distance`, `Saved measurements: {n}`,
+`Page {page}: {reason}`, `Page {page}: {reading} {label}`,
+`Unsupported measurements: {n}`, and `Downloaded measurements.`.
+The source is the active official PdfCraft `crates/ui-egui/src/tools/measure_ui.rs`
+(blob `da9dc1f98a6ae5ea5e95a203229e961cf8422f7d`).
+Translations were independently drafted with OpenAI ChatGPT GPT-6 using plain English
+UI meaning and existing Hebrew terminology; named placeholders are preserved.
+`Reading the drawing for snapping…` was excluded because another open proposal
+(#438) already covers it. Independent native-speaker review and installed-app
+RTL visual testing have not been completed.
