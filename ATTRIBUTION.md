@@ -386,4 +386,4 @@ object overlay UI (`crates/ui-egui/src/objects.rs`, upstream 6837508):
 Connection sites, Object frame, Picked objects, Text box frame, and Turning object.
 Contributor: @nocturney, AI-assisted with ChatGPT (OpenAI); translated from the
 English source meaning and existing catalog terminology, without copying another
-product localization. No independent native-speaker UI review has been performed.
+product localization. Native-speaker translation review status: unverified. No independent native-speaker UI review has been performed.
