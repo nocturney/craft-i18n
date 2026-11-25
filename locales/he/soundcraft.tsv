@@ -1037,3 +1037,8 @@
 	waveform	צורת גל
 	write	כתיבה
 	🔍 Find clips	🔍 חיפוש קליפים
+	Check the audio device, then use Reconnect audio device in Setup › Playback Engine.	יש לבדוק את התקן השמע, ולאחר מכן להשתמש ב״חיבור מחדש של התקן השמע״ תחת הגדרות › מנוע ניגון.
+	Reconnect it, then use Reconnect audio device in Setup › Playback Engine.	יש לחבר אותו מחדש, ולאחר מכן להשתמש ב״חיבור מחדש של התקן השמע״ תחת הגדרות › מנוע ניגון.
+	Use Reconnect audio device in Setup › Playback Engine, or restart SoundCraft.	יש להשתמש ב״חיבור מחדש של התקן השמע״ תחת הגדרות › מנוע ניגון, או להפעיל מחדש את SoundCraft.
+	No track is record-enabled: click the R button on the track to record.	אף רצועה אינה מוכנה להקלטה: יש ללחוץ על כפתור R ברצועה כדי להקליט.
+	Nothing to record on yet: add a track with Track › New…, then click its R button.	אין עדיין על מה להקליט: יש להוסיף רצועה דרך רצועה › חדש…, ולאחר מכן ללחוץ על כפתור R שלה.
