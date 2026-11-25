@@ -378,3 +378,9 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+### SoundCraft Hebrew (he)
+
+- Migrated existing Hebrew translations contributed by @hrb9 in storytold/soundcraft#1644 (commit 06d0bbd7be15d923bdc198e738344da9db971ce3).
+- Exact English-key intersection with the SoundCraft catalog inventory in storytold/craft-i18n#499 (commit 17bc2d34e541bf979521d654b923ad526adfbd85); shared keys and ambiguous or formatting-sensitive entries omitted. No new translations claimed.
+- Catalog migration and structural checks by @nocturney with ChatGPT assistance. Independent native-speaker and in-app review have not been performed for this migration. The app integration is separate.
