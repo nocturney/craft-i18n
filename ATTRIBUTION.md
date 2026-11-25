@@ -378,3 +378,13 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## DesignCraft: Hebrew Adjust Layout (designcraft#2811)
+
+Adds seven Hebrew rows in `locales/he/designcraft.tsv` for the Adjust Layout
+feature in [DesignCraft #2811](https://github.com/storytold/designcraft/pull/2811),
+source head `d25de4fbaadbdd3a49861f23634a942129d94d40`, alongside the other
+locales in [craft-i18n #489](https://github.com/storytold/craft-i18n/pull/489).
+Drafted by @nocturney with ChatGPT assistance from the English source text;
+no other product localization was consulted or copied. Independent native-speaker
+review and live RTL verification have not been recorded.
