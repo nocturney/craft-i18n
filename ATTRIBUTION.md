@@ -378,3 +378,14 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## Hebrew EffectCraft: timeline, typography and marker catalog
+
+Migrates 30 existing original Hebrew translations from storytold/effectcraft#3438
+(contributor source `effectcraft@87be9355c74d01056752092987874c8bc59d15ae`,
+`crates/ui-egui/src/i18n/ui.rs`) into the shared catalog under rule 16.
+The English keys are present at `effectcraft@86af5cba7f6976fe2b4561df4e8021ba807591f5`
+and in the corresponding catalog migration storytold/craft-i18n#485.
+Contributor: @nocturney, AI-assisted with ChatGPT. A small number of existing
+Hebrew values were rephrased for neutral instructions and consistent menu labels.
+No independent native-speaker or live RTL review has been recorded for this catalog.
