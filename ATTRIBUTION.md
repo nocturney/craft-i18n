@@ -381,4 +381,4 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 
 ## Hebrew LightCraft catalog
 
-Migrates 912 existing Hebrew UI translations from @nocturney's AI-assisted LightCraft PR #4101 (head c6574f53909cb98b47c52fa5a9dac03ca1e57056), checked against the current German and Spanish source-key inventories at ea033fbe1c6dacdc7e1e99ee5a3e9fa0ce35d78c. Original wording is retained; shared collisions and ambiguous format strings are deferred. No independent native-speaker review has been recorded.
+Migrates 926 existing Hebrew UI translations (912 plain strings and 14 named format templates) from @nocturney's AI-assisted LightCraft PR #4101 (head c6574f53909cb98b47c52fa5a9dac03ca1e57056), checked against the current German and Spanish source-key inventories at ea033fbe1c6dacdc7e1e99ee5a3e9fa0ce35d78c. Original wording is retained; shared collisions and three anonymous positional format templates are deferred. No independent native-speaker review has been recorded.

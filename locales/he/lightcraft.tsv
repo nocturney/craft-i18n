@@ -923,3 +923,19 @@
 	photos waiting	תמונות ממתינות
 	this photo	התמונה הזו
 	would make this album include itself through other smart albums	יגרום לאלבום הזה לכלול את עצמו דרך אלבומים חכמים אחרים
+
+# Named format templates from LightCraft PR #4101
+	+{n} more	עוד {n}+
+	A keyword name can't end with an asterisk: “{name}”	שם מילת מפתח אינו יכול להסתיים בכוכבית: „{name}”
+	Bring photos in with File › Import Photos… ({keys}).	ייבוא תמונות דרך קובץ › ייבוא תמונות… ({keys}).
+	Create the keyword “{name}”	יצירת מילת המפתח „{name}”
+	Delete “{current}”	מחיקת „{current}”
+	File › Export… · File › Print… ({keys}).	קובץ › ייצוא… · קובץ › הדפסה… ({keys}).
+	Keywords of {n} selected photos	מילות המפתח של {n} תמונות שנבחרו
+	Move {what} to Recently Deleted?	להעביר את {what} אל „נמחקו לאחרונה”?
+	On {have} of {of} selected photos	ב־{have} מתוך {of} התמונות שנבחרו
+	Remove “{name}”	הסרת „{name}”
+	Removed “{name}” from {n} photos. Edit ▸ Undo puts it back.	מילת המפתח „{name}” הוסרה מ־{n} תמונות. עריכה ▸ ביטול תחזיר אותה.
+	View › Detail View ({keys}).	תצוגה › תצוגת פרטים ({keys}).
+	new, inside {parent}	חדשה, בתוך {parent}
+	these {count} photos	{count} התמונות האלה
