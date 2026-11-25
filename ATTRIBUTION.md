@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## MaterialCraft: partial Hebrew catalog migration
+
+211 app rows migrate existing original Hebrew translations by @nocturney with ChatGPT (OpenAI) assistance from [MaterialCraft PR #197](https://github.com/storytold/materialcraft/pull/197) (head `36fef34f20618cd16021a6da0d11b8fd18b700a2`). Every English key occurs in the official Arabic migration snapshot `b73facdc7b8b5ce102cd9e14d964058a15182dc0` and current app base `827ba9259a89a9d62401f32f255c6b8d86ef0d94`. 42 identical shared rows reused; 18 identical pending shared rows deferred to #170. Original wording retained. No runtime migration or additional native-speaker review; installed RTL pending. Related: storytold/materialcraft#210 and #256.
