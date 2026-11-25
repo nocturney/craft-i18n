@@ -258,6 +258,7 @@ calendar date	April	אפריל
 	At least one signature has problems.	יש בעיות בלפחות אחת מהחתימות.
 	At least one signature is invalid.	לפחות חתימה אחת אינה תקפה.
 	At most	לכל היותר
+	At most (MB)	גודל מרבי (MB)
 	Attach a file	צירוף קובץ
 	Attach a file…	צירוף קובץ…
 	Attach file	צירוף קובץ
@@ -1529,6 +1530,7 @@ animation effects	On	מופעל
 	Orientation:	כיוון:
 	Original	מקורי
 	Original: replace pages	מקור: החלפת עמודים
+	Original: {n} pages. Replacement: pages {a} to {b} of {m}.	מקור: {n} עמודים. החלפה: עמודים {a} עד {b} מתוך {m}.
 	other changes	שינויים אחרים
 	Other colour…	צבע אחר…
 	Other elements alternate text	טקסט חלופי לרכיבים אחרים
@@ -2138,6 +2140,7 @@ scroll speed	Slow	איטית
 	Source	מקור
 key	Space	רווח
 	Space Audit	בדיקת שימוש במקום
+	Split by	פיצול לפי
 	Split document	פיצול מסמך
 	Split document…	פיצול מסמך…
 	Split into files…	פיצול לקבצים…
@@ -2435,6 +2438,7 @@ calendar weekday	Th	ה׳
 	Timed responses	תגובות מוגבלות בזמן
 	Timestamp	חותמת זמן
 	to	עד
+	to (of {n})	עד (מתוך {n})
 	To change locked fields, also set Locked to No.	כדי לשנות שדות נעולים, יש להגדיר גם „נעול” ל„לא”.
 	to {n}	עד {n}
 	To:	עד:
