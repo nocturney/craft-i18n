@@ -222,3 +222,136 @@
 	function nodes	צומתי פונקציה
 	not available yet	עדיין לא זמין
 	threads	תהליכונים
+	3D view state	מצב תצוגת תלת־ממד
+	A graph's name is unique in its package; a taken name gets a number	שם הגרף חייב להיות ייחודי בחבילה; אם השם תפוס, יתווסף לו מספר
+	A material export is running	מתבצע כעת ייצוא חומר
+	Alpha channel	ערוץ אלפא
+	Ambient Light	תאורת סביבה
+	Ambient occlusion rays	קרני הסתרה סביבתית
+	Back to the selection's properties	חזרה למאפייני הבחירה
+	Background Type	סוג הרקע
+	Background image...	תמונת רקע...
+	Bounding box	תיבה תוחמת
+	CPU ray tracer	מעקב קרניים במעבד
+	Channels shown	ערוצים מוצגים
+	Choose a package	בחירת חבילה
+	Choose a root graph	יש לבחור גרף ראשי
+	Choose an export destination	יש לבחור יעד לייצוא
+	Click a node to show it here	בחרו צומת כדי להציגו כאן
+	Clip planes	מישורי חיתוך
+	Close the Histogram panel	סגירת חלונית ההיסטוגרמה
+	Close the Information panel	סגירת חלונית המידע
+	Color sampler: click the image to place it	דוגם צבעים: לחצו על התמונה כדי למקם אותו
+	Copy Render to Clipboard	העתקת תמונת הרינדור ללוח
+	Copy image to the clipboard	העתקת התמונה ללוח
+	Create nodes by dropping a wire on empty canvas	יצירת צמתים באמצעות שחרור חיבור באזור ריק במשטח העבודה
+	Default environment	סביבת ברירת מחדל
+	Disk limit (MiB, 0 = off)	מגבלת נפח בדיסק (MiB, 0 = כבוי)
+	Displacement	הסטת פני השטח
+	Display UVs in 2D View	הצגת UV בתצוגת דו־ממד
+	Display settings	הגדרות תצוגה
+	Draw the UV layout of the 3D view's mesh over the image	הצגת פריסת ה־UV של רשת התלת־ממד על התמונה
+	Edit properties	עריכת מאפיינים
+	Edit settings	עריכת הגדרות
+	Enabled	פעיל
+	Engine suspended: choose Suspend engine in the Tools menu again (Shift+Escape) to resume	המנוע מושהה: לחידוש הפעולה, בחרו שוב ב׳השהיית המנוע׳ בתפריט כלים (Shift+Escape)
+	Environment image	תמונת סביבה
+	Environment shown behind the mesh by default	הצגת הסביבה מאחורי הרשת כברירת מחדל
+	Export Tessellated Geometry...	ייצוא גאומטריה מחולקת...
+	Exporting material	מייצא חומר
+	For the material graph: press the keys over the graph to add the node under the pointer	בגרף החומר: לחצו על המקשים מעל הגרף כדי להוסיף צומת במיקום המצביע
+	Frames per second	פריימים לשנייה
+	Graph output	פלט הגרף
+	Height level	מפלס הגובה
+	Height scale	קנה מידה לגובה
+	Height technique	שיטת עיבוד הגובה
+	Image copied to the clipboard	התמונה הועתקה ללוח
+	Image information	מידע על התמונה
+	Information	מידע
+	Invert zoom in views	היפוך כיוון הזום בתצוגות
+	Keep the width and height the same	שמירה על רוחב וגובה זהים
+	Lights	אורות
+	Loaded	נטען
+	Materials	חומרים
+	Maximum stored previews	מספר מרבי של תצוגות מקדימות שמורות
+	Meshes	רשתות
+	Meters per scene unit	מטרים ליחידת סצנה
+	Move the pointer over the image to read its pixels	הזיזו את המצביע מעל התמונה כדי לראות את ערכי הפיקסלים
+	New function graph	גרף פונקציה חדש
+	New package	חבילה חדשה
+	No plugins are installed. MaterialCraft does not load plugins yet.	אין תוספים מותקנים. MaterialCraft עדיין אינו טוען תוספים.
+	Not applied: the active graph or package changed while the file dialog was open	לא הוחל: הגרף או החבילה הפעילים השתנו בזמן שחלון בחירת הקובץ היה פתוח
+	Not saved:	לא נשמרו:
+	Opened with	נפתח עם
+	Plugin Manager	מנהל התוספים
+	Plugins	תוספים
+	Plugins are not supported yet	תוספים עדיין אינם נתמכים
+	Point Light 1	תאורת נקודה 1
+	Point Light 2	תאורת נקודה 2
+	Press keys, Backspace to clear, Esc to cancel	לחצו על מקשים; Backspace לניקוי, Esc לביטול
+	Preview resolution	רזולוציית התצוגה המקדימה
+	Previews rebuild as they come into view.	התצוגות המקדימות נבנות מחדש כשהן מוצגות.
+	Projection	היטל
+	Raise the mesh by the height output	הגבהת הרשת לפי פלט הגובה
+	Rebuild thumbnails	בנייה מחדש של תמונות ממוזערות
+	Remove every node creation shortcut	הסרת כל קיצורי הדרך ליצירת צמתים
+	Remove the background image	הסרת תמונת הרקע
+	Remove the color sampler	הסרת דוגם הצבעים
+	Render copied to the clipboard	התמונה המרונדרת הועתקה ללוח
+	Render resolution	רזולוציית הרינדור
+	Render resolution scale	מקדם רזולוציית הרינדור
+	Renderer settings	הגדרות מנוע הרינדור
+	Reset Common Parameters	איפוס פרמטרים משותפים
+	Reset Material	איפוס החומר
+	Reset Selected	איפוס הפריט שנבחר
+	Root graph	גרף שורש
+	Sample count	מספר דגימות
+	Samples per pixel side	דגימות לכל צלע של פיקסל
+	Save Current State As Default	שמירת המצב הנוכחי כברירת מחדל
+	Save Current State As Default, in the 3D view's Scene menu, saves the whole view here	הפקודה 'שמירת המצב הנוכחי כברירת מחדל' בתפריט 'סצנה' של תצוגת תלת־ממד שומרת כאן את התצוגה כולה
+	Save Current State...	שמירת המצב הנוכחי...
+	Save Render...	שמירת תמונת רינדור...
+	Saved as the default 3D view	נשמר כתצוגת תלת־ממד כברירת מחדל
+	Saving a render needs the desktop app; copy it to the clipboard instead	שמירת תמונה מרונדרת מחייבת את יישום שולחן העבודה; במקום זאת אפשר להעתיק אותה ללוח
+	Scene browser	סייר הסצנה
+	Search by shortcut	חיפוש לפי קיצור דרך
+	Select output	בחירת פלט
+	Selected	נבחר
+	Selected max	הערך המרבי בבחירה
+	Selected pixels	פיקסלים שנבחרו
+	Selected range	טווח הבחירה
+	Shader	שיידר
+	Show all assigned	הצגת כל קיצורי הדרך שהוקצו
+	Show the environment behind the mesh	הצגת הסביבה מאחורי הרשת
+	Show the library as a list	הצגת הספרייה כרשימה
+	Shown on the mesh	מוצג על גבי הרשת
+	Snap to grid	הצמדה לרשת
+	Source normals	נורמלים של המקור
+	Sqrt	שורש ריבועי
+	Start from a template	התחלה מתבנית
+	Stored with the state; this renderer does not show it	נשמר כחלק ממצב התצוגה; מנוע התצוגה הנוכחי אינו מציג אותו
+	Tab key shows the node search	המקש Tab פותח את חיפוש הצמתים
+	Tessellation	חלוקת המשטח
+	The background image could not be shown	לא ניתן להציג את תמונת הרקע
+	The copies are numbered files in	העותקים נשמרים כקבצים ממוספרים בתיקייה
+	The file dialog could not be shown	לא ניתן היה להציג את חלון בחירת הקובץ
+	The log could not be saved	לא ניתן לשמור את קובץ היומן
+	The pixel under the color sampler	הפיקסל שמתחת לדוגם הצבעים
+	The pixel under the pointer	הפיקסל שמתחת למצביע
+	This shader has no parameters	לשיידר הזה אין פרמטרים
+	Triangles	משולשים
+	UV scale U	קנה המידה בציר U
+	UV scale V	קנה המידה בציר V
+	UVs	קואורדינטות UV
+	Undo history (steps)	היסטוריית ביטול (פעולות)
+	Use Save as for:	יש להשתמש ב׳שמירה בשם׳ עבור:
+	Use the built-in default	שימוש בברירת המחדל המובנית
+	Use this parameter; off reads as if the material had none	שימוש בפרמטר זה; כשהאפשרות כבויה, החומר ייקרא כאילו הפרמטר אינו מוגדר
+	Used range	הטווח שבשימוש
+	Vertices	קודקודים
+	View outputs in 3D view when opening a graph	הצגת הפלטים בתצוגת תלת־ממד בעת פתיחת גרף
+	Viewpoint	נקודת מבט
+	bits	סיביות
+	packages saved	חבילות נשמרו
+	placeholder node(s) stand in for nodes MaterialCraft doesn't have yet (see the warnings above)	צמתי מציין מקום מחליפים צמתים שעדיין אינם נתמכים ב־MaterialCraft (ראו את האזהרות למעלה)
+	warnings: see the Console	אזהרות: פרטים במסוף
