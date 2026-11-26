@@ -2751,3 +2751,28 @@ calendar weekday	We	ד׳
 	Differences	הבדלים
 	Enter valid page numbers	יש להזין מספרי עמודים תקינים
 	Line ending {n}	קצה קו {n}
+	PDF/A problems	בעיות בתאימות ל־PDF/A
+	Header and footer text	טקסט כותרת עליונה ותחתונה
+	Top margin	שוליים עליונים
+	Bottom margin	שוליים תחתונים
+	Left margin	שוליים שמאליים
+	Right margin	שוליים ימניים
+	Page number format	תבנית מספר עמוד
+	Horizontal offset from centre	היסט אופקי מהמרכז
+	Vertical offset from centre	היסט אנכי מהמרכז
+	Replace it	החלפתו
+	The page can't be previewed	לא ניתן להציג תצוגה מקדימה של העמוד
+	Supported files	קבצים נתמכים
+	Downloaded measurements.	המדידות הורדו.
+	Page length	אורך בדף
+	Page {page}: {reading} {label}	עמוד {page}: {reading} {label}
+	Page {page}: {reason}	עמוד {page}: {reason}
+	Real distance	מרחק במציאות
+	Saved measurements: {n}	מדידות שמורות: {n}
+	Unsupported measurements: {n}	מדידות שאינן נתמכות: {n}
+	Action	פעולה
+	Highlight Style	סגנון הדגשה
+	Line Style	סגנון הקו
+	Line Thickness	עובי הקו
+	Link Type	סוג הקישור
+	Selected link	הקישור שנבחר

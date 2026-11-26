@@ -418,3 +418,36 @@ Two original Hebrew translations of active PdfCraft labels in `compare_ui.rs` (b
 ## PdfCraft Hebrew: numbered annotation line ending
 
 One original Hebrew translation of the active PdfCraft label in `comment_props.rs` (blob `769842925d7f096a71435cc554947b7bafae1363`), contributed by @nocturney with ChatGPT (OpenAI) assistance. Native-speaker and installed RTL review have not yet been performed.
+
+## PdfCraft Hebrew: PDF/A findings heading
+
+One original Hebrew translation of the active PdfCraft label in `standards_ui.rs` (blob `ae348c32eda49a151246e71dd92649b05a8093c6`), contributed by @nocturney with ChatGPT (OpenAI) assistance. Native-speaker and installed RTL review have not yet been performed.
+
+## PdfCraft Hebrew: header/footer and watermark controls
+
+Eleven original Hebrew translations from the English labels in PdfCraft `marks_ui.rs` (blob `f2eff5fc7e3dc5f7c7fd8e9cd4f827e371ee723b`), contributed by @nocturney with ChatGPT (OpenAI) assistance. Independent native-speaker review and installed RTL review have not yet been performed.
+
+## PdfCraft: Hebrew measurement calibration and saved-results messages
+
+@nocturney contributed seven Hebrew (`he`) source-backed UI rows for PdfCraft's
+measurement calibration, saved measurements, unsupported-result feedback and CSV
+export notification: `Page length`, `Real distance`, `Saved measurements: {n}`,
+`Page {page}: {reason}`, `Page {page}: {reading} {label}`,
+`Unsupported measurements: {n}`, and `Downloaded measurements.`.
+The source is the active official PdfCraft `crates/ui-egui/src/tools/measure_ui.rs`
+(blob `da9dc1f98a6ae5ea5e95a203229e961cf8422f7d`).
+Translations were independently drafted with OpenAI ChatGPT GPT-6 using plain English
+UI meaning and existing Hebrew terminology; named placeholders are preserved.
+`Reading the drawing for snapping…` was excluded because another open proposal
+(#438) already covers it. Independent native-speaker review and installed-app
+RTL visual testing have not been completed.
+
+## PdfCraft: Hebrew link properties controls
+
+@nocturney contributed six Hebrew (`he`) rows for the PdfCraft link properties and
+appearance controls (`Action`, `Selected link`, `Link Type`, `Highlight Style`,
+`Line Thickness`, and `Line Style`) from the active `link_ui.rs` English source.
+Translations were drafted with OpenAI ChatGPT (GPT-6) from the plain English UI
+meaning and the established vocabulary in the existing Hebrew catalog, without
+copying another application's translations. No native-speaker review or
+installed-app visual RTL check has been recorded.
