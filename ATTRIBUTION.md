@@ -402,3 +402,23 @@ The two panel layout recovery messages were migrated from PhotoCraft commit `786
 ## PhotoCraft Hebrew: new group from layers (2026-11-24)
 
 One active dialog title from `storytold/photocraft` `crates/ui-egui/src/dialogs/new_group_ui.rs` (blob `af393044ea24d493683055864ab728c254b6dcfa`), contributed by @nocturney with ChatGPT (OpenAI) assistance. Original Hebrew wording follows the existing matching menu label, without its ellipsis. Independent native-speaker review and installed-app RTL review have not been performed.
+
+## PhotoCraft Hebrew: filter dialogs and preference alert (2026-11-23)
+
+Four active PhotoCraft English UI keys from `storytold/photocraft` (`crates/ui-egui/src/dialogs/alerts.rs` and `filter_dialog.rs`) have original Hebrew translations contributed by @nocturney with assistance from ChatGPT (OpenAI). Translated from the source English strings without copying proprietary localization tables; the `{error}` placeholder is preserved. Independent native-speaker review and installed-app RTL review have not been verified. No native release or upstream merge is claimed.
+
+## Hebrew: PhotoCraft Image Processor XML settings controls (2026-11-23)
+
+Eight Hebrew strings for the active Image Processor Load/Save settings file picker and
+XML error paths in `storytold/photocraft` `crates/ui-egui/src/dialogs/image_processor_ui.rs`.
+Translated by @nocturney with ChatGPT assistance from the English UI source and
+existing PhotoCraft terminology; no other product's localization files were copied.
+Independent native-speaker review and installed-app RTL verification have not been recorded.
+
+## PhotoCraft: Hebrew Equalize selection options (2026-11-23)
+
+@nocturney contributed two original Hebrew labels for the selected-area choices of PhotoCraft Image > Adjustments > Equalize (`crates/ui-egui/src/dialogs/equalize_ui.rs`, source blob `388762aec7a4`). Translations were drafted from English with ChatGPT (OpenAI) assistance and existing Hebrew terminology. No native-speaker review or installed app RTL UI test is claimed.
+
+## PhotoCraft: Hebrew Variables panel controls (2026-11-23)
+
+@nocturney authored four new Hebrew `he` rows in `locales/he/photocraft.tsv` for active PhotoCraft UI labels `Add Variable`, `Remove Variable`, `Previous Data Set`, and `Next Data Set` (source: `storytold/photocraft`, `crates/ui-egui/src/panels/variables_ui.rs`). The translations were drafted with ChatGPT assistance from the English source strings and existing Hebrew terminology in this catalog. No external product translations were copied. Native-speaker in-app review has not been verified; this contribution is proposed for upstream review.
