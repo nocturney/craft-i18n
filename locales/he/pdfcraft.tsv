@@ -2776,3 +2776,9 @@ calendar weekday	We	ד׳
 	Line Thickness	עובי הקו
 	Link Type	סוג הקישור
 	Selected link	הקישור שנבחר
+	Columns and rows must each be 1 to 99.	מספר העמודות ומספר השורות חייבים להיות בין 1 ל־99 כל אחד.
+	Reading the drawing for snapping…	קורא את השרטוט לצורך הצמדה…
+	Inherit Zoom	שימוש ברמת התקריב הקיימת
+	The document changed. Reopen Document Properties to edit the current version.	המסמך השתנה. יש לפתוח מחדש את מאפייני המסמך כדי לערוך את הגרסה הנוכחית.
+	PdfCraft's checks found no problems for {level}. This is not a validator result.	הבדיקות של PdfCraft לא מצאו בעיות עבור {level}. זו אינה תוצאה של כלי אימות תקנים.
+	PdfCraft's checks now find no problems for {level}. This is not a validator result. Save to keep the changes.	הבדיקות של PdfCraft אינן מזהות כעת בעיות עבור {level}. זו אינה תוצאה של כלי אימות תקנים. יש לשמור כדי לשמר את השינויים.

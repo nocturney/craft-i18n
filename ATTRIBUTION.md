@@ -451,3 +451,15 @@ Translations were drafted with OpenAI ChatGPT (GPT-6) from the plain English UI
 meaning and the established vocabulary in the existing Hebrew catalog, without
 copying another application's translations. No native-speaker review or
 installed-app visual RTL check has been recorded.
+
+## PdfCraft (he): print grid, measurement snapping, link zoom and document properties
+
+- Contributor: @nocturney. Four original Hebrew UI strings drafted with ChatGPT (OpenAI) assistance from active `tl!` call sites in official `storytold/pdfcraft` at source `9b3e6d6f38de906c758d93e8ece45cbf105fd515`: `crates/ui-egui/src/workflows/print_ui/draft.rs`, `tools/measure_ui.rs`, `tools/link_ui.rs`, and `properties_session.rs`.
+- English keys: `Columns and rows must each be 1 to 99.`, `Reading the drawing for snapping…`, `Inherit Zoom`, and `The document changed. Reopen Document Properties to edit the current version.` They were absent from official Hebrew PdfCraft and common catalogs; checked open related proposals for overlap. No third-party translations were copied. Native-speaker review and installed-app RTL verification remain pending.
+
+## PdfCraft: PDF/A internal checks are not validator results (he, 2026-11-23)
+
+Two additional Hebrew UI messages sourced from the active `tl!` strings in
+`storytold/pdfcraft/crates/ui-egui/src/dialogs/standards_ui.rs`.
+These are original AI-assisted clean-room translations from the English
+source and UI context. No native-speaker or installed UI review is claimed.
