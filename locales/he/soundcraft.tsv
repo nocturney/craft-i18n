@@ -1046,3 +1046,13 @@
 	Use Reconnect audio device in Setup › Playback Engine, or restart SoundCraft.	יש להשתמש ב״חיבור מחדש של התקן השמע״ תחת הגדרות › מנוע ניגון, או להפעיל מחדש את SoundCraft.
 	No track is record-enabled: click the R button on the track to record.	אף רצועה אינה מוכנה להקלטה: יש ללחוץ על כפתור R ברצועה כדי להקליט.
 	Nothing to record on yet: add a track with Track › New…, then click its R button.	אין עדיין על מה להקליט: יש להוסיף רצועה דרך רצועה › חדש…, ולאחר מכן ללחוץ על כפתור R שלה.
+	Could not open {path}: {e}	לא ניתן לפתוח את {path}: {e}
+	Revert “{name}” to its last saved version?	להחזיר את "{name}" לגרסתו השמורה האחרונה?
+	Close “{name}” without saving?	לסגור את "{name}" מבלי לשמור?
+	Save changes to “{name}” before closing?	לשמור את השינויים בקובץ „{name}” לפני הסגירה?
+	Autosave failed: {e}	השמירה האוטומטית נכשלה: {e}
+	Recovered “{name}”. Save it to keep the changes.	"{name}" שוחזר. יש לשמור אותו כדי לשמור את השינויים.
+	Recovered “{name}”, but {n} audio file(s) are missing. Save it to keep the changes.	שוחזר הסשן ״{name}״, אך לא נמצאו כל קובצי השמע. מספר הקבצים החסרים: {n}. יש לשמור את הסשן כדי לשמור את השינויים.
+	Panel layout could not be restored: {error}	לא ניתן לשחזר את פריסת החלוניות: {error}
+	Panel move was not applied: {error}	העברת החלונית לא בוצעה: {error}
+	Panel windows could not be arranged: {error}	לא ניתן לסדר את חלונות החלוניות: {error}
