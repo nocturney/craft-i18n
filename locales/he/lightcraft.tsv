@@ -939,3 +939,35 @@
 	View › Detail View ({keys}).	תצוגה › תצוגת פרטים ({keys}).
 	new, inside {parent}	חדשה, בתוך {parent}
 	these {count} photos	{count} התמונות האלה
+	Creator metadata	יוצר במטא־נתונים
+	Folders	תיקיות
+	Inspect Lightroom Catalog	בדיקת קטלוג Lightroom
+	Inspecting Lightroom Catalog	בודק קטלוג Lightroom
+	Lightroom Classic Catalog	קטלוג Lightroom Classic
+	Local folders	תיקיות מקומיות
+	Local library — no cloud account needed	ספרייה מקומית — אין צורך בחשבון ענן
+	Name of the folder the original is in	שם התיקייה שבה נמצא המקור
+	Paste Metadata	הדבקת מטא־נתונים
+	Rating	דירוג
+	Rating cleared	הדירוג נוקה
+	Ratings & flags	דירוגים ודגלים
+	Read Metadata from File	קריאת מטא־נתונים מקובץ
+	Reading Lightroom catalog…	קורא את קטלוג Lightroom…
+	Reading folder…	קורא תיקייה…
+	Reset Before to Import State	איפוס מצב ״לפני״ למצב הייבוא
+	Review Import	סקירת ייבוא
+	Saving Lightroom import index…	שומר את אינדקס הייבוא של Lightroom…
+	Set Rating	קביעת דירוג
+	Star rating (0–5)	דירוג כוכבים (0–5)
+	Title metadata	כותרת ממטא־נתונים
+	Watched folder	תיקייה במעקב
+	Decrease Rating	הפחתת דירוג
+	Increase Rating	העלאת דירוג
+	Skipped: files already in the library elsewhere	דולגו: קבצים שכבר נמצאים בספרייה במקום אחר
+	Reading folder	קורא תיקייה
+	Reading Lightroom catalog	קורא קטלוג Lightroom
+	Synchronizing folder	מסנכרן תיקייה
+	Specific folder	תיקייה מסוימת
+	Same folder as original photo	אותה תיקייה כמו התמונה המקורית
+	An import is running	ייבוא מתבצע כעת
+	The photos are imported once it ends	התמונות ייובאו עם סיומו
