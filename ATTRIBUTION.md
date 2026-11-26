@@ -388,3 +388,7 @@ locales in [craft-i18n #489](https://github.com/storytold/craft-i18n/pull/489).
 Drafted by @nocturney with ChatGPT assistance from the English source text;
 no other product localization was consulted or copied. Independent native-speaker
 review and live RTL verification have not been recorded.
+
+## DesignCraft: Hebrew document, page, table and style controls (existing catalog migration)
+
+Migrates 155 previously authored Hebrew rows from [DesignCraft #2670](https://github.com/storytold/designcraft/pull/2670) (head `8176a860ac0dd0fd5dfca40c6242fbccc8f0489f`, @nocturney, AI-assisted), retaining only exact key/value agreements with [DesignCraft #3006](https://github.com/storytold/designcraft/pull/3006) (head `b35df080d747d0f33fa76547063555478d36ae7c`, @hrb9). English keys corroborated in current German and Arabic source tables at `37fac22e965b72896f4c29f47a102c6c20dd2d45`. Shared catalog and pending shared proposals excluded. This is a migration, not new translations; independent native-speaker and live RTL review remain pending.
