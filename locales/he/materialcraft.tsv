@@ -105,7 +105,7 @@
 	Float2	וקטור עשרוני 2
 	Float3	וקטור עשרוני 3
 	Float4	וקטור עשרוני 4
-	Format	תבנית
+	Format	פורמט קובץ
 	Frame all	הצגת הכול במסגרת
 	Frame all (F)	התאמת התצוגה לכל הצמתים (F)
 	From graph	מהגרף
@@ -154,7 +154,7 @@
 	Open package... (Ctrl+O)	פתיחת חבילה... (Ctrl+O)
 	Open...	פתיחה...
 	Opened	נפתח
-	Output format	תבנית פלט
+	Output format	פורמט פלט
 	Output size	גודל הפלט
 	Outputs	פלטים
 	Pan the camera	הזזת המצלמה
