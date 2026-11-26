@@ -90,6 +90,7 @@
 	Bounces the edit selection, or the whole session when nothing is selected.	מייצא את בחירת העריכה, או את ההפעלה כולה כשאין בחירה.
 	Buffer size	גודל חוצץ (Buffer)
 	Built-in	מובנים
+	Busses	אפיקי שמע
 	Bypass	עקיפה (Bypass)
 	Bypass Insert	עקיפת אינסרט
 	Bypass Inserts	עקיפת אינסרטים
@@ -113,6 +114,7 @@
 	Channel Strip	רצועת ערוץ
 	Check for Updates…	בדיקת עדכונים…
 	Check the disk, then record again.	יש לבדוק את הכונן ולהקליט שוב.
+	Checks loaded media only, not files on disk, signal levels, plugins or routing.	בודק מדיה טעונה בלבד, לא קבצים בדיסק, עוצמות אות, תוספים או ניתוב.
 	Chord Symbols	סמלי אקורדים
 	Chords	אקורדים
 	Clear All Clip Indicators	ניקוי כל מחווני הקטיעה (Clip)
@@ -127,6 +129,7 @@
 	Clear…	ניקוי…
 	Click	מטרונום
 	Click a take (or the selection) to promote it to the main playlist	לחיצה על טייק (או על הבחירה) תקדם אותו לרשימת הניגון הראשית
+	Click keys to step-enter notes into the selected MIDI clip at the insertion point.	יש ללחוץ על קלידים כדי להזין תווים בצעדים אל קליפ ה-MIDI שנבחר בנקודת ההוספה.
 	Click/Countoff...	מטרונום / ספירה מקדימה...
 	Click: open instrument · right-click: change	לחיצה: פתיחת כלי נגינה · לחיצה ימנית: שינוי
 	Clip	חיתוך
@@ -506,7 +509,7 @@
 	Mute Sends	השתקת שליחות
 	Mute send	השתקת שליחה
 	Narrow Mix	מיקס צר
-	New Bus	באס חדש
+	New Bus	אפיק שמע חדש
 	New Configuration	תצורה חדשה
 	New Configuration...	תצורה חדשה...
 	New Configuration…	תצורה חדשה…
@@ -652,7 +655,7 @@
 	Rename Marker	שינוי שם סמן
 	Rename Selected Clips	שינוי שם קליפים נבחרים
 	Rename Track	שינוי שם רצועה
-	Rename bus…	שינוי שם באס…
+	Rename bus…	שינוי שם אפיק שמע…
 	Rename...	שינוי שם...
 	Render	עיבוד (Render)
 	Render Clip Gain	הטמעת עוצמת קליפ (Render)
@@ -713,7 +716,7 @@
 	Scroll Timeline	גלילת ציר זמן
 	Scroll to Track...	גלילה לרצועה...
 	Scrubber	כלי סריקה (Scrubber)
-	Search buses…	חיפוש באסים…
+	Search buses…	חיפוש אפיקי שמע…
 	Search commands…	חיפוש פקודות…
 	Search inputs…	חיפוש כניסות…
 	Search instruments…	חיפוש כלי נגינה…
@@ -841,6 +844,7 @@
 	Tempo Operations Window	חלון פעולות קצב
 	Tempo Sync	סנכרון קצב
 	Text for naming the clips that editing makes from the selected clips:	טקסט למתן שמות לקליפים שהעריכה יוצרת מתוך הקליפים שנבחרו:
+	The mix runs in 512-sample blocks; the buffer size sets the device's own latency.	המיקס רץ בבלוקים של 512 דגימות; גודל החוצץ קובע את השהיית ההתקן עצמו.
 	Thin	דק
 	Thin All	דילול הכול
 	This plugin has no editor of its own, or it is not loaded	לתוסף זה אין עורך משלו, או שהוא לא נטען
@@ -995,7 +999,7 @@
 	movie offline	וידאו לא מקוון
 	mute	השתקה
 	new	חדש
-	new bus...	באס חדש...
+	new bus...	אפיק שמע חדש...
 	no audio engine	אין מנוע שמע
 	no audio input device	אין התקן קלט שמע
 	no audio track is record-enabled	אין רצועת שמע דרוכה להקלטה
