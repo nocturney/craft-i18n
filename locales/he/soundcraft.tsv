@@ -1052,7 +1052,7 @@
 	Save changes to “{name}” before closing?	לשמור את השינויים בקובץ „{name}” לפני הסגירה?
 	Autosave failed: {e}	השמירה האוטומטית נכשלה: {e}
 	Recovered “{name}”. Save it to keep the changes.	"{name}" שוחזר. יש לשמור אותו כדי לשמור את השינויים.
-	Recovered “{name}”, but {n} audio file(s) are missing. Save it to keep the changes.	שוחזר הסשן ״{name}״, אך לא נמצאו כל קובצי השמע. מספר הקבצים החסרים: {n}. יש לשמור את הסשן כדי לשמור את השינויים.
+	Recovered “{name}”, but {n} audio file(s) are missing. Save it to keep the changes.	ההפעלה ״{name}״ שוחזרה, אך חסרים קובצי שמע (מספר הקבצים החסרים: {n}). יש לשמור את ההפעלה כדי לשמור את השינויים.
 	Panel layout could not be restored: {error}	לא ניתן לשחזר את פריסת החלוניות: {error}
 	Panel move was not applied: {error}	העברת החלונית לא בוצעה: {error}
 	Panel windows could not be arranged: {error}	לא ניתן לסדר את חלונות החלוניות: {error}
