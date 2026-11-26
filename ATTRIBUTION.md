@@ -389,3 +389,5 @@ and in the corresponding catalog migration storytold/craft-i18n#485.
 Contributor: @nocturney, AI-assisted with ChatGPT. A small number of existing
 Hebrew values were rephrased for neutral instructions and consistent menu labels.
 No independent native-speaker or live RTL review has been recorded for this catalog.
+
+Additional migration: 19 existing Hebrew Home, Learn, composition and import/export dialog strings from the same contributor source, verified against live call-site literals in effectcraft@ff41f29c6a6e60e7c09ba4298527b9c540c62c87 and the Arabic source-key inventory in #485. Existing wording retained; no new translation count. AI-assisted original translation; independent native-speaker and in-app RTL review remain pending.
