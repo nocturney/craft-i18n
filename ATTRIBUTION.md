@@ -394,3 +394,36 @@ The two panel layout recovery messages were migrated from PhotoCraft commit `786
 ## WordCraft Hebrew: hidden-text guidance
 
 @nocturney contributed the Hebrew font-dialog hidden-text message (`dialogs/font.rs`), translated from its English meaning with ChatGPT (OpenAI) assistance and existing catalog terminology. No independent native-speaker or installed RTL review has been performed.
+
+
+## WordCraft Hebrew: contextual UI hints and accessibility labels (2026-11-24)
+
+@nocturney contributed four new Hebrew translations for active WordCraft `tl!` strings:
+row visibility, table-style editing guidance, SmartArt shape color and a missing hyperlink
+target warning. Drafted with ChatGPT assistance from the English source and code context.
+No independent native-speaker or installed RTL review is claimed.
+
+## Hebrew: WordCraft template picker (2026-11-24)
+
+@nocturney contributed two original Hebrew strings for WordCraft's template-management
+dialog (`Pick a template on the desktop app` and `Template`) from the active
+English `tl!` call sites in `storytold/wordcraft`
+(`crates/ui-egui/src/dialogs/dialogs_templates.rs`, blob
+`835ca864e58a3d2fc777261675f6d320905f8eec`).
+Written from the English UI meaning with ChatGPT (OpenAI GPT-6) assistance;
+independent native-speaker review and installed-app RTL testing not recorded.
+No third-party localized UI was consulted.
+
+## WordCraft Hebrew table sort and height controls (2026-11-23)
+
+@nocturney translated the active English UI strings `Order` (table sorting and mail merge sort order) and `Specify height` (table row settings), with ChatGPT (OpenAI) assistance. Clean-room translations from WordCraft English source. Independent native-speaker review and installed RTL GUI testing are pending.
+
+## WordCraft Hebrew: Define New Bullet character controls
+
+Two original Hebrew translations in `locales/he/wordcraft.tsv` for the active
+WordCraft `crates/ui-egui/src/dialogs/dialogs_bullet.rs` Define New Bullet UI:
+`Bullet character` and `Symbol…`. Translations by @nocturney,
+assisted by ChatGPT (OpenAI); sourced from the original English UI and
+the existing Hebrew terminology for bullet lists and symbols.
+Independent native-speaker proofreading and installed GUI/RTL validation
+have not been performed.
