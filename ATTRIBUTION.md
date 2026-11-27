@@ -422,3 +422,35 @@ Independent native-speaker review and installed-app RTL verification have not be
 ## PhotoCraft: Hebrew Variables panel controls (2026-11-23)
 
 @nocturney authored four new Hebrew `he` rows in `locales/he/photocraft.tsv` for active PhotoCraft UI labels `Add Variable`, `Remove Variable`, `Previous Data Set`, and `Next Data Set` (source: `storytold/photocraft`, `crates/ui-egui/src/panels/variables_ui.rs`). The translations were drafted with ChatGPT assistance from the English source strings and existing Hebrew terminology in this catalog. No external product translations were copied. Native-speaker in-app review has not been verified; this contribution is proposed for upstream review.
+
+
+## PhotoCraft: Hebrew vector path alignment and arrangement (2026-11-23)
+
+Three previously untranslated active PhotoCraft labels from
+storytold/photocraft crates/ui-egui/src/tools/vector_ui/path_menus.rs
+(commit 033ed7d34c3d8b079498bd522434f6220563a2e2):
+Path alignment, Distribute:, and Path arrangement.
+Original Hebrew translations by @nocturney, AI-assisted using ChatGPT (OpenAI),
+translated from the English source wording and existing public Hebrew UI terminology.
+No independent native-speaker review or installed PhotoCraft RTL visual check yet.
+The already-proposed Align:, Align To:, and Distribute Spacing: translations
+are deliberately omitted because they exist in open upstream PR #42.
+
+## PhotoCraft Hebrew: Object Finder options (2026-11-23)
+
+Five strings from `storytold/photocraft` `crates/ui-egui/src/tools/retouch_ui/bar/select.rs`: Object Finder refresh tooltip, additional-options button, Object Subtract, and automatic/manual refresh.
+Contributed by @nocturney with ChatGPT (OpenAI) assistance; clean-room wording from source English, not independently reviewed by a native speaker. No external translation catalog was copied.
+
+## PhotoCraft (he): Count Group Name dialog
+
+- Contributor: @nocturney; ChatGPT (OpenAI) assisted the clean-room drafting of three Hebrew UI strings from the English literals in `storytold/photocraft` (`crates/ui-egui/src/dialogs/count_group_name_ui.rs`).
+- The new strings cover the dialog title, the form label and the stale-document refusal message. The existing `Count Group` translation is reused for consistency, not duplicated here.
+- No proprietary translation tables were consulted or copied. Independent review in the installed Hebrew UI by a native speaker is not recorded and remains pending.
+
+## PhotoCraft Hebrew: history dialog and brush preset tip (2026-11-23)
+
+Two original, AI-assisted Hebrew UI translations, derived independently from the active English `tl!()` source strings in official PhotoCraft:
+- `crates/ui-egui/src/dialogs/history_options_ui.rs` (source blob `3dc18bf044bb28df8c2eafc03cbe1b5813c1ee4`): `History Options` (history-settings dialog title, distinct from `History Options…`).
+- `crates/ui-egui/src/dialogs/brush_preset_dialog.rs` (source blob `fde37ee0892452eedabbf5fc8f2b2049ff74d614`): `Tip` (brush-tip preview row in the preset dialog).
+
+The Hebrew wording follows existing `he/photocraft.tsv` terminology, including `Brush Tip` and `History Options…`. English keys and any placeholders are preserved; no external proprietary translation tables were copied. Independent native-speaker review, RTL GUI testing, hosted CI, official maintainer merge and host installation remain pending.
