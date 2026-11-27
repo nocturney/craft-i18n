@@ -459,3 +459,15 @@ The Hebrew wording follows existing `he/photocraft.tsv` terminology, including `
 
 - PhotoCraft (Crop Preset dialogs, three new labels): submitted by @nocturney with ChatGPT AI assistance, clean-room translation of the English application source, independent Hebrew-speaker proofreading and right-to-left UI testing pending.
 - PhotoCraft (brush refusal tool names and alerts, 15 entries): submitted by @nocturney with ChatGPT, AI-assisted clean-room Hebrew drafts from the official English source.
+
+## PhotoCraft Hebrew: duplicate-layer dialog (2026-11-23)
+
+Five previously absent active `tl!` strings from `storytold/photocraft/crates/ui-egui/src/dialogs/duplicate_layer_ui.rs` were translated into `locales/he/photocraft.tsv` by @nocturney with ChatGPT AI assistance. The Hebrew was authored from the English source in a clean-room process; no proprietary localisation was copied. Independent native-speaker and visual RTL reviews are pending. No installed UI, app release or upstream merge is claimed.
+
+## Hebrew PhotoCraft: Rotate Canvas dialog (2026-11-22)
+
+Two original Hebrew strings for the Rotate Canvas dialog and its counter-clockwise option. Contributed by @nocturney with ChatGPT (OpenAI), AI-assisted, written clean-room from the English in storytold/photocraft dialogs/rotate_canvas_ui.rs. Not independently reviewed by a native Hebrew speaker or verified in the running RTL UI.
+
+## PhotoCraft: Hebrew Note tool deletion confirmations (2026-11-22)
+
+Six original Hebrew translations for PhotoCraft note deletion confirmation and stale-document safety messages. English source: storytold/photocraft crates/ui-egui/src/tools/analysis/note_alerts.rs at c05c4c5fdfb8995de773773c623b07646e66eb32. Exact tl! labels were checked against official Hebrew PhotoCraft/shared catalogs and other open Hebrew PhotoCraft contributions. The translation is clean-room AI-assisted and has not been independently native-speaker reviewed, visually RTL tested, or installed in the app.

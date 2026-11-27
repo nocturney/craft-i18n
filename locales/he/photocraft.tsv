@@ -4491,3 +4491,18 @@ navigator	Zoom	תקריב
 	Can't use the tool because the layer is locked.	לא ניתן להשתמש בכלי משום שהשכבה נעולה.
 	Could not use the {tool} because it does not work with Indexed Color images (convert image to RGB Color mode to edit).	לא ניתן להשתמש ב־{tool} בתמונות בצבע מאונדקס. כדי לערוך את התמונה, יש להמיר אותה למצב צבע RGB.
 	Could not use the {tool} because it does not work with Bitmap images (convert image to Grayscale mode to edit).	לא ניתן להשתמש ב־{tool} בתמונות Bitmap. כדי לערוך את התמונה, יש להמיר אותה למצב גווני אפור.
+
+# Consolidated existing PhotoCraft editing/dialog and Note tool contributions.
+	no destination document	לא נבחר מסמך יעד
+	The destination document is no longer open. Choose another one.	מסמך היעד כבר אינו פתוח. יש לבחור מסמך אחר.
+	Duplicate Group	שכפול קבוצה
+	As:	בשם:
+	The document or selected layers changed. Choose Duplicate Layer again.	המסמך או השכבות שנבחרו השתנו. יש להפעיל שוב את הפקודה ״שכפול שכבה״.
+	Rotate Canvas	סיבוב משטח העבודה
+	Counter clockwise	נגד כיוון השעון
+	Are you sure you want to delete all notes?	האם למחוק את כל ההערות?
+	Delete Note	מחיקת הערה
+	Delete this note?	האם למחוק הערה זו?
+	Note deleted, but the preference could not be saved: {error}	ההערה נמחקה, אך לא ניתן היה לשמור את ההעדפה: {error}
+	The document changed. Please choose Clear All again.	המסמך השתנה. יש לבחור שוב באפשרות ״נקה הכול״.
+	The document or its notes changed. Please delete the note again.	המסמך או ההערות שבו השתנו. יש לנסות למחוק את ההערה שוב.
