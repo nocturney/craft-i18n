@@ -454,3 +454,8 @@ Two original, AI-assisted Hebrew UI translations, derived independently from the
 - `crates/ui-egui/src/dialogs/brush_preset_dialog.rs` (source blob `fde37ee0892452eedabbf5fc8f2b2049ff74d614`): `Tip` (brush-tip preview row in the preset dialog).
 
 The Hebrew wording follows existing `he/photocraft.tsv` terminology, including `Brush Tip` and `History Options…`. English keys and any placeholders are preserved; no external proprietary translation tables were copied. Independent native-speaker review, RTL GUI testing, hosted CI, official maintainer merge and host installation remain pending.
+
+## PhotoCraft: Hebrew crop presets and brush refusal controls
+
+- PhotoCraft (Crop Preset dialogs, three new labels): submitted by @nocturney with ChatGPT AI assistance, clean-room translation of the English application source, independent Hebrew-speaker proofreading and right-to-left UI testing pending.
+- PhotoCraft (brush refusal tool names and alerts, 15 entries): submitted by @nocturney with ChatGPT, AI-assisted clean-room Hebrew drafts from the official English source.
