@@ -463,3 +463,29 @@ Two additional Hebrew UI messages sourced from the active `tl!` strings in
 `storytold/pdfcraft/crates/ui-egui/src/dialogs/standards_ui.rs`.
 These are original AI-assisted clean-room translations from the English
 source and UI context. No native-speaker or installed UI review is claimed.
+
+## PdfCraft: preferences — updates, links, middle-button drag and signatures (he, 2026-11-23)
+
+Five additional Hebrew UI strings sourced from the active `tl!` calls in the
+official PdfCraft `crates/ui-egui/src/dialogs/preferences.rs`.
+Translations are original AI-assisted proposals based on the English source
+and surrounding UI context; no native-speaker or installed GUI review is claimed.
+No third-party locale translations were copied. Terms preserve the application's
+PDF and desktop input semantics.
+
+## Hebrew — PdfCraft rename and comment properties dialogs (Nov 2026)
+
+9 clean-room Hebrew UI translations drafted by ChatGPT for contributor @nocturney from the English `tl!` strings in `storytold/pdfcraft` `crates/ui-egui/src/dialogs/rename_ui.rs` and `comment_props.rs`. AI-assisted, native-speaker and in-app RTL review pending; no other product's localisation consulted.
+
+## PdfCraft Hebrew: printer marks dialog (2026-11-23)
+
+Eleven original Hebrew interface translations for the print-production printer-marks dialog
+from the official `storytold/pdfcraft` file `crates/ui-egui/src/dialogs/printer_marks_ui.rs`
+(source blob `5331cfa3a5e8640030cee5d206ba8cc697de3ee2`). The English keys occur
+in the active `tl!` UI callsites and were absent from the Hebrew PdfCraft and common
+catalogs at the upstream main base `fd44ae8cbb5b076dc77a12ea6c7ddd7cf8b1c360`.
+Translations were submitted by @nocturney. The Hebrew wording was drafted with ChatGPT
+as an AI-assisted clean-room translation from the official English UI source; no named human
+translator is claimed for these eleven new rows, and no other product's localized text was
+copied. Independent native-speaker proofreading, running-application RTL review, and
+maintainer acceptance remain pending.

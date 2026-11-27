@@ -2782,3 +2782,28 @@ calendar weekday	We	ד׳
 	The document changed. Reopen Document Properties to edit the current version.	המסמך השתנה. יש לפתוח מחדש את מאפייני המסמך כדי לערוך את הגרסה הנוכחית.
 	PdfCraft's checks found no problems for {level}. This is not a validator result.	הבדיקות של PdfCraft לא מצאו בעיות עבור {level}. זו אינה תוצאה של כלי אימות תקנים.
 	PdfCraft's checks now find no problems for {level}. This is not a validator result. Save to keep the changes.	הבדיקות של PdfCraft אינן מזהות כעת בעיות עבור {level}. זו אינה תוצאה של כלי אימות תקנים. יש לשמור כדי לשמר את השינויים.
+	Check for updates when PdfCraft starts	בדיקת עדכונים בעת הפעלת PdfCraft
+	Invert middle-button drag	היפוך כיוון הגרירה בלחצן האמצעי
+	Open web and email addresses written in the page text	פתיחת כתובות אינטרנט ודוא״ל המופיעות בטקסט העמוד
+	Otherwise, ask on the first save after a signature is placed	אחרת, בקש אישור בשמירה הראשונה לאחר הוספת חתימה
+	Panning or auto-scrolling with the middle (wheel) button moves the page the other way.	הזזת התצוגה או גלילה אוטומטית באמצעות הלחצן האמצעי (גלגלת) יזיזו את העמוד בכיוון ההפוך.
+	Border colour	צבע המסגרת
+	Border opacity	אטימות המסגרת
+	Changes here apply to all {n} selected comments	השינויים כאן יחולו על כל {n} ההערות שנבחרו
+	Fill opacity	אטימות המילוי
+	Line opacity	אטימות הקו
+	Rename “{name}”	שינוי השם של „{name}”
+	Save and Rename	שמירה ושינוי שם
+	Text opacity	אטימות הטקסט
+	This document has unsaved changes. They are saved first, then the file is renamed.	במסמך זה יש שינויים שלא נשמרו. תחילה הם יישמרו, ולאחר מכן ישונה שם הקובץ.
+	Marks	סימנים
+	All marks	כל הסימנים
+	Trim marks	סימני חיתוך
+	Bleed marks	סימני גלישה
+	Registration marks	סימני רישום
+	Colour bars	פסי צבע
+	Page information	פרטי העמוד
+	Line weight	עובי הקו
+	Widen the page to make room	הרחב את העמוד כדי לפנות מקום
+	Room on each side	מרווח מכל צד
+	The trim box is kept where it is, so the printed page cuts the same.	תיבת החיתוך נשארת במקומה, כך שמיקום החיתוך של העמוד המודפס אינו משתנה.
