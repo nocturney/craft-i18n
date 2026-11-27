@@ -1056,3 +1056,8 @@
 	Panel layout could not be restored: {error}	לא ניתן לשחזר את פריסת החלוניות: {error}
 	Panel move was not applied: {error}	העברת החלונית לא בוצעה: {error}
 	Panel windows could not be arranged: {error}	לא ניתן לסדר את חלונות החלוניות: {error}
+	Notation view of the MIDI clip; edit notes in the MIDI Editor or Event List.	תצוגת תווים של קליפ ה-MIDI; יש לערוך תווים בעורך ה-MIDI או ברשימת האירועים.
+	No object tracks. Use the Object view in the Mix window to route tracks as objects.	אין רצועות אובייקטים. יש להשתמש בתצוגת האובייקטים בחלון המיקס כדי לנתב רצועות כאובייקטים.
+	SoundCraft hit an internal error (see the log). Your changes were autosaved: save them, then restart SoundCraft.	SoundCraft נתקל בשגיאה פנימית (יש לעיין ביומן). השינויים נשמרו אוטומטית: יש לשמור אותם, ולאחר מכן להפעיל מחדש את SoundCraft.
+	SoundCraft hit an internal error (see the log). Restart SoundCraft to be safe.	SoundCraft נתקל בשגיאה פנימית (יש לעיין ביומן). יש להפעיל מחדש את SoundCraft ליתר ביטחון.
+	Surround pan: drag the puck · double-click: front centre · Alt-drag: divergence	צידוד סראונד: גרירת הדיסקית · לחיצה כפולה: מרכז קדמי · Alt+גרירה: פיזור
