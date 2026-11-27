@@ -399,3 +399,5 @@ Hebrew values were rephrased for neutral instructions and consistent menu labels
 No independent native-speaker or live RTL review has been recorded for this catalog.
 
 Additional migration: 19 existing Hebrew Home, Learn, composition and import/export dialog strings from the same contributor source, verified against live call-site literals in effectcraft@ff41f29c6a6e60e7c09ba4298527b9c540c62c87 and the Arabic source-key inventory in #485. Existing wording retained; no new translation count. AI-assisted original translation; independent native-speaker and in-app RTL review remain pending.
+
+Five new AI-assisted Hebrew camera tool labels by @nocturney (ChatGPT), written from English source meaning, verified against `effectcraft@01a61a9462f58f25142ab54c98d23cb26917b2e1` (`crates/ui-egui/src/state.rs` tool labels and `header.rs` translated tool chooser). Distinct from the 49 migrated rows; deduplicated against the current Hebrew common catalog, pending shared catalog contributions and app PRs #3438/#3945. Draft linguistic and installed RTL review remain pending. This is catalog preparation only and does not change runtime wiring or cutover order.
