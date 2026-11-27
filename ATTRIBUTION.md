@@ -459,3 +459,24 @@ Connection sites, Object frame, Picked objects, Text box frame, and Turning obje
 Contributor: @nocturney, AI-assisted with ChatGPT (OpenAI); translated from the
 English source meaning and existing catalog terminology, without copying another
 product localization. Native-speaker translation review status: unverified. No independent native-speaker UI review has been performed.
+
+
+## Hebrew WordCraft output and proofing safety notices (2026-11-23)
+
+Fourteen new Hebrew UI strings from the active official WordCraft source
+(storytold/wordcraft commit c369c3a20befef8742f8913128cacd79002435d6):
+`printing.rs`, `md_source.rs`, `chrome/status_bar.rs`, `options.rs`,
+and `language_packs.rs`. This covers cancellation uncertainty, Markdown
+content-loss warnings, missing-font status, dictionary setup and language names.
+The Hebrew strings were drafted with ChatGPT assistance from the cited English
+UI source and submitted by contributor @nocturney. No separate individual
+human translator is credited. Native-speaker, installed-app and RTL visual
+review have not been performed.
+
+## Hebrew WordCraft: Recent list removal status (2026-11-23)
+
+Two original Hebrew translations for the WordCraft recent-document removal and clear-list status messages. The English keys were independently checked against [storytold/wordcraft `app/commands.rs`](https://github.com/storytold/wordcraft/blob/c369c3a20befef8742f8913128cacd79002435d6/crates/ui-egui/src/app/commands.rs). Translations were written clean-room from the English meanings with GPT-6 assistance, without using another product's locale assets. The `{name}` and `{count}` placeholders are unchanged. No native-speaker or RTL UI review has been performed.
+
+## WordCraft Hebrew keyboard shortcut and date/time format feedback (2026-11-22)
+
+Added two original Hebrew UI translations in `locales/he/wordcraft.tsv`: `Use a key combination with Ctrl, Alt or a function key.` and `Default format saved.`. Based on the active English `tl!` calls in the official WordCraft source, `crates/ui-egui/src/dialogs/customize_keyboard.rs` and `crates/ui-egui/src/dialogs/dialogs_insert/date_time.rs`, respectively. Drafted by @nocturney with AI assistance using clean-room computing terminology; no third-party translations were copied. Independent Hebrew-speaker review and native RTL UI verification remain pending.

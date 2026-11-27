@@ -2617,3 +2617,21 @@ preview	Title	כותרת
 	Picked objects	אובייקטים שנבחרו
 	Text box frame	מסגרת תיבת טקסט
 	Turning object	סיבוב אובייקט
+	A custom-word dictionary file (.dic or plain text) used in conjunction with the main dictionary. Empty uses custom-dictionary.txt.	קובץ מילון מותאם אישית (.dic או טקסט פשוט) המשמש לצד המילון הראשי. אם השדה ריק, ייעשה שימוש ב־custom-dictionary.txt.
+	Cancellation could not be confirmed here. The printer driver may still be processing the job. If it appears in the system's print queue, cancel it there.	לא ניתן לאשר כאן שההדפסה בוטלה. ייתכן שמנהל ההתקן עדיין מעבד את המשימה. אם היא מופיעה בתור ההדפסה של המערכת, יש לבטל אותה שם.
+	Dictionary file:	קובץ מילון:
+	Get the Missing Fonts…	קבלת הגופנים החסרים…
+	Languages	שפות
+	Markdown Source takes up to 2 MB of text	מקור Markdown תומך בטקסט בנפח של עד 2 MB
+	Missing fonts	גופנים חסרים
+	Not installed — shown as	לא מותקן — מוצג באמצעות
+	On X11, the touchpad follows the mouse wheel speed.	ב־X11, מהירות הגלילה של משטח המגע זהה למהירות של גלגלת העכבר.
+	Own name and code	שם מקורי וקוד שפה
+	Printing cancelled. Nothing was sent to the printer.	ההדפסה בוטלה. דבר לא נשלח למדפסת.
+	Repeated word	מילה חוזרת
+	Status count	ספירה בשורת המצב
+	This document has content Markdown can't hold. Changing the text here removes it; one Undo afterwards brings it back.	המסמך מכיל תוכן ש־Markdown אינו יכול לשמר. שינוי הטקסט כאן יסיר את התוכן הזה; פעולת ביטול אחת לאחר מכן תחזיר אותו.
+	Removed {name} from the recent list	המסמך {name} הוסר מרשימת המסמכים האחרונים
+	Removed {count} documents from the recent list	הוסרו {count} מסמכים מרשימת המסמכים האחרונים
+	Default format saved.	תבנית ברירת המחדל נשמרה.
+	Use a key combination with Ctrl, Alt or a function key.	יש להשתמש בצירוף מקשים הכולל Ctrl, Alt או מקש פונקציה.
