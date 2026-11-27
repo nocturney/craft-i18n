@@ -427,3 +427,35 @@ assisted by ChatGPT (OpenAI); sourced from the original English UI and
 the existing Hebrew terminology for bullet lists and symbols.
 Independent native-speaker proofreading and installed GUI/RTL validation
 have not been performed.
+
+
+## WordCraft Hebrew: zoom preset and recovery copy title (2026-11-23)
+
+@nocturney contributed two original Hebrew WordCraft UI strings in
+`locales/he/wordcraft.tsv`: `Zoom to` (zoom preset radio group in
+`crates/ui-egui/src/dialogs/dialogs_view.rs`) and `Discard recovery copy`
+(confirmation title in `crates/ui-egui/src/dialogs/prompts.rs`).
+Translated from the official English UI source with ChatGPT (OpenAI)
+assistance, following the existing catalog's `תקריב` and `עותק שחזור`
+terminology. No independent native-speaker review or in-app RTL test
+has been verified; no app install or recovery-file operation was performed.
+
+## WordCraft Hebrew: macro guard, gradient stop and picture source (2026-11-23)
+
+Three original Hebrew rows in `locales/he/wordcraft.tsv`: `Stop recording first`,
+`Stop color` and `Picture source`. These are sourced from the active WordCraft
+English UI strings in `dialogs/macros.rs`, `format_shape.rs` and `crop.rs`,
+respectively. Translations were written from English meaning and established
+Hebrew UI terminology, not copied from other products' localization tables.
+Original Hebrew translations contributed by @nocturney with ChatGPT (OpenAI)
+assistance. Native-speaker review has not been verified, including any review
+by the contributor; no in-app RTL visual test or independent human review is claimed.
+
+## WordCraft: object selection and transform overlay labels (Hebrew)
+
+Five new Hebrew entries in `locales/he/wordcraft.tsv` from the active WordCraft
+object overlay UI (`crates/ui-egui/src/objects.rs`, upstream 6837508):
+Connection sites, Object frame, Picked objects, Text box frame, and Turning object.
+Contributor: @nocturney, AI-assisted with ChatGPT (OpenAI); translated from the
+English source meaning and existing catalog terminology, without copying another
+product localization. Native-speaker translation review status: unverified. No independent native-speaker UI review has been performed.
