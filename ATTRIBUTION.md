@@ -480,3 +480,29 @@ Two original Hebrew translations for the WordCraft recent-document removal and c
 ## WordCraft Hebrew keyboard shortcut and date/time format feedback (2026-11-22)
 
 Added two original Hebrew UI translations in `locales/he/wordcraft.tsv`: `Use a key combination with Ctrl, Alt or a function key.` and `Default format saved.`. Based on the active English `tl!` calls in the official WordCraft source, `crates/ui-egui/src/dialogs/customize_keyboard.rs` and `crates/ui-egui/src/dialogs/dialogs_insert/date_time.rs`, respectively. Drafted by @nocturney with AI assistance using clean-room computing terminology; no third-party translations were copied. Independent Hebrew-speaker review and native RTL UI verification remain pending.
+
+## WordCraft Hebrew chart and diagram controls (2026-11-22)
+
+Added three original Hebrew labels in `locales/he/wordcraft.tsv`: `Chart types`, `Chart data`, and `Style Color`. Based on their English meanings and active `tl!` call sites in official WordCraft `crates/ui-egui/src/dialogs/dialogs_chart.rs` (blob `83019b21ea80220abe9539a4db2217a3918bdec0`) and `dialogs_smart_art.rs` (blob `ba018f06fcec120d5d945b63fef3f290ca8d6253`). Written by contributor @nocturney with AI assistance using clean-room, ordinary Hebrew computing vocabulary; no third-party translated string table was consulted. Independent Hebrew-speaker review and live right-to-left UI verification remain outstanding.
+
+## Hebrew WordCraft simple-dialog inputs and field-code feedback (2026-11-22)
+
+Five original clean-room Hebrew translations for active WordCraft `crates/ui-egui/src/dialogs/simple_forms.rs` UI strings: table-insertion column/row counts, field-code label/title and the cell-margin missing-table notice. Source file blob `dd746799d24af1a521aaae8686bd3b07b26541ea`. Translation was AI-assisted from the English literals and existing Hebrew office terminology; independent native-speaker and installed WordCraft RTL UI review are not yet recorded. No external localized strings were copied.
+
+## Hebrew — WordCraft print preview (2026-11-22)
+
+Four Hebrew translations for the existing WordCraft Print preview sheet navigation,
+sheet count and rendering-failure UI, based on literal source strings in
+`storytold/wordcraft` `crates/ui-egui/src/print_page/preview.rs`.
+These are original clean-room, AI-assisted Hebrew translations from the English
+meaning; existing Hebrew Craft terminology was consulted. No native-speaker
+review, native/RTL visual test or installed-app acceptance has been performed.
+Proposed under the official `storytold/craft-i18n` repository; no merge implied.
+
+## WordCraft Hebrew: accessibility, proofing and print controls (2026-11-22)
+
+Five original source-backed Hebrew translations contributed by @nocturney with ChatGPT (OpenAI) AI assistance.
+The keys come from active WordCraft UI source: crates/ui-egui/src/a11y_pane.rs, proofing_pane.rs, and print_page.rs.
+Drafted clean-room from English meaning, without copying other product localizations. Official he/wordcraft.tsv
+and he/common.tsv plus relevant open Hebrew WordCraft PR patches were checked for exact-key overlap.
+Independent native-speaker review, running Hebrew UI/RTL validation and upstream release remain pending.
