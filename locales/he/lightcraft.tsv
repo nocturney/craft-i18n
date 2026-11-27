@@ -699,7 +699,7 @@
 	Remove location info	הסרת פרטי מיקום
 	Remove missing photos from the library	הסרת תמונות חסרות מהספרייה
 	Remove shortcut	הסרת קיצור מקשים
-	Remove this face box (undo with Edit ▸ Undo)	הסרת תיבת הפנים (אפשר לבטל באמצעות עריכה ▸ ביטול פעולה)
+	Remove this face box (undo with Edit → Undo)	הסרת תיבת הפנים (אפשר לבטל באמצעות עריכה ▸ ביטול פעולה)
 	Remove this filter	הסרת המסנן הזה
 	Remove this group	הסרת הקבוצה הזו
 	Remove this rule	הסרת הכלל הזה
@@ -935,7 +935,7 @@
 	Move {what} to Recently Deleted?	להעביר את {what} אל „נמחקו לאחרונה”?
 	On {have} of {of} selected photos	ב־{have} מתוך {of} התמונות שנבחרו
 	Remove “{name}”	הסרת „{name}”
-	Removed “{name}” from {n} photos. Edit ▸ Undo puts it back.	מילת המפתח „{name}” הוסרה מ־{n} תמונות. עריכה ▸ ביטול תחזיר אותה.
+	Removed “{name}” from {n} photos. Edit → Undo puts it back.	מילת המפתח „{name}” הוסרה מ־{n} תמונות. עריכה ▸ ביטול תחזיר אותה.
 	View › Detail View ({keys}).	תצוגה › תצוגת פרטים ({keys}).
 	new, inside {parent}	חדשה, בתוך {parent}
 	these {count} photos	{count} התמונות האלה
