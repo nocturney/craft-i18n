@@ -498,3 +498,7 @@ in the installed app, maintainer review, and upstream inclusion are still pendin
 ## Hebrew PhotoCraft: channel and filter-dialog labels (November 2026)
 
 Nine previously submitted translations from craft-i18n #415, by @nocturney with ChatGPT (OpenAI), AI-assisted clean-room Hebrew from English source; independent native proofreading and installed RTL review pending. Exact source callsites verified in storytold/photocraft@391cb0171004a5cb6b7b5138ac96c1ceb5ed8ae1, `crates/ui-egui/src/dialogs/channel_options_ui.rs` and `crates/ui-egui/src/dialogs/filter_dialog/rows.rs`. Original translations retained verbatim.
+
+## PhotoCraft: Hebrew Retouch, Count and Image Stack controls (2026-11-22)
+
+@nocturney contributed 16 new Hebrew (`he`) UI entries to `locales/he/photocraft.tsv`, covering the Retouch options bar (healing/remix), Count tool group controls and Image Stack dialogs. The wording was AI-assisted with ChatGPT and checked against active `tl!` source text in `storytold/photocraft` (`tools/retouch_ui/bar/heal.rs`, `tools/analysis/bars.rs`, `dialogs/stack_dialog.rs`) and existing Hebrew terminology. No independent native-speaker review or running UI/RTL verification is claimed. No third-party product localisation was copied.
