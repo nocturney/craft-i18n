@@ -382,3 +382,6 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 ## WordCraft: Hebrew damaged-save warnings and SmartArt grip (craft-i18n #441 companion)
 
 @nocturney added six original Hebrew (`he`) translations to `locales/he/wordcraft.tsv` for the damaged-document save confirmation and the SmartArt item drag grip. The English source strings and `@plural` one/other forms follow `storytold/craft-i18n` PR #441, which covers German, French and Japanese (requested for WordCraft #3825 and #4901). The translations were written from the English meanings and the existing Hebrew catalog vocabulary, with ChatGPT (OpenAI) assistance; no third-party proprietary localization was copied. The `{n}` placeholder is preserved in both plural variants. Independent native-speaker/RTL UI review and upstream merge have not yet taken place.
+
+
+Hebrew plural arity correction (2026-11-28): the existing damaged-save entry now has one, two and other forms per the current craft-i18n Hebrew plural table. The original singular and plural text is retained, and the numeric dual uses the same wording as the other form; {n} is retained in all three. No additional source key or independent linguistic/RTL review is claimed.
