@@ -471,3 +471,9 @@ Two original Hebrew strings for the Rotate Canvas dialog and its counter-clockwi
 ## PhotoCraft: Hebrew Note tool deletion confirmations (2026-11-22)
 
 Six original Hebrew translations for PhotoCraft note deletion confirmation and stale-document safety messages. English source: storytold/photocraft crates/ui-egui/src/tools/analysis/note_alerts.rs at c05c4c5fdfb8995de773773c623b07646e66eb32. Exact tl! labels were checked against official Hebrew PhotoCraft/shared catalogs and other open Hebrew PhotoCraft contributions. The translation is clean-room AI-assisted and has not been independently native-speaker reviewed, visually RTL tested, or installed in the app.
+
+## Hebrew PhotoCraft: Contact Sheet II and file forms (23 November 2026; consolidation)
+
+Retains nine of the ten original Hebrew interface translations from PR #423 for Contact Sheet II, Script Events, Package and Export Paths to File. English UI callsites reverified in storytold/photocraft crates/ui-egui/src/dialogs/file_forms.rs at commit 301922ccef074624c9827d3b064416c9be274d03. The remaining Flatten key overlaps pending proposals and is not copied here.
+
+Clean-room Hebrew wording originally drafted with ChatGPT (OpenAI) as an AI contributor from the English UI meanings; no separate human translator identity is recorded. The contribution was submitted by @nocturney. Translations from another language were not copied. Independent native-speaker, running-app RTL and maintainer review remain outstanding.

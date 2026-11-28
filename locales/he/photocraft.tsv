@@ -4506,3 +4506,13 @@ navigator	Zoom	תקריב
 	Note deleted, but the preference could not be saved: {error}	ההערה נמחקה, אך לא ניתן היה לשמור את ההעדפה: {error}
 	The document changed. Please choose Clear All again.	המסמך השתנה. יש לבחור שוב באפשרות ״נקה הכול״.
 	The document or its notes changed. Please delete the note again.	המסמך או ההערות שבו השתנו. יש לנסות למחוק את ההערה שוב.
+
+	Include Subfolders	כלול תיקיות משנה
+	Group Images by Folder	קבץ תמונות לפי תיקייה
+	Images in subfolders will start on a new Contact Sheet	תמונות מתיקיות משנה יתחילו בגיליון תמונות חדש
+	Place across first	מלא תחילה לרוחב
+	Auto spacing	ריווח אוטומטי
+	Rotate for best fit	סובב להתאמה מיטבית
+	Event	אירוע
+	Dir	תיקייה
+	Export Paths to File	ייצוא נתיבים לקובץ
