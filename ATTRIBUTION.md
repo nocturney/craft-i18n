@@ -494,3 +494,7 @@ translations drafted with ChatGPT assistance from the English meaning and UI con
 no other product's translation table was copied. Native Hebrew-speaker review, RTL rendering
 in the installed app, maintainer review, and upstream inclusion are still pending.
 - Original contribution: @nocturney, PR #416; exact source callsites reverified at PhotoCraft 301922ccef074624c9827d3b064416c9be274d03. All nine existing translations retained verbatim.
+
+## Hebrew PhotoCraft: channel and filter-dialog labels (November 2026)
+
+Nine previously submitted translations from craft-i18n #415, by @nocturney with ChatGPT (OpenAI), AI-assisted clean-room Hebrew from English source; independent native proofreading and installed RTL review pending. Exact source callsites verified in storytold/photocraft@391cb0171004a5cb6b7b5138ac96c1ceb5ed8ae1, `crates/ui-egui/src/dialogs/channel_options_ui.rs` and `crates/ui-egui/src/dialogs/filter_dialog/rows.rs`. Original translations retained verbatim.
