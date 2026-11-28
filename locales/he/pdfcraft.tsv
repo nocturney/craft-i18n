@@ -2811,3 +2811,16 @@ calendar weekday	We	ד׳
 	Original: {n} pages. Replacement: pages {a} to {b} of {m}.	מקור: {n} עמודים. החלפה: עמודים {a} עד {b} מתוך {m}.
 	Split by	פיצול לפי
 	to (of {n})	עד (מתוך {n})
+	Split view documents	מסמכים בתצוגה מפוצלת
+	Tab group	קבוצת כרטיסיות
+	{name}: Click to expand	{name}: לחצו להרחבה
+	{name}: Click to collapse, right-click to edit	{name}: לחצו לכיווץ, לחצו לחיצה ימנית לעריכה
+	{name} (pinned)	{name} (מוצמד)
+	Remove from group	הסרה מהקבוצה
+	Move to another group	העברה לקבוצה אחרת
+	Add tab to new group	הוספת כרטיסייה לקבוצה חדשה
+	Add tab to group	הוספת כרטיסייה לקבוצה
+	New group	קבוצה חדשה
+	Unpin tab	ביטול הצמדת כרטיסייה
+	Pin tab	הצמדת כרטיסייה
+	Duplicate tab	שכפול כרטיסייה
