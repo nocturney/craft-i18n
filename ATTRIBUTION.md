@@ -477,3 +477,9 @@ Six original Hebrew translations for PhotoCraft note deletion confirmation and s
 Retains nine of the ten original Hebrew interface translations from PR #423 for Contact Sheet II, Script Events, Package and Export Paths to File. English UI callsites reverified in storytold/photocraft crates/ui-egui/src/dialogs/file_forms.rs at commit 301922ccef074624c9827d3b064416c9be274d03. The remaining Flatten key overlaps pending proposals and is not copied here.
 
 Clean-room Hebrew wording originally drafted with ChatGPT (OpenAI) as an AI contributor from the English UI meanings; no separate human translator identity is recorded. The contribution was submitted by @nocturney. Translations from another language were not copied. Independent native-speaker, running-app RTL and maintainer review remain outstanding.
+
+## Hebrew PhotoCraft: editing and memory warnings (23 November 2026; consolidation)
+
+Retains all eight previously submitted Hebrew interface translations from PR #419 by @nocturney with ChatGPT (OpenAI GPT-6) assistance, written clean-room from the official English UI meanings. Current source verified at storytold/photocraft commit 301922ccef074624c9827d3b064416c9be274d03 in open_prompt.rs, image_processor_ui.rs, live_shape_prompt.rs and stroke_ui.rs. Independent native-speaker, RTL and installed-app verification remain pending. No new translation count or upstream merge is claimed.
+
+The six wording adjustments to existing Record Again and note instructions follow the review by @yonatan-langer83 in PR #473. No additional native or installed-app review is claimed.

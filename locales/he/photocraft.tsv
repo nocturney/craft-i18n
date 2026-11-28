@@ -4422,14 +4422,14 @@ navigator	Zoom	תקריב
 	Playhead	סמן ניגון
 	Style Library	ספריית סגנונות
 	Exported to {file}	יוצא אל {file}
-	Click a note to view or edit	לחצו על הערה כדי להציג או לערוך אותה
-	The actions changed. Request Record Again again.	הפעולות השתנו. יש לבחור שוב בפקודה הקלט מחדש.
-	The document changed. Request Record Again again.	המסמך השתנה. יש לבחור שוב בפקודה הקלט מחדש.
-	Confirm or cancel the pending Record Again editor first.	יש לאשר או לבטל תחילה את העריכה הממתינה של הקלט מחדש.
-	The Record Again command changed.	הפקודה הקלט מחדש השתנתה.
+	Click a note to view or edit	יש ללחוץ על הערה כדי להציג או לערוך אותה.
+	The actions changed. Request Record Again again.	הפעולות השתנו. יש לבחור שוב בפקודה ״הקלטה מחדש״.
+	The document changed. Request Record Again again.	המסמך השתנה. יש לבחור שוב בפקודה ״הקלטה מחדש״.
+	Confirm or cancel the pending Record Again editor first.	יש לאשר או לבטל תחילה את חלון ״הקלטה מחדש״ הפתוח.
+	The Record Again command changed.	הפקודה ״הקלטה מחדש״ השתנתה.
 	No recorded step belongs to this editor.	אין שלב מוקלט המשויך לעורך זה.
 	No step is waiting.	אין שלב ממתין.
-	The command permissions changed. Request Record Again again.	הרשאות הפקודה השתנו. יש לבחור שוב בפקודה הקלט מחדש.
+	The command permissions changed. Request Record Again again.	הרשאות הפקודה השתנו. יש לבחור שוב בפקודה ״הקלטה מחדש״.
 	Data Set:	ערכת נתונים:
 	Select a data set to apply.	יש לבחור ערכת נתונים להחלה.
 	{dpi} pixels/inch	{dpi} פיקסלים/אינץ'
@@ -4516,3 +4516,11 @@ navigator	Zoom	תקריב
 	Event	אירוע
 	Dir	תיקייה
 	Export Paths to File	ייצוא נתיבים לקובץ
+	Canceled opening {name}	בוטלה פתיחת {name}
+	Little memory would be left after opening this file. Close other apps first, or PhotoCraft may run out of memory.	לאחר פתיחת הקובץ יישאר מעט מאוד זיכרון פנוי. מומלץ לסגור תחילה יישומים אחרים, אחרת ל־PhotoCraft עלול להיגמר הזיכרון.
+	The estimate is above 8 GiB and the available memory is unknown, so this process or browser tab may run out of memory. You can still try to open it.	הערכת הזיכרון גבוהה מ־8 GiB, וכמות הזיכרון הפנויה אינה ידועה. ייתכן שלתהליך או לכרטיסיית הדפדפן ייגמר הזיכרון. עדיין ניתן לנסות לפתוח את הקובץ.
+	Commit or cancel the transform first	יש לאשר או לבטל תחילה את פעולת השינוי
+	You must save to at least one file type.	יש לבחור לפחות פורמט קובץ אחד לשמירה.
+	Delete Anchor Point	מחיקת נקודת עיגון
+	No anchor to delete	אין נקודת עיגון למחיקה
+	The document or active layer changed. Open Stroke again.	המסמך או השכבה הפעילה השתנו. יש לפתוח מחדש את חלון הוספת קו המתאר.
