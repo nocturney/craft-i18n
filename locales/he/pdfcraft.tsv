@@ -2807,3 +2807,7 @@ calendar weekday	We	ד׳
 	Widen the page to make room	הרחב את העמוד כדי לפנות מקום
 	Room on each side	מרווח מכל צד
 	The trim box is kept where it is, so the printed page cuts the same.	תיבת החיתוך נשארת במקומה, כך שמיקום החיתוך של העמוד המודפס אינו משתנה.
+	At most (MB)	גודל מרבי (MB)
+	Original: {n} pages. Replacement: pages {a} to {b} of {m}.	מקור: {n} עמודים. החלפה: עמודים {a} עד {b} מתוך {m}.
+	Split by	פיצול לפי
+	to (of {n})	עד (מתוך {n})

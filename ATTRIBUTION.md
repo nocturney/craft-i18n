@@ -489,3 +489,7 @@ as an AI-assisted clean-room translation from the official English UI source; no
 translator is claimed for these eleven new rows, and no other product's localized text was
 copied. Independent native-speaker proofreading, running-application RTL review, and
 maintainer acceptance remain pending.
+
+## PdfCraft Hebrew: page management controls (2026-11-25)
+
+Four original Hebrew translations by @nocturney with ChatGPT (OpenAI) assistance, previously submitted in craft-i18n #500. The exact English `tl!` callsites are in `storytold/pdfcraft@6e910675c68dd5092e889065cfe8d0274c1b2742`, `crates/ui-egui/src/dialogs/page_dialogs.rs` (lines 89, 106, 258 and 316; source blob `5118e2e0b43c50a1a1355a3ce330228981593448`). This consolidation preserves all four original translations and named placeholders without counting them again as newly authored. Independent native-speaker proofreading, installed RTL review and maintainer acceptance remain pending.
