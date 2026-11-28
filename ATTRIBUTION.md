@@ -563,3 +563,16 @@ native speaker review, running Hebrew RTL UI check, or app installation is claim
 Individual translator identity is not independently recorded; contributor/submission: @nocturney, AI-assisted. This addresses the attribution finding on #395 without inferring translator identity.
 
 Consolidation note: 8 of 8 existing rows from #395 retained verbatim in #473; no newly authored translations.
+
+## PhotoCraft Hebrew: save status and batch interruption prompt (2026-11-22)
+
+Two original Hebrew UI strings added to `locales/he/photocraft.tsv` by @nocturney
+with ChatGPT (OpenAI) AI assistance. Both keys are used in the live English
+PhotoCraft source at `crates/ui-egui/src/jobs_ui.rs`: the Save-job progress
+label and the batch-run interruption question. Wording was drafted clean-room
+from the English meanings, without copying another product's localization.
+Existing Hebrew app/shared catalogs and relevant open PR patches were checked
+for exact-key overlap. An independent native-speaker review and a running
+PhotoCraft RTL/visual check have not been performed.
+
+Consolidation note: 2 of 2 existing rows from #387 retained verbatim in #473; no newly authored translations.
