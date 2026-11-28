@@ -511,3 +511,8 @@ Independent native-speaker review, running Hebrew UI/RTL validation and upstream
 ## WordCraft Hebrew: consolidation of retained interface contributions (2026-11-28)
 
 20 existing, unchanged translations by @nocturney with ChatGPT (OpenAI) assistance were consolidated from craft-i18n#439 (4 rows), craft-i18n#406 (7 rows), craft-i18n#399 (6 rows), craft-i18n#391 (3 rows). Original English WordCraft source checked at `5796c665b9fe9936c9decda2c7ff42930d24b6ad`; source areas: content controls, mail-merge dialogs, table/document properties and font download guidance, as applicable. Original contributor attribution and earlier catalog content are retained. No new translation count, proprietary localization, independent native-speaker review or installed RTL acceptance is claimed.
+
+
+## WordCraft Hebrew: retained Linux font-install guidance (2026-11-28)
+
+One previously submitted translation from craft-i18n#391 by @nocturney with ChatGPT (OpenAI) assistance was consolidated, retaining the literal Linux path and replacing two LRM marks with ordinary punctuation for source readability. Exact WordCraft source checked at `5796c665b9fe9936c9decda2c7ff42930d24b6ad`. No new translation count, independent native-speaker review or installed RTL acceptance claimed.
