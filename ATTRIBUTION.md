@@ -483,3 +483,14 @@ Clean-room Hebrew wording originally drafted with ChatGPT (OpenAI) as an AI cont
 Retains all eight previously submitted Hebrew interface translations from PR #419 by @nocturney with ChatGPT (OpenAI GPT-6) assistance, written clean-room from the official English UI meanings. Current source verified at storytold/photocraft commit 301922ccef074624c9827d3b064416c9be274d03 in open_prompt.rs, image_processor_ui.rs, live_shape_prompt.rs and stroke_ui.rs. Independent native-speaker, RTL and installed-app verification remain pending. No new translation count or upstream merge is claimed.
 
 The six wording adjustments to existing Record Again and note instructions follow the review by @yonatan-langer83 in PR #473. No additional native or installed-app review is claimed.
+
+## Hebrew PhotoCraft: mode conversion, adjustment, measurement and Actions dialogs (November 2026)
+
+Nine additional Hebrew interface strings for PhotoCraft were translated from the exact English
+`tl!` strings in the official `storytold/photocraft` source: mode-conversion source/target
+sections, a missing adjustment target, measurement data-point headings and missing-document
+feedback, and Actions set/stop dialog controls. These are original clean-room Hebrew
+translations drafted with ChatGPT assistance from the English meaning and UI context;
+no other product's translation table was copied. Native Hebrew-speaker review, RTL rendering
+in the installed app, maintainer review, and upstream inclusion are still pending.
+- Original contribution: @nocturney, PR #416; exact source callsites reverified at PhotoCraft 301922ccef074624c9827d3b064416c9be274d03. All nine existing translations retained verbatim.
