@@ -550,3 +550,16 @@ Independent native-speaker review, browser memory-state visual QA, upstream
 merge and installed-release acceptance remain pending.
 
 Consolidation note: 3 of 3 existing rows from #392 retained verbatim in #473; no newly authored translations.
+
+## PhotoCraft: Hebrew lens correction dialog controls (2026-11-22)
+
+Adds eight original Hebrew interface translations for the Lens Correction dialog in
+`storytold/photocraft` `crates/ui-egui/src/dialogs/lens_batch_ui.rs`.
+English sources are literal `tl!` UI keys, checked against the official Hebrew
+PhotoCraft and shared catalogs and against already proposed Hebrew translation
+keys. The work is clean-room AI-assisted Hebrew, with established PhotoCraft
+terminology consulted for vignette and technical lens settings. No independent
+native speaker review, running Hebrew RTL UI check, or app installation is claimed.
+Individual translator identity is not independently recorded; contributor/submission: @nocturney, AI-assisted. This addresses the attribution finding on #395 without inferring translator identity.
+
+Consolidation note: 8 of 8 existing rows from #395 retained verbatim in #473; no newly authored translations.
