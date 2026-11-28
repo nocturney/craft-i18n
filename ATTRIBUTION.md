@@ -502,3 +502,51 @@ Nine previously submitted translations from craft-i18n #415, by @nocturney with 
 ## PhotoCraft: Hebrew Retouch, Count and Image Stack controls (2026-11-22)
 
 @nocturney contributed 16 new Hebrew (`he`) UI entries to `locales/he/photocraft.tsv`, covering the Retouch options bar (healing/remix), Count tool group controls and Image Stack dialogs. The wording was AI-assisted with ChatGPT and checked against active `tl!` source text in `storytold/photocraft` (`tools/retouch_ui/bar/heal.rs`, `tools/analysis/bars.rs`, `dialogs/stack_dialog.rs`) and existing Hebrew terminology. No independent native-speaker review or running UI/RTL verification is claimed. No third-party product localisation was copied.
+
+## PhotoCraft: Hebrew artboard export, batch and document dialogs (2026-11-22)
+
+Adds 37 Hebrew translations for new-to-Hebrew source-backed UI labels in
+`storytold/photocraft` `crates/ui-egui/src/menus/view_cmds/dialogs.rs`.
+They cover document/artboard export, file formats, batch folders,
+layer selection, resampling and image-processing choices. The translations
+are AI-assisted clean-room original Hebrew based on the exact English UI
+source and existing catalog terminology. Compared against the official
+Hebrew PhotoCraft/common catalogs and the still-open Hebrew PhotoCraft PR
+branch catalogs (#219, #268, #370, #371, #373-#376, #387, #390, #392)
+to avoid duplicate source keys. Native speaker, UI/RTL and installed
+application verification are still outstanding. Only the Hebrew PhotoCraft
+catalog and this attribution file were changed.
+
+Consolidation note: 37 of 37 existing rows from #393 retained verbatim in #473; no newly authored translations.
+
+## PhotoCraft Hebrew: file-drop and open errors (2026-11-22)
+
+Two original Hebrew UI error messages added to `locales/he/photocraft.tsv`
+by @nocturney with ChatGPT (OpenAI) AI assistance. Exact English keys
+are used in `storytold/photocraft` at `crates/ui-egui/src/file_open.rs`:
+a directory dropped as a file, and unreadable dropped file bytes.
+Wording was written clean-room from the English meaning without copying
+a third-party product's translation. The official Hebrew app/shared
+catalogs and current relevant open Hebrew PhotoCraft patches were
+checked for these exact keys. Independent native-speaker review and
+running PhotoCraft Hebrew/RTL UI verification are still pending.
+
+Consolidation note: 2 of 2 existing rows from #390 retained verbatim in #473; no newly authored translations.
+
+## PhotoCraft Hebrew: browser low-memory warning (2026-11-22)
+
+Three original Hebrew translations were added for the low-memory warning shown in the
+PhotoCraft web interface. English source: `storytold/photocraft`
+`crates/ui-egui/src/memory_warning.rs` (`TITLE` and `post` notice lines).
+The `Notice::text` display path in `crates/ui-egui/src/notices.rs` translates
+these English notice strings at render time. The labels for Edit, Purge and All
+were checked against the existing Hebrew PhotoCraft/common catalog terminology.
+
+Wording is AI-assisted clean-room translation of the English source, with no
+copied third-party localization. The three keys were absent from the official
+Hebrew PhotoCraft/common catalogs; selected open PhotoCraft Hebrew proposals
+(#219, #268, #375, #376, #387, #390) were checked for overlap.
+Independent native-speaker review, browser memory-state visual QA, upstream
+merge and installed-release acceptance remain pending.
+
+Consolidation note: 3 of 3 existing rows from #392 retained verbatim in #473; no newly authored translations.
