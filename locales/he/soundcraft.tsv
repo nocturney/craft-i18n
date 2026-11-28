@@ -1,7 +1,10 @@
 # Hebrew (he) interface catalog for SoundCraft.
 # Columns, separated by a TAB: context <TAB> English source text <TAB> translation
 # Migrated subset of existing translations from storytold/soundcraft#1644; see ATTRIBUTION.md.
+#   context: `@msg` identifies engine error and status message templates.
+#   escapes: \n  \t  \\ inside a column; preserve all {name} placeholders.
 # Lines starting with # and blank lines are ignored. A missing entry shows in English.
+# Clean room: this transfer uses existing translations from the same product only; see ATTRIBUTION.md.
 
 	+ Marker	+ הוספת סמן
 	+ Selection	+ בחירה
@@ -1061,3 +1064,259 @@
 	SoundCraft hit an internal error (see the log). Your changes were autosaved: save them, then restart SoundCraft.	SoundCraft נתקל בשגיאה פנימית (יש לעיין ביומן). השינויים נשמרו אוטומטית: יש לשמור אותם, ולאחר מכן להפעיל מחדש את SoundCraft.
 	SoundCraft hit an internal error (see the log). Restart SoundCraft to be safe.	SoundCraft נתקל בשגיאה פנימית (יש לעיין ביומן). יש להפעיל מחדש את SoundCraft ליתר ביטחון.
 	Surround pan: drag the puck · double-click: front centre · Alt-drag: divergence	צידוד סראונד: גרירת הדיסקית · לחיצה כפולה: מרכז קדמי · Alt+גרירה: פיזור
+
+# Engine message templates migrated from storytold/soundcraft#1644.
+@msg	`at` required	נדרש `at`
+@msg	`bars`/`beats` must describe a positive length	`bars`/`beats` חייבים לתאר אורך חיובי
+@msg	`buffer_size` must be a number in 16..=8192 or null	`buffer_size` חייב להיות מספר בטווח 16..=8192 או null
+@msg	`bus` required	נדרש `bus`
+@msg	`by` is required	נדרש `by`
+@msg	`clip` id required	נדרש מזהה `clip`
+@msg	`clip` required	נדרש `clip`
+@msg	`clips` must be an array of ids	`clips` חייב להיות מערך של מזהים
+@msg	`color` components must be integers 0..=255	רכיבי `color` חייבים להיות שלמים בטווח 0..=255
+@msg	`color` must be [r,g,b] or a palette index	`color` חייב להיות [r,g,b] או אינדקס בפלטה
+@msg	`color` must be [r,g,b] or null	`color` חייב להיות [r,g,b] או null
+@msg	`db` (number) required	נדרש `db` (מספר)
+@msg	`db` or `delta_db` required	נדרש `db` או `delta_db`
+@msg	`db` required	נדרש `db`
+@msg	`device` must be a string or null	`device` חייב להיות מחרוזת או null
+@msg	`dir` required	נדרש `dir`
+@msg	`end_bpm` required	נדרש `end_bpm`
+@msg	`feet_frames` required (F+FF)	נדרש `feet_frames` (F+FF)
+@msg	`folder` is not a folder track	`folder` אינו רצועת תיקייה
+@msg	`folder` required	נדרש `folder`
+@msg	`format` required	נדרש `format`
+@msg	`from` slot	חריץ `from`
+@msg	`index` required	נדרש `index`
+@msg	`name` and `suffix` together must be at most {n} characters	`name` ו-`suffix` יחד לא יעלו על {n} תווים
+@msg	`name` must not be empty	`name` אינו יכול להיות ריק
+@msg	`name` required	נדרש `name`
+@msg	`new_name` required	נדרש `new_name`
+@msg	`new_tracks: false` needs `track` or a selected audio track	`new_tracks: false` דורש `track` או רצועת שמע נבחרת
+@msg	`number`, `zeros` and `suffix` need a `name`	`number`, `zeros` ו-`suffix` דורשים `name`
+@msg	`pan` (number) required	נדרש `pan` (מספר)
+@msg	`param` required	נדרש `param`
+@msg	`params` must be an object	`params` חייב להיות אובייקט
+@msg	`params` must be an object of numbers	`params` חייב להיות אובייקט של מספרים
+@msg	`path` or `paths` required	נדרש `path` או `paths`
+@msg	`path` required	נדרש `path`
+@msg	`playlist` index required	נדרש אינדקס `playlist`
+@msg	`plugin` required	נדרש `plugin`
+@msg	`process` required	נדרש `process`
+@msg	`rows` must be an array	`rows` חייב להיות מערך
+@msg	`rows` must contain 1–128 rows	`rows` חייב להכיל 1–128 שורות
+@msg	`slot` must be 0..{n} or a..j	`slot` חייב להיות 0..{n} או a..j
+@msg	`slot` must be 0..{n} or a..{m}	`slot` חייב להיות 0..{n} או a..{m}
+@msg	`slot` must be a number or a letter	`slot` חייב להיות מספר או אות
+@msg	`slot` required	נדרש `slot`
+@msg	`source` id required	נדרש מזהה `source`
+@msg	`state` is not valid base64 (or is too large)	`state` אינו base64 תקין (או גדול מדי)
+@msg	`state` must be a base64 string or null	`state` חייב להיות מחרוזת base64 או null
+@msg	`timecode` required (HH:MM:SS:FF)	נדרש `timecode` (HH:MM:SS:FF)
+@msg	`to` required	נדרש `to`
+@msg	`to` slot	חריץ `to`
+@msg	`track` is not a MIDI or instrument track	`track` אינו רצועת MIDI או כלי נגינה
+@msg	`track` required	נדרש `track`
+@msg	`tracks` must be an array of track ids or names	`tracks` חייב להיות מערך של מזהי או שמות רצועות
+@msg	`value` must be a number	`value` חייב להיות מספר
+@msg	`value` required	נדרש `value`
+@msg	`vca` must be a VCA Master track	`vca` חייב להיות רצועת VCA Master
+@msg	`view` required	נדרש `view`
+@msg	`{c}` is not available: {why}	`{c}` אינו זמין: {why}
+@msg	`{k}` must be a number	`{k}` חייב להיות מספר
+@msg	`{k}` must be a whole number from 0 to {max}	`{k}` חייב להיות מספר שלם בין 0 ל-{max}
+@msg	`{k}` must be an array of ids	`{k}` חייב להיות מערך של מזהים
+@msg	`{k}` must be text	`{k}` חייב להיות טקסט
+@msg	`{k}` required	נדרש `{k}`
+@msg	`{name}` has more than a day of clips to scan	ל-`{name}` יש יותר מיום שלם של קליפים לסריקה
+@msg	`{name}` has no parameter `{param}`	ל-`{name}` אין פרמטר `{param}`
+@msg	`{name}` has no parameter(s): {list}	ל-`{name}` אין פרמטרים: {list}
+@msg	`{name}` is a hosted plugin; AudioSuite runs built-in plugins only (engine.plugins)	`{name}` הוא תוסף מתארח; AudioSuite מריץ תוספים מובנים בלבד (engine.plugins)
+@msg	`{name}` is not a built-in instrument	`{name}` אינו כלי נגינה מובנה
+@msg	`{name}` is not a Video track	`{name}` אינו רצועת וידאו
+@msg	`{name}` is used by {n} clip{plural} on the timeline; pass `with_clips: true` to remove them too	בציר הזמן נעשה שימוש ב-`{name}` ({n} clip{plural}); יש להעביר `with_clips: true` כדי להסיר גם את הקליפים
+@msg	`{path}` has no track named `{n}`	ב-`{path}` אין רצועה בשם `{n}`
+@msg	`{plugin}` has no parameter `{k}`	לתוסף `{plugin}` אין פרמטר `{k}`
+@msg	`{plugin}` is not an instrument	`{plugin}` אינו כלי נגינה
+@msg	a bus named `{name}` exists	כבר קיים אפיק שמע בשם `{name}`
+@msg	a group named `{name}` already exists	כבר קיימת קבוצה בשם `{name}`
+@msg	a group needs at least one track	קבוצה דורשת רצועה אחת לפחות
+@msg	a single creation is limited to 128 tracks	יצירה בודדת מוגבלת ל-128 רצועות
+@msg	a track named `{name}` already exists	כבר קיימת רצועה בשם `{name}`
+@msg	all insert slots are in use	כל חריצי האינסרט תפוסים
+@msg	all send slots are in use	כל חריצי השליחה תפוסים
+@msg	an output named `{name}` exists	כבר קיימת יציאה בשם `{name}`
+@msg	analyse at most 20 minutes at a time	ניתן לנתח עד 20 דקות בכל פעם
+@msg	audio files go on audio tracks	קובצי שמע מיועדים לרצועות שמע
+@msg	audio has no channels for clip `{name}`	לשמע אין ערוצים עבור הקליפ `{name}`
+@msg	audio path escapes the group folder: {path}	נתיב השמע יוצא מתיקיית הקבוצה: {path}
+@msg	audio unavailable for clip `{name}`	השמע אינו זמין עבור הקליפ `{name}`
+@msg	automation filesystem access is not granted: read authority is absent: {path}	אין הרשאת מערכת קבצים לאוטומציה: חסרה סמכות קריאה: {path}
+@msg	automation filesystem access is not granted: write authority is absent: {path}	אין הרשאת מערכת קבצים לאוטומציה: חסרה סמכות כתיבה: {path}
+@msg	automation path rejected: a link that leads nowhere: {path}	נתיב אוטומציה נדחה: קישור שאינו מוביל לשום מקום: {path}
+@msg	automation path rejected: cannot resolve {path}: {why}	נתיב אוטומציה נדחה: לא ניתן לפענח את {path}: {why}
+@msg	automation path rejected: outside the read root {root}: {path}	נתיב אוטומציה נדחה: מחוץ לשורש הקריאה {root}: {path}
+@msg	automation path rejected: outside the read roots {root}: {path}	נתיב אוטומציה נדחה: מחוץ לשורשי הקריאה {root}: {path}
+@msg	automation path rejected: outside the write root {root}: {path}	נתיב אוטומציה נדחה: מחוץ לשורש הכתיבה {root}: {path}
+@msg	automation path rejected: outside the write roots {root}: {path}	נתיב אוטומציה נדחה: מחוץ לשורשי הכתיבה {root}: {path}
+@msg	automation path rejected: parent traversal below a folder that doesn't exist: {path}	נתיב אוטומציה נדחה: מעבר לתיקיית הורה מתחת לתיקייה שאינה קיימת: {path}
+@msg	automation path rejected: reserved device names are not allowed: {path}	נתיב אוטומציה נדחה: שמות התקן שמורים אינם מותרים: {path}
+@msg	bad feet	רגל לא תקין
+@msg	bad frames	פריימים לא תקינים
+@msg	bad parameters for `{c}`: {why}	פרמטרים שגויים עבור `{c}`: {why}
+@msg	bit_depth must be 16, 24 or 32f	bit_depth חייב להיות 16, 24 או 32f
+@msg	bundle: {why}	חבילה: {why}
+@msg	cannot create `{id}`	לא ניתן ליצור את `{id}`
+@msg	cannot write `{name}` files (supported: {list})	לא ניתן לכתוב קבצים מסוג `{name}` (נתמכים: {list})
+@msg	clip fades cannot also specify tracks or an edit range	לא ניתן לציין גם רצועות או טווח עריכה עבור מעברי קליפ
+@msg	clip group file has too many clips	קובץ קבוצת הקליפים מכיל יותר מדי קליפים
+@msg	clip has no length	לקליפ אין אורך
+@msg	clip must be an id	clip חייב להיות מזהה
+@msg	clip not found	הקליפ לא נמצא
+@msg	Clips/Markers is available only for Grid	קליפים/סמנים זמינים במצב רשת בלבד
+@msg	curvature must be a finite number from -1 to 1	העקמומיות חייבת להיות מספר סופי בין -1 ל-1
+@msg	curvature requires a clip and side	עקמומיות דורשת קליפ וצד
+@msg	designate a target playlist first (Track › Designate as Target Playlist)	יש להגדיר פלייליסט יעד תחילה (רצועה › הגדרה כפלייליסט יעד)
+@msg	each note needs `start` or `start_ticks`	כל תו דורש `start` או `start_ticks`
+@msg	each row must be an object without nested rows	כל שורה חייבת להיות אובייקט ללא שורות מקוננות
+@msg	empty send slot	חריץ שליחה ריק
+@msg	empty slot	חריץ ריק
+@msg	factor must be a positive number	המקדם חייב להיות מספר חיובי
+@msg	feet must be 0.. and frames 0..15	ערכי רגל חייבים להיות 0 ומעלה ופריימים 0..15
+@msg	give `factor` (0.05..20) or a new `length`	יש לציין `factor` (0.05..20) או `length` חדש
+@msg	give `start` and `end`	יש לציין `start` ו-`end`
+@msg	give `start` and `length` or `end`	יש לציין `start` ו-`length` או `end`
+@msg	Grid mode always snaps	מצב רשת תמיד מצמיד
+@msg	index out of range	האינדקס מחוץ לטווח
+@msg	internal error in `{c}`: {why}	שגיאה פנימית ב-`{c}`: {why}
+@msg	journal entry cap	הושגה מגבלת רשומות היומן
+@msg	leave Shuffle mode before locking it	יש לצאת ממצב ערבוב לפני נעילתו
+@msg	length must be a positive sample count	האורך חייב להיות מספר חיובי של דגימות
+@msg	make a timeline selection first	יש לבצע בחירה בציר הזמן תחילה
+@msg	MIDI file: more than {n} meter changes	קובץ MIDI: יותר מ-{n} שינויי משקל
+@msg	MIDI file: more than {n} tempo changes	קובץ MIDI: יותר מ-{n} שינויי קצב
+@msg	MIDI file: more than {n} tracks	קובץ MIDI: יותר מ-{n} רצועות
+@msg	MIDI track {n}: longer than 24 hours	רצועת MIDI {n}: ארוכה מ-24 שעות
+@msg	missing media: {list}	מדיה חסרה: {list}
+@msg	mode must be shuffle|slip|spot|grid|relative_grid	mode חייב להיות shuffle|slip|spot|grid|relative_grid
+@msg	mode must be strip, extract or separate	mode חייב להיות strip, extract או separate
+@msg	no audio file with id {id}	אין קובץ שמע עם מזהה {id}
+@msg	no bus `{name}`	אין אפיק שמע `{name}`
+@msg	no bus named "{name}"	אין אפיק שמע בשם "{name}"
+@msg	no clip with id {id}	אין קליפ עם מזהה {id}
+@msg	no clips	אין קליפים
+@msg	no clips selected	לא נבחרו קליפים
+@msg	no clips to export	אין קליפים לייצוא
+@msg	no markers on the clipboard (copy a range that contains markers)	אין סמנים בלוח (יש להעתיק טווח המכיל סמנים)
+@msg	no MIDI or instrument tracks to notate	אין רצועות MIDI או כלי נגינה לכתיבת תווים
+@msg	no output `{name}`	אין יציאה `{name}`
+@msg	no path yet: pass `path` (Save As)	אין עדיין נתיב: יש להעביר `path` (שמירה בשם)
+@msg	no such audio file	קובץ השמע לא נמצא
+@msg	no such clip	הקליפ לא נמצא
+@msg	no such clip, or it is edit-locked	הקליפ לא נמצא או שהוא נעול לעריכה
+@msg	no such playlist	הפלייליסט לא נמצא
+@msg	no such track	הרצועה לא נמצאה
+@msg	no track	אין רצועה
+@msg	none of the requested tracks hold MIDI	אף אחת מהרצועות המבוקשות אינה מכילה MIDI
+@msg	not a clip group file: {why}	אינו קובץ קבוצת קליפים: {why}
+@msg	not a MIDI clip	אינו קליפ MIDI
+@msg	not a MIDI or instrument track	אינו רצועת MIDI או כלי נגינה
+@msg	not a regular file	אינו קובץ רגיל
+@msg	not a SoundCraft clip group file	אינו קובץ קבוצת קליפים של SoundCraft
+@msg	not a take SoundCraft recorded	אינו טייק שהוקלט ב-SoundCraft
+@msg	not in a folder SoundCraft records into	אינו בתוך תיקייה שבה SoundCraft מקליט
+@msg	nothing to clear: pass `clips` or `sources`, or select them in the Clip List	אין מה לנקות: יש להעביר `clips` או `sources`, או לבחור אותם ברשימת הקליפים
+@msg	nothing to import	אין מה לייבא
+@msg	nothing to move into that folder	אין מה להעביר לתיקייה זו
+@msg	only instrument tracks have a sampler	רק לרצועות כלי נגינה יש דוגם
+@msg	only instrument tracks have an instrument	רק לרצועות כלי נגינה יש כלי נגינה
+@msg	parameter(s) need a numeric value: {list}	פרמטרים דורשים ערך מספרי: {list}
+@msg	pass `start` and/or `end`	יש להעביר `start` ו/או `end`
+@msg	read {a}; write {b}	קריאה {a}; כתיבה {b}
+@msg	record-enable (or pass) the audio tracks to prepare	יש לדרוך להקלטה (או להעביר) את רצועות השמע להכנה
+@msg	score too large: over {n} bytes	הפרטיטורה גדולה מדי: מעל {n} בתים
+@msg	select a clip	יש לבחור קליפ
+@msg	select a clip in the Clip List, or pass `clips`	יש לבחור קליפ ברשימת הקליפים או להעביר `clips`
+@msg	select a MIDI or instrument track	יש לבחור רצועת MIDI או כלי נגינה
+@msg	select a range on the timeline	יש לבחור טווח בציר הזמן
+@msg	select a range to analyse	יש לבחור טווח לניתוח
+@msg	select a VCA master	יש לבחור VCA ראשי
+@msg	select an audio clip	יש לבחור קליפ שמע
+@msg	select an audio track to generate on	יש לבחור רצועת שמע ליצירה
+@msg	select audio clips first	יש לבחור קליפי שמע תחילה
+@msg	select audio on an audio track	יש לבחור שמע ברצועת שמע
+@msg	select MIDI clips	יש לבחור קליפי MIDI
+@msg	select one or more aux input tracks	יש לבחור רצועת כניסת Aux אחת או יותר
+@msg	select some audio first	יש לבחור קטע שמע תחילה
+@msg	select two or more clips	יש לבחור שני קליפים או יותר
+@msg	selection is empty	הבחירה ריקה
+@msg	shape must be linear|equal power|s-curve|exponential|logarithmic	הצורה חייבת להיות linear|equal power|s-curve|exponential|logarithmic
+@msg	Shuffle is locked	מצב ערבוב נעול
+@msg	side must be in or out	הצד חייב להיות in או out
+@msg	slot out of range	החריץ מחוץ לטווח
+@msg	source channel unavailable	ערוץ המקור אינו זמין
+@msg	source_bpm must be 5..1000	source_bpm חייב להיות 5..1000
+@msg	split would copy too much audio	הפיצול יעתיק יותר מדי שמע
+@msg	stop recording first	יש לעצור את ההקלטה תחילה
+@msg	stretch ratio {ratio} is outside 0.1..10	יחס המתיחה {ratio} מחוץ לטווח 0.1..10
+@msg	that playlist is already active	פלייליסט זה כבר פעיל
+@msg	the clip has no clip effects	לקליפ אין אפקטי קליפ
+@msg	the clip is locked	הקליפ נעול
+@msg	the clip is too long to stretch: one render holds at most {secs} s of {channels}-channel audio	הקליפ ארוך מדי למתיחה: עיבוד יחיד מחזיק לכל היותר {secs} שניות של שמע בן {channels} ערוצים
+@msg	the clip's audio is not loaded	השמע של הקליפ אינו טעון
+@msg	the clips can't land there: past the last track, or on a track that can't hold them	הקליפים לא יכולים לנחות שם: מעבר לרצועה האחרונה, או ברצועה שאינה מתאימה
+@msg	the range contains more than 10,000 grid boundaries	הטווח מכיל יותר מ-10,000 גבולות רשת
+@msg	the sampler has no parameter `{k}`	לדוגם אין פרמטר `{k}`
+@msg	the sampler is not available	הדוגם אינו זמין
+@msg	the scan was stopped	הסריקה נעצרה
+@msg	the selection is empty	הבחירה ריקה
+@msg	the selection is not a looped clip	הבחירה אינה קליפ בלולאה
+@msg	the selection is too short	הבחירה קצרה מדי
+@msg	the selection must cover a clip start, end or the boundary between two clips	הבחירה חייבת לכסות תחילת קליפ, סופו או גבול בין שני קליפים
+@msg	the session has no Video track	בהפעלה אין רצועת וידאו
+@msg	the target length must be between 1 sample and {secs} s	אורך היעד חייב להיות בין דגימה 1 ל-{secs} שניות
+@msg	the target playlist is the main playlist	פלייליסט היעד הוא הפלייליסט הראשי
+@msg	the track has no instrument	לרצועה אין כלי נגינה
+@msg	the track has no playlist	לרצועה אין פלייליסט
+@msg	the track's instrument is not the sampler	כלי הנגינה של הרצועה אינו הדוגם
+@msg	the Video track has no clips	ברצועת הווידאו אין קליפים
+@msg	there is no audio to prepare	אין שמע להכנה
+@msg	too many tempo events: use a coarser resolution	יותר מדי אירועי קצב: יש להשתמש ברזולוציה גסה יותר
+@msg	too much audio to generate in one command	יותר מדי שמע ליצירה בפקודה אחת
+@msg	unknown `group`	`group` לא ידוע
+@msg	unknown action `{name}`	פעולה לא ידועה `{name}`
+@msg	unknown automation param `{name}`	פרמטר אוטומציה לא ידוע `{name}`
+@msg	unknown bus `{name}`	אפיק שמע לא ידוע `{name}`
+@msg	unknown command `{c}`	פקודה לא ידועה `{c}`
+@msg	unknown field `{k}`: an instrument's parameters go in `params` ({{id: value}}), or one at a time in mix.instrument_param	שדה לא ידוע `{k}`: פרמטרים של כלי נגינה עוברים ב-`params` ({{id: value}}), או אחד בכל פעם ב-mix.instrument_param
+@msg	unknown focus `{name}`	מיקוד לא ידוע `{name}`
+@msg	unknown fold_down `{name}` (use "stereo")	fold_down לא ידוע `{name}` (יש להשתמש ב-"stereo")
+@msg	unknown format	פורמט לא ידוע
+@msg	unknown format `{name}`	פורמט לא ידוע `{name}`
+@msg	unknown grid value or format	ערך או פורמט רשת לא ידועים
+@msg	unknown height	גובה לא ידוע
+@msg	unknown kind `{name}`	סוג לא ידוע `{name}`
+@msg	unknown memory location (give `number`, `id` or `name`)	נקודת זיכרון לא ידועה (יש לציין `number`, `id` או `name`)
+@msg	unknown mode	מצב לא ידוע
+@msg	unknown mode `{name}`	מצב לא ידוע `{name}`
+@msg	unknown nudge value or format	ערך או פורמט הזזה (Nudge) לא ידועים
+@msg	unknown plugin	תוסף לא ידוע
+@msg	unknown plugin `{name}`	תוסף לא ידוע `{name}`
+@msg	unknown process `{name}`	תהליך לא ידוע `{name}`
+@msg	unknown ruler	סרגל לא ידוע
+@msg	unknown tool	כלי לא ידוע
+@msg	unknown track	רצועה לא ידועה
+@msg	unknown view `{name}`	תצוגה לא ידועה `{name}`
+@msg	unsupported: {why}	לא נתמך: {why}
+@msg	use F+FF, e.g. 12+08	יש להשתמש בתבנית F+FF, למשל 12+08
+@msg	{name} (video): {why}	{name} (וידאו): {why}
+@msg	{name}: file is too large to import	{name}: הקובץ גדול מדי לייבוא
+@msg	{name}: no audio	{name}: ללא שמע
+@msg	{name}: too long for a sample (ten minutes of 192 kHz stereo at most)	{name}: ארוך מדי לדגימה (לכל היותר עשר דקות בסטריאו 192 kHz)
+@msg	{path} already exists: pass `replace: true` to replace it	{path} כבר קיים: יש להעביר `replace: true` כדי להחליפו
+@msg	{path} is not valid Unicode	{path} אינו Unicode תקין
+@msg	{path}: not a regular file	{path}: אינו קובץ רגיל
+@msg	{path}: not a SoundCraft track preset	{path}: אינו קובץ ערכת רצועה של SoundCraft
+@msg	{path}: too large to import	{path}: גדול מדי לייבוא
+@msg	“{name}” would need {reps} loops to fill that; a clip loops at most {max} times	"{name}" ידרוש {reps} חזרות למילוי; קליפ חוזר לכל היותר {max} פעמים
